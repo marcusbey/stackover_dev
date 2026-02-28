@@ -10,6 +10,7 @@ import { FilterBreadcrumb } from "@/components/filter-breadcrumb";
 import { RankedList } from "@/components/ranked-list";
 import { Sidebar } from "@/components/sidebar";
 import { ToolCard } from "@/components/tool-card";
+import { SearchDialog } from "@/components/search-dialog";
 
 interface FilterNode {
   _id: Id<"filterNodes">;
@@ -55,6 +56,7 @@ export function ExplorerContent() {
   return (
     <div className="min-h-screen bg-background">
       <Header onSearchOpen={() => setSearchOpen(true)} />
+      <SearchDialog open={searchOpen} onOpenChange={setSearchOpen} />
       <DomainPills activeDomainId={activeDomainId} onSelect={handleDomainSelect} />
 
       {activeDomainId && activeDomain && (
