@@ -124,3 +124,48 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Mega nav panel transitions */
+.mega-nav-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mega-nav-panel[data-state="open"] {
+  grid-template-rows: 1fr;
+}
+
+.mega-nav-panel-inner {
+  overflow: hidden;
+}
+
+.mega-nav-content {
+  opacity: 0;
+  transform: translateY(-4px);
+  transition:
+    opacity 200ms ease,
+    transform 200ms ease;
+  transition-delay: 0ms;
+}
+
+.mega-nav-panel[data-state="open"] .mega-nav-content {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 100ms;
+}
+
+/* Nav item active indicator */
+.mega-nav-trigger[data-state="open"] {
+  color: var(--foreground);
+}
+
+.mega-nav-trigger[data-state="open"]::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--foreground);
+}

@@ -5,7 +5,7 @@ import { useQuery } from "convex/react";
 import { api } from "@/convex/_generated/api";
 import { Id } from "@/convex/_generated/dataModel";
 import { Header } from "@/components/header";
-import { DomainPills } from "@/components/domain-pills";
+
 import { FilterBreadcrumb } from "@/components/filter-breadcrumb";
 import { RankedList } from "@/components/ranked-list";
 import { Sidebar } from "@/components/sidebar";
@@ -66,15 +66,6 @@ export function ExplorerContent() {
 
   const activeDomain = domains?.find((d) => d._id === activeDomainId);
 
-  const handleDomainSelect = useCallback(
-    (domainId: Id<"domains"> | null) => {
-      setActiveDomainId(domainId);
-      setFilterPath([]);
-      setActiveSearch(null);
-    },
-    []
-  );
-
   const handleFilterSelect = useCallback((node: FilterNode) => {
     setFilterPath((prev) => [...prev, node]);
   }, []);
@@ -126,10 +117,6 @@ export function ExplorerContent() {
         onOpenChange={setSearchOpen}
         onCategorySelect={handleCategorySelect}
         onSearch={handleSearch}
-      />
-      <DomainPills
-        activeDomainId={activeDomainId}
-        onSelect={handleDomainSelect}
       />
 
       {activeDomainId && activeDomain && (
