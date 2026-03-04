@@ -14,8 +14,52 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "StackAtlas — Find the right stack for the right problem",
-  description: "Context-aware tech stack recommendations for developers",
+  metadataBase: new URL("https://stackover.dev"),
+  title: {
+    default: "stackover.dev — Discover the Best AI Tools, Templates & Agents",
+    template: "%s | stackover.dev",
+  },
+  description:
+    "Compare 2,400+ AI tools, developer templates, and agents. Community-ranked with real votes. Find the right stack for what you're building.",
+  keywords: [
+    "AI tools",
+    "developer tools",
+    "startup tools",
+    "AI agents",
+    "AI templates",
+    "tech stack",
+    "SaaS tools",
+    "best AI tools 2026",
+  ],
+  openGraph: {
+    type: "website",
+    siteName: "stackover.dev",
+    title: "stackover.dev — Discover the Best AI Tools, Templates & Agents",
+    description:
+      "Compare 2,400+ AI tools, developer templates, and agents. Community-ranked with real votes.",
+    url: "https://stackover.dev",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "stackover.dev — Discover the Best AI Tools, Templates & Agents",
+    description:
+      "Compare 2,400+ AI tools, developer templates, and agents. Community-ranked with real votes.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://stackover.dev",
+  },
 };
 
 export default function RootLayout({

@@ -14,7 +14,7 @@ export function Header({ onSearchOpen }: HeaderProps) {
       <div className="container mx-auto flex h-14 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg">
           <Layers className="h-5 w-5" />
-          StackAtlas
+          stackover.dev
         </Link>
 
         <Button
