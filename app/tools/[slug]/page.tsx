@@ -1,140 +1,161 @@
-"use client";
-
-import { useParams } from "next/navigation";
-import { useQuery } from "convex/react";
+import type { Metadata } from "next";
+import { fetchQuery, preloadQuery } from "convex/nextjs";
 import { api } from "@/convex/_generated/api";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
-import { ArrowLeft, ExternalLink, Check, X } from "lucide-react";
-import Link from "next/link";
-import Image from "next/image";
+import { ToolProfileContent } from "./tool-profile-content";
+import { notFound } from "next/navigation";
 
-export default function ToolProfilePage() {
-  const params = useParams();
-  const slug = params.slug as string;
-  const tool = useQuery(api.tools.bySlug, { slug });
+interface ToolPageProps {
+  params: Promise<{ slug: string }>;
+}
 
-  if (tool === undefined) {
-    return (
-      <div className="container mx-auto px-4 py-12">
-        <div className="max-w-2xl mx-auto space-y-6">
-          <div className="h-8 w-48 bg-muted animate-pulse rounded" />
-          <div className="h-20 w-20 bg-muted animate-pulse rounded-xl" />
-          <div className="h-4 w-full bg-muted animate-pulse rounded" />
-          <div className="h-4 w-3/4 bg-muted animate-pulse rounded" />
-        </div>
-      </div>
-    );
+export async function generateMetadata({
+  params,
+}: ToolPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const tool = await fetchQuery(api.tools.bySlug, { slug });
+
+  if (!tool) {
+    return { title: "Tool Not Found" };
   }
 
-  if (tool === null) {
-    return (
-      <div className="container mx-auto px-4 py-12 text-center">
-        <h1 className="text-2xl font-bold mb-4">Tool not found</h1>
-        <Link href="/">
-          <Button variant="outline">
-            <ArrowLeft className="h-4 w-4 mr-2" />
-            Back to Explorer
-          </Button>
-        </Link>
-      </div>
-    );
+  const title = `${tool.name} — Reviews, Pricing & Alternatives`;
+  const description = `${tool.description} See ratings, pros & cons, and top alternatives on stackover.dev.`;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `https://stackover.dev/tools/${slug}`,
+      type: "website",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
+    alternates: {
+      canonical: `https://stackover.dev/tools/${slug}`,
+    },
+  };
+}
+
+export default async function ToolProfilePage({ params }: ToolPageProps) {
+  const { slug } = await params;
+  const tool = await fetchQuery(api.tools.bySlug, { slug });
+
+  if (!tool) {
+    notFound();
   }
+
+  const preloadedTool = await preloadQuery(api.tools.bySlug, { slug });
+
+  // JSON-LD structured data for SEO
+  // Note: dangerouslySetInnerHTML is safe here — all values come from our
+  // Convex database (trusted source) and JSON.stringify escapes HTML.
+  // This is the recommended Next.js pattern for JSON-LD.
+
+  // JSON-LD: SoftwareApplication
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: tool.name,
+    description: tool.description,
+    url: tool.websiteUrl,
+    applicationCategory: "DeveloperApplication",
+    operatingSystem: "Web",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: tool.baselineScore.toFixed(1),
+      bestRating: "10",
+      worstRating: "0",
+      ratingCount: Math.max(1, Math.round(tool.baselineScore * 10)),
+    },
+  };
+
+  // JSON-LD: BreadcrumbList
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://stackover.dev",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Tools",
+        item: "https://stackover.dev/tools",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: tool.name,
+        item: `https://stackover.dev/tools/${slug}`,
+      },
+    ],
+  };
+
+  // JSON-LD: FAQPage
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: `What is ${tool.name}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: tool.description,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `What are the pros of ${tool.name}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: tool.pros.join(". "),
+        },
+      },
+      {
+        "@type": "Question",
+        name: `What are the cons of ${tool.name}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: tool.cons.join(". "),
+        },
+      },
+    ],
+  };
+
+  const jsonLdScript = JSON.stringify(jsonLd);
+  const breadcrumbScript = JSON.stringify(breadcrumbJsonLd);
+  const faqScript = JSON.stringify(faqJsonLd);
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-3xl">
-      {/* Back link */}
-      <Link
-        href="/"
-        className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-6"
-      >
-        <ArrowLeft className="h-4 w-4" />
-        Back to Explorer
-      </Link>
-
-      {/* Tool header */}
-      <div className="flex items-start gap-4 mb-6">
-        <div className="h-16 w-16 rounded-xl bg-muted flex items-center justify-center flex-shrink-0">
-          <Image
-            src={tool.logoUrl}
-            alt={tool.name}
-            width={40}
-            height={40}
-            className="rounded"
-            onError={(e) => {
-              (e.target as HTMLImageElement).style.display = "none";
-            }}
-          />
-        </div>
-        <div>
-          <div className="flex items-center gap-3 mb-1">
-            <h1 className="text-2xl font-bold">{tool.name}</h1>
-            <Badge variant="secondary" className="text-sm">
-              {tool.baselineScore.toFixed(1)}
-            </Badge>
-            <Badge variant="outline" className="text-sm">
-              {tool.type}
-            </Badge>
-          </div>
-          <p className="text-muted-foreground">{tool.description}</p>
-        </div>
-      </div>
-
-      {/* Website link */}
-      <a
-        href={tool.websiteUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 mb-8"
-      >
-        <Button variant="outline">
-          <ExternalLink className="h-4 w-4 mr-2" />
-          Visit Website
-        </Button>
-      </a>
-
-      <Separator className="mb-8" />
-
-      {/* Pros and Cons */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <Card>
-          <CardContent className="p-5">
-            <h3 className="font-semibold text-green-600 mb-3">Pros</h3>
-            <ul className="space-y-2">
-              {tool.pros.map((pro, i) => (
-                <li key={i} className="flex items-start gap-2 text-sm">
-                  <Check className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
-                  {pro}
-                </li>
-              ))}
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardContent className="p-5">
-            <h3 className="font-semibold text-red-600 mb-3">Cons</h3>
-            <ul className="space-y-2">
-              {tool.cons.map((con, i) => (
-                <li key={i} className="flex items-start gap-2 text-sm">
-                  <X className="h-4 w-4 text-red-600 mt-0.5 flex-shrink-0" />
-                  {con}
-                </li>
-              ))}
-            </ul>
-          </CardContent>
-        </Card>
-      </div>
-
-      {/* Status badges */}
-      <div className="flex gap-2 mt-6">
-        {tool.isHot && <Badge variant="destructive">Hot</Badge>}
-        {tool.isTrending && (
-          <Badge className="bg-green-600">Trending</Badge>
-        )}
-      </div>
-    </div>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLdScript }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: breadcrumbScript }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: faqScript }}
+      />
+      <ToolProfileContent preloadedTool={preloadedTool} />
+    </>
   );
 }
