@@ -32,6 +32,7 @@ export function Sidebar() {
                   slug={tool.slug}
                   description={tool.description}
                   type={tool.type}
+                  websiteUrl={tool.websiteUrl}
                 />
               ))
             )}
@@ -59,6 +60,7 @@ export function Sidebar() {
                   slug={tool.slug}
                   description={tool.description}
                   type={tool.type}
+                  websiteUrl={tool.websiteUrl}
                 />
               ))
             )}
@@ -86,6 +88,7 @@ export function Sidebar() {
                   slug={tool.slug}
                   description={tool.description}
                   type={tool.type}
+                  websiteUrl={tool.websiteUrl}
                 />
               ))
             )}

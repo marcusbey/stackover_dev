@@ -32,10 +32,18 @@ export default defineSchema({
     cons: v.array(v.string()),
     isHot: v.boolean(),
     isTrending: v.boolean(),
+    tags: v.optional(v.array(v.string())),
+    searchText: v.optional(v.string()),
+    primaryCategory: v.optional(v.string()),
   })
     .index("by_slug", ["slug"])
     .index("by_hot", ["isHot"])
-    .index("by_trending", ["isTrending"]),
+    .index("by_trending", ["isTrending"])
+    .index("by_primary_category", ["primaryCategory"])
+    .searchIndex("search_tools", {
+      searchField: "searchText",
+      filterFields: ["primaryCategory", "type"],
+    }),
 
   toolFilters: defineTable({
     toolId: v.id("tools"),

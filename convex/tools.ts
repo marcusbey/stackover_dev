@@ -70,16 +70,99 @@ export const trending = query({
 });
 
 export const search = query({
-  args: { query: v.string() },
+  args: {
+    query: v.string(),
+    category: v.optional(v.string()),
+    limit: v.optional(v.number()),
+  },
   handler: async (ctx, args) => {
-    const all = await ctx.db.query("tools").collect();
-    const q = args.query.toLowerCase();
-    return all
-      .filter(
-        (t) =>
-          t.name.toLowerCase().includes(q) ||
-          t.description.toLowerCase().includes(q)
+    const take = args.limit ?? 20;
+
+    // Use search index for full-text search
+    let results = await ctx.db
+      .query("tools")
+      .withSearchIndex("search_tools", (q) => {
+        let search = q.search("searchText", args.query);
+        if (args.category) {
+          search = search.eq("primaryCategory", args.category);
+        }
+        return search;
+      })
+      .take(take);
+
+    // Fallback: if search index returns nothing (e.g. tools without searchText),
+    // fall back to simple string matching
+    if (results.length === 0) {
+      const all = await ctx.db.query("tools").take(500);
+      const lq = args.query.toLowerCase();
+      results = all
+        .filter(
+          (t) =>
+            t.name.toLowerCase().includes(lq) ||
+            t.description.toLowerCase().includes(lq)
+        )
+        .slice(0, take);
+    }
+
+    return results;
+  },
+});
+
+export const featured = query({
+  args: {},
+  handler: async (ctx) => {
+    const categories = ["ai", "dev-tools", "databases", "web", "cloud", "design"];
+    const sections: { category: string; tools: any[] }[] = [];
+
+    for (const cat of categories) {
+      const tools = await ctx.db
+        .query("tools")
+        .withIndex("by_primary_category", (q) =>
+          q.eq("primaryCategory", cat)
+        )
+        .take(6);
+      if (tools.length > 0) {
+        sections.push({ category: cat, tools });
+      }
+    }
+
+    return sections;
+  },
+});
+
+export const byCategory = query({
+  args: {
+    category: v.string(),
+    limit: v.optional(v.number()),
+  },
+  handler: async (ctx, args) => {
+    const take = args.limit ?? 50;
+    return await ctx.db
+      .query("tools")
+      .withIndex("by_primary_category", (q) =>
+        q.eq("primaryCategory", args.category)
       )
-      .slice(0, 10);
+      .take(take);
+  },
+});
+
+export const byTag = query({
+  args: {
+    tag: v.string(),
+    limit: v.optional(v.number()),
+  },
+  handler: async (ctx, args) => {
+    const take = args.limit ?? 30;
+    // Use search index to find tools, then post-filter by tag
+    const results = await ctx.db
+      .query("tools")
+      .withSearchIndex("search_tools", (q) =>
+        q.search("searchText", args.tag)
+      )
+      .take(take * 3);
+
+    return results
+      .filter((t) => t.tags?.includes(args.tag))
+      .slice(0, take);
   },
 });

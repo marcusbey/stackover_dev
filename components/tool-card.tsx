@@ -5,6 +5,9 @@ import { Badge } from "@/components/ui/badge";
 import { VoteButton } from "@/components/vote-button";
 import { Id } from "@/convex/_generated/dataModel";
 import Link from "next/link";
+import Image from "next/image";
+import { getLogoUrl } from "@/lib/logos";
+import { useState } from "react";
 
 interface ToolCardProps {
   tool: {
@@ -13,16 +16,19 @@ interface ToolCardProps {
     slug: string;
     description: string;
     logoUrl: string;
+    websiteUrl: string;
     type: "tool" | "saas";
     baselineScore: number;
     finalScore?: number;
     voteCount?: number;
+    tags?: string[];
   };
   filterNodeId?: Id<"filterNodes">;
 }
 
 export function ToolCard({ tool, filterNodeId }: ToolCardProps) {
   const score = tool.finalScore ?? tool.baselineScore;
+  const [imgError, setImgError] = useState(false);
 
   return (
     <Link href={`/tools/${tool.slug}`}>
@@ -30,9 +36,21 @@ export function ToolCard({ tool, filterNodeId }: ToolCardProps) {
         <CardContent className="p-4">
           <div className="flex items-start justify-between gap-3">
             <div className="flex items-start gap-3 flex-1 min-w-0">
-              {/* Logo placeholder */}
-              <div className="h-10 w-10 rounded-lg bg-muted flex items-center justify-center flex-shrink-0 text-sm font-bold text-muted-foreground">
-                {tool.name.charAt(0)}
+              <div className="h-10 w-10 rounded-lg bg-muted flex items-center justify-center flex-shrink-0 overflow-hidden">
+                {imgError ? (
+                  <span className="text-sm font-bold text-muted-foreground">
+                    {tool.name.charAt(0)}
+                  </span>
+                ) : (
+                  <Image
+                    src={getLogoUrl(tool.websiteUrl)}
+                    alt={tool.name}
+                    width={40}
+                    height={40}
+                    className="rounded-lg object-contain"
+                    onError={() => setImgError(true)}
+                  />
+                )}
               </div>
 
               <div className="flex-1 min-w-0">
@@ -48,6 +66,18 @@ export function ToolCard({ tool, filterNodeId }: ToolCardProps) {
                 <p className="text-xs text-muted-foreground line-clamp-2">
                   {tool.description}
                 </p>
+                {tool.tags && tool.tags.length > 0 && (
+                  <div className="flex flex-wrap gap-1 mt-1.5">
+                    {tool.tags.slice(0, 4).map((tag) => (
+                      <span
+                        key={tag}
+                        className="text-[10px] px-1.5 py-0 rounded-full bg-muted text-muted-foreground"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
             </div>
 
