@@ -71,23 +71,23 @@ export function CategoryBar() {
 
   return (
     <div className="hidden border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 md:block">
-      <div className="container mx-auto px-4 py-2">
-        {/* Group pills row */}
-        <div className="flex items-center gap-2">
+      <div className="container mx-auto px-4 py-3">
+        {/* Group buttons row — Vercel-card style */}
+        <div className="flex items-stretch gap-3">
           {columns.map((col) => (
             <button
               key={col.title}
               onClick={() => col.title && toggle(col.title)}
-              className={`flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+              className={`group flex flex-1 items-center justify-between gap-2 rounded-lg border px-4 py-3 text-sm font-medium transition-all ${
                 currentGroup === col.title
-                  ? "bg-foreground text-background"
-                  : "bg-muted text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                  ? "border-foreground/15 bg-foreground text-background shadow-sm"
+                  : "border-border/60 bg-white text-foreground shadow-[0_1px_2px_rgba(0,0,0,0.04)] hover:border-border hover:shadow-[0_2px_4px_rgba(0,0,0,0.06)]"
               }`}
             >
               {col.title}
               <ChevronDown
-                className={`h-3 w-3 transition-transform ${
-                  currentGroup === col.title ? "rotate-180" : ""
+                className={`h-3.5 w-3.5 opacity-40 transition-transform ${
+                  currentGroup === col.title ? "rotate-180 opacity-70" : "group-hover:opacity-70"
                 }`}
               />
             </button>
