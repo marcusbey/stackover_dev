@@ -12,7 +12,7 @@ export function Sidebar() {
 
   return (
     <aside className="hidden lg:block w-72 flex-shrink-0">
-      <div className="sticky top-[49px] space-y-6 py-4">
+      <div className="sticky top-[57px] space-y-6 py-4">
         {/* Hot Right Now */}
         <div>
           <h3 className="flex items-center gap-2 text-sm font-semibold mb-3 px-2">
