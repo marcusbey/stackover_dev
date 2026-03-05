@@ -179,7 +179,7 @@ export const NAV_ITEMS: NavItem[] = [
   },
 ];
 
-function buildCategoryColumns(): NavColumn[] {
+export function buildCategoryColumns(): NavColumn[] {
   const groups: { title: string; slugs: string[] }[] = [
     { title: "Build", slugs: ["web", "mobile", "nocode", "design", "cms"] },
     { title: "Data & AI", slugs: ["ai", "databases", "analytics", "search"] },

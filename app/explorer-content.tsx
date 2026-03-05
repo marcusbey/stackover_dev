@@ -213,7 +213,7 @@ export function ExplorerContent() {
               <RankedList filterNodeId={currentFilterNodeId} />
             ) : (
               /* Default view: featured categories + hot/trending */
-              <div className="space-y-10">
+              <div className="space-y-8">
                 {/* Hero search prompt */}
                 <div className="text-center py-6">
                   <h1 className="text-2xl font-bold mb-2">
@@ -246,7 +246,7 @@ export function ExplorerContent() {
                 {/* Hot + Trending row */}
                 {(hotTools && hotTools.length > 0) ||
                 (trendingTools && trendingTools.length > 0) ? (
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     {hotTools && hotTools.length > 0 && (
                       <div>
                         <h2 className="text-lg font-semibold mb-4">

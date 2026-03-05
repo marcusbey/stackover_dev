@@ -8,6 +8,7 @@ import { NAV_ITEMS } from "./nav-data";
 import { useMegaNav } from "./use-mega-nav";
 import { NavPanel } from "./nav-panel";
 import { MobileNav } from "./mobile-nav";
+import { CategoryBar } from "./category-bar";
 
 interface MegaNavProps {
   onSearchOpen: () => void;
@@ -92,6 +93,9 @@ export function MegaNav({ onSearchOpen }: MegaNavProps) {
           </div>
         </div>
       </div>
+
+      {/* Always-visible category bar */}
+      <CategoryBar />
 
       {/* Dropdown panel */}
       <NavPanel
