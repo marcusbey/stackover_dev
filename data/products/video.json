@@ -1,0 +1,942 @@
+[
+  {
+    "name": "Adobe Premiere Pro",
+    "slug": "premiere-pro",
+    "description": "Industry-standard professional video editing software by Adobe for film and content creation.",
+    "websiteUrl": "https://www.adobe.com/products/premiere.html",
+    "tags": ["video-editing", "adobe", "professional", "timeline"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "DaVinci Resolve",
+    "slug": "davinci-resolve",
+    "description": "Professional video editing, color correction, and audio post-production suite.",
+    "websiteUrl": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "tags": ["video-editing", "color-grading", "free", "professional"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "Final Cut Pro",
+    "slug": "final-cut-pro",
+    "description": "Apple's professional video editing software optimized for macOS hardware.",
+    "websiteUrl": "https://www.apple.com/final-cut-pro/",
+    "tags": ["video-editing", "apple", "professional", "macos"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "CapCut",
+    "slug": "capcut",
+    "description": "Free all-in-one video editor by ByteDance for social media content creation.",
+    "websiteUrl": "https://www.capcut.com",
+    "tags": ["video-editing", "free", "social-media", "mobile"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "iMovie",
+    "slug": "imovie",
+    "description": "Apple's free video editing app for Mac and iOS with simple editing tools.",
+    "websiteUrl": "https://www.apple.com/imovie/",
+    "tags": ["video-editing", "apple", "free", "beginner"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Filmora",
+    "slug": "filmora",
+    "description": "User-friendly video editor by Wondershare with effects and templates.",
+    "websiteUrl": "https://filmora.wondershare.com",
+    "tags": ["video-editing", "beginner-friendly", "effects", "templates"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "HitFilm",
+    "slug": "hitfilm",
+    "description": "Free video editing and VFX compositing software for filmmakers and creators.",
+    "websiteUrl": "https://fxhome.com/hitfilm",
+    "tags": ["video-editing", "vfx", "free", "compositing"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Shotcut",
+    "slug": "shotcut",
+    "description": "Free open-source cross-platform video editor with wide format support.",
+    "websiteUrl": "https://shotcut.org",
+    "tags": ["video-editing", "open-source", "free", "cross-platform"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Kdenlive",
+    "slug": "kdenlive",
+    "description": "Free open-source video editor by KDE with multi-track editing support.",
+    "websiteUrl": "https://kdenlive.org",
+    "tags": ["video-editing", "open-source", "free", "linux"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "OpenShot",
+    "slug": "openshot",
+    "description": "Free and easy-to-use open-source video editor for beginners.",
+    "websiteUrl": "https://www.openshot.org",
+    "tags": ["video-editing", "open-source", "free", "beginner"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Descript",
+    "slug": "descript",
+    "description": "AI-powered video and audio editor that lets you edit media like a document.",
+    "websiteUrl": "https://www.descript.com",
+    "tags": ["video-editing", "ai", "transcription", "audio"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Runway",
+    "slug": "runway",
+    "description": "AI-powered creative tool suite for video generation, editing, and effects.",
+    "websiteUrl": "https://runwayml.com",
+    "tags": ["ai", "video-generation", "effects", "creative"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "OBS Studio",
+    "slug": "obs-studio",
+    "description": "Free open-source software for live streaming and video recording.",
+    "websiteUrl": "https://obsproject.com",
+    "tags": ["streaming", "recording", "open-source", "free"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "StreamYard",
+    "slug": "streamyard",
+    "description": "Browser-based live streaming studio for professional multi-platform broadcasts and interviews.",
+    "websiteUrl": "https://streamyard.com",
+    "tags": ["streaming", "browser-based", "multi-platform", "live"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Restream",
+    "slug": "restream",
+    "description": "Multi-streaming platform for broadcasting live to multiple channels simultaneously.",
+    "websiteUrl": "https://restream.io",
+    "tags": ["streaming", "multi-platform", "simultaneous", "live"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Twitch",
+    "slug": "twitch",
+    "description": "Leading live streaming platform for gaming, entertainment, and creative content.",
+    "websiteUrl": "https://www.twitch.tv",
+    "tags": ["streaming", "gaming", "live", "community"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Streamlabs",
+    "slug": "streamlabs",
+    "description": "All-in-one streaming software with alerts, overlays, and monetization tools.",
+    "websiteUrl": "https://streamlabs.com",
+    "tags": ["streaming", "overlays", "alerts", "monetization"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "vMix",
+    "slug": "vmix",
+    "description": "Professional live video production software for streaming and recording.",
+    "websiteUrl": "https://www.vmix.com",
+    "tags": ["streaming", "production", "professional", "mixing"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "YouTube",
+    "slug": "youtube",
+    "description": "World's largest video sharing and hosting platform by Google.",
+    "websiteUrl": "https://www.youtube.com",
+    "tags": ["video-hosting", "sharing", "google", "monetization"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 9.5
+  },
+  {
+    "name": "Vimeo",
+    "slug": "vimeo",
+    "description": "Professional video hosting platform for businesses with privacy and customization.",
+    "websiteUrl": "https://vimeo.com",
+    "tags": ["video-hosting", "professional", "privacy", "business"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Wistia",
+    "slug": "wistia",
+    "description": "Video hosting platform for businesses with marketing tools and analytics.",
+    "websiteUrl": "https://wistia.com",
+    "tags": ["video-hosting", "marketing", "analytics", "business"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Mux",
+    "slug": "mux",
+    "description": "Video infrastructure API for building and monitoring video streaming experiences.",
+    "websiteUrl": "https://www.mux.com",
+    "tags": ["video-api", "streaming", "infrastructure", "monitoring"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Cloudinary",
+    "slug": "cloudinary",
+    "description": "Cloud-based media management platform for image and video optimization and delivery.",
+    "websiteUrl": "https://cloudinary.com",
+    "tags": ["media-management", "cdn", "optimization", "api"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "api.video",
+    "slug": "api-video",
+    "description": "Video hosting and streaming API for developers to build video features.",
+    "websiteUrl": "https://api.video",
+    "tags": ["video-api", "hosting", "streaming", "developer"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Agora",
+    "slug": "agora",
+    "description": "Real-time video and voice communication API for apps and platforms.",
+    "websiteUrl": "https://www.agora.io",
+    "tags": ["video-api", "real-time", "communication", "webrtc"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Daily",
+    "slug": "daily",
+    "description": "WebRTC video and audio API for building real-time communication features.",
+    "websiteUrl": "https://www.daily.co",
+    "tags": ["video-api", "webrtc", "real-time", "communication"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Twilio Video",
+    "slug": "twilio-video",
+    "description": "Programmable video API for embedding real-time video into applications.",
+    "websiteUrl": "https://www.twilio.com/video",
+    "tags": ["video-api", "programmable", "twilio", "communication"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "100ms",
+    "slug": "100ms",
+    "description": "Infrastructure for building live video and audio experiences with low latency.",
+    "websiteUrl": "https://www.100ms.live",
+    "tags": ["video-api", "live", "low-latency", "infrastructure"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "LiveKit",
+    "slug": "livekit",
+    "description": "Open-source WebRTC infrastructure for real-time video and audio applications.",
+    "websiteUrl": "https://livekit.io",
+    "tags": ["video-api", "webrtc", "open-source", "real-time"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Loom",
+    "slug": "loom",
+    "description": "Async video messaging tool for recording and sharing screen and camera videos.",
+    "websiteUrl": "https://www.loom.com",
+    "tags": ["screen-recording", "async-video", "messaging", "collaboration"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Screen Studio",
+    "slug": "screen-studio",
+    "description": "Beautiful screen recordings for macOS with automatic zoom and motion effects.",
+    "websiteUrl": "https://www.screen.studio",
+    "tags": ["screen-recording", "macos", "beautiful", "demo"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Screenflow",
+    "slug": "screenflow",
+    "description": "Screen recording and video editing software for macOS with pro features.",
+    "websiteUrl": "https://www.telestream.net/screenflow/",
+    "tags": ["screen-recording", "video-editing", "macos", "tutorial"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Camtasia",
+    "slug": "camtasia",
+    "description": "Screen recorder and video editor for creating tutorials and presentations.",
+    "websiteUrl": "https://www.techsmith.com/camtasia.html",
+    "tags": ["screen-recording", "video-editing", "tutorials", "presentations"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "CleanShot X",
+    "slug": "cleanshot-x",
+    "description": "macOS screenshot and screen recording tool with annotation and cloud upload.",
+    "websiteUrl": "https://cleanshot.com",
+    "tags": ["screen-recording", "screenshots", "macos", "annotation"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Snagit",
+    "slug": "snagit",
+    "description": "Screen capture and recording tool with built-in image editing by TechSmith.",
+    "websiteUrl": "https://www.techsmith.com/snagit.html",
+    "tags": ["screen-recording", "screenshots", "editing", "annotation"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Riverside",
+    "slug": "riverside",
+    "description": "Remote podcast and video recording platform with studio-quality local recordings.",
+    "websiteUrl": "https://riverside.fm",
+    "tags": ["podcasting", "recording", "remote", "studio-quality"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Spotify for Podcasters",
+    "slug": "spotify-for-podcasters",
+    "description": "Free podcast hosting and distribution platform from Spotify.",
+    "websiteUrl": "https://podcasters.spotify.com",
+    "tags": ["podcasting", "hosting", "distribution", "free"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Buzzsprout",
+    "slug": "buzzsprout",
+    "description": "Easy-to-use podcast hosting platform with distribution and analytics tools.",
+    "websiteUrl": "https://www.buzzsprout.com",
+    "tags": ["podcasting", "hosting", "distribution", "analytics"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Transistor",
+    "slug": "transistor",
+    "description": "Podcast hosting platform for serious podcasters with advanced analytics.",
+    "websiteUrl": "https://transistor.fm",
+    "tags": ["podcasting", "hosting", "analytics", "multi-show"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Podbean",
+    "slug": "podbean",
+    "description": "Podcast hosting and monetization platform with built-in promotion tools.",
+    "websiteUrl": "https://www.podbean.com",
+    "tags": ["podcasting", "hosting", "monetization", "promotion"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Zencastr",
+    "slug": "zencastr",
+    "description": "Remote podcast recording platform with separate audio tracks per guest.",
+    "websiteUrl": "https://zencastr.com",
+    "tags": ["podcasting", "remote-recording", "separate-tracks", "editing"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Audacity",
+    "slug": "audacity",
+    "description": "Free open-source digital audio editor and recording application.",
+    "websiteUrl": "https://www.audacityteam.org",
+    "tags": ["audio-editing", "open-source", "free", "recording"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Logic Pro",
+    "slug": "logic-pro",
+    "description": "Apple's professional music production and audio editing software for Mac.",
+    "websiteUrl": "https://www.apple.com/logic-pro/",
+    "tags": ["audio-editing", "music-production", "apple", "professional"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Adobe Audition",
+    "slug": "adobe-audition",
+    "description": "Professional audio workstation for mixing, editing, and restoring audio.",
+    "websiteUrl": "https://www.adobe.com/products/audition.html",
+    "tags": ["audio-editing", "adobe", "professional", "mixing"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "GarageBand",
+    "slug": "garageband",
+    "description": "Apple's free music creation and audio recording app for Mac and iOS.",
+    "websiteUrl": "https://www.apple.com/garageband/",
+    "tags": ["audio-editing", "music", "apple", "free"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Hindenburg",
+    "slug": "hindenburg",
+    "description": "Audio editor designed specifically for podcasters and radio producers.",
+    "websiteUrl": "https://hindenburg.com",
+    "tags": ["audio-editing", "podcasting", "radio", "specialized"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Otter.ai",
+    "slug": "otter-ai",
+    "description": "AI-powered transcription service for meetings, interviews, and media content.",
+    "websiteUrl": "https://otter.ai",
+    "tags": ["transcription", "ai", "meetings", "subtitles"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Rev",
+    "slug": "rev",
+    "description": "Transcription, captioning, and subtitling service with AI and human options.",
+    "websiteUrl": "https://www.rev.com",
+    "tags": ["transcription", "captioning", "subtitles", "human"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Whisper",
+    "slug": "whisper",
+    "description": "OpenAI's open-source automatic speech recognition model for transcription.",
+    "websiteUrl": "https://github.com/openai/whisper",
+    "tags": ["transcription", "ai", "open-source", "speech-recognition"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "AssemblyAI",
+    "slug": "assemblyai",
+    "description": "AI speech-to-text API for transcription, summarization, and audio intelligence.",
+    "websiteUrl": "https://www.assemblyai.com",
+    "tags": ["transcription", "api", "ai", "speech-to-text"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Deepgram",
+    "slug": "deepgram",
+    "description": "AI speech recognition API with fast and accurate transcription capabilities.",
+    "websiteUrl": "https://deepgram.com",
+    "tags": ["transcription", "api", "ai", "speech-recognition"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Happy Scribe",
+    "slug": "happy-scribe",
+    "description": "Transcription and subtitling platform with AI and human-made options.",
+    "websiteUrl": "https://www.happyscribe.com",
+    "tags": ["transcription", "subtitles", "ai", "multilingual"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Kapwing",
+    "slug": "kapwing",
+    "description": "Online collaborative video editor with AI tools for content creators.",
+    "websiteUrl": "https://www.kapwing.com",
+    "tags": ["video-editing", "online", "collaborative", "ai"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Canva Video",
+    "slug": "canva-video",
+    "description": "Simple online video editor integrated into Canva's design platform.",
+    "websiteUrl": "https://www.canva.com/video-editor/",
+    "tags": ["video-editing", "online", "simple", "canva"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "InVideo",
+    "slug": "invideo",
+    "description": "Online video creation platform with templates for marketing and social content.",
+    "websiteUrl": "https://invideo.io",
+    "tags": ["video-editing", "templates", "marketing", "online"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Synthesia",
+    "slug": "synthesia",
+    "description": "AI video generation platform creating videos with virtual presenters from text.",
+    "websiteUrl": "https://www.synthesia.io",
+    "tags": ["ai", "video-generation", "avatars", "text-to-video"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "HeyGen",
+    "slug": "heygen",
+    "description": "AI video generator for creating professional videos with virtual avatars.",
+    "websiteUrl": "https://www.heygen.com",
+    "tags": ["ai", "video-generation", "avatars", "business"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Opus Clip",
+    "slug": "opus-clip",
+    "description": "AI tool that repurposes long videos into viral short clips automatically.",
+    "websiteUrl": "https://www.opus.pro",
+    "tags": ["ai", "video-repurposing", "short-form", "social-media"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "ElevenLabs",
+    "slug": "elevenlabs",
+    "description": "AI voice synthesis platform for generating realistic speech and voice cloning.",
+    "websiteUrl": "https://elevenlabs.io",
+    "tags": ["ai", "voice-synthesis", "text-to-speech", "voice-cloning"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Shutterstock",
+    "slug": "shutterstock",
+    "description": "Global marketplace for stock photos, videos, music, and creative assets.",
+    "websiteUrl": "https://www.shutterstock.com",
+    "tags": ["stock-media", "photos", "videos", "marketplace"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Getty Images",
+    "slug": "getty-images",
+    "description": "Premium stock photography and video content provider for commercial use.",
+    "websiteUrl": "https://www.gettyimages.com",
+    "tags": ["stock-media", "premium", "editorial", "commercial"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Storyblocks",
+    "slug": "storyblocks",
+    "description": "Unlimited stock media subscription service for video, audio, and images.",
+    "websiteUrl": "https://www.storyblocks.com",
+    "tags": ["stock-media", "unlimited", "subscription", "royalty-free"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Artlist",
+    "slug": "artlist",
+    "description": "Royalty-free music and sound effects licensing platform for video creators.",
+    "websiteUrl": "https://artlist.io",
+    "tags": ["music", "sound-effects", "royalty-free", "licensing"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Epidemic Sound",
+    "slug": "epidemic-sound",
+    "description": "Royalty-free music and sound effects library for content creators.",
+    "websiteUrl": "https://www.epidemicsound.com",
+    "tags": ["music", "sound-effects", "royalty-free", "creators"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Envato Elements",
+    "slug": "envato-elements",
+    "description": "Unlimited creative assets subscription including video templates and stock footage.",
+    "websiteUrl": "https://elements.envato.com",
+    "tags": ["stock-media", "templates", "unlimited", "creative-assets"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Pexels Videos",
+    "slug": "pexels-videos",
+    "description": "Free stock video library with thousands of clips shared by creators.",
+    "websiteUrl": "https://www.pexels.com/videos/",
+    "tags": ["stock-video", "free", "clips", "creative-commons"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Pixabay",
+    "slug": "pixabay",
+    "description": "Free community-driven stock photo and video library with no attribution required.",
+    "websiteUrl": "https://pixabay.com",
+    "tags": ["stock-media", "free", "community", "no-attribution"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Vidyard",
+    "slug": "vidyard",
+    "description": "Video hosting and analytics platform for sales and marketing teams.",
+    "websiteUrl": "https://www.vidyard.com",
+    "tags": ["video-hosting", "sales", "analytics", "marketing"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "SproutVideo",
+    "slug": "sproutvideo",
+    "description": "Video hosting platform with privacy controls, analytics, and marketing tools.",
+    "websiteUrl": "https://sproutvideo.com",
+    "tags": ["video-hosting", "privacy", "analytics", "marketing"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Brightcove",
+    "slug": "brightcove",
+    "description": "Enterprise video platform for publishing, hosting, and monetizing video content.",
+    "websiteUrl": "https://www.brightcove.com",
+    "tags": ["video-hosting", "enterprise", "monetization", "streaming"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "JW Player",
+    "slug": "jw-player",
+    "description": "Video player and hosting platform with advertising and analytics integration.",
+    "websiteUrl": "https://www.jwplayer.com",
+    "tags": ["video-player", "hosting", "advertising", "analytics"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Bunny Stream",
+    "slug": "bunny-stream",
+    "description": "Affordable video hosting and streaming CDN with global delivery.",
+    "websiteUrl": "https://bunny.net/stream/",
+    "tags": ["video-hosting", "cdn", "affordable", "streaming"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "FFmpeg",
+    "slug": "ffmpeg",
+    "description": "Free open-source multimedia framework for recording, converting, and streaming media.",
+    "websiteUrl": "https://ffmpeg.org",
+    "tags": ["transcoding", "open-source", "multimedia", "command-line"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "HandBrake",
+    "slug": "handbrake",
+    "description": "Free open-source video transcoder for converting video from nearly any format.",
+    "websiteUrl": "https://handbrake.fr",
+    "tags": ["transcoding", "converter", "open-source", "free"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Coconut",
+    "slug": "coconut",
+    "description": "Cloud video transcoding API for encoding videos into multiple formats.",
+    "websiteUrl": "https://www.coconut.co",
+    "tags": ["transcoding", "api", "cloud", "encoding"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Cloudflare Stream",
+    "slug": "cloudflare-stream",
+    "description": "Video streaming and storage platform built on Cloudflare's global network.",
+    "websiteUrl": "https://www.cloudflare.com/products/cloudflare-stream/",
+    "tags": ["video-hosting", "streaming", "cdn", "cloudflare"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "AWS MediaConvert",
+    "slug": "aws-mediaconvert",
+    "description": "File-based video transcoding service from AWS for broadcast and streaming.",
+    "websiteUrl": "https://aws.amazon.com/mediaconvert/",
+    "tags": ["transcoding", "aws", "cloud", "broadcast"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Dolby.io",
+    "slug": "dolby-io",
+    "description": "Media APIs for enhancing audio and video quality in streaming applications.",
+    "websiteUrl": "https://dolby.io",
+    "tags": ["media-api", "audio-enhancement", "video-quality", "streaming"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Captions",
+    "slug": "captions",
+    "description": "AI-powered video editing app that auto-generates captions and eye contact correction.",
+    "websiteUrl": "https://www.captions.ai",
+    "tags": ["ai", "captions", "auto-subtitles", "mobile"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Submagic",
+    "slug": "submagic",
+    "description": "AI tool for adding animated subtitles and captions to short-form videos.",
+    "websiteUrl": "https://www.submagic.co",
+    "tags": ["ai", "subtitles", "short-form", "animated"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Clipchamp",
+    "slug": "clipchamp",
+    "description": "Microsoft's free online video editor with templates and stock assets.",
+    "websiteUrl": "https://clipchamp.com",
+    "tags": ["video-editing", "online", "microsoft", "free"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "VEGAS Pro",
+    "slug": "vegas-pro",
+    "description": "Professional video editing software with advanced effects and AI tools.",
+    "websiteUrl": "https://www.vegascreativesoftware.com/us/vegas-pro/",
+    "tags": ["video-editing", "professional", "effects", "windows"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Avid Media Composer",
+    "slug": "avid-media-composer",
+    "description": "Professional non-linear video editing system used in film and television.",
+    "websiteUrl": "https://www.avid.com/media-composer",
+    "tags": ["video-editing", "professional", "film", "broadcast"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Fliki",
+    "slug": "fliki",
+    "description": "AI tool for turning text content into videos with voiceovers and visuals.",
+    "websiteUrl": "https://fliki.ai",
+    "tags": ["ai", "text-to-video", "voiceover", "content"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Pictory",
+    "slug": "pictory",
+    "description": "AI video creation tool that turns long-form content into short branded videos.",
+    "websiteUrl": "https://pictory.ai",
+    "tags": ["ai", "content-repurposing", "short-form", "branding"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Sora",
+    "slug": "sora",
+    "description": "OpenAI's AI model for generating realistic videos from text descriptions.",
+    "websiteUrl": "https://openai.com/sora",
+    "tags": ["ai", "video-generation", "text-to-video", "openai"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Pika",
+    "slug": "pika",
+    "description": "AI-powered platform for generating and editing videos from text and images.",
+    "websiteUrl": "https://pika.art",
+    "tags": ["ai", "video-generation", "creative", "text-to-video"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Video.js",
+    "slug": "videojs",
+    "description": "Open-source HTML5 video player framework for the web.",
+    "websiteUrl": "https://videojs.com",
+    "tags": ["video-player", "open-source", "html5", "web"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Plyr",
+    "slug": "plyr",
+    "description": "Simple, lightweight, and accessible HTML5 media player for the web.",
+    "websiteUrl": "https://plyr.io",
+    "tags": ["video-player", "open-source", "lightweight", "accessible"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Remotion",
+    "slug": "remotion",
+    "description": "Framework for creating videos programmatically using React components.",
+    "websiteUrl": "https://www.remotion.dev",
+    "tags": ["video-creation", "react", "programmatic", "open-source"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Motion",
+    "slug": "motion-apple",
+    "description": "Apple's motion graphics tool for creating titles, transitions, and effects.",
+    "websiteUrl": "https://www.apple.com/final-cut-pro/motion/",
+    "tags": ["motion-graphics", "apple", "effects", "titles"],
+    "primaryCategory": "video",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Blackmagic Cloud",
+    "slug": "blackmagic-cloud",
+    "description": "Cloud collaboration platform for DaVinci Resolve remote editing projects.",
+    "websiteUrl": "https://www.blackmagicdesign.com/products/cloud",
+    "tags": ["collaboration", "cloud", "davinci-resolve", "remote"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Frame.io",
+    "slug": "frame-io",
+    "description": "Video review and collaboration platform for creative teams by Adobe.",
+    "websiteUrl": "https://frame.io",
+    "tags": ["collaboration", "review", "feedback", "adobe"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Wipster",
+    "slug": "wipster",
+    "description": "Video review and approval platform for streamlining creative feedback.",
+    "websiteUrl": "https://www.wipster.io",
+    "tags": ["collaboration", "review", "approval", "feedback"],
+    "primaryCategory": "video",
+    "type": "saas",
+    "baselineScore": 7.0
+  }
+]

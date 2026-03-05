@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ConvexClientProvider } from "./convex-client-provider";
+import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from "@/lib/site-config";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,13 +16,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://stackover.dev"),
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: "stackover.dev — Discover the Best AI Tools, Templates & Agents",
-    template: "%s | stackover.dev",
+    default: `${SITE_NAME} — Discover the Best AI Tools, Templates & Agents`,
+    template: `%s | ${SITE_NAME}`,
   },
-  description:
-    "Compare 2,400+ AI tools, developer templates, and agents. Community-ranked with real votes. Find the right stack for what you're building.",
+  description: SITE_DESCRIPTION,
   keywords: [
     "AI tools",
     "developer tools",
@@ -33,16 +34,16 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: "website",
-    siteName: "stackover.dev",
-    title: "stackover.dev — Discover the Best AI Tools, Templates & Agents",
+    siteName: SITE_NAME,
+    title: `${SITE_NAME} — Discover the Best AI Tools, Templates & Agents`,
     description:
       "Compare 2,400+ AI tools, developer templates, and agents. Community-ranked with real votes.",
-    url: "https://stackover.dev",
+    url: SITE_URL,
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "stackover.dev — Discover the Best AI Tools, Templates & Agents",
+    title: `${SITE_NAME} — Discover the Best AI Tools, Templates & Agents`,
     description:
       "Compare 2,400+ AI tools, developer templates, and agents. Community-ranked with real votes.",
   },
@@ -58,7 +59,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://stackover.dev",
+    canonical: SITE_URL,
   },
 };
 
@@ -73,6 +74,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ConvexClientProvider>{children}</ConvexClientProvider>
+        <Analytics />
       </body>
     </html>
   );

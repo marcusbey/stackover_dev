@@ -1,0 +1,1632 @@
+[
+  {
+    "name": "Figma",
+    "slug": "figma",
+    "description": "Collaborative interface design tool for creating UI/UX designs in the browser.",
+    "websiteUrl": "https://www.figma.com",
+    "tags": ["ui-design", "collaborative", "prototyping", "browser-based"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 9.5
+  },
+  {
+    "name": "Sketch",
+    "slug": "sketch",
+    "description": "Professional vector graphics editor for macOS focused on UI and UX design.",
+    "websiteUrl": "https://www.sketch.com",
+    "tags": ["ui-design", "macos", "vector", "plugins"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Adobe XD",
+    "slug": "adobe-xd",
+    "description": "Vector-based design tool for creating user interfaces and prototypes.",
+    "websiteUrl": "https://www.adobe.com/products/xd.html",
+    "tags": ["ui-design", "adobe", "prototyping", "vector"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Framer",
+    "slug": "framer",
+    "description": "Design and publish stunning websites with an interactive visual canvas.",
+    "websiteUrl": "https://www.framer.com",
+    "tags": ["web-design", "prototyping", "interactive", "publishing"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "InVision",
+    "slug": "invision",
+    "description": "Digital product design platform for prototyping and collaboration.",
+    "websiteUrl": "https://www.invisionapp.com",
+    "tags": ["prototyping", "collaboration", "design-handoff", "wireframing"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 6.0
+  },
+  {
+    "name": "Principle",
+    "slug": "principle",
+    "description": "macOS app for designing animated and interactive user interface prototypes.",
+    "websiteUrl": "https://principleformac.com",
+    "tags": ["prototyping", "animation", "macos", "interaction-design"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Marvel",
+    "slug": "marvel",
+    "description": "Design platform for wireframing, prototyping, and design spec handoff.",
+    "websiteUrl": "https://marvelapp.com",
+    "tags": ["prototyping", "wireframing", "collaboration", "design-handoff"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "ProtoPie",
+    "slug": "protopie",
+    "description": "Advanced interactive prototyping tool for creating realistic mobile prototypes.",
+    "websiteUrl": "https://www.protopie.io",
+    "tags": ["prototyping", "interactive", "mobile", "advanced"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Origami Studio",
+    "slug": "origami-studio",
+    "description": "Free design prototyping tool by Meta for creating interactive interfaces.",
+    "websiteUrl": "https://origami.design",
+    "tags": ["prototyping", "meta", "interactive", "free"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Penpot",
+    "slug": "penpot",
+    "description": "Open-source design and prototyping platform for cross-domain design teams.",
+    "websiteUrl": "https://penpot.app",
+    "tags": ["ui-design", "open-source", "prototyping", "collaborative"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Lunacy",
+    "slug": "lunacy",
+    "description": "Free graphic design software with built-in AI tools and Sketch compatibility.",
+    "websiteUrl": "https://icons8.com/lunacy",
+    "tags": ["ui-design", "free", "sketch-compatible", "ai"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Adobe Illustrator",
+    "slug": "adobe-illustrator",
+    "description": "Industry-standard vector graphics editor for illustration and graphic design.",
+    "websiteUrl": "https://www.adobe.com/products/illustrator.html",
+    "tags": ["vector", "illustration", "adobe", "graphics"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Affinity Designer",
+    "slug": "affinity-designer",
+    "description": "Professional vector graphics design tool and affordable Illustrator alternative.",
+    "websiteUrl": "https://affinity.serif.com/designer/",
+    "tags": ["vector", "illustration", "affordable", "professional"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Canva",
+    "slug": "canva",
+    "description": "Online design platform for creating graphics, presentations, and social media content.",
+    "websiteUrl": "https://www.canva.com",
+    "tags": ["graphic-design", "templates", "social-media", "easy-to-use"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Adobe Photoshop",
+    "slug": "adobe-photoshop",
+    "description": "Industry-leading image editing and digital art creation software.",
+    "websiteUrl": "https://www.adobe.com/products/photoshop.html",
+    "tags": ["image-editing", "photo", "adobe", "raster"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "Affinity Photo",
+    "slug": "affinity-photo",
+    "description": "Professional photo editing software and one-time purchase Photoshop alternative.",
+    "websiteUrl": "https://affinity.serif.com/photo/",
+    "tags": ["image-editing", "photo", "affordable", "professional"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "GIMP",
+    "slug": "gimp",
+    "description": "Free and open-source image editor for photo retouching and image manipulation.",
+    "websiteUrl": "https://www.gimp.org",
+    "tags": ["image-editing", "open-source", "free", "raster"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Inkscape",
+    "slug": "inkscape",
+    "description": "Free and open-source vector graphics editor for creating SVG illustrations.",
+    "websiteUrl": "https://inkscape.org",
+    "tags": ["vector", "open-source", "free", "svg"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Procreate",
+    "slug": "procreate",
+    "description": "Powerful digital illustration app for iPad with natural drawing tools.",
+    "websiteUrl": "https://procreate.com",
+    "tags": ["illustration", "ipad", "digital-art", "drawing"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Vectornator (Linearity Curve)",
+    "slug": "linearity-curve",
+    "description": "Free intuitive vector design app for Mac, iPad, and iPhone.",
+    "websiteUrl": "https://www.linearity.io/curve/",
+    "tags": ["vector", "free", "apple", "illustration"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Zeroheight",
+    "slug": "zeroheight",
+    "description": "Design system documentation platform that syncs with Figma and Sketch.",
+    "websiteUrl": "https://zeroheight.com",
+    "tags": ["design-system", "documentation", "figma", "collaboration"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Supernova",
+    "slug": "supernova",
+    "description": "Design system platform for generating production code from design tokens.",
+    "websiteUrl": "https://www.supernova.io",
+    "tags": ["design-system", "code-generation", "tokens", "documentation"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Storybook",
+    "slug": "storybook",
+    "description": "Open-source tool for building and testing UI components in isolation.",
+    "websiteUrl": "https://storybook.js.org",
+    "tags": ["component-library", "ui-development", "testing", "open-source"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Chromatic",
+    "slug": "chromatic",
+    "description": "Visual testing and review platform for Storybook component libraries.",
+    "websiteUrl": "https://www.chromatic.com",
+    "tags": ["visual-testing", "storybook", "review", "ci"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Style Dictionary",
+    "slug": "style-dictionary",
+    "description": "Amazon's tool for transforming design tokens into platform-specific formats.",
+    "websiteUrl": "https://amzn.github.io/style-dictionary/",
+    "tags": ["design-tokens", "cross-platform", "amazon", "open-source"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Tokens Studio",
+    "slug": "tokens-studio",
+    "description": "Figma plugin for managing and syncing design tokens across design and code.",
+    "websiteUrl": "https://tokens.studio",
+    "tags": ["design-tokens", "figma", "plugin", "sync"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Font Awesome",
+    "slug": "font-awesome",
+    "description": "Popular icon library with thousands of free and pro vector icons.",
+    "websiteUrl": "https://fontawesome.com",
+    "tags": ["icons", "icon-library", "vector", "web"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Heroicons",
+    "slug": "heroicons",
+    "description": "Beautiful hand-crafted SVG icons by the Tailwind CSS team.",
+    "websiteUrl": "https://heroicons.com",
+    "tags": ["icons", "svg", "tailwindcss", "open-source"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Phosphor Icons",
+    "slug": "phosphor-icons",
+    "description": "Flexible icon family with consistent design across multiple weights and styles.",
+    "websiteUrl": "https://phosphoricons.com",
+    "tags": ["icons", "flexible", "open-source", "multiple-weights"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Lucide",
+    "slug": "lucide",
+    "description": "Community-maintained open-source icon library forked from Feather Icons.",
+    "websiteUrl": "https://lucide.dev",
+    "tags": ["icons", "open-source", "svg", "community"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Feather Icons",
+    "slug": "feather-icons",
+    "description": "Collection of simply beautiful open-source icons designed on a 24px grid.",
+    "websiteUrl": "https://feathericons.com",
+    "tags": ["icons", "open-source", "minimal", "svg"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Tabler Icons",
+    "slug": "tabler-icons",
+    "description": "Over 4,000 free MIT-licensed SVG icons for web design projects.",
+    "websiteUrl": "https://tabler-icons.io",
+    "tags": ["icons", "open-source", "svg", "free"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Material Icons",
+    "slug": "material-icons",
+    "description": "Google's official icon set following Material Design guidelines.",
+    "websiteUrl": "https://fonts.google.com/icons",
+    "tags": ["icons", "google", "material-design", "free"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Iconify",
+    "slug": "iconify",
+    "description": "Universal icon framework providing access to thousands of icon sets in one place.",
+    "websiteUrl": "https://iconify.design",
+    "tags": ["icons", "aggregator", "universal", "open-source"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Noun Project",
+    "slug": "noun-project",
+    "description": "Platform with millions of curated icons and stock photos for creative projects.",
+    "websiteUrl": "https://thenounproject.com",
+    "tags": ["icons", "stock-photos", "curated", "marketplace"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Flaticon",
+    "slug": "flaticon",
+    "description": "Largest database of free vector icons available in various formats.",
+    "websiteUrl": "https://www.flaticon.com",
+    "tags": ["icons", "vector", "free", "database"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Coolors",
+    "slug": "coolors",
+    "description": "Fast color scheme generator for creating beautiful palettes in seconds.",
+    "websiteUrl": "https://coolors.co",
+    "tags": ["color", "palette", "generator", "design-tool"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Adobe Color",
+    "slug": "adobe-color",
+    "description": "Color wheel tool for creating and exploring harmonious color themes.",
+    "websiteUrl": "https://color.adobe.com",
+    "tags": ["color", "adobe", "palette", "color-theory"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Colour Contrast Analyser",
+    "slug": "colour-contrast-analyser",
+    "description": "Desktop tool for checking color contrast accessibility compliance with WCAG.",
+    "websiteUrl": "https://www.tpgi.com/color-contrast-checker/",
+    "tags": ["accessibility", "color", "contrast", "wcag"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Huemint",
+    "slug": "huemint",
+    "description": "AI-powered color palette generator for brands, websites, and graphics.",
+    "websiteUrl": "https://huemint.com",
+    "tags": ["color", "ai", "palette", "generator"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Realtime Colors",
+    "slug": "realtime-colors",
+    "description": "Visualize color palettes and fonts on a real website template instantly.",
+    "websiteUrl": "https://www.realtimecolors.com",
+    "tags": ["color", "visualization", "fonts", "free"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Google Fonts",
+    "slug": "google-fonts",
+    "description": "Free library of open-source fonts optimized for the web by Google.",
+    "websiteUrl": "https://fonts.google.com",
+    "tags": ["typography", "fonts", "google", "free"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Adobe Fonts",
+    "slug": "adobe-fonts",
+    "description": "Font service included with Creative Cloud offering thousands of premium fonts.",
+    "websiteUrl": "https://fonts.adobe.com",
+    "tags": ["typography", "fonts", "adobe", "premium"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Fontshare",
+    "slug": "fontshare",
+    "description": "Free fonts service by Indian Type Foundry with high-quality typeface collections.",
+    "websiteUrl": "https://www.fontshare.com",
+    "tags": ["typography", "fonts", "free", "quality"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Typewolf",
+    "slug": "typewolf",
+    "description": "Typography inspiration resource showcasing fonts used on real websites.",
+    "websiteUrl": "https://www.typewolf.com",
+    "tags": ["typography", "inspiration", "curation", "web-fonts"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Font Squirrel",
+    "slug": "font-squirrel",
+    "description": "Collection of free commercial-use fonts with a webfont generator tool.",
+    "websiteUrl": "https://www.fontsquirrel.com",
+    "tags": ["typography", "fonts", "free", "webfont-generator"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Balsamiq",
+    "slug": "balsamiq",
+    "description": "Rapid low-fidelity wireframing tool that mimics hand-drawn sketches.",
+    "websiteUrl": "https://balsamiq.com",
+    "tags": ["wireframing", "low-fidelity", "rapid", "sketching"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Whimsical",
+    "slug": "whimsical",
+    "description": "Visual workspace for wireframes, flowcharts, mind maps, and sticky notes.",
+    "websiteUrl": "https://whimsical.com",
+    "tags": ["wireframing", "flowcharts", "mind-maps", "collaboration"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Miro",
+    "slug": "miro",
+    "description": "Online collaborative whiteboard platform for team brainstorming and planning.",
+    "websiteUrl": "https://miro.com",
+    "tags": ["whiteboard", "collaboration", "brainstorming", "visual"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "FigJam",
+    "slug": "figjam",
+    "description": "Online whiteboard by Figma for team brainstorming and diagramming.",
+    "websiteUrl": "https://www.figma.com/figjam/",
+    "tags": ["whiteboard", "figma", "brainstorming", "collaboration"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Excalidraw",
+    "slug": "excalidraw",
+    "description": "Open-source virtual whiteboard for collaboratively sketching hand-drawn-style diagrams and wireframes.",
+    "websiteUrl": "https://excalidraw.com",
+    "tags": ["whiteboard", "open-source", "sketching", "diagrams"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "tldraw",
+    "slug": "tldraw",
+    "description": "Free open-source drawing and diagramming tool for the web.",
+    "websiteUrl": "https://www.tldraw.com",
+    "tags": ["drawing", "open-source", "diagramming", "web"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Lottie",
+    "slug": "lottie",
+    "description": "Open-source library for rendering After Effects animations on web and mobile.",
+    "websiteUrl": "https://airbnb.io/lottie/",
+    "tags": ["animation", "after-effects", "web", "open-source"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Rive",
+    "slug": "rive",
+    "description": "Real-time interactive design tool for creating animations for apps and games.",
+    "websiteUrl": "https://rive.app",
+    "tags": ["animation", "interactive", "real-time", "cross-platform"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "LottieFiles",
+    "slug": "lottiefiles",
+    "description": "Platform for discovering, creating, and sharing Lottie animations.",
+    "websiteUrl": "https://lottiefiles.com",
+    "tags": ["animation", "lottie", "marketplace", "community"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Framer Motion",
+    "slug": "framer-motion",
+    "description": "Production-ready motion library for React with declarative animations.",
+    "websiteUrl": "https://www.framer.com/motion/",
+    "tags": ["animation", "react", "motion", "javascript"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "GSAP",
+    "slug": "gsap",
+    "description": "Professional-grade JavaScript animation library for high-performance web animations.",
+    "websiteUrl": "https://gsap.com",
+    "tags": ["animation", "javascript", "web", "high-performance"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Spline",
+    "slug": "spline",
+    "description": "Web-based 3D design tool for creating interactive 3D web experiences.",
+    "websiteUrl": "https://spline.design",
+    "tags": ["3d", "web-based", "interactive", "design"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Blender",
+    "slug": "blender",
+    "description": "Free open-source 3D creation suite for modeling, animation, and rendering.",
+    "websiteUrl": "https://www.blender.org",
+    "tags": ["3d", "open-source", "modeling", "animation"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "Three.js",
+    "slug": "threejs",
+    "description": "JavaScript 3D library for creating and displaying animated 3D graphics in browsers.",
+    "websiteUrl": "https://threejs.org",
+    "tags": ["3d", "javascript", "webgl", "graphics"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Cinema 4D",
+    "slug": "cinema-4d",
+    "description": "Professional 3D modeling, animation, and rendering software by Maxon.",
+    "websiteUrl": "https://www.maxon.net/en/cinema-4d",
+    "tags": ["3d", "modeling", "animation", "professional"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "SketchUp",
+    "slug": "sketchup",
+    "description": "Intuitive 3D modeling software for architecture, interior design, and engineering.",
+    "websiteUrl": "https://www.sketchup.com",
+    "tags": ["3d", "modeling", "architecture", "easy-to-use"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Vectary",
+    "slug": "vectary",
+    "description": "Online 3D and AR design platform for creating 3D content in the browser.",
+    "websiteUrl": "https://www.vectary.com",
+    "tags": ["3d", "ar", "browser-based", "modeling"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "React Three Fiber",
+    "slug": "react-three-fiber",
+    "description": "React renderer for Three.js enabling declarative 3D scene building.",
+    "websiteUrl": "https://docs.pmnd.rs/react-three-fiber/",
+    "tags": ["3d", "react", "threejs", "declarative"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Brandfolder",
+    "slug": "brandfolder",
+    "description": "Digital asset management platform for organizing and sharing brand assets.",
+    "websiteUrl": "https://brandfolder.com",
+    "tags": ["dam", "asset-management", "branding", "enterprise"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Bynder",
+    "slug": "bynder",
+    "description": "Digital asset management platform for brands to manage creative content.",
+    "websiteUrl": "https://www.bynder.com",
+    "tags": ["dam", "asset-management", "branding", "content"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Frontify",
+    "slug": "frontify",
+    "description": "Brand management platform combining digital assets with brand guidelines.",
+    "websiteUrl": "https://www.frontify.com",
+    "tags": ["brand-management", "guidelines", "dam", "collaboration"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Eagle",
+    "slug": "eagle",
+    "description": "Desktop app for organizing design files, images, and inspiration visually.",
+    "websiteUrl": "https://eagle.cool",
+    "tags": ["asset-management", "organization", "inspiration", "desktop"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Abstract",
+    "slug": "abstract",
+    "description": "Version control and collaboration platform for Sketch and XD design files.",
+    "websiteUrl": "https://www.abstract.com",
+    "tags": ["version-control", "collaboration", "sketch", "design"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Zeplin",
+    "slug": "zeplin",
+    "description": "Design handoff tool generating specs, assets, and code snippets for developers.",
+    "websiteUrl": "https://zeplin.io",
+    "tags": ["design-handoff", "specs", "collaboration", "code-generation"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Maze",
+    "slug": "maze",
+    "description": "Rapid user testing platform for validating designs and gathering actionable feedback.",
+    "websiteUrl": "https://maze.co",
+    "tags": ["user-testing", "research", "validation", "rapid"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Hotjar",
+    "slug": "hotjar",
+    "description": "Behavior analytics tool with heatmaps, recordings, and user feedback for websites.",
+    "websiteUrl": "https://www.hotjar.com",
+    "tags": ["heatmaps", "analytics", "user-feedback", "recordings"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "UserTesting",
+    "slug": "usertesting",
+    "description": "Platform for getting on-demand human insights and video feedback from real users.",
+    "websiteUrl": "https://www.usertesting.com",
+    "tags": ["user-testing", "research", "video-feedback", "insights"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Lookback",
+    "slug": "lookback",
+    "description": "User research tool for conducting remote and in-person usability tests.",
+    "websiteUrl": "https://lookback.io",
+    "tags": ["user-testing", "research", "remote", "usability"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Useberry",
+    "slug": "useberry",
+    "description": "User testing and analytics platform for validating prototypes and designs.",
+    "websiteUrl": "https://www.useberry.com",
+    "tags": ["user-testing", "prototyping", "analytics", "validation"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Optimal Workshop",
+    "slug": "optimal-workshop",
+    "description": "Information architecture research tools for card sorting and tree testing.",
+    "websiteUrl": "https://www.optimalworkshop.com",
+    "tags": ["research", "information-architecture", "card-sorting", "ux"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Dovetail",
+    "slug": "dovetail",
+    "description": "User research platform for analyzing qualitative data and sharing insights.",
+    "websiteUrl": "https://dovetail.com",
+    "tags": ["research", "qualitative", "analysis", "insights"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Tailwind CSS",
+    "slug": "tailwindcss",
+    "description": "Utility-first CSS framework for rapidly building custom user interfaces.",
+    "websiteUrl": "https://tailwindcss.com",
+    "tags": ["css", "utility-first", "framework", "responsive"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "shadcn/ui",
+    "slug": "shadcn-ui",
+    "description": "Copy-paste React component library built with Radix UI and Tailwind CSS.",
+    "websiteUrl": "https://ui.shadcn.com",
+    "tags": ["ui-kit", "react", "tailwindcss", "components"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Radix UI",
+    "slug": "radix-ui",
+    "description": "Unstyled, accessible React component primitives for building design systems.",
+    "websiteUrl": "https://www.radix-ui.com",
+    "tags": ["ui-kit", "react", "accessible", "headless"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Material UI",
+    "slug": "material-ui",
+    "description": "React component library implementing Google's Material Design system.",
+    "websiteUrl": "https://mui.com",
+    "tags": ["ui-kit", "react", "material-design", "components"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Chakra UI",
+    "slug": "chakra-ui",
+    "description": "Simple and modular React component library with accessibility built in.",
+    "websiteUrl": "https://chakra-ui.com",
+    "tags": ["ui-kit", "react", "accessible", "modular"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Ant Design",
+    "slug": "ant-design",
+    "description": "Enterprise-class React UI library with comprehensive design system components.",
+    "websiteUrl": "https://ant.design",
+    "tags": ["ui-kit", "react", "enterprise", "components"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Mantine",
+    "slug": "mantine",
+    "description": "Full-featured React component library with hooks, dark theme, and 100+ components.",
+    "websiteUrl": "https://mantine.dev",
+    "tags": ["ui-kit", "react", "hooks", "components"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "DaisyUI",
+    "slug": "daisyui",
+    "description": "Tailwind CSS component library with semantic class names and themes.",
+    "websiteUrl": "https://daisyui.com",
+    "tags": ["ui-kit", "tailwindcss", "components", "themes"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Headless UI",
+    "slug": "headless-ui",
+    "description": "Unstyled accessible UI components for React and Vue by the Tailwind team.",
+    "websiteUrl": "https://headlessui.com",
+    "tags": ["ui-kit", "headless", "accessible", "tailwindcss"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Ark UI",
+    "slug": "ark-ui",
+    "description": "Headless UI component library for building accessible design systems.",
+    "websiteUrl": "https://ark-ui.com",
+    "tags": ["ui-kit", "headless", "accessible", "multi-framework"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Park UI",
+    "slug": "park-ui",
+    "description": "Beautifully designed components built on Ark UI with multiple framework support.",
+    "websiteUrl": "https://park-ui.com",
+    "tags": ["ui-kit", "components", "styled", "ark-ui"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Vuetify",
+    "slug": "vuetify",
+    "description": "Comprehensive Material Design component framework for building polished Vue.js applications.",
+    "websiteUrl": "https://vuetifyjs.com",
+    "tags": ["ui-kit", "vue", "material-design", "components"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "PrimeVue",
+    "slug": "primevue",
+    "description": "Rich set of open-source UI components for Vue.js applications.",
+    "websiteUrl": "https://primevue.org",
+    "tags": ["ui-kit", "vue", "components", "open-source"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Bootstrap",
+    "slug": "bootstrap",
+    "description": "Popular CSS framework for building responsive and mobile-first websites.",
+    "websiteUrl": "https://getbootstrap.com",
+    "tags": ["css-framework", "responsive", "components", "grid"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Bulma",
+    "slug": "bulma",
+    "description": "Modern CSS framework based on Flexbox with no JavaScript dependencies.",
+    "websiteUrl": "https://bulma.io",
+    "tags": ["css-framework", "flexbox", "responsive", "lightweight"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Dribbble",
+    "slug": "dribbble",
+    "description": "Community platform for designers to share their work and find inspiration.",
+    "websiteUrl": "https://dribbble.com",
+    "tags": ["inspiration", "community", "portfolio", "design"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Behance",
+    "slug": "behance",
+    "description": "Adobe's platform for showcasing and discovering creative design work.",
+    "websiteUrl": "https://www.behance.net",
+    "tags": ["inspiration", "portfolio", "adobe", "creative"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Mobbin",
+    "slug": "mobbin",
+    "description": "Hand-picked collection of mobile and web design patterns for inspiration.",
+    "websiteUrl": "https://mobbin.com",
+    "tags": ["inspiration", "patterns", "mobile", "reference"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Awwwards",
+    "slug": "awwwards",
+    "description": "Platform recognizing the best web design talent and promoting innovation.",
+    "websiteUrl": "https://www.awwwards.com",
+    "tags": ["inspiration", "web-design", "awards", "showcase"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Webflow",
+    "slug": "webflow-design",
+    "description": "Visual web design tool that generates clean, production-ready HTML and CSS.",
+    "websiteUrl": "https://webflow.com",
+    "tags": ["web-design", "visual-builder", "responsive", "no-code"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Adobe InDesign",
+    "slug": "adobe-indesign",
+    "description": "Professional desktop publishing software for creating print and digital layouts.",
+    "websiteUrl": "https://www.adobe.com/products/indesign.html",
+    "tags": ["print", "layout", "adobe", "publishing"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Affinity Publisher",
+    "slug": "affinity-publisher",
+    "description": "Professional desktop publishing app for creating layouts for print and digital.",
+    "websiteUrl": "https://affinity.serif.com/publisher/",
+    "tags": ["print", "layout", "publishing", "affordable"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Adobe After Effects",
+    "slug": "adobe-after-effects",
+    "description": "Industry-standard motion graphics and visual effects software by Adobe.",
+    "websiteUrl": "https://www.adobe.com/products/aftereffects.html",
+    "tags": ["motion-graphics", "vfx", "adobe", "animation"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Linearity Move",
+    "slug": "linearity-move",
+    "description": "Animation software for creating marketing animations from vector designs.",
+    "websiteUrl": "https://www.linearity.io/move/",
+    "tags": ["animation", "marketing", "vector", "apple"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Jitter",
+    "slug": "jitter",
+    "description": "Motion design tool for creating professional animations directly in the browser.",
+    "websiteUrl": "https://jitter.video",
+    "tags": ["animation", "motion-design", "browser-based", "ui-animation"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Haiku Animator",
+    "slug": "haiku-animator",
+    "description": "Design tool for creating animations that can be used directly in production code.",
+    "websiteUrl": "https://www.haikuforteams.com",
+    "tags": ["animation", "code-export", "production", "design-to-code"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "SVGator",
+    "slug": "svgator",
+    "description": "Online SVG animation creator for generating animated SVGs without coding.",
+    "websiteUrl": "https://www.svgator.com",
+    "tags": ["animation", "svg", "no-code", "web"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Figma Slides",
+    "slug": "figma-slides",
+    "description": "Presentation tool by Figma for creating interactive slide decks collaboratively.",
+    "websiteUrl": "https://www.figma.com/slides/",
+    "tags": ["presentations", "figma", "collaborative", "slides"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Pitch",
+    "slug": "pitch",
+    "description": "Collaborative presentation software for modern teams with beautiful templates.",
+    "websiteUrl": "https://pitch.com",
+    "tags": ["presentations", "collaborative", "templates", "design"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Beautiful.ai",
+    "slug": "beautiful-ai",
+    "description": "AI-powered presentation maker that automatically designs professional slides.",
+    "websiteUrl": "https://www.beautiful.ai",
+    "tags": ["presentations", "ai", "automatic-design", "templates"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Gamma",
+    "slug": "gamma",
+    "description": "AI-powered tool for creating presentations, documents, and web pages instantly.",
+    "websiteUrl": "https://gamma.app",
+    "tags": ["presentations", "ai", "documents", "content"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Figma Dev Mode",
+    "slug": "figma-dev-mode",
+    "description": "Figma's developer-focused mode for inspecting designs and copying code snippets.",
+    "websiteUrl": "https://www.figma.com/dev-mode/",
+    "tags": ["design-handoff", "developer-tools", "figma", "code"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Locofy",
+    "slug": "locofy",
+    "description": "AI-powered tool for converting Figma designs to production-ready frontend code.",
+    "websiteUrl": "https://www.locofy.ai",
+    "tags": ["design-to-code", "ai", "figma", "frontend"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Anima",
+    "slug": "anima",
+    "description": "Design-to-code platform converting Figma designs to React, Vue, or HTML.",
+    "websiteUrl": "https://www.animaapp.com",
+    "tags": ["design-to-code", "figma", "react", "code-generation"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Stark",
+    "slug": "stark",
+    "description": "Accessibility tools and compliance platform integrated with Figma and Sketch.",
+    "websiteUrl": "https://www.getstark.co",
+    "tags": ["accessibility", "a11y", "compliance", "figma"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "axe DevTools",
+    "slug": "axe-devtools",
+    "description": "Accessibility testing toolkit for developers and designers by Deque.",
+    "websiteUrl": "https://www.deque.com/axe/devtools/",
+    "tags": ["accessibility", "testing", "developer-tools", "wcag"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Contrast",
+    "slug": "contrast",
+    "description": "macOS app for quick access to WCAG color contrast ratios for designers.",
+    "websiteUrl": "https://usecontrast.com",
+    "tags": ["accessibility", "color-contrast", "macos", "wcag"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Spline 3D",
+    "slug": "spline-3d",
+    "description": "Free 3D design tool for creating interactive web experiences collaboratively.",
+    "websiteUrl": "https://spline.design",
+    "tags": ["3d", "web", "interactive", "collaborative"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Fresco",
+    "slug": "adobe-fresco",
+    "description": "Adobe's drawing and painting app with natural brushes for iPad and desktop.",
+    "websiteUrl": "https://www.adobe.com/products/fresco.html",
+    "tags": ["drawing", "painting", "adobe", "ipad"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Pixelmator Pro",
+    "slug": "pixelmator-pro",
+    "description": "Professional image editing app for Mac with machine learning features.",
+    "websiteUrl": "https://www.pixelmator.com/pro/",
+    "tags": ["image-editing", "macos", "ml", "photo"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Photopea",
+    "slug": "photopea",
+    "description": "Free online photo editor supporting PSD, Sketch, and XD file formats.",
+    "websiteUrl": "https://www.photopea.com",
+    "tags": ["image-editing", "free", "browser-based", "psd"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Remove.bg",
+    "slug": "remove-bg",
+    "description": "AI-powered tool for removing image backgrounds automatically in seconds.",
+    "websiteUrl": "https://www.remove.bg",
+    "tags": ["image-editing", "ai", "background-removal", "automation"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Cleanup.pictures",
+    "slug": "cleanup-pictures",
+    "description": "AI tool for removing unwanted objects, people, and defects from photos.",
+    "websiteUrl": "https://cleanup.pictures",
+    "tags": ["image-editing", "ai", "object-removal", "inpainting"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "TinyPNG",
+    "slug": "tinypng",
+    "description": "Smart lossy compression tool for reducing PNG and JPEG file sizes.",
+    "websiteUrl": "https://tinypng.com",
+    "tags": ["image-optimization", "compression", "png", "jpeg"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Squoosh",
+    "slug": "squoosh",
+    "description": "Google's open-source image compression web app with multiple codec support.",
+    "websiteUrl": "https://squoosh.app",
+    "tags": ["image-optimization", "compression", "google", "open-source"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "SVGOMG",
+    "slug": "svgomg",
+    "description": "Web-based GUI for SVGO, the SVG optimization tool, by Jake Archibald.",
+    "websiteUrl": "https://jakearchibald.github.io/svgomg/",
+    "tags": ["svg", "optimization", "web-tool", "free"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Uppbeat",
+    "slug": "uppbeat",
+    "description": "Free music platform for creators to find royalty-free background music.",
+    "websiteUrl": "https://uppbeat.io",
+    "tags": ["music", "royalty-free", "creators", "audio"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Lottie Lab",
+    "slug": "lottie-lab",
+    "description": "Professional motion design editor built specifically for creating Lottie animations.",
+    "websiteUrl": "https://www.lottielab.com",
+    "tags": ["animation", "lottie", "motion-design", "editor"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Figmotion",
+    "slug": "figmotion",
+    "description": "Animation plugin for Figma to create and export animations directly in designs.",
+    "websiteUrl": "https://www.figmotion.com",
+    "tags": ["animation", "figma", "plugin", "motion"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Open Props",
+    "slug": "open-props",
+    "description": "Open-source CSS custom properties for consistent and adaptive design tokens.",
+    "websiteUrl": "https://open-props.style",
+    "tags": ["css", "design-tokens", "custom-properties", "open-source"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "UnoCSS",
+    "slug": "unocss",
+    "description": "Instant atomic CSS engine with on-demand utility generation and presets.",
+    "websiteUrl": "https://unocss.dev",
+    "tags": ["css", "atomic", "utility-first", "fast"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "CSS Gradient",
+    "slug": "css-gradient",
+    "description": "Free online tool for generating beautiful CSS gradient backgrounds.",
+    "websiteUrl": "https://cssgradient.io",
+    "tags": ["css", "gradient", "generator", "free"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Haikei",
+    "slug": "haikei",
+    "description": "Web-based design tool for generating unique SVG shapes and backgrounds.",
+    "websiteUrl": "https://haikei.app",
+    "tags": ["svg", "backgrounds", "generator", "design-tool"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Shapefest",
+    "slug": "shapefest",
+    "description": "Library of free 3D shapes and illustrations for design and marketing.",
+    "websiteUrl": "https://www.shapefest.com",
+    "tags": ["3d", "illustrations", "shapes", "free"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "unDraw",
+    "slug": "undraw",
+    "description": "Open-source collection of customizable SVG illustrations for any project.",
+    "websiteUrl": "https://undraw.co",
+    "tags": ["illustrations", "svg", "open-source", "customizable"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Storyset",
+    "slug": "storyset",
+    "description": "Free customizable illustrations for web and mobile design projects.",
+    "websiteUrl": "https://storyset.com",
+    "tags": ["illustrations", "free", "customizable", "animated"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Humaaans",
+    "slug": "humaaans",
+    "description": "Mix-and-match illustration library for creating diverse human character scenes.",
+    "websiteUrl": "https://www.humaaans.com",
+    "tags": ["illustrations", "people", "customizable", "free"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Open Doodles",
+    "slug": "open-doodles",
+    "description": "Free set of sketchy illustrations for any creative project or design.",
+    "websiteUrl": "https://www.opendoodles.com",
+    "tags": ["illustrations", "sketchy", "free", "open-source"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "DrawKit",
+    "slug": "drawkit",
+    "description": "Hand-drawn vector illustration and icon library for websites and apps.",
+    "websiteUrl": "https://www.drawkit.com",
+    "tags": ["illustrations", "icons", "hand-drawn", "vector"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Blush",
+    "slug": "blush",
+    "description": "Create and customize illustrations from collections by independent artists.",
+    "websiteUrl": "https://blush.design",
+    "tags": ["illustrations", "customizable", "artists", "marketplace"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Unsplash",
+    "slug": "unsplash",
+    "description": "Massive library of free high-resolution photos contributed by photographers worldwide.",
+    "websiteUrl": "https://unsplash.com",
+    "tags": ["stock-photos", "free", "high-resolution", "photography"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Pexels",
+    "slug": "pexels",
+    "description": "Free stock photos and videos shared by talented creators worldwide.",
+    "websiteUrl": "https://www.pexels.com",
+    "tags": ["stock-photos", "free", "videos", "creative-commons"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Adobe Express",
+    "slug": "adobe-express",
+    "description": "Quick design tool for creating social media graphics and short videos.",
+    "websiteUrl": "https://www.adobe.com/express/",
+    "tags": ["graphic-design", "social-media", "templates", "quick"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Piktochart",
+    "slug": "piktochart",
+    "description": "Visual communication tool for creating infographics, presentations, and reports.",
+    "websiteUrl": "https://piktochart.com",
+    "tags": ["infographics", "data-visualization", "presentations", "reports"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Visme",
+    "slug": "visme",
+    "description": "All-in-one visual content creation platform for presentations and infographics.",
+    "websiteUrl": "https://www.visme.co",
+    "tags": ["infographics", "presentations", "visual-content", "templates"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Crello (VistaCreate)",
+    "slug": "vistacreate",
+    "description": "Online graphic design tool with templates for social media and marketing.",
+    "websiteUrl": "https://create.vista.com",
+    "tags": ["graphic-design", "templates", "social-media", "marketing"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Placeit",
+    "slug": "placeit",
+    "description": "Online mockup and design template generator for branding and marketing.",
+    "websiteUrl": "https://placeit.net",
+    "tags": ["mockups", "templates", "branding", "marketing"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Mockup World",
+    "slug": "mockup-world",
+    "description": "Curated collection of free PSD mockups for showcasing design work.",
+    "websiteUrl": "https://www.mockupworld.co",
+    "tags": ["mockups", "psd", "free", "showcase"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Artboard Studio",
+    "slug": "artboard-studio",
+    "description": "Online mockup and design editor for creating product mockups and scenes.",
+    "websiteUrl": "https://artboard.studio",
+    "tags": ["mockups", "product-design", "editor", "online"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Rotato",
+    "slug": "rotato",
+    "description": "macOS tool for creating 3D mockups and animated product videos of apps.",
+    "websiteUrl": "https://rotato.app",
+    "tags": ["mockups", "3d", "animation", "product-videos"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Shots",
+    "slug": "shots-design",
+    "description": "Mockup generator for creating beautiful screenshots and app store previews.",
+    "websiteUrl": "https://shots.so",
+    "tags": ["mockups", "screenshots", "app-store", "preview"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Useberry",
+    "slug": "useberry-design",
+    "description": "Rapid user testing platform for validating prototypes before development.",
+    "websiteUrl": "https://www.useberry.com",
+    "tags": ["user-testing", "prototyping", "validation", "rapid"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Clarity",
+    "slug": "clarity-design",
+    "description": "Microsoft's free analytics tool with session recordings and heatmaps for UX.",
+    "websiteUrl": "https://clarity.microsoft.com",
+    "tags": ["heatmaps", "session-recordings", "microsoft", "free"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Pattern Lab",
+    "slug": "pattern-lab",
+    "description": "Open-source tool for building atomic design systems with living style guides.",
+    "websiteUrl": "https://patternlab.io",
+    "tags": ["design-system", "atomic-design", "style-guide", "open-source"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Specify",
+    "slug": "specify",
+    "description": "Design data platform for automating design token distribution across tools.",
+    "websiteUrl": "https://specifyapp.com",
+    "tags": ["design-tokens", "automation", "distribution", "design-system"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Webflow Interactions",
+    "slug": "webflow-interactions",
+    "description": "Visual animation builder inside Webflow for creating scroll and click animations.",
+    "websiteUrl": "https://webflow.com/interactions-animations",
+    "tags": ["animation", "webflow", "interactions", "scroll"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Polotno",
+    "slug": "polotno",
+    "description": "Free online graphic design editor similar to Canva for creating visual content.",
+    "websiteUrl": "https://studio.polotno.com",
+    "tags": ["graphic-design", "editor", "free", "online"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "description": "AI image generation tool creating artwork from text descriptions via Discord.",
+    "websiteUrl": "https://www.midjourney.com",
+    "tags": ["ai", "image-generation", "art", "text-to-image"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "DALL-E",
+    "slug": "dall-e",
+    "description": "OpenAI's AI system for creating realistic images from natural language descriptions.",
+    "websiteUrl": "https://openai.com/dall-e-3",
+    "tags": ["ai", "image-generation", "openai", "text-to-image"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Stable Diffusion",
+    "slug": "stable-diffusion",
+    "description": "Open-source AI model for generating detailed images from text prompts.",
+    "websiteUrl": "https://stability.ai",
+    "tags": ["ai", "image-generation", "open-source", "text-to-image"],
+    "primaryCategory": "design",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Adobe Firefly",
+    "slug": "adobe-firefly",
+    "description": "Adobe's generative AI models for creating images, effects, and text styles.",
+    "websiteUrl": "https://www.adobe.com/sensei/generative-ai/firefly.html",
+    "tags": ["ai", "image-generation", "adobe", "generative"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Leonardo.ai",
+    "slug": "leonardo-ai",
+    "description": "AI image generation platform with fine-tuned models for creative professionals.",
+    "websiteUrl": "https://leonardo.ai",
+    "tags": ["ai", "image-generation", "creative", "fine-tuned"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "v0 by Vercel",
+    "slug": "v0-vercel",
+    "description": "AI tool for generating React UI components from text and image prompts.",
+    "websiteUrl": "https://v0.dev",
+    "tags": ["ai", "ui-generation", "react", "vercel"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Visily",
+    "slug": "visily",
+    "description": "AI-powered wireframing and prototyping tool for non-designers and teams.",
+    "websiteUrl": "https://www.visily.ai",
+    "tags": ["wireframing", "ai", "prototyping", "non-designers"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Relume",
+    "slug": "relume",
+    "description": "AI-powered wireframe and sitemap generator that integrates with Figma and Webflow.",
+    "websiteUrl": "https://www.relume.io",
+    "tags": ["wireframing", "ai", "sitemap", "figma"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Creatie",
+    "slug": "creatie",
+    "description": "AI-powered design tool with adaptive component systems and smart layouts.",
+    "websiteUrl": "https://creatie.ai",
+    "tags": ["ai", "design-tool", "components", "smart-layout"],
+    "primaryCategory": "design",
+    "type": "saas",
+    "baselineScore": 7.0
+  }
+]

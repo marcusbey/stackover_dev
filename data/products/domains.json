@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Cloudflare Registrar",
+    "slug": "cloudflare-registrar",
+    "description": "At-cost domain registration with integrated DNS, CDN, and security services.",
+    "websiteUrl": "https://www.cloudflare.com/products/registrar/",
+    "tags": ["registrar", "dns", "privacy", "at-cost"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Namecheap Domains",
+    "slug": "namecheap-domains",
+    "description": "Popular budget-friendly domain registrar with free WHOIS privacy on all domains.",
+    "websiteUrl": "https://www.namecheap.com",
+    "tags": ["registrar", "privacy", "affordable", "popular"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Porkbun",
+    "slug": "porkbun",
+    "description": "Developer-favorite low-cost domain registrar with free WHOIS privacy and SSL.",
+    "websiteUrl": "https://porkbun.com",
+    "tags": ["registrar", "privacy", "affordable", "developer"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Google Domains (Squarespace)",
+    "slug": "google-domains",
+    "description": "Clean, simple domain registration now managed by Squarespace with transparent pricing.",
+    "websiteUrl": "https://domains.squarespace.com",
+    "tags": ["registrar", "dns", "simple", "squarespace"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "GoDaddy",
+    "slug": "godaddy",
+    "description": "World's largest domain registrar managing 80M+ domains with extensive TLD support.",
+    "websiteUrl": "https://www.godaddy.com",
+    "tags": ["registrar", "marketplace", "bulk", "enterprise"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Dynadot",
+    "slug": "dynadot",
+    "description": "Developer-friendly registrar with bulk domain tools, API access, and marketplace.",
+    "websiteUrl": "https://www.dynadot.com",
+    "tags": ["registrar", "bulk", "marketplace", "api"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Hover",
+    "slug": "hover",
+    "description": "Simple, no-upsell domain registrar focused on clean UX and honest pricing.",
+    "websiteUrl": "https://www.hover.com",
+    "tags": ["registrar", "privacy", "simple", "no-upsell"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Gandi",
+    "slug": "gandi",
+    "description": "European domain registrar known for strong privacy ethics and 800+ TLD support.",
+    "websiteUrl": "https://www.gandi.net",
+    "tags": ["registrar", "privacy", "european", "ethical"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Name.com",
+    "slug": "name-com",
+    "description": "Affordable domain registrar with solid DNS management tools and email hosting.",
+    "websiteUrl": "https://www.name.com",
+    "tags": ["registrar", "dns", "affordable", "email"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Epik",
+    "slug": "epik",
+    "description": "Domain registrar with integrated marketplace and portfolio management tools.",
+    "websiteUrl": "https://www.epik.com",
+    "tags": ["registrar", "marketplace", "bulk", "portfolio"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "AWS Route 53",
+    "slug": "aws-route53",
+    "description": "Enterprise DNS service and domain registrar with health checks and traffic routing.",
+    "websiteUrl": "https://aws.amazon.com/route53/",
+    "tags": ["dns", "registrar", "enterprise", "traffic-management"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Cloudflare DNS",
+    "slug": "cloudflare-dns",
+    "description": "Free authoritative DNS hosting — fastest globally with DDoS protection built in.",
+    "websiteUrl": "https://www.cloudflare.com/dns/",
+    "tags": ["dns", "free", "fast", "ddos-protection"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "DNSimple",
+    "slug": "dnsimple",
+    "description": "Developer-first DNS management with powerful API, templates, and one-click services.",
+    "websiteUrl": "https://dnsimple.com",
+    "tags": ["dns", "developer", "api", "automation"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "NS1 (IBM)",
+    "slug": "ns1",
+    "description": "Enterprise DNS and traffic management platform with intelligent routing and analytics.",
+    "websiteUrl": "https://ns1.com",
+    "tags": ["dns", "enterprise", "traffic-management", "analytics"],
+    "primaryCategory": "domains",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "deSEC",
+    "slug": "desec",
+    "description": "Free, privacy-focused DNS hosting with DNSSEC support run as a non-profit.",
+    "websiteUrl": "https://desec.io",
+    "tags": ["dns", "free", "privacy", "dnssec", "non-profit"],
+    "primaryCategory": "domains",
+    "type": "open-source",
+    "baselineScore": 7.5
+  }
+]

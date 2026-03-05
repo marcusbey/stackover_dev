@@ -32,7 +32,7 @@ const CATEGORY_GROUPS: {
   {
     label: "Infra",
     accent: "text-emerald-500",
-    slugs: ["cloud", "dev-tools", "auth", "monitoring"],
+    slugs: ["cloud", "dev-tools", "auth", "monitoring", "hosting", "domains"],
   },
   {
     label: "Growth",
@@ -56,6 +56,8 @@ const EMOJI: Record<string, string> = {
   cms: "\u{1F4DD}", hr: "\u{1F4BC}", education: "\u{1F393}",
   social: "\u{1F310}", automation: "\u26A1", search: "\u{1F50D}",
   monitoring: "\u{1F4C8}",
+  hosting: "\u{1F5A5}\uFE0F",
+  domains: "\u{1F310}",
 };
 
 const INTENT_EMOJI: Record<string, string> = {

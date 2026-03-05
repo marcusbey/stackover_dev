@@ -35,6 +35,13 @@ export default defineSchema({
     tags: v.optional(v.array(v.string())),
     searchText: v.optional(v.string()),
     primaryCategory: v.optional(v.string()),
+    githubUrl: v.optional(v.string()),
+    lastRelease: v.optional(v.string()),
+    lastReleaseDate: v.optional(v.number()),
+    lastCommitDate: v.optional(v.number()),
+    openIssues: v.optional(v.number()),
+    stars: v.optional(v.number()),
+    alivenessScore: v.optional(v.number()),
   })
     .index("by_slug", ["slug"])
     .index("by_hot", ["isHot"])
@@ -62,4 +69,44 @@ export default defineSchema({
     .index("by_visitor_tool_filter", ["visitorId", "toolId", "filterNodeId"])
     .index("by_tool_filter", ["toolId", "filterNodeId"])
     .index("by_recent", ["createdAt"]),
+
+  categoryVotes: defineTable({
+    visitorId: v.string(),
+    toolId: v.id("tools"),
+    category: v.string(),
+    value: v.number(), // +1 or -1
+    createdAt: v.number(),
+  })
+    .index("by_visitor_tool_category", ["visitorId", "toolId", "category"])
+    .index("by_tool_category", ["toolId", "category"]),
+
+  stacks: defineTable({
+    slug: v.string(),
+    name: v.string(),
+    description: v.optional(v.string()),
+    visitorId: v.string(),
+    isCurated: v.boolean(),
+    companyLogoUrl: v.optional(v.string()),
+    companyUrl: v.optional(v.string()),
+    layers: v.array(
+      v.object({
+        layerKey: v.string(),
+        toolIds: v.array(v.id("tools")),
+      })
+    ),
+    createdAt: v.number(),
+    updatedAt: v.number(),
+  })
+    .index("by_slug", ["slug"])
+    .index("by_visitor", ["visitorId"])
+    .index("by_curated", ["isCurated", "createdAt"]),
+
+  toolActivity: defineTable({
+    toolId: v.id("tools"),
+    weekStart: v.number(),
+    commits: v.number(),
+    releases: v.number(),
+    issuesClosed: v.number(),
+  })
+    .index("by_tool_week", ["toolId", "weekStart"]),
 });

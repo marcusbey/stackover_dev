@@ -1,0 +1,1082 @@
+[
+  {
+    "name": "Webflow",
+    "slug": "webflow",
+    "description": "Visual web development platform for building responsive websites without code.",
+    "websiteUrl": "https://webflow.com",
+    "tags": ["website-builder", "visual", "responsive", "cms"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Squarespace",
+    "slug": "squarespace",
+    "description": "All-in-one website builder with beautiful templates for businesses and creatives.",
+    "websiteUrl": "https://www.squarespace.com",
+    "tags": ["website-builder", "templates", "ecommerce", "hosting"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Wix",
+    "slug": "wix",
+    "description": "Cloud-based website builder with drag-and-drop editor and app marketplace.",
+    "websiteUrl": "https://www.wix.com",
+    "tags": ["website-builder", "drag-and-drop", "templates", "apps"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Carrd",
+    "slug": "carrd",
+    "description": "Simple one-page website builder for creating clean landing pages and profiles.",
+    "websiteUrl": "https://carrd.co",
+    "tags": ["website-builder", "one-page", "landing-page", "simple"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Framer Sites",
+    "slug": "framer-sites",
+    "description": "Design and publish production websites with interactive visual canvas.",
+    "websiteUrl": "https://www.framer.com",
+    "tags": ["website-builder", "design", "interactive", "publishing"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "WordPress.com",
+    "slug": "wordpress-com",
+    "description": "Hosted website and blog platform powered by the WordPress content management system.",
+    "websiteUrl": "https://wordpress.com",
+    "tags": ["website-builder", "cms", "blogging", "hosted"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Ghost",
+    "slug": "ghost",
+    "description": "Open-source publishing platform for blogs, newsletters, and membership sites.",
+    "websiteUrl": "https://ghost.org",
+    "tags": ["cms", "blogging", "newsletters", "open-source"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Typedream",
+    "slug": "typedream",
+    "description": "Simple no-code website builder for creating modern sites in minutes.",
+    "websiteUrl": "https://typedream.com",
+    "tags": ["website-builder", "simple", "modern", "fast"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Super",
+    "slug": "super",
+    "description": "Turn Notion pages into fast, beautiful websites with custom domains.",
+    "websiteUrl": "https://super.so",
+    "tags": ["website-builder", "notion", "custom-domain", "fast"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Dorik",
+    "slug": "dorik",
+    "description": "No-code website builder with AI features and white-label SaaS capabilities.",
+    "websiteUrl": "https://dorik.com",
+    "tags": ["website-builder", "ai", "white-label", "saas"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Softr",
+    "slug": "softr",
+    "description": "Build client portals and internal tools on top of Airtable data without code.",
+    "websiteUrl": "https://www.softr.io",
+    "tags": ["app-builder", "airtable", "portals", "internal-tools"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Stacker",
+    "slug": "stacker",
+    "description": "Build custom business apps and portals on top of your existing data sources.",
+    "websiteUrl": "https://www.stackerhq.com",
+    "tags": ["app-builder", "portals", "business-apps", "data-sources"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Bubble",
+    "slug": "bubble",
+    "description": "Full-stack no-code platform for building complex web applications visually.",
+    "websiteUrl": "https://bubble.io",
+    "tags": ["app-builder", "full-stack", "web-app", "visual"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Adalo",
+    "slug": "adalo",
+    "description": "No-code platform for building and publishing native mobile and web apps.",
+    "websiteUrl": "https://www.adalo.com",
+    "tags": ["app-builder", "mobile", "native", "visual"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Glide",
+    "slug": "glide",
+    "description": "No-code platform for building apps from spreadsheets and databases.",
+    "websiteUrl": "https://www.glideapps.com",
+    "tags": ["app-builder", "spreadsheet", "mobile", "data-driven"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "FlutterFlow",
+    "slug": "flutterflow-nocode",
+    "description": "Visual builder for creating Flutter mobile and web applications without coding.",
+    "websiteUrl": "https://flutterflow.io",
+    "tags": ["app-builder", "flutter", "visual", "mobile"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Thunkable",
+    "slug": "thunkable",
+    "description": "No-code platform for building native mobile apps with drag-and-drop interface.",
+    "websiteUrl": "https://thunkable.com",
+    "tags": ["app-builder", "mobile", "drag-and-drop", "native"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Bravo Studio",
+    "slug": "bravo-studio",
+    "description": "Turn Figma designs into native mobile apps without writing code.",
+    "websiteUrl": "https://www.bravostudio.app",
+    "tags": ["app-builder", "figma", "mobile", "design-to-app"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Noodl",
+    "slug": "noodl",
+    "description": "Low-code platform for building full-stack web apps with visual programming.",
+    "websiteUrl": "https://www.noodl.net",
+    "tags": ["app-builder", "visual-programming", "full-stack", "low-code"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "WeWeb",
+    "slug": "weweb",
+    "description": "No-code frontend builder that connects to any backend or API.",
+    "websiteUrl": "https://www.weweb.io",
+    "tags": ["frontend-builder", "api", "flexible", "no-code"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Xano",
+    "slug": "xano",
+    "description": "No-code backend platform with database, API builder, and business logic.",
+    "websiteUrl": "https://www.xano.com",
+    "tags": ["backend", "api-builder", "database", "no-code"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Backendless",
+    "slug": "backendless",
+    "description": "Visual app development platform with backend-as-a-service and no-code tools.",
+    "websiteUrl": "https://backendless.com",
+    "tags": ["backend", "baas", "api", "no-code"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Zapier",
+    "slug": "zapier",
+    "description": "Automation platform connecting thousands of apps with no-code workflows.",
+    "websiteUrl": "https://zapier.com",
+    "tags": ["automation", "integration", "workflows", "connectors"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Make (Integromat)",
+    "slug": "make",
+    "description": "Visual automation platform for building complex workflows between apps and services.",
+    "websiteUrl": "https://www.make.com",
+    "tags": ["automation", "visual", "workflows", "integration"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "n8n",
+    "slug": "n8n",
+    "description": "Open-source workflow automation tool with fair-code license and self-hosting.",
+    "websiteUrl": "https://n8n.io",
+    "tags": ["automation", "open-source", "self-hosted", "workflows"],
+    "primaryCategory": "nocode",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Pipedream",
+    "slug": "pipedream",
+    "description": "Developer-friendly automation platform with code-level flexibility and API integration.",
+    "websiteUrl": "https://pipedream.com",
+    "tags": ["automation", "developer", "api", "code-friendly"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Activepieces",
+    "slug": "activepieces",
+    "description": "Open-source no-code automation tool and Zapier alternative for businesses.",
+    "websiteUrl": "https://www.activepieces.com",
+    "tags": ["automation", "open-source", "workflows", "self-hosted"],
+    "primaryCategory": "nocode",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Tray.io",
+    "slug": "tray-io",
+    "description": "Enterprise automation platform for building complex integrations at scale.",
+    "websiteUrl": "https://tray.io",
+    "tags": ["automation", "enterprise", "integration", "scalable"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Workato",
+    "slug": "workato",
+    "description": "Enterprise automation and integration platform for business workflows.",
+    "websiteUrl": "https://www.workato.com",
+    "tags": ["automation", "enterprise", "integration", "ai"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Microsoft Power Automate",
+    "slug": "power-automate",
+    "description": "Microsoft's workflow automation tool integrated with Office 365 and Azure.",
+    "websiteUrl": "https://powerautomate.microsoft.com",
+    "tags": ["automation", "microsoft", "workflows", "office-365"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "IFTTT",
+    "slug": "ifttt",
+    "description": "Simple automation service connecting apps and devices with if-then rules.",
+    "websiteUrl": "https://ifttt.com",
+    "tags": ["automation", "simple", "iot", "applets"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Typeform",
+    "slug": "typeform",
+    "description": "Beautiful conversational form builder for surveys, quizzes, and data collection.",
+    "websiteUrl": "https://www.typeform.com",
+    "tags": ["forms", "surveys", "conversational", "beautiful"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "JotForm",
+    "slug": "jotform",
+    "description": "Powerful online form builder with thousands of templates and integrations.",
+    "websiteUrl": "https://www.jotform.com",
+    "tags": ["forms", "templates", "integrations", "no-code"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Tally",
+    "slug": "tally",
+    "description": "Free and simple form builder that works like a document editor.",
+    "websiteUrl": "https://tally.so",
+    "tags": ["forms", "free", "simple", "document-like"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Google Forms",
+    "slug": "google-forms",
+    "description": "Free form builder by Google integrated with Google Workspace and Sheets.",
+    "websiteUrl": "https://www.google.com/forms",
+    "tags": ["forms", "free", "google", "surveys"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Fillout",
+    "slug": "fillout",
+    "description": "Form builder with native integrations for Airtable, Notion, and databases.",
+    "websiteUrl": "https://www.fillout.com",
+    "tags": ["forms", "integrations", "airtable", "notion"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Formbricks",
+    "slug": "formbricks",
+    "description": "Open-source survey and form platform for collecting in-app user feedback.",
+    "websiteUrl": "https://formbricks.com",
+    "tags": ["forms", "surveys", "open-source", "in-app"],
+    "primaryCategory": "nocode",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "SurveyMonkey",
+    "slug": "surveymonkey",
+    "description": "Leading online survey platform for creating surveys and collecting responses.",
+    "websiteUrl": "https://www.surveymonkey.com",
+    "tags": ["surveys", "forms", "analytics", "enterprise"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Airtable",
+    "slug": "airtable",
+    "description": "Low-code platform combining spreadsheet simplicity with database power.",
+    "websiteUrl": "https://www.airtable.com",
+    "tags": ["database", "spreadsheet", "collaborative", "apps"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Notion",
+    "slug": "notion",
+    "description": "All-in-one workspace for notes, databases, wikis, and project management.",
+    "websiteUrl": "https://www.notion.so",
+    "tags": ["workspace", "database", "notes", "wiki"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "NocoDB",
+    "slug": "nocodb",
+    "description": "Open-source Airtable alternative that turns any database into a smart spreadsheet.",
+    "websiteUrl": "https://nocodb.com",
+    "tags": ["database", "open-source", "spreadsheet", "airtable-alternative"],
+    "primaryCategory": "nocode",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Baserow",
+    "slug": "baserow",
+    "description": "Open-source no-code database platform and self-hostable Airtable alternative.",
+    "websiteUrl": "https://baserow.io",
+    "tags": ["database", "open-source", "self-hosted", "no-code"],
+    "primaryCategory": "nocode",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Coda",
+    "slug": "coda",
+    "description": "All-in-one doc that combines documents, spreadsheets, and applications.",
+    "websiteUrl": "https://coda.io",
+    "tags": ["workspace", "documents", "automation", "database"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Google Sheets",
+    "slug": "google-sheets",
+    "description": "Free cloud-based spreadsheet by Google with collaboration and automation features.",
+    "websiteUrl": "https://www.google.com/sheets",
+    "tags": ["spreadsheet", "google", "collaborative", "free"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Retool",
+    "slug": "retool",
+    "description": "Low-code platform for building internal tools with drag-and-drop components.",
+    "websiteUrl": "https://retool.com",
+    "tags": ["internal-tools", "low-code", "admin-panels", "dashboards"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Appsmith",
+    "slug": "appsmith",
+    "description": "Open-source low-code framework for building internal tools and admin panels.",
+    "websiteUrl": "https://www.appsmith.com",
+    "tags": ["internal-tools", "open-source", "low-code", "admin-panels"],
+    "primaryCategory": "nocode",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "ToolJet",
+    "slug": "tooljet",
+    "description": "Open-source low-code platform for building and deploying internal tools.",
+    "websiteUrl": "https://www.tooljet.com",
+    "tags": ["internal-tools", "open-source", "low-code", "self-hosted"],
+    "primaryCategory": "nocode",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Budibase",
+    "slug": "budibase",
+    "description": "Open-source low-code platform for building business apps and workflows.",
+    "websiteUrl": "https://budibase.com",
+    "tags": ["internal-tools", "open-source", "business-apps", "low-code"],
+    "primaryCategory": "nocode",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "DronaHQ",
+    "slug": "dronahq",
+    "description": "Low-code platform for building internal tools, admin panels, and dashboards.",
+    "websiteUrl": "https://www.dronahq.com",
+    "tags": ["internal-tools", "low-code", "dashboards", "enterprise"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Airplane",
+    "slug": "airplane",
+    "description": "Developer infrastructure platform for building internal tools with code and UI.",
+    "websiteUrl": "https://www.airplane.dev",
+    "tags": ["internal-tools", "developer", "tasks", "workflows"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Superblocks",
+    "slug": "superblocks",
+    "description": "Programmable platform for building internal tools, workflows, and scheduled jobs.",
+    "websiteUrl": "https://www.superblocks.com",
+    "tags": ["internal-tools", "programmable", "workflows", "enterprise"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Microsoft Power Apps",
+    "slug": "power-apps",
+    "description": "Low-code application platform for building business apps on Microsoft ecosystem.",
+    "websiteUrl": "https://powerapps.microsoft.com",
+    "tags": ["app-builder", "microsoft", "low-code", "enterprise"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Mendix",
+    "slug": "mendix",
+    "description": "Enterprise low-code application development platform by Siemens for rapid delivery.",
+    "websiteUrl": "https://www.mendix.com",
+    "tags": ["low-code", "enterprise", "siemens", "app-development"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "OutSystems",
+    "slug": "outsystems",
+    "description": "Enterprise low-code platform for building scalable applications rapidly.",
+    "websiteUrl": "https://www.outsystems.com",
+    "tags": ["low-code", "enterprise", "scalable", "rapid"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Monday.com",
+    "slug": "monday-com",
+    "description": "Work management platform for teams with customizable workflows and automations.",
+    "websiteUrl": "https://monday.com",
+    "tags": ["project-management", "workflows", "automation", "collaboration"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "ClickUp",
+    "slug": "clickup",
+    "description": "All-in-one productivity platform for project management and team collaboration.",
+    "websiteUrl": "https://clickup.com",
+    "tags": ["project-management", "productivity", "collaboration", "all-in-one"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Asana",
+    "slug": "asana",
+    "description": "Work management platform for organizing projects, tasks, and team workflows.",
+    "websiteUrl": "https://asana.com",
+    "tags": ["project-management", "tasks", "workflows", "teams"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Trello",
+    "slug": "trello",
+    "description": "Visual project management tool using boards, lists, and cards for collaboration.",
+    "websiteUrl": "https://trello.com",
+    "tags": ["project-management", "kanban", "visual", "boards"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Linear",
+    "slug": "linear",
+    "description": "Streamlined issue tracking and project management tool for software teams.",
+    "websiteUrl": "https://linear.app",
+    "tags": ["project-management", "issue-tracking", "software-teams", "fast"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Voiceflow",
+    "slug": "voiceflow",
+    "description": "Collaborative platform for designing, building, and launching AI chatbots.",
+    "websiteUrl": "https://www.voiceflow.com",
+    "tags": ["chatbot", "ai", "conversational", "design"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Botpress",
+    "slug": "botpress",
+    "description": "Open-source platform for building and deploying AI-powered chatbots.",
+    "websiteUrl": "https://botpress.com",
+    "tags": ["chatbot", "ai", "open-source", "conversational"],
+    "primaryCategory": "nocode",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Chatfuel",
+    "slug": "chatfuel",
+    "description": "No-code chatbot builder for automating conversations on messaging platforms.",
+    "websiteUrl": "https://chatfuel.com",
+    "tags": ["chatbot", "messaging", "automation", "facebook"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "ManyChat",
+    "slug": "manychat",
+    "description": "Chat marketing platform for automating conversations on Instagram and Messenger.",
+    "websiteUrl": "https://manychat.com",
+    "tags": ["chatbot", "marketing", "instagram", "messenger"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Landbot",
+    "slug": "landbot",
+    "description": "No-code chatbot builder for creating conversational landing pages and forms.",
+    "websiteUrl": "https://landbot.io",
+    "tags": ["chatbot", "conversational", "landing-pages", "no-code"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Unbounce",
+    "slug": "unbounce",
+    "description": "Landing page builder with A/B testing and conversion optimization tools.",
+    "websiteUrl": "https://unbounce.com",
+    "tags": ["landing-page", "ab-testing", "conversion", "marketing"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Leadpages",
+    "slug": "leadpages",
+    "description": "Landing page and website builder for small businesses and lead generation.",
+    "websiteUrl": "https://www.leadpages.com",
+    "tags": ["landing-page", "lead-generation", "small-business", "marketing"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Instapage",
+    "slug": "instapage",
+    "description": "Landing page platform with personalization and analytics for advertising teams.",
+    "websiteUrl": "https://instapage.com",
+    "tags": ["landing-page", "personalization", "analytics", "advertising"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Umso",
+    "slug": "umso",
+    "description": "AI-powered website builder for startups to create landing pages quickly.",
+    "websiteUrl": "https://www.umso.com",
+    "tags": ["landing-page", "ai", "startups", "fast"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Shopify",
+    "slug": "shopify",
+    "description": "Leading e-commerce platform for building and managing online stores.",
+    "websiteUrl": "https://www.shopify.com",
+    "tags": ["ecommerce", "online-store", "payments", "marketplace"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "Gumroad",
+    "slug": "gumroad",
+    "description": "Simple platform for creators to sell digital products and subscriptions.",
+    "websiteUrl": "https://gumroad.com",
+    "tags": ["ecommerce", "digital-products", "creators", "simple"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Lemon Squeezy",
+    "slug": "lemon-squeezy",
+    "description": "All-in-one platform for selling digital products with payments and tax handling.",
+    "websiteUrl": "https://www.lemonsqueezy.com",
+    "tags": ["ecommerce", "digital-products", "payments", "tax"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Stripe Payment Links",
+    "slug": "stripe-payment-links",
+    "description": "Create payment pages and share links to accept payments without a website.",
+    "websiteUrl": "https://stripe.com/payments/payment-links",
+    "tags": ["payments", "no-code", "stripe", "links"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Cal.com",
+    "slug": "cal-com",
+    "description": "Open-source scheduling platform for booking meetings and appointments.",
+    "websiteUrl": "https://cal.com",
+    "tags": ["scheduling", "open-source", "booking", "calendar"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Calendly",
+    "slug": "calendly",
+    "description": "Automated scheduling platform for setting up meetings without back-and-forth.",
+    "websiteUrl": "https://calendly.com",
+    "tags": ["scheduling", "automation", "meetings", "calendar"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Mailchimp",
+    "slug": "mailchimp",
+    "description": "All-in-one marketing platform for email campaigns and audience management.",
+    "websiteUrl": "https://mailchimp.com",
+    "tags": ["email-marketing", "automation", "campaigns", "audience"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "ConvertKit",
+    "slug": "convertkit",
+    "description": "Email marketing platform built for creators with automation and landing pages.",
+    "websiteUrl": "https://convertkit.com",
+    "tags": ["email-marketing", "creators", "automation", "landing-pages"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Beehiiv",
+    "slug": "beehiiv",
+    "description": "Newsletter platform for creators with growth tools and monetization features.",
+    "websiteUrl": "https://www.beehiiv.com",
+    "tags": ["newsletters", "creators", "growth", "monetization"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Substack",
+    "slug": "substack",
+    "description": "Platform for independent writers to publish newsletters with paid subscriptions.",
+    "websiteUrl": "https://substack.com",
+    "tags": ["newsletters", "writing", "subscriptions", "publishing"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Memberstack",
+    "slug": "memberstack",
+    "description": "Membership and authentication platform for no-code websites and apps.",
+    "websiteUrl": "https://www.memberstack.com",
+    "tags": ["membership", "authentication", "payments", "webflow"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Memberful",
+    "slug": "memberful",
+    "description": "Membership platform for selling subscriptions to content and communities.",
+    "websiteUrl": "https://memberful.com",
+    "tags": ["membership", "subscriptions", "content", "paywalls"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Outseta",
+    "slug": "outseta",
+    "description": "All-in-one platform combining CRM, billing, and authentication for startups.",
+    "websiteUrl": "https://www.outseta.com",
+    "tags": ["crm", "billing", "authentication", "all-in-one"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Directus",
+    "slug": "directus",
+    "description": "Open-source headless CMS and data platform with no-code dashboard.",
+    "websiteUrl": "https://directus.io",
+    "tags": ["cms", "headless", "open-source", "api"],
+    "primaryCategory": "nocode",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Strapi",
+    "slug": "strapi",
+    "description": "Open-source headless CMS for building custom content APIs without code.",
+    "websiteUrl": "https://strapi.io",
+    "tags": ["cms", "headless", "open-source", "api"],
+    "primaryCategory": "nocode",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Sanity",
+    "slug": "sanity",
+    "description": "Composable content platform with structured content and real-time collaboration.",
+    "websiteUrl": "https://www.sanity.io",
+    "tags": ["cms", "headless", "structured-content", "real-time"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Contentful",
+    "slug": "contentful",
+    "description": "Enterprise headless content management system with powerful API and SDK.",
+    "websiteUrl": "https://www.contentful.com",
+    "tags": ["cms", "headless", "enterprise", "api"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Storyblok",
+    "slug": "storyblok",
+    "description": "Headless CMS with visual editor for managing content across any platform.",
+    "websiteUrl": "https://www.storyblok.com",
+    "tags": ["cms", "headless", "visual-editor", "multi-platform"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "DatoCMS",
+    "slug": "datocms",
+    "description": "Headless CMS with GraphQL API and image optimization for modern websites.",
+    "websiteUrl": "https://www.datocms.com",
+    "tags": ["cms", "headless", "graphql", "image-optimization"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Payload CMS",
+    "slug": "payload-cms",
+    "description": "Open-source headless CMS built with TypeScript and React for developers.",
+    "websiteUrl": "https://payloadcms.com",
+    "tags": ["cms", "headless", "open-source", "typescript"],
+    "primaryCategory": "nocode",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Hygraph",
+    "slug": "hygraph",
+    "description": "GraphQL-native headless CMS for content federation across multiple sources.",
+    "websiteUrl": "https://hygraph.com",
+    "tags": ["cms", "headless", "graphql", "federation"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Plasmic",
+    "slug": "plasmic",
+    "description": "Visual builder and headless CMS for building pages inside any codebase.",
+    "websiteUrl": "https://www.plasmic.app",
+    "tags": ["visual-builder", "cms", "headless", "code-integration"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Builder.io",
+    "slug": "builder-io",
+    "description": "Visual headless CMS and page builder with AI for any tech stack.",
+    "websiteUrl": "https://www.builder.io",
+    "tags": ["visual-builder", "cms", "ai", "headless"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Webflow Memberships",
+    "slug": "webflow-memberships",
+    "description": "Native membership and gated content features built into Webflow sites.",
+    "websiteUrl": "https://webflow.com/memberships",
+    "tags": ["membership", "gated-content", "webflow", "subscriptions"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Teachable",
+    "slug": "teachable",
+    "description": "Platform for creating and selling online courses and digital products.",
+    "websiteUrl": "https://teachable.com",
+    "tags": ["online-courses", "elearning", "digital-products", "creators"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Thinkific",
+    "slug": "thinkific",
+    "description": "Online course platform for entrepreneurs to create, market, and sell courses.",
+    "websiteUrl": "https://www.thinkific.com",
+    "tags": ["online-courses", "elearning", "marketing", "creators"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Podia",
+    "slug": "podia",
+    "description": "All-in-one platform for selling courses, memberships, and digital downloads.",
+    "websiteUrl": "https://www.podia.com",
+    "tags": ["online-courses", "memberships", "digital-products", "all-in-one"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Whalesync",
+    "slug": "whalesync",
+    "description": "Two-way data sync tool between Airtable, Webflow, HubSpot, and Notion.",
+    "websiteUrl": "https://www.whalesync.com",
+    "tags": ["data-sync", "integration", "airtable", "two-way"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Parabola",
+    "slug": "parabola",
+    "description": "Visual data automation tool for pulling, transforming, and pushing data flows.",
+    "websiteUrl": "https://parabola.io",
+    "tags": ["data-automation", "etl", "visual", "workflows"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Internal",
+    "slug": "internal-io",
+    "description": "Low-code platform for building business tools connected to databases and APIs.",
+    "websiteUrl": "https://www.internal.io",
+    "tags": ["internal-tools", "low-code", "databases", "api"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Unqork",
+    "slug": "unqork",
+    "description": "Enterprise no-code application platform for building complex business applications.",
+    "websiteUrl": "https://www.unqork.com",
+    "tags": ["enterprise", "no-code", "business-apps", "compliance"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Betty Blocks",
+    "slug": "betty-blocks",
+    "description": "No-code application development platform for enterprise citizen developers.",
+    "websiteUrl": "https://www.bettyblocks.com",
+    "tags": ["enterprise", "no-code", "citizen-developer", "app-platform"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Crisp",
+    "slug": "crisp",
+    "description": "Customer messaging platform with live chat, chatbot, and knowledge base.",
+    "websiteUrl": "https://crisp.chat",
+    "tags": ["live-chat", "chatbot", "customer-support", "messaging"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Intercom",
+    "slug": "intercom",
+    "description": "Customer communication platform with messaging, bots, and help desk features.",
+    "websiteUrl": "https://www.intercom.com",
+    "tags": ["customer-support", "messaging", "chatbot", "help-desk"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Tilda",
+    "slug": "tilda",
+    "description": "Website builder focused on creating beautiful editorial and marketing pages.",
+    "websiteUrl": "https://tilda.cc",
+    "tags": ["website-builder", "editorial", "marketing", "blocks"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Unicorn Platform",
+    "slug": "unicorn-platform",
+    "description": "Simple landing page builder for startups, mobile apps, and SaaS products.",
+    "websiteUrl": "https://unicornplatform.com",
+    "tags": ["landing-page", "startups", "saas", "simple"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Relay.app",
+    "slug": "relay-app",
+    "description": "Automation tool with human-in-the-loop approvals for business workflows.",
+    "websiteUrl": "https://www.relay.app",
+    "tags": ["automation", "human-in-the-loop", "approvals", "workflows"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Bardeen",
+    "slug": "bardeen",
+    "description": "AI-powered browser automation tool for automating repetitive web tasks.",
+    "websiteUrl": "https://www.bardeen.ai",
+    "tags": ["automation", "browser", "ai", "scraping"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Notion Automations",
+    "slug": "notion-automations",
+    "description": "Built-in automation features in Notion for triggering workflows on database changes.",
+    "websiteUrl": "https://www.notion.so/product/automations",
+    "tags": ["automation", "notion", "workflows", "built-in"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Fibery",
+    "slug": "fibery",
+    "description": "Connected workspace for product teams combining project management and knowledge.",
+    "websiteUrl": "https://fibery.io",
+    "tags": ["workspace", "product-management", "connected", "customizable"],
+    "primaryCategory": "nocode",
+    "type": "saas",
+    "baselineScore": 7.5
+  }
+]

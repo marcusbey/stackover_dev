@@ -1,0 +1,4499 @@
+[
+  {
+    "name": "GPT-4 Turbo",
+    "slug": "gpt-4-turbo",
+    "description": "OpenAI's optimized GPT-4 model with faster responses and lower cost.",
+    "websiteUrl": "https://openai.com",
+    "tags": [
+      "llm",
+      "ai-model",
+      "natural-language",
+      "openai"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "GPT-3.5 Turbo",
+    "slug": "gpt-3.5-turbo",
+    "description": "OpenAI's fast and affordable large language model for chat and text.",
+    "websiteUrl": "https://openai.com",
+    "tags": [
+      "llm",
+      "ai-model",
+      "natural-language",
+      "openai"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "GPT-o1",
+    "slug": "gpt-o1",
+    "description": "OpenAI's reasoning model designed for complex problem-solving tasks.",
+    "websiteUrl": "https://openai.com",
+    "tags": [
+      "llm",
+      "reasoning",
+      "ai-model",
+      "openai"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "GPT-o3",
+    "slug": "gpt-o3",
+    "description": "OpenAI's advanced reasoning model with improved analytical capabilities.",
+    "websiteUrl": "https://openai.com",
+    "tags": [
+      "llm",
+      "reasoning",
+      "ai-model",
+      "openai"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "Claude 3.5 Sonnet",
+    "slug": "claude-3-5-sonnet",
+    "description": "Anthropic's balanced AI model offering strong reasoning and speed.",
+    "websiteUrl": "https://anthropic.com",
+    "tags": [
+      "llm",
+      "ai-model",
+      "natural-language",
+      "anthropic"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 9.1
+  },
+  {
+    "name": "Claude 3 Opus",
+    "slug": "claude-3-opus",
+    "description": "Anthropic's most powerful model for complex analysis and generation.",
+    "websiteUrl": "https://anthropic.com",
+    "tags": [
+      "llm",
+      "ai-model",
+      "natural-language",
+      "anthropic"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Claude 3 Haiku",
+    "slug": "claude-3-haiku",
+    "description": "Anthropic's fastest and most compact model for quick AI tasks.",
+    "websiteUrl": "https://anthropic.com",
+    "tags": [
+      "llm",
+      "ai-model",
+      "natural-language",
+      "anthropic"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Gemini Pro",
+    "slug": "gemini-pro",
+    "description": "Google's versatile AI model for text, code, and multimodal tasks.",
+    "websiteUrl": "https://deepmind.google/technologies/gemini/",
+    "tags": [
+      "llm",
+      "ai-model",
+      "multimodal",
+      "google"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Gemini Ultra",
+    "slug": "gemini-ultra",
+    "description": "Google's most capable AI model for highly complex reasoning.",
+    "websiteUrl": "https://deepmind.google/technologies/gemini/",
+    "tags": [
+      "llm",
+      "ai-model",
+      "multimodal",
+      "google"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Llama 3",
+    "slug": "llama-3",
+    "description": "Meta's open-source large language model for research and production.",
+    "websiteUrl": "https://llama.meta.com",
+    "tags": [
+      "llm",
+      "open-source",
+      "ai-model",
+      "meta"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Llama 2",
+    "slug": "llama-2",
+    "description": "Meta's open-source LLM for commercial and research applications.",
+    "websiteUrl": "https://llama.meta.com",
+    "tags": [
+      "llm",
+      "open-source",
+      "ai-model",
+      "meta"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Mistral Large",
+    "slug": "mistral-large",
+    "description": "Mistral AI's flagship model with strong multilingual reasoning capabilities.",
+    "websiteUrl": "https://mistral.ai",
+    "tags": [
+      "llm",
+      "ai-model",
+      "multilingual",
+      "mistral"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Mistral 7B",
+    "slug": "mistral-7b",
+    "description": "Compact open-source language model with impressive performance per parameter.",
+    "websiteUrl": "https://mistral.ai",
+    "tags": [
+      "llm",
+      "open-source",
+      "ai-model",
+      "mistral"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Mixtral 8x7B",
+    "slug": "mixtral-8x7b",
+    "description": "Mistral's mixture-of-experts model delivering high quality at lower cost.",
+    "websiteUrl": "https://mistral.ai",
+    "tags": [
+      "llm",
+      "open-source",
+      "mixture-of-experts",
+      "mistral"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Cohere Command R+",
+    "slug": "cohere-command-r-plus",
+    "description": "Cohere's enterprise-focused LLM optimized for RAG and tool use.",
+    "websiteUrl": "https://cohere.com",
+    "tags": [
+      "llm",
+      "enterprise",
+      "rag",
+      "cohere"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Cohere Embed",
+    "slug": "cohere-embed",
+    "description": "Cohere's embedding model for semantic search and text classification.",
+    "websiteUrl": "https://cohere.com",
+    "tags": [
+      "embeddings",
+      "nlp",
+      "search",
+      "cohere"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Phi-3",
+    "slug": "phi-3",
+    "description": "Microsoft's small language model with strong reasoning for edge deployment.",
+    "websiteUrl": "https://azure.microsoft.com/en-us/products/phi-3",
+    "tags": [
+      "llm",
+      "small-model",
+      "open-source",
+      "microsoft"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Gemma",
+    "slug": "gemma",
+    "description": "Google's lightweight open-source model family for developers and researchers.",
+    "websiteUrl": "https://ai.google.dev/gemma",
+    "tags": [
+      "llm",
+      "open-source",
+      "small-model",
+      "google"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Falcon 180B",
+    "slug": "falcon-180b",
+    "description": "Technology Innovation Institute's large open-source language model.",
+    "websiteUrl": "https://falconllm.tii.ae",
+    "tags": [
+      "llm",
+      "open-source",
+      "ai-model"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Yi-34B",
+    "slug": "yi-34b",
+    "description": "01.AI's bilingual open-source model strong in English and Chinese.",
+    "websiteUrl": "https://01.ai",
+    "tags": [
+      "llm",
+      "open-source",
+      "bilingual",
+      "ai-model"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Qwen 2",
+    "slug": "qwen-2",
+    "description": "Alibaba's open-source multilingual LLM with broad language support.",
+    "websiteUrl": "https://qwenlm.github.io",
+    "tags": [
+      "llm",
+      "open-source",
+      "multilingual",
+      "alibaba"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "DeepSeek V2",
+    "slug": "deepseek-v2",
+    "description": "DeepSeek's cost-efficient mixture-of-experts model for code and chat.",
+    "websiteUrl": "https://www.deepseek.com",
+    "tags": [
+      "llm",
+      "open-source",
+      "coding",
+      "deepseek"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "DBRX",
+    "slug": "dbrx",
+    "description": "Databricks' open-source mixture-of-experts model for enterprise use.",
+    "websiteUrl": "https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm",
+    "tags": [
+      "llm",
+      "open-source",
+      "enterprise",
+      "databricks"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Grok",
+    "slug": "grok",
+    "description": "xAI's conversational AI model with real-time information access.",
+    "websiteUrl": "https://grok.x.ai",
+    "tags": [
+      "llm",
+      "ai-model",
+      "conversational",
+      "xai"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Inflection Pi",
+    "slug": "inflection-pi",
+    "description": "Inflection's personal AI assistant focused on empathetic conversation.",
+    "websiteUrl": "https://pi.ai",
+    "tags": [
+      "ai-assistant",
+      "conversational",
+      "chatbot"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Tabnine",
+    "slug": "tabnine",
+    "description": "AI code completion tool that runs locally or in the cloud.",
+    "websiteUrl": "https://www.tabnine.com",
+    "tags": [
+      "ai-coding",
+      "code-completion",
+      "ide-extension",
+      "developer-tools"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Codeium",
+    "slug": "codeium",
+    "description": "Free AI-powered code completion and search for developers.",
+    "websiteUrl": "https://codeium.com",
+    "tags": [
+      "ai-coding",
+      "code-completion",
+      "free",
+      "developer-tools"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Replit AI",
+    "slug": "replit-ai",
+    "description": "AI coding assistant integrated into Replit's cloud IDE.",
+    "websiteUrl": "https://replit.com/ai",
+    "tags": [
+      "ai-coding",
+      "cloud-ide",
+      "code-generation",
+      "replit"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Amazon CodeWhisperer",
+    "slug": "amazon-codewhisperer",
+    "description": "AWS AI coding companion with security scanning and code suggestions.",
+    "websiteUrl": "https://aws.amazon.com/codewhisperer/",
+    "tags": [
+      "ai-coding",
+      "code-completion",
+      "aws",
+      "security"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Sourcegraph Cody",
+    "slug": "sourcegraph-cody",
+    "description": "AI coding assistant with deep codebase context and understanding.",
+    "websiteUrl": "https://sourcegraph.com/cody",
+    "tags": [
+      "ai-coding",
+      "code-search",
+      "codebase-context",
+      "sourcegraph"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Codium AI",
+    "slug": "codium-ai",
+    "description": "AI tool for generating meaningful tests and code integrity analysis.",
+    "websiteUrl": "https://www.codium.ai",
+    "tags": [
+      "ai-coding",
+      "testing",
+      "code-quality",
+      "developer-tools"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Continue",
+    "slug": "continue-dev",
+    "description": "Open-source AI code assistant for VS Code and JetBrains.",
+    "websiteUrl": "https://continue.dev",
+    "tags": [
+      "ai-coding",
+      "open-source",
+      "ide-extension",
+      "code-completion"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Aider",
+    "slug": "aider",
+    "description": "AI pair programming tool that edits code directly in your terminal.",
+    "websiteUrl": "https://aider.chat",
+    "tags": [
+      "ai-coding",
+      "terminal",
+      "pair-programming",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Sweep AI",
+    "slug": "sweep-ai",
+    "description": "AI-powered junior developer that handles GitHub issues and pull requests.",
+    "websiteUrl": "https://sweep.dev",
+    "tags": [
+      "ai-coding",
+      "github",
+      "automation",
+      "pull-requests"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Devin",
+    "slug": "devin",
+    "description": "Cognition's autonomous AI software engineer for end-to-end development.",
+    "websiteUrl": "https://www.cognition-labs.com/devin",
+    "tags": [
+      "ai-coding",
+      "autonomous-agent",
+      "software-engineering"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Windsurf",
+    "slug": "windsurf",
+    "description": "AI-powered IDE by Codeium with deep codebase awareness.",
+    "websiteUrl": "https://codeium.com/windsurf",
+    "tags": [
+      "ai-coding",
+      "ide",
+      "code-completion",
+      "codeium"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Bolt.new",
+    "slug": "bolt-new",
+    "description": "AI full-stack web app builder running in the browser.",
+    "websiteUrl": "https://bolt.new",
+    "tags": [
+      "ai-coding",
+      "web-builder",
+      "no-code",
+      "full-stack"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "DALL-E 3",
+    "slug": "dall-e-3",
+    "description": "OpenAI's latest image generation model with improved prompt adherence.",
+    "websiteUrl": "https://openai.com/dall-e-3",
+    "tags": [
+      "image-generation",
+      "ai-art",
+      "text-to-image",
+      "openai"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Stable Diffusion",
+    "slug": "stable-diffusion",
+    "description": "Open-source text-to-image model for local and cloud image generation.",
+    "websiteUrl": "https://stability.ai",
+    "tags": [
+      "image-generation",
+      "open-source",
+      "text-to-image",
+      "ai-art"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Stable Diffusion XL",
+    "slug": "stable-diffusion-xl",
+    "description": "Enhanced Stable Diffusion model producing higher-resolution images.",
+    "websiteUrl": "https://stability.ai",
+    "tags": [
+      "image-generation",
+      "open-source",
+      "text-to-image",
+      "high-resolution"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Leonardo AI",
+    "slug": "leonardo-ai",
+    "description": "AI image generation platform for game assets, art, and design.",
+    "websiteUrl": "https://leonardo.ai",
+    "tags": [
+      "image-generation",
+      "game-assets",
+      "ai-art",
+      "design"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Adobe Firefly",
+    "slug": "adobe-firefly",
+    "description": "Adobe's generative AI for creating images, text effects, and vectors.",
+    "websiteUrl": "https://firefly.adobe.com",
+    "tags": [
+      "image-generation",
+      "adobe",
+      "design",
+      "creative-tools"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Ideogram",
+    "slug": "ideogram",
+    "description": "AI image generator excelling at typography and text rendering in images.",
+    "websiteUrl": "https://ideogram.ai",
+    "tags": [
+      "image-generation",
+      "typography",
+      "text-to-image",
+      "ai-art"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Playground AI",
+    "slug": "playground-ai",
+    "description": "Free AI image creation tool with multiple model options.",
+    "websiteUrl": "https://playground.com",
+    "tags": [
+      "image-generation",
+      "free",
+      "ai-art",
+      "design"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Flux",
+    "slug": "flux-ai",
+    "description": "Black Forest Labs' open-source image generation model series.",
+    "websiteUrl": "https://blackforestlabs.ai",
+    "tags": [
+      "image-generation",
+      "open-source",
+      "text-to-image",
+      "ai-art"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "DreamStudio",
+    "slug": "dreamstudio",
+    "description": "Stability AI's web interface for generating images with Stable Diffusion.",
+    "websiteUrl": "https://dreamstudio.ai",
+    "tags": [
+      "image-generation",
+      "web-app",
+      "stability-ai",
+      "text-to-image"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Clipdrop",
+    "slug": "clipdrop",
+    "description": "AI-powered image editing suite with background removal and upscaling.",
+    "websiteUrl": "https://clipdrop.co",
+    "tags": [
+      "image-editing",
+      "background-removal",
+      "upscaling",
+      "stability-ai"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "NightCafe",
+    "slug": "nightcafe",
+    "description": "AI art generator community with multiple generation algorithms.",
+    "websiteUrl": "https://nightcafe.studio",
+    "tags": [
+      "image-generation",
+      "ai-art",
+      "community",
+      "creative"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Canva AI",
+    "slug": "canva-ai",
+    "description": "AI features in Canva for image generation, editing, and design.",
+    "websiteUrl": "https://www.canva.com/ai-image-generator/",
+    "tags": [
+      "image-generation",
+      "design",
+      "ai-art",
+      "canva"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Runway Gen-2",
+    "slug": "runway-gen-2",
+    "description": "AI video generation and editing platform for creative professionals.",
+    "websiteUrl": "https://runwayml.com",
+    "tags": [
+      "video-generation",
+      "ai-video",
+      "creative-tools",
+      "text-to-video"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Pika",
+    "slug": "pika",
+    "description": "AI video generation tool for creating and editing short video clips.",
+    "websiteUrl": "https://pika.art",
+    "tags": [
+      "video-generation",
+      "ai-video",
+      "text-to-video",
+      "creative"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "HeyGen",
+    "slug": "heygen",
+    "description": "AI video creation platform with realistic avatar presenters.",
+    "websiteUrl": "https://www.heygen.com",
+    "tags": [
+      "video-generation",
+      "ai-avatars",
+      "presentation",
+      "marketing"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Synthesia",
+    "slug": "synthesia",
+    "description": "AI video platform creating professional videos with digital avatars.",
+    "websiteUrl": "https://www.synthesia.io",
+    "tags": [
+      "video-generation",
+      "ai-avatars",
+      "enterprise",
+      "training"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Luma AI",
+    "slug": "luma-ai",
+    "description": "AI platform for 3D capture and video generation from text.",
+    "websiteUrl": "https://lumalabs.ai",
+    "tags": [
+      "video-generation",
+      "3d-capture",
+      "text-to-video",
+      "ai-video"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Kling AI",
+    "slug": "kling-ai",
+    "description": "Kuaishou's AI video generation model with motion control features.",
+    "websiteUrl": "https://klingai.com",
+    "tags": [
+      "video-generation",
+      "ai-video",
+      "text-to-video",
+      "motion"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Sora",
+    "slug": "sora",
+    "description": "OpenAI's text-to-video model generating realistic video content.",
+    "websiteUrl": "https://openai.com/sora",
+    "tags": [
+      "video-generation",
+      "text-to-video",
+      "openai",
+      "ai-video"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Invideo AI",
+    "slug": "invideo-ai",
+    "description": "AI-powered video creation tool from text prompts for marketing.",
+    "websiteUrl": "https://invideo.io",
+    "tags": [
+      "video-generation",
+      "marketing",
+      "text-to-video",
+      "automation"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "D-ID",
+    "slug": "d-id",
+    "description": "AI platform for creating talking avatar videos from photos.",
+    "websiteUrl": "https://www.d-id.com",
+    "tags": [
+      "video-generation",
+      "ai-avatars",
+      "talking-head",
+      "creative"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Fliki",
+    "slug": "fliki",
+    "description": "AI tool converting text to video with voiceovers and stock media.",
+    "websiteUrl": "https://fliki.ai",
+    "tags": [
+      "video-generation",
+      "text-to-video",
+      "voiceover",
+      "marketing"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "ElevenLabs",
+    "slug": "elevenlabs",
+    "description": "AI voice synthesis platform with realistic multilingual text-to-speech.",
+    "websiteUrl": "https://elevenlabs.io",
+    "tags": [
+      "ai-audio",
+      "text-to-speech",
+      "voice-cloning",
+      "multilingual"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Murf AI",
+    "slug": "murf-ai",
+    "description": "AI voice generator for creating studio-quality voiceovers.",
+    "websiteUrl": "https://murf.ai",
+    "tags": [
+      "ai-audio",
+      "text-to-speech",
+      "voiceover",
+      "professional"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Descript",
+    "slug": "descript",
+    "description": "AI-powered audio and video editor with transcription and overdub.",
+    "websiteUrl": "https://www.descript.com",
+    "tags": [
+      "ai-audio",
+      "video-editing",
+      "transcription",
+      "podcast"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Suno",
+    "slug": "suno",
+    "description": "AI music generation platform creating full songs from text prompts.",
+    "websiteUrl": "https://suno.com",
+    "tags": [
+      "ai-audio",
+      "music-generation",
+      "text-to-music",
+      "creative"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Udio",
+    "slug": "udio",
+    "description": "AI music creation tool generating high-quality songs from text.",
+    "websiteUrl": "https://udio.com",
+    "tags": [
+      "ai-audio",
+      "music-generation",
+      "text-to-music",
+      "creative"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Play.ht",
+    "slug": "play-ht",
+    "description": "AI voice generator and text-to-speech platform for content creators.",
+    "websiteUrl": "https://play.ht",
+    "tags": [
+      "ai-audio",
+      "text-to-speech",
+      "voice-cloning",
+      "content"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Resemble AI",
+    "slug": "resemble-ai",
+    "description": "AI voice cloning and speech synthesis for developers and enterprises.",
+    "websiteUrl": "https://www.resemble.ai",
+    "tags": [
+      "ai-audio",
+      "voice-cloning",
+      "speech-synthesis",
+      "api"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "AIVA",
+    "slug": "aiva",
+    "description": "AI music composition tool for soundtracks and background music.",
+    "websiteUrl": "https://www.aiva.ai",
+    "tags": [
+      "ai-audio",
+      "music-composition",
+      "soundtrack",
+      "creative"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Whisper",
+    "slug": "whisper",
+    "description": "OpenAI's open-source speech recognition model for transcription.",
+    "websiteUrl": "https://openai.com/research/whisper",
+    "tags": [
+      "ai-audio",
+      "speech-recognition",
+      "transcription",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "AssemblyAI",
+    "slug": "assemblyai",
+    "description": "AI speech-to-text API with speaker diarization and summarization.",
+    "websiteUrl": "https://www.assemblyai.com",
+    "tags": [
+      "ai-audio",
+      "speech-to-text",
+      "api",
+      "transcription"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Speechify",
+    "slug": "speechify",
+    "description": "AI text-to-speech app for reading documents and web pages aloud.",
+    "websiteUrl": "https://speechify.com",
+    "tags": [
+      "ai-audio",
+      "text-to-speech",
+      "accessibility",
+      "reading"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Jasper",
+    "slug": "jasper",
+    "description": "AI writing assistant for marketing teams and content creation.",
+    "websiteUrl": "https://www.jasper.ai",
+    "tags": [
+      "ai-writing",
+      "marketing",
+      "content-creation",
+      "copywriting"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Copy.ai",
+    "slug": "copy-ai",
+    "description": "AI-powered copywriting tool for marketing and sales content.",
+    "websiteUrl": "https://www.copy.ai",
+    "tags": [
+      "ai-writing",
+      "copywriting",
+      "marketing",
+      "automation"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Writesonic",
+    "slug": "writesonic",
+    "description": "AI writing platform for blog posts, ads, and marketing copy.",
+    "websiteUrl": "https://writesonic.com",
+    "tags": [
+      "ai-writing",
+      "content-creation",
+      "seo",
+      "marketing"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Writer",
+    "slug": "writer",
+    "description": "Enterprise AI writing platform ensuring brand voice consistency.",
+    "websiteUrl": "https://writer.com",
+    "tags": [
+      "ai-writing",
+      "enterprise",
+      "brand-voice",
+      "content"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Notion AI",
+    "slug": "notion-ai",
+    "description": "AI assistant integrated into Notion for writing and knowledge management.",
+    "websiteUrl": "https://www.notion.so/product/ai",
+    "tags": [
+      "ai-writing",
+      "productivity",
+      "knowledge-management",
+      "notion"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Grammarly",
+    "slug": "grammarly",
+    "description": "AI-powered writing assistant for grammar, tone, and clarity improvement.",
+    "websiteUrl": "https://www.grammarly.com",
+    "tags": [
+      "ai-writing",
+      "grammar",
+      "writing-assistant",
+      "productivity"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Sudowrite",
+    "slug": "sudowrite",
+    "description": "AI writing tool designed specifically for fiction and creative writing.",
+    "websiteUrl": "https://www.sudowrite.com",
+    "tags": [
+      "ai-writing",
+      "fiction",
+      "creative-writing",
+      "storytelling"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Wordtune",
+    "slug": "wordtune",
+    "description": "AI writing companion for rewriting and rephrasing text effectively.",
+    "websiteUrl": "https://www.wordtune.com",
+    "tags": [
+      "ai-writing",
+      "rewriting",
+      "paraphrasing",
+      "productivity"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Rytr",
+    "slug": "rytr",
+    "description": "Affordable AI writing assistant for various content types.",
+    "websiteUrl": "https://rytr.me",
+    "tags": [
+      "ai-writing",
+      "content-creation",
+      "affordable",
+      "marketing"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Anyword",
+    "slug": "anyword",
+    "description": "AI copywriting platform with predictive performance scoring.",
+    "websiteUrl": "https://anyword.com",
+    "tags": [
+      "ai-writing",
+      "copywriting",
+      "performance-prediction",
+      "marketing"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "AutoGPT",
+    "slug": "autogpt",
+    "description": "Open-source autonomous AI agent framework for task completion.",
+    "websiteUrl": "https://agpt.co",
+    "tags": [
+      "ai-agents",
+      "autonomous",
+      "open-source",
+      "automation"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "CrewAI",
+    "slug": "crewai",
+    "description": "Framework for orchestrating role-playing autonomous AI agents.",
+    "websiteUrl": "https://www.crewai.com",
+    "tags": [
+      "ai-agents",
+      "multi-agent",
+      "orchestration",
+      "framework"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "LangChain",
+    "slug": "langchain",
+    "description": "Framework for building applications powered by language models.",
+    "websiteUrl": "https://www.langchain.com",
+    "tags": [
+      "ai-agents",
+      "framework",
+      "llm",
+      "chains"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "LlamaIndex",
+    "slug": "llamaindex",
+    "description": "Data framework for connecting LLMs to external data sources.",
+    "websiteUrl": "https://www.llamaindex.ai",
+    "tags": [
+      "ai-agents",
+      "rag",
+      "data-framework",
+      "llm"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Autogen",
+    "slug": "autogen",
+    "description": "Microsoft's framework for building multi-agent AI conversations.",
+    "websiteUrl": "https://microsoft.github.io/autogen/",
+    "tags": [
+      "ai-agents",
+      "multi-agent",
+      "microsoft",
+      "framework"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Semantic Kernel",
+    "slug": "semantic-kernel",
+    "description": "Microsoft's SDK for integrating AI into applications with plugins.",
+    "websiteUrl": "https://learn.microsoft.com/en-us/semantic-kernel/",
+    "tags": [
+      "ai-agents",
+      "sdk",
+      "microsoft",
+      "enterprise"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Haystack",
+    "slug": "haystack",
+    "description": "Open-source framework for building NLP and LLM applications.",
+    "websiteUrl": "https://haystack.deepset.ai",
+    "tags": [
+      "ai-agents",
+      "nlp",
+      "open-source",
+      "pipelines"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "SuperAGI",
+    "slug": "superagi",
+    "description": "Open-source autonomous AI agent framework with tool integrations.",
+    "websiteUrl": "https://superagi.com",
+    "tags": [
+      "ai-agents",
+      "autonomous",
+      "open-source",
+      "tools"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Flowise",
+    "slug": "flowise",
+    "description": "Open-source visual builder for LLM apps and AI agent workflows.",
+    "websiteUrl": "https://flowiseai.com",
+    "tags": [
+      "ai-agents",
+      "low-code",
+      "visual-builder",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Langflow",
+    "slug": "langflow",
+    "description": "Visual framework for building multi-agent and RAG applications.",
+    "websiteUrl": "https://www.langflow.org",
+    "tags": [
+      "ai-agents",
+      "visual-builder",
+      "rag",
+      "langchain"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Dust",
+    "slug": "dust",
+    "description": "Platform for building and deploying custom AI assistants for teams.",
+    "websiteUrl": "https://dust.tt",
+    "tags": [
+      "ai-agents",
+      "enterprise",
+      "custom-assistants",
+      "team"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "AgentGPT",
+    "slug": "agentgpt",
+    "description": "Browser-based autonomous AI agent that executes tasks from goals.",
+    "websiteUrl": "https://agentgpt.reworkd.ai",
+    "tags": [
+      "ai-agents",
+      "autonomous",
+      "browser-based",
+      "goal-oriented"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Hugging Face",
+    "slug": "hugging-face",
+    "description": "The leading platform for sharing and deploying machine learning models.",
+    "websiteUrl": "https://huggingface.co",
+    "tags": [
+      "ml-platform",
+      "model-hub",
+      "open-source",
+      "community"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "Weights & Biases",
+    "slug": "weights-and-biases",
+    "description": "ML experiment tracking, model management, and dataset versioning platform.",
+    "websiteUrl": "https://wandb.ai",
+    "tags": [
+      "ml-platform",
+      "experiment-tracking",
+      "model-management",
+      "mlops"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "MLflow",
+    "slug": "mlflow",
+    "description": "Open-source platform for managing the full machine learning lifecycle.",
+    "websiteUrl": "https://mlflow.org",
+    "tags": [
+      "ml-platform",
+      "mlops",
+      "open-source",
+      "experiment-tracking"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Comet ML",
+    "slug": "comet-ml",
+    "description": "ML experiment management platform for tracking and comparing models.",
+    "websiteUrl": "https://www.comet.com",
+    "tags": [
+      "ml-platform",
+      "experiment-tracking",
+      "model-comparison",
+      "mlops"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Neptune.ai",
+    "slug": "neptune-ai",
+    "description": "Metadata store for MLOps with experiment tracking and model registry.",
+    "websiteUrl": "https://neptune.ai",
+    "tags": [
+      "ml-platform",
+      "experiment-tracking",
+      "metadata",
+      "mlops"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "DVC",
+    "slug": "dvc",
+    "description": "Open-source version control system for machine learning data and models.",
+    "websiteUrl": "https://dvc.org",
+    "tags": [
+      "ml-platform",
+      "data-versioning",
+      "open-source",
+      "mlops"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Kubeflow",
+    "slug": "kubeflow",
+    "description": "Open-source ML toolkit for Kubernetes-based model training and serving.",
+    "websiteUrl": "https://www.kubeflow.org",
+    "tags": [
+      "ml-platform",
+      "kubernetes",
+      "open-source",
+      "mlops"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "BentoML",
+    "slug": "bentoml",
+    "description": "Framework for serving, managing, and deploying machine learning models.",
+    "websiteUrl": "https://www.bentoml.com",
+    "tags": [
+      "ml-platform",
+      "model-serving",
+      "deployment",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Ray",
+    "slug": "ray",
+    "description": "Open-source framework for scaling AI and Python applications.",
+    "websiteUrl": "https://www.ray.io",
+    "tags": [
+      "ml-platform",
+      "distributed-computing",
+      "scaling",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Label Studio",
+    "slug": "label-studio",
+    "description": "Open-source data labeling tool for machine learning projects.",
+    "websiteUrl": "https://labelstud.io",
+    "tags": [
+      "ml-platform",
+      "data-labeling",
+      "annotation",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Roboflow",
+    "slug": "roboflow",
+    "description": "Computer vision platform for training and deploying image models.",
+    "websiteUrl": "https://roboflow.com",
+    "tags": [
+      "ml-platform",
+      "computer-vision",
+      "image-recognition",
+      "deployment"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Replicate",
+    "slug": "replicate",
+    "description": "API platform for running open-source ML models in the cloud.",
+    "websiteUrl": "https://replicate.com",
+    "tags": [
+      "ai-api",
+      "model-hosting",
+      "cloud",
+      "open-source-models"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Together AI",
+    "slug": "together-ai",
+    "description": "Cloud platform for running and fine-tuning open-source AI models.",
+    "websiteUrl": "https://www.together.ai",
+    "tags": [
+      "ai-api",
+      "model-hosting",
+      "fine-tuning",
+      "inference"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Groq",
+    "slug": "groq",
+    "description": "Ultra-fast AI inference platform with custom LPU hardware.",
+    "websiteUrl": "https://groq.com",
+    "tags": [
+      "ai-api",
+      "inference",
+      "hardware",
+      "speed"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Fireworks AI",
+    "slug": "fireworks-ai",
+    "description": "Fast and affordable API for serving open-source generative AI models.",
+    "websiteUrl": "https://fireworks.ai",
+    "tags": [
+      "ai-api",
+      "inference",
+      "open-source-models",
+      "fast"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Anyscale",
+    "slug": "anyscale",
+    "description": "Platform for scaling AI applications built on the Ray framework.",
+    "websiteUrl": "https://www.anyscale.com",
+    "tags": [
+      "ai-api",
+      "scaling",
+      "ray",
+      "infrastructure"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Modal",
+    "slug": "modal",
+    "description": "Cloud platform for running AI and data workloads with simple Python.",
+    "websiteUrl": "https://modal.com",
+    "tags": [
+      "ai-api",
+      "serverless",
+      "python",
+      "gpu-cloud"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Baseten",
+    "slug": "baseten",
+    "description": "Infrastructure for deploying and serving ML models at scale.",
+    "websiteUrl": "https://www.baseten.co",
+    "tags": [
+      "ai-api",
+      "model-serving",
+      "infrastructure",
+      "deployment"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "OpenRouter",
+    "slug": "openrouter",
+    "description": "Unified API gateway for accessing multiple AI models and providers.",
+    "websiteUrl": "https://openrouter.ai",
+    "tags": [
+      "ai-api",
+      "api-gateway",
+      "multi-model",
+      "unified"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Ollama",
+    "slug": "ollama",
+    "description": "Tool for running large language models locally on your machine.",
+    "websiteUrl": "https://ollama.ai",
+    "tags": [
+      "ai-api",
+      "local-llm",
+      "open-source",
+      "privacy"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "LM Studio",
+    "slug": "lm-studio",
+    "description": "Desktop app for discovering and running local LLMs with a GUI.",
+    "websiteUrl": "https://lmstudio.ai",
+    "tags": [
+      "local-llm",
+      "desktop-app",
+      "gui",
+      "open-source-models"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "vLLM",
+    "slug": "vllm",
+    "description": "High-throughput LLM serving engine with PagedAttention optimization.",
+    "websiteUrl": "https://vllm.ai",
+    "tags": [
+      "ai-api",
+      "inference",
+      "open-source",
+      "high-throughput"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Weaviate",
+    "slug": "weaviate",
+    "description": "Open-source vector database for AI-powered semantic search applications.",
+    "websiteUrl": "https://weaviate.io",
+    "tags": [
+      "vector-database",
+      "semantic-search",
+      "open-source",
+      "ai"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Qdrant",
+    "slug": "qdrant",
+    "description": "High-performance vector database for similarity search and AI apps.",
+    "websiteUrl": "https://qdrant.tech",
+    "tags": [
+      "vector-database",
+      "similarity-search",
+      "open-source",
+      "rust"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Chroma",
+    "slug": "chroma",
+    "description": "Open-source embedding database for building LLM applications.",
+    "websiteUrl": "https://www.trychroma.com",
+    "tags": [
+      "vector-database",
+      "embeddings",
+      "open-source",
+      "llm"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Milvus",
+    "slug": "milvus",
+    "description": "Open-source vector database built for scalable similarity search.",
+    "websiteUrl": "https://milvus.io",
+    "tags": [
+      "vector-database",
+      "similarity-search",
+      "open-source",
+      "scalable"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Zilliz Cloud",
+    "slug": "zilliz-cloud",
+    "description": "Managed Milvus vector database service for production AI workloads.",
+    "websiteUrl": "https://zilliz.com",
+    "tags": [
+      "vector-database",
+      "managed-service",
+      "milvus",
+      "cloud"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Perplexity",
+    "slug": "perplexity",
+    "description": "AI-powered search engine providing sourced answers to questions.",
+    "websiteUrl": "https://www.perplexity.ai",
+    "tags": [
+      "ai-search",
+      "question-answering",
+      "research",
+      "citations"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "You.com",
+    "slug": "you-com",
+    "description": "AI search engine with customizable modes for research and coding.",
+    "websiteUrl": "https://you.com",
+    "tags": [
+      "ai-search",
+      "search-engine",
+      "research",
+      "coding"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Phind",
+    "slug": "phind",
+    "description": "AI search engine designed for developers with code-focused answers.",
+    "websiteUrl": "https://www.phind.com",
+    "tags": [
+      "ai-search",
+      "developer",
+      "code-search",
+      "programming"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Tavily",
+    "slug": "tavily",
+    "description": "AI search API built specifically for LLM agents and applications.",
+    "websiteUrl": "https://tavily.com",
+    "tags": [
+      "ai-search",
+      "api",
+      "llm-agents",
+      "web-search"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "description": "OpenAI's conversational AI assistant for writing, analysis, and coding.",
+    "websiteUrl": "https://chat.openai.com",
+    "tags": [
+      "ai-assistant",
+      "chatbot",
+      "openai",
+      "conversational"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 9.5
+  },
+  {
+    "name": "Microsoft Copilot",
+    "slug": "microsoft-copilot",
+    "description": "Microsoft's AI assistant integrated across Office, Windows, and Edge.",
+    "websiteUrl": "https://copilot.microsoft.com",
+    "tags": [
+      "ai-assistant",
+      "microsoft",
+      "productivity",
+      "office"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Google Bard",
+    "slug": "google-bard",
+    "description": "Google's AI chatbot powered by Gemini for conversation and research.",
+    "websiteUrl": "https://bard.google.com",
+    "tags": [
+      "ai-assistant",
+      "google",
+      "chatbot",
+      "research"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Poe",
+    "slug": "poe",
+    "description": "Platform for accessing multiple AI chatbots in one interface.",
+    "websiteUrl": "https://poe.com",
+    "tags": [
+      "ai-assistant",
+      "multi-model",
+      "chatbot",
+      "quora"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Character.AI",
+    "slug": "character-ai",
+    "description": "Platform for creating and chatting with customizable AI characters.",
+    "websiteUrl": "https://character.ai",
+    "tags": [
+      "ai-assistant",
+      "chatbot",
+      "characters",
+      "entertainment"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Claude.ai",
+    "slug": "claude-ai-app",
+    "description": "Anthropic's web interface for conversing with Claude AI models.",
+    "websiteUrl": "https://claude.ai",
+    "tags": [
+      "ai-assistant",
+      "anthropic",
+      "chatbot",
+      "conversational"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Zapier AI",
+    "slug": "zapier-ai",
+    "description": "AI-powered automation features within the Zapier workflow platform.",
+    "websiteUrl": "https://zapier.com/ai",
+    "tags": [
+      "ai-automation",
+      "workflow",
+      "no-code",
+      "integrations"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Make AI",
+    "slug": "make-ai",
+    "description": "AI features in Make's visual automation platform for workflows.",
+    "websiteUrl": "https://www.make.com",
+    "tags": [
+      "ai-automation",
+      "workflow",
+      "visual-builder",
+      "integrations"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Relevance AI",
+    "slug": "relevance-ai",
+    "description": "No-code platform for building AI-powered tools and workflows.",
+    "websiteUrl": "https://relevanceai.com",
+    "tags": [
+      "ai-no-code",
+      "workflow",
+      "automation",
+      "tools"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Voiceflow",
+    "slug": "voiceflow",
+    "description": "Platform for designing and building AI-powered conversational agents.",
+    "websiteUrl": "https://www.voiceflow.com",
+    "tags": [
+      "ai-no-code",
+      "chatbot-builder",
+      "conversational",
+      "design"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Botpress",
+    "slug": "botpress",
+    "description": "Open-source platform for building AI-powered chatbots and assistants.",
+    "websiteUrl": "https://botpress.com",
+    "tags": [
+      "ai-no-code",
+      "chatbot-builder",
+      "open-source",
+      "conversational"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Typebot",
+    "slug": "typebot",
+    "description": "Open-source chatbot builder with visual flow editing and AI features.",
+    "websiteUrl": "https://typebot.io",
+    "tags": [
+      "ai-no-code",
+      "chatbot-builder",
+      "open-source",
+      "visual"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Bubble AI",
+    "slug": "bubble-ai",
+    "description": "AI-powered features in Bubble's no-code web app builder.",
+    "websiteUrl": "https://bubble.io",
+    "tags": [
+      "ai-no-code",
+      "web-builder",
+      "no-code",
+      "app-development"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "TensorFlow",
+    "slug": "tensorflow",
+    "description": "Google's open-source framework for machine learning and deep learning.",
+    "websiteUrl": "https://www.tensorflow.org",
+    "tags": [
+      "ml-framework",
+      "deep-learning",
+      "open-source",
+      "google"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "PyTorch",
+    "slug": "pytorch",
+    "description": "Meta's open-source deep learning framework for research and production.",
+    "websiteUrl": "https://pytorch.org",
+    "tags": [
+      "ml-framework",
+      "deep-learning",
+      "open-source",
+      "meta"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "JAX",
+    "slug": "jax",
+    "description": "Google's high-performance numerical computing library for ML research.",
+    "websiteUrl": "https://github.com/google/jax",
+    "tags": [
+      "ml-framework",
+      "numerical-computing",
+      "google",
+      "research"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Keras",
+    "slug": "keras",
+    "description": "High-level deep learning API running on TensorFlow, JAX, or PyTorch.",
+    "websiteUrl": "https://keras.io",
+    "tags": [
+      "ml-framework",
+      "deep-learning",
+      "high-level-api",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "scikit-learn",
+    "slug": "scikit-learn",
+    "description": "Python library for classical machine learning algorithms and utilities.",
+    "websiteUrl": "https://scikit-learn.org",
+    "tags": [
+      "ml-framework",
+      "machine-learning",
+      "python",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "XGBoost",
+    "slug": "xgboost",
+    "description": "Optimized gradient boosting library for structured data problems.",
+    "websiteUrl": "https://xgboost.readthedocs.io",
+    "tags": [
+      "ml-framework",
+      "gradient-boosting",
+      "structured-data",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "LightGBM",
+    "slug": "lightgbm",
+    "description": "Microsoft's fast gradient boosting framework for efficient training.",
+    "websiteUrl": "https://lightgbm.readthedocs.io",
+    "tags": [
+      "ml-framework",
+      "gradient-boosting",
+      "fast",
+      "microsoft"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "spaCy",
+    "slug": "spacy",
+    "description": "Industrial-strength NLP library for production text processing.",
+    "websiteUrl": "https://spacy.io",
+    "tags": [
+      "nlp",
+      "text-processing",
+      "open-source",
+      "python"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "NLTK",
+    "slug": "nltk",
+    "description": "Python platform for working with human language data and NLP.",
+    "websiteUrl": "https://www.nltk.org",
+    "tags": [
+      "nlp",
+      "text-processing",
+      "education",
+      "python"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Transformers",
+    "slug": "transformers",
+    "description": "Hugging Face's library for state-of-the-art NLP and ML models.",
+    "websiteUrl": "https://huggingface.co/docs/transformers",
+    "tags": [
+      "ml-framework",
+      "nlp",
+      "hugging-face",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "Diffusers",
+    "slug": "diffusers",
+    "description": "Hugging Face's library for diffusion models in image and audio generation.",
+    "websiteUrl": "https://huggingface.co/docs/diffusers",
+    "tags": [
+      "ml-framework",
+      "diffusion-models",
+      "image-generation",
+      "hugging-face"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "ONNX Runtime",
+    "slug": "onnx-runtime",
+    "description": "Cross-platform inference engine for ONNX machine learning models.",
+    "websiteUrl": "https://onnxruntime.ai",
+    "tags": [
+      "ml-framework",
+      "inference",
+      "cross-platform",
+      "microsoft"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Amazon SageMaker",
+    "slug": "amazon-sagemaker",
+    "description": "AWS managed service for building, training, and deploying ML models.",
+    "websiteUrl": "https://aws.amazon.com/sagemaker/",
+    "tags": [
+      "ml-platform",
+      "aws",
+      "managed-service",
+      "training"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Google Vertex AI",
+    "slug": "google-vertex-ai",
+    "description": "Google Cloud's unified ML platform for model development and deployment.",
+    "websiteUrl": "https://cloud.google.com/vertex-ai",
+    "tags": [
+      "ml-platform",
+      "google-cloud",
+      "managed-service",
+      "mlops"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Azure Machine Learning",
+    "slug": "azure-machine-learning",
+    "description": "Microsoft's cloud platform for building and managing ML models.",
+    "websiteUrl": "https://azure.microsoft.com/en-us/products/machine-learning",
+    "tags": [
+      "ml-platform",
+      "azure",
+      "managed-service",
+      "enterprise"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "DataRobot",
+    "slug": "datarobot",
+    "description": "Enterprise AI platform for automated machine learning and deployment.",
+    "websiteUrl": "https://www.datarobot.com",
+    "tags": [
+      "ml-platform",
+      "automl",
+      "enterprise",
+      "automation"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "H2O.ai",
+    "slug": "h2o-ai",
+    "description": "Open-source AI platform for automated machine learning at scale.",
+    "websiteUrl": "https://h2o.ai",
+    "tags": [
+      "ml-platform",
+      "automl",
+      "open-source",
+      "enterprise"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Paperspace",
+    "slug": "paperspace",
+    "description": "Cloud GPU platform for AI model training and deployment.",
+    "websiteUrl": "https://www.paperspace.com",
+    "tags": [
+      "gpu-cloud",
+      "training",
+      "deployment",
+      "cloud"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Lambda Cloud",
+    "slug": "lambda-cloud",
+    "description": "GPU cloud platform optimized for deep learning workloads.",
+    "websiteUrl": "https://lambdalabs.com/service/gpu-cloud",
+    "tags": [
+      "gpu-cloud",
+      "deep-learning",
+      "training",
+      "infrastructure"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "CoreWeave",
+    "slug": "coreweave",
+    "description": "GPU-specialized cloud provider for AI and compute-intensive workloads.",
+    "websiteUrl": "https://www.coreweave.com",
+    "tags": [
+      "gpu-cloud",
+      "infrastructure",
+      "ai-compute",
+      "cloud"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "RunPod",
+    "slug": "runpod",
+    "description": "Affordable GPU cloud platform for AI training and serverless inference.",
+    "websiteUrl": "https://www.runpod.io",
+    "tags": [
+      "gpu-cloud",
+      "serverless",
+      "affordable",
+      "inference"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Vast.ai",
+    "slug": "vast-ai",
+    "description": "GPU rental marketplace for affordable AI compute resources.",
+    "websiteUrl": "https://vast.ai",
+    "tags": [
+      "gpu-cloud",
+      "marketplace",
+      "affordable",
+      "compute"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Stability AI",
+    "slug": "stability-ai",
+    "description": "AI company building open-source generative models for images and more.",
+    "websiteUrl": "https://stability.ai",
+    "tags": [
+      "ai-company",
+      "open-source",
+      "generative-ai",
+      "image-generation"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Midjourney V6",
+    "slug": "midjourney-v6",
+    "description": "Latest version of Midjourney with photorealistic image generation capabilities.",
+    "websiteUrl": "https://www.midjourney.com",
+    "tags": [
+      "image-generation",
+      "ai-art",
+      "photorealistic",
+      "creative"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Tome",
+    "slug": "tome",
+    "description": "AI-powered presentation and storytelling tool for professionals.",
+    "websiteUrl": "https://tome.app",
+    "tags": [
+      "ai-presentation",
+      "storytelling",
+      "productivity",
+      "design"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Gamma",
+    "slug": "gamma",
+    "description": "AI tool for generating presentations, documents, and web pages.",
+    "websiteUrl": "https://gamma.app",
+    "tags": [
+      "ai-presentation",
+      "document-generation",
+      "web-pages",
+      "design"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Beautiful.ai",
+    "slug": "beautiful-ai",
+    "description": "AI-powered presentation software with automatic slide design.",
+    "websiteUrl": "https://www.beautiful.ai",
+    "tags": [
+      "ai-presentation",
+      "slide-design",
+      "automation",
+      "business"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Otter.ai",
+    "slug": "otter-ai",
+    "description": "AI meeting assistant for real-time transcription and note-taking.",
+    "websiteUrl": "https://otter.ai",
+    "tags": [
+      "ai-assistant",
+      "transcription",
+      "meetings",
+      "notes"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Fireflies.ai",
+    "slug": "fireflies-ai",
+    "description": "AI meeting assistant that records, transcribes, and summarizes meetings.",
+    "websiteUrl": "https://fireflies.ai",
+    "tags": [
+      "ai-assistant",
+      "meetings",
+      "transcription",
+      "summarization"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Krisp",
+    "slug": "krisp",
+    "description": "AI-powered noise cancellation and meeting transcription tool.",
+    "websiteUrl": "https://krisp.ai",
+    "tags": [
+      "ai-audio",
+      "noise-cancellation",
+      "meetings",
+      "transcription"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Loom AI",
+    "slug": "loom-ai",
+    "description": "AI features in Loom for video summaries and automatic chapters.",
+    "websiteUrl": "https://www.loom.com",
+    "tags": [
+      "ai-video",
+      "video-messaging",
+      "summaries",
+      "productivity"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "PhotoRoom",
+    "slug": "photoroom",
+    "description": "AI photo editing tool specializing in background removal for e-commerce.",
+    "websiteUrl": "https://www.photoroom.com",
+    "tags": [
+      "image-editing",
+      "background-removal",
+      "e-commerce",
+      "ai"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Remove.bg",
+    "slug": "remove-bg",
+    "description": "AI tool for instant automatic background removal from images.",
+    "websiteUrl": "https://www.remove.bg",
+    "tags": [
+      "image-editing",
+      "background-removal",
+      "api",
+      "automation"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Upscayl",
+    "slug": "upscayl",
+    "description": "Free open-source AI image upscaler for enhancing image resolution.",
+    "websiteUrl": "https://upscayl.org",
+    "tags": [
+      "image-editing",
+      "upscaling",
+      "open-source",
+      "free"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Topaz Labs",
+    "slug": "topaz-labs",
+    "description": "AI-powered photo and video enhancement software for professionals.",
+    "websiteUrl": "https://www.topazlabs.com",
+    "tags": [
+      "image-editing",
+      "video-enhancement",
+      "upscaling",
+      "professional"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Lensa AI",
+    "slug": "lensa-ai",
+    "description": "AI photo editing app with portrait enhancement and avatar creation.",
+    "websiteUrl": "https://prisma-ai.com/lensa",
+    "tags": [
+      "image-editing",
+      "portrait",
+      "avatar",
+      "mobile"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Anthropic API",
+    "slug": "anthropic-api",
+    "description": "API access to Claude models for building AI-powered applications.",
+    "websiteUrl": "https://www.anthropic.com/api",
+    "tags": [
+      "ai-api",
+      "llm",
+      "anthropic",
+      "claude"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "OpenAI API",
+    "slug": "openai-api",
+    "description": "API platform for GPT, DALL-E, and Whisper model integration.",
+    "websiteUrl": "https://platform.openai.com",
+    "tags": [
+      "ai-api",
+      "llm",
+      "openai",
+      "gpt"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "Google AI Studio",
+    "slug": "google-ai-studio",
+    "description": "Google's web IDE for prototyping with Gemini AI models.",
+    "websiteUrl": "https://aistudio.google.com",
+    "tags": [
+      "ai-api",
+      "prototyping",
+      "google",
+      "gemini"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Bedrock",
+    "slug": "aws-bedrock",
+    "description": "AWS service for accessing foundation models from multiple providers.",
+    "websiteUrl": "https://aws.amazon.com/bedrock/",
+    "tags": [
+      "ai-api",
+      "aws",
+      "foundation-models",
+      "managed-service"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Azure OpenAI Service",
+    "slug": "azure-openai-service",
+    "description": "Microsoft Azure's managed service for OpenAI models with enterprise features.",
+    "websiteUrl": "https://azure.microsoft.com/en-us/products/ai-services/openai-service",
+    "tags": [
+      "ai-api",
+      "azure",
+      "openai",
+      "enterprise"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Unstructured",
+    "slug": "unstructured",
+    "description": "Open-source toolkit for preprocessing unstructured data for LLMs.",
+    "websiteUrl": "https://unstructured.io",
+    "tags": [
+      "data-processing",
+      "etl",
+      "llm",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "LangSmith",
+    "slug": "langsmith",
+    "description": "Platform for debugging, testing, and monitoring LLM applications.",
+    "websiteUrl": "https://www.langchain.com/langsmith",
+    "tags": [
+      "llm-observability",
+      "debugging",
+      "testing",
+      "langchain"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Helicone",
+    "slug": "helicone",
+    "description": "Open-source observability platform for monitoring LLM API usage.",
+    "websiteUrl": "https://www.helicone.ai",
+    "tags": [
+      "llm-observability",
+      "monitoring",
+      "open-source",
+      "api"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Portkey",
+    "slug": "portkey",
+    "description": "AI gateway for managing, monitoring, and securing LLM API calls.",
+    "websiteUrl": "https://portkey.ai",
+    "tags": [
+      "llm-observability",
+      "api-gateway",
+      "monitoring",
+      "security"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Braintrust",
+    "slug": "braintrust",
+    "description": "Enterprise platform for evaluating and improving AI application quality.",
+    "websiteUrl": "https://www.braintrust.dev",
+    "tags": [
+      "llm-observability",
+      "evaluation",
+      "enterprise",
+      "quality"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Vercel AI SDK",
+    "slug": "vercel-ai-sdk",
+    "description": "Open-source library for building AI-powered streaming interfaces.",
+    "websiteUrl": "https://sdk.vercel.ai",
+    "tags": [
+      "ai-sdk",
+      "streaming",
+      "vercel",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "MindsDB",
+    "slug": "mindsdb",
+    "description": "Open-source AI layer for databases enabling ML predictions via SQL.",
+    "websiteUrl": "https://mindsdb.com",
+    "tags": [
+      "ml-platform",
+      "sql",
+      "database",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Gradio",
+    "slug": "gradio",
+    "description": "Python library for quickly creating ML model demos and web interfaces.",
+    "websiteUrl": "https://www.gradio.app",
+    "tags": [
+      "ml-framework",
+      "demo",
+      "web-interface",
+      "hugging-face"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Streamlit",
+    "slug": "streamlit",
+    "description": "Python framework for building data apps and ML dashboards quickly.",
+    "websiteUrl": "https://streamlit.io",
+    "tags": [
+      "ml-framework",
+      "data-apps",
+      "dashboard",
+      "python"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "CivitAI",
+    "slug": "civitai",
+    "description": "Community platform for sharing and discovering Stable Diffusion models.",
+    "websiteUrl": "https://civitai.com",
+    "tags": [
+      "model-hub",
+      "stable-diffusion",
+      "community",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Pinecone Serverless",
+    "slug": "pinecone-serverless",
+    "description": "Serverless vector database for low-latency AI search applications.",
+    "websiteUrl": "https://www.pinecone.io",
+    "tags": [
+      "vector-database",
+      "serverless",
+      "search",
+      "ai"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Coze",
+    "slug": "coze",
+    "description": "No-code AI bot development platform by ByteDance with plugin support.",
+    "websiteUrl": "https://www.coze.com",
+    "tags": [
+      "ai-no-code",
+      "chatbot-builder",
+      "plugins",
+      "bytedance"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Dify",
+    "slug": "dify",
+    "description": "Open-source platform for building LLM-powered applications visually.",
+    "websiteUrl": "https://dify.ai",
+    "tags": [
+      "ai-no-code",
+      "llm-apps",
+      "open-source",
+      "visual-builder"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Jan",
+    "slug": "jan",
+    "description": "Open-source desktop app for running AI models offline locally.",
+    "websiteUrl": "https://jan.ai",
+    "tags": [
+      "local-llm",
+      "desktop-app",
+      "open-source",
+      "privacy"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "GPT4All",
+    "slug": "gpt4all",
+    "description": "Open-source ecosystem for running LLMs locally on consumer hardware.",
+    "websiteUrl": "https://gpt4all.io",
+    "tags": [
+      "local-llm",
+      "open-source",
+      "consumer-hardware",
+      "privacy"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Text Generation WebUI",
+    "slug": "text-generation-webui",
+    "description": "Gradio web UI for running large language models locally.",
+    "websiteUrl": "https://github.com/oobabooga/text-generation-webui",
+    "tags": [
+      "local-llm",
+      "web-ui",
+      "open-source",
+      "gradio"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "ComfyUI",
+    "slug": "comfyui",
+    "description": "Node-based UI for Stable Diffusion with advanced workflow control.",
+    "websiteUrl": "https://github.com/comfyanonymous/ComfyUI",
+    "tags": [
+      "image-generation",
+      "stable-diffusion",
+      "node-based",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Automatic1111",
+    "slug": "automatic1111",
+    "description": "Popular web UI for Stable Diffusion with extensive plugin ecosystem.",
+    "websiteUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "tags": [
+      "image-generation",
+      "stable-diffusion",
+      "web-ui",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Civitai",
+    "slug": "civitai-platform",
+    "description": "Community hub for AI art models, LoRAs, and generation resources.",
+    "websiteUrl": "https://civitai.com",
+    "tags": [
+      "image-generation",
+      "community",
+      "models",
+      "lora"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Segment Anything",
+    "slug": "segment-anything",
+    "description": "Meta's foundation model for image segmentation across any object.",
+    "websiteUrl": "https://segment-anything.com",
+    "tags": [
+      "computer-vision",
+      "image-segmentation",
+      "meta",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "YOLO",
+    "slug": "yolo",
+    "description": "Real-time object detection model family for computer vision tasks.",
+    "websiteUrl": "https://docs.ultralytics.com",
+    "tags": [
+      "computer-vision",
+      "object-detection",
+      "real-time",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Detectron2",
+    "slug": "detectron2",
+    "description": "Meta's library for object detection and segmentation algorithms.",
+    "websiteUrl": "https://github.com/facebookresearch/detectron2",
+    "tags": [
+      "computer-vision",
+      "object-detection",
+      "segmentation",
+      "meta"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "OpenCV",
+    "slug": "opencv",
+    "description": "Open-source computer vision library with thousands of algorithms.",
+    "websiteUrl": "https://opencv.org",
+    "tags": [
+      "computer-vision",
+      "image-processing",
+      "open-source",
+      "c++"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Midjourney Niji",
+    "slug": "midjourney-niji",
+    "description": "Midjourney's anime and illustration-focused image generation model.",
+    "websiteUrl": "https://www.midjourney.com",
+    "tags": [
+      "image-generation",
+      "anime",
+      "illustration",
+      "ai-art"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Recraft",
+    "slug": "recraft",
+    "description": "AI design tool for generating and editing vector and raster graphics.",
+    "websiteUrl": "https://www.recraft.ai",
+    "tags": [
+      "image-generation",
+      "vector-graphics",
+      "design",
+      "ai-art"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Krea AI",
+    "slug": "krea-ai",
+    "description": "AI creative tool for real-time image generation and enhancement.",
+    "websiteUrl": "https://www.krea.ai",
+    "tags": [
+      "image-generation",
+      "real-time",
+      "creative",
+      "design"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Magnific AI",
+    "slug": "magnific-ai",
+    "description": "AI image upscaler and enhancer with creative reinterpretation features.",
+    "websiteUrl": "https://magnific.ai",
+    "tags": [
+      "image-editing",
+      "upscaling",
+      "enhancement",
+      "creative"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Runway ML",
+    "slug": "runway-ml",
+    "description": "Creative AI platform with tools for video, image, and 3D generation.",
+    "websiteUrl": "https://runwayml.com",
+    "tags": [
+      "creative-ai",
+      "video-generation",
+      "multi-modal",
+      "professional"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Captions",
+    "slug": "captions",
+    "description": "AI-powered video editing app with automatic captions and effects.",
+    "websiteUrl": "https://www.captions.ai",
+    "tags": [
+      "ai-video",
+      "captions",
+      "editing",
+      "mobile"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Opus Clip",
+    "slug": "opus-clip",
+    "description": "AI tool that repurposes long videos into short viral clips.",
+    "websiteUrl": "https://www.opus.pro",
+    "tags": [
+      "ai-video",
+      "video-clipping",
+      "social-media",
+      "automation"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Pictory",
+    "slug": "pictory",
+    "description": "AI video creation platform that turns text into engaging videos.",
+    "websiteUrl": "https://pictory.ai",
+    "tags": [
+      "ai-video",
+      "text-to-video",
+      "marketing",
+      "content"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Colossyan",
+    "slug": "colossyan",
+    "description": "AI video platform for creating training and learning content.",
+    "websiteUrl": "https://www.colossyan.com",
+    "tags": [
+      "ai-video",
+      "training",
+      "avatars",
+      "enterprise"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Deepgram",
+    "slug": "deepgram",
+    "description": "AI speech recognition API with fast and accurate transcription.",
+    "websiteUrl": "https://deepgram.com",
+    "tags": [
+      "ai-audio",
+      "speech-recognition",
+      "api",
+      "transcription"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Coqui TTS",
+    "slug": "coqui-tts",
+    "description": "Open-source deep learning toolkit for text-to-speech synthesis.",
+    "websiteUrl": "https://github.com/coqui-ai/TTS",
+    "tags": [
+      "ai-audio",
+      "text-to-speech",
+      "open-source",
+      "deep-learning"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Bark",
+    "slug": "bark",
+    "description": "Open-source text-to-speech model by Suno generating realistic audio.",
+    "websiteUrl": "https://github.com/suno-ai/bark",
+    "tags": [
+      "ai-audio",
+      "text-to-speech",
+      "open-source",
+      "suno"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Soundraw",
+    "slug": "soundraw",
+    "description": "AI music generator creating royalty-free background music for creators.",
+    "websiteUrl": "https://soundraw.io",
+    "tags": [
+      "ai-audio",
+      "music-generation",
+      "royalty-free",
+      "creator"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Scale AI",
+    "slug": "scale-ai",
+    "description": "Data labeling and AI infrastructure platform for enterprise ML.",
+    "websiteUrl": "https://scale.com",
+    "tags": [
+      "ml-platform",
+      "data-labeling",
+      "enterprise",
+      "infrastructure"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Snorkel AI",
+    "slug": "snorkel-ai",
+    "description": "Data-centric AI platform for programmatic data labeling.",
+    "websiteUrl": "https://snorkel.ai",
+    "tags": [
+      "ml-platform",
+      "data-labeling",
+      "enterprise",
+      "programmatic"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Cleanlab",
+    "slug": "cleanlab",
+    "description": "Open-source tool for finding and fixing errors in ML datasets.",
+    "websiteUrl": "https://cleanlab.ai",
+    "tags": [
+      "ml-platform",
+      "data-quality",
+      "open-source",
+      "cleaning"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Prompt Engineering Hub",
+    "slug": "prompthub",
+    "description": "Platform for managing, versioning, and collaborating on AI prompts.",
+    "websiteUrl": "https://www.prompthub.us",
+    "tags": [
+      "prompt-engineering",
+      "management",
+      "collaboration",
+      "versioning"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "PromptLayer",
+    "slug": "promptlayer",
+    "description": "Prompt management and observability platform for LLM applications.",
+    "websiteUrl": "https://promptlayer.com",
+    "tags": [
+      "prompt-engineering",
+      "observability",
+      "management",
+      "llm"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Instructor",
+    "slug": "instructor",
+    "description": "Python library for structured data extraction from LLM outputs.",
+    "websiteUrl": "https://python.useinstructor.com",
+    "tags": [
+      "llm-tools",
+      "structured-output",
+      "python",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Guidance",
+    "slug": "guidance",
+    "description": "Microsoft's library for controlling and constraining LLM generation.",
+    "websiteUrl": "https://github.com/guidance-ai/guidance",
+    "tags": [
+      "llm-tools",
+      "constrained-generation",
+      "microsoft",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "DSPy",
+    "slug": "dspy",
+    "description": "Framework for programming with foundation models using composable modules.",
+    "websiteUrl": "https://dspy-docs.vercel.app",
+    "tags": [
+      "llm-tools",
+      "framework",
+      "composable",
+      "stanford"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Outlines",
+    "slug": "outlines",
+    "description": "Python library for structured text generation with language models.",
+    "websiteUrl": "https://github.com/outlines-dev/outlines",
+    "tags": [
+      "llm-tools",
+      "structured-generation",
+      "python",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "txtai",
+    "slug": "txtai",
+    "description": "All-in-one embeddings database for semantic search and LLM workflows.",
+    "websiteUrl": "https://neuml.github.io/txtai/",
+    "tags": [
+      "embeddings",
+      "semantic-search",
+      "open-source",
+      "python"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Marqo",
+    "slug": "marqo",
+    "description": "End-to-end vector search engine with built-in model management.",
+    "websiteUrl": "https://www.marqo.ai",
+    "tags": [
+      "vector-database",
+      "search",
+      "open-source",
+      "multimodal"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Vespa",
+    "slug": "vespa",
+    "description": "Open-source big data serving engine with vector search capabilities.",
+    "websiteUrl": "https://vespa.ai",
+    "tags": [
+      "vector-database",
+      "big-data",
+      "search",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Clarifai",
+    "slug": "clarifai",
+    "description": "Full-stack AI platform for computer vision and NLP applications.",
+    "websiteUrl": "https://www.clarifai.com",
+    "tags": [
+      "ml-platform",
+      "computer-vision",
+      "nlp",
+      "enterprise"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Cohere Rerank",
+    "slug": "cohere-rerank",
+    "description": "Cohere's reranking model for improving search result relevance.",
+    "websiteUrl": "https://cohere.com/rerank",
+    "tags": [
+      "ai-api",
+      "search",
+      "reranking",
+      "cohere"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Voyage AI",
+    "slug": "voyage-ai",
+    "description": "Embedding models optimized for retrieval and code understanding.",
+    "websiteUrl": "https://www.voyageai.com",
+    "tags": [
+      "embeddings",
+      "retrieval",
+      "code",
+      "ai-api"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Nomic",
+    "slug": "nomic",
+    "description": "Open-source tools for embedding, visualizing, and exploring AI data.",
+    "websiteUrl": "https://www.nomic.ai",
+    "tags": [
+      "embeddings",
+      "visualization",
+      "open-source",
+      "data-exploration"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Meshy",
+    "slug": "meshy",
+    "description": "AI platform for generating 3D models and textures from text or images.",
+    "websiteUrl": "https://www.meshy.ai",
+    "tags": [
+      "3d-generation",
+      "text-to-3d",
+      "textures",
+      "creative"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Tripo",
+    "slug": "tripo",
+    "description": "AI tool for generating 3D models from text prompts or images.",
+    "websiteUrl": "https://www.tripo3d.ai",
+    "tags": [
+      "3d-generation",
+      "text-to-3d",
+      "modeling",
+      "ai"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Spline AI",
+    "slug": "spline-ai",
+    "description": "AI features in Spline for generating 3D scenes from text prompts.",
+    "websiteUrl": "https://spline.design",
+    "tags": [
+      "3d-generation",
+      "web-3d",
+      "design",
+      "text-to-3d"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Hugging Face Spaces",
+    "slug": "hugging-face-spaces",
+    "description": "Platform for hosting and sharing ML model demos and applications.",
+    "websiteUrl": "https://huggingface.co/spaces",
+    "tags": [
+      "ml-platform",
+      "hosting",
+      "demos",
+      "community"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Anthropic Claude Code",
+    "slug": "claude-code",
+    "description": "Anthropic's CLI tool for AI-assisted coding and development tasks.",
+    "websiteUrl": "https://claude.ai/code",
+    "tags": [
+      "ai-coding",
+      "cli",
+      "anthropic",
+      "developer-tools"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "GitHub Spark",
+    "slug": "github-spark",
+    "description": "GitHub's AI tool for building micro-apps with natural language.",
+    "websiteUrl": "https://githubnext.com/projects/github-spark",
+    "tags": [
+      "ai-coding",
+      "natural-language",
+      "micro-apps",
+      "github"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Cline",
+    "slug": "cline",
+    "description": "Autonomous AI coding agent for VS Code with tool-use capabilities.",
+    "websiteUrl": "https://github.com/cline/cline",
+    "tags": [
+      "ai-coding",
+      "vscode",
+      "autonomous",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Lovable",
+    "slug": "lovable",
+    "description": "AI-powered full-stack web application builder from natural language.",
+    "websiteUrl": "https://lovable.dev",
+    "tags": [
+      "ai-coding",
+      "web-builder",
+      "no-code",
+      "full-stack"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Galileo AI",
+    "slug": "galileo-ai",
+    "description": "AI tool for generating high-fidelity UI designs from text descriptions.",
+    "websiteUrl": "https://www.usegalileo.ai",
+    "tags": [
+      "ai-design",
+      "ui-generation",
+      "text-to-design",
+      "prototyping"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Uizard",
+    "slug": "uizard",
+    "description": "AI design tool for creating wireframes and prototypes from text.",
+    "websiteUrl": "https://uizard.io",
+    "tags": [
+      "ai-design",
+      "wireframes",
+      "prototyping",
+      "no-code"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Diagram",
+    "slug": "diagram",
+    "description": "AI-powered design tools for Figma including Magician plugin.",
+    "websiteUrl": "https://diagram.com",
+    "tags": [
+      "ai-design",
+      "figma",
+      "plugin",
+      "design-tools"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Framer AI",
+    "slug": "framer-ai",
+    "description": "AI features in Framer for generating website designs and content.",
+    "websiteUrl": "https://www.framer.com",
+    "tags": [
+      "ai-design",
+      "website-builder",
+      "no-code",
+      "design"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Figma AI",
+    "slug": "figma-ai",
+    "description": "AI features built into Figma for design suggestions and generation.",
+    "websiteUrl": "https://www.figma.com",
+    "tags": [
+      "ai-design",
+      "figma",
+      "design-tools",
+      "collaboration"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Recall AI",
+    "slug": "recall-ai",
+    "description": "API for extracting meeting data from video conferencing platforms.",
+    "websiteUrl": "https://www.recall.ai",
+    "tags": [
+      "ai-api",
+      "meetings",
+      "video-conferencing",
+      "extraction"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Bland AI",
+    "slug": "bland-ai",
+    "description": "AI phone calling platform for automating business phone interactions.",
+    "websiteUrl": "https://www.bland.ai",
+    "tags": [
+      "ai-voice",
+      "phone-calls",
+      "automation",
+      "business"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Vapi",
+    "slug": "vapi",
+    "description": "Platform for building and deploying AI voice agents and assistants.",
+    "websiteUrl": "https://vapi.ai",
+    "tags": [
+      "ai-voice",
+      "voice-agents",
+      "api",
+      "phone"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Retell AI",
+    "slug": "retell-ai",
+    "description": "API for building natural-sounding AI voice agents with low latency.",
+    "websiteUrl": "https://www.retellai.com",
+    "tags": [
+      "ai-voice",
+      "voice-agents",
+      "low-latency",
+      "api"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Mem",
+    "slug": "mem",
+    "description": "AI-powered note-taking and knowledge management for professionals.",
+    "websiteUrl": "https://mem.ai",
+    "tags": [
+      "ai-assistant",
+      "note-taking",
+      "knowledge-management",
+      "productivity"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Glean",
+    "slug": "glean",
+    "description": "Enterprise AI search platform connecting all workplace knowledge.",
+    "websiteUrl": "https://www.glean.com",
+    "tags": [
+      "ai-search",
+      "enterprise",
+      "knowledge-management",
+      "workplace"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Hebbia",
+    "slug": "hebbia",
+    "description": "AI platform for analyzing and extracting insights from documents.",
+    "websiteUrl": "https://www.hebbia.ai",
+    "tags": [
+      "ai-search",
+      "document-analysis",
+      "enterprise",
+      "knowledge"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Consensus",
+    "slug": "consensus",
+    "description": "AI search engine for finding and understanding scientific research papers.",
+    "websiteUrl": "https://consensus.app",
+    "tags": [
+      "ai-search",
+      "research",
+      "scientific-papers",
+      "academic"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Elicit",
+    "slug": "elicit",
+    "description": "AI research assistant for literature review and data extraction.",
+    "websiteUrl": "https://elicit.com",
+    "tags": [
+      "ai-search",
+      "research",
+      "literature-review",
+      "academic"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Cursor Tab",
+    "slug": "cursor-tab",
+    "description": "Cursor's inline AI code completion with multi-line suggestions.",
+    "websiteUrl": "https://cursor.sh",
+    "tags": [
+      "ai-coding",
+      "code-completion",
+      "inline",
+      "cursor"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Supermaven",
+    "slug": "supermaven",
+    "description": "Ultra-fast AI code completion with 300K token context window.",
+    "websiteUrl": "https://supermaven.com",
+    "tags": [
+      "ai-coding",
+      "code-completion",
+      "fast",
+      "large-context"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Pieces for Developers",
+    "slug": "pieces",
+    "description": "AI-powered code snippet manager and workflow assistant for developers.",
+    "websiteUrl": "https://pieces.app",
+    "tags": [
+      "ai-coding",
+      "code-snippets",
+      "workflow",
+      "developer-tools"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Warp AI",
+    "slug": "warp-ai",
+    "description": "AI features in Warp terminal for command suggestions and help.",
+    "websiteUrl": "https://www.warp.dev",
+    "tags": [
+      "ai-coding",
+      "terminal",
+      "command-line",
+      "assistance"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "ChatDev",
+    "slug": "chatdev",
+    "description": "Multi-agent framework simulating a software company with AI roles.",
+    "websiteUrl": "https://github.com/OpenBMB/ChatDev",
+    "tags": [
+      "ai-agents",
+      "multi-agent",
+      "software-development",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "MetaGPT",
+    "slug": "metagpt",
+    "description": "Multi-agent framework that turns requirements into full software projects.",
+    "websiteUrl": "https://github.com/geekan/MetaGPT",
+    "tags": [
+      "ai-agents",
+      "multi-agent",
+      "software-generation",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Open Interpreter",
+    "slug": "open-interpreter",
+    "description": "Open-source code interpreter running language models on your computer.",
+    "websiteUrl": "https://openinterpreter.com",
+    "tags": [
+      "ai-agents",
+      "code-interpreter",
+      "local",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Claude Artifacts",
+    "slug": "claude-artifacts",
+    "description": "Interactive content generation feature in Claude for code and previews.",
+    "websiteUrl": "https://claude.ai",
+    "tags": [
+      "ai-assistant",
+      "code-preview",
+      "interactive",
+      "anthropic"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Gemini Nano",
+    "slug": "gemini-nano",
+    "description": "Google's smallest Gemini model for on-device AI applications.",
+    "websiteUrl": "https://deepmind.google/technologies/gemini/nano/",
+    "tags": [
+      "llm",
+      "on-device",
+      "small-model",
+      "google"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "StabilityAI Stable Audio",
+    "slug": "stable-audio",
+    "description": "AI model for generating music and sound effects from text prompts.",
+    "websiteUrl": "https://www.stableaudio.com",
+    "tags": [
+      "ai-audio",
+      "music-generation",
+      "sound-effects",
+      "stability-ai"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Piper",
+    "slug": "piper-tts",
+    "description": "Fast local neural text-to-speech engine for voice assistant integration.",
+    "websiteUrl": "https://github.com/rhasspy/piper",
+    "tags": [
+      "ai-audio",
+      "text-to-speech",
+      "local",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Taskade AI",
+    "slug": "taskade-ai",
+    "description": "AI-powered project management with agents, chat, and automation.",
+    "websiteUrl": "https://www.taskade.com",
+    "tags": [
+      "ai-assistant",
+      "project-management",
+      "automation",
+      "collaboration"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Rows AI",
+    "slug": "rows-ai",
+    "description": "AI-powered spreadsheet tool for data analysis and visualization.",
+    "websiteUrl": "https://rows.com",
+    "tags": [
+      "ai-assistant",
+      "spreadsheet",
+      "data-analysis",
+      "automation"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Julius AI",
+    "slug": "julius-ai",
+    "description": "AI data analyst that interprets data and creates visualizations.",
+    "websiteUrl": "https://julius.ai",
+    "tags": [
+      "ai-assistant",
+      "data-analysis",
+      "visualization",
+      "chat"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Hugging Chat",
+    "slug": "hugging-chat",
+    "description": "Open-source chat interface powered by community language models.",
+    "websiteUrl": "https://huggingface.co/chat",
+    "tags": [
+      "ai-assistant",
+      "open-source",
+      "chatbot",
+      "hugging-face"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "SambaNova",
+    "slug": "sambanova",
+    "description": "Enterprise AI platform with custom hardware for fast model inference.",
+    "websiteUrl": "https://sambanova.ai",
+    "tags": [
+      "ai-api",
+      "enterprise",
+      "hardware",
+      "inference"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Cerebras",
+    "slug": "cerebras",
+    "description": "AI compute company with wafer-scale chip for ultra-fast inference.",
+    "websiteUrl": "https://www.cerebras.net",
+    "tags": [
+      "ai-api",
+      "hardware",
+      "inference",
+      "compute"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "AI21 Labs Jamba",
+    "slug": "ai21-jamba",
+    "description": "AI21's hybrid SSM-Transformer model for enterprise text applications.",
+    "websiteUrl": "https://www.ai21.com",
+    "tags": [
+      "llm",
+      "enterprise",
+      "text-generation",
+      "ai21"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Reka",
+    "slug": "reka",
+    "description": "Multimodal AI models for understanding text, images, video, and audio.",
+    "websiteUrl": "https://www.reka.ai",
+    "tags": [
+      "llm",
+      "multimodal",
+      "ai-model",
+      "enterprise"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Aleph Alpha",
+    "slug": "aleph-alpha",
+    "description": "European sovereign AI platform with multilingual language models.",
+    "websiteUrl": "https://aleph-alpha.com",
+    "tags": [
+      "llm",
+      "enterprise",
+      "european",
+      "sovereign-ai"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "StableLM",
+    "slug": "stablelm",
+    "description": "Stability AI's open-source language model family for text generation.",
+    "websiteUrl": "https://stability.ai",
+    "tags": [
+      "llm",
+      "open-source",
+      "text-generation",
+      "stability-ai"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Command R",
+    "slug": "command-r",
+    "description": "Cohere's efficient model optimized for retrieval-augmented generation.",
+    "websiteUrl": "https://cohere.com",
+    "tags": [
+      "llm",
+      "rag",
+      "retrieval",
+      "cohere"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Perplexity API",
+    "slug": "perplexity-api",
+    "description": "API access to Perplexity's search-augmented language models.",
+    "websiteUrl": "https://docs.perplexity.ai",
+    "tags": [
+      "ai-api",
+      "search",
+      "llm",
+      "perplexity"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Claude MCP",
+    "slug": "claude-mcp",
+    "description": "Anthropic's Model Context Protocol for connecting AI to external tools.",
+    "websiteUrl": "https://modelcontextprotocol.io",
+    "tags": [
+      "ai-protocol",
+      "tool-use",
+      "anthropic",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Cohere Aya",
+    "slug": "cohere-aya",
+    "description": "Multilingual open-source model supporting over 100 languages.",
+    "websiteUrl": "https://cohere.com",
+    "tags": [
+      "llm",
+      "multilingual",
+      "open-source",
+      "cohere"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Mistral Small",
+    "slug": "mistral-small",
+    "description": "Mistral's compact model optimized for low-latency text generation.",
+    "websiteUrl": "https://mistral.ai",
+    "tags": [
+      "llm",
+      "compact",
+      "low-latency",
+      "mistral"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Codestral",
+    "slug": "codestral",
+    "description": "Mistral's dedicated coding model for code generation and completion.",
+    "websiteUrl": "https://mistral.ai",
+    "tags": [
+      "ai-coding",
+      "code-generation",
+      "mistral",
+      "llm"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Gemini Flash",
+    "slug": "gemini-flash",
+    "description": "Google's fastest Gemini model optimized for speed and efficiency.",
+    "websiteUrl": "https://deepmind.google/technologies/gemini/",
+    "tags": [
+      "llm",
+      "fast",
+      "efficient",
+      "google"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Stability AI SDXL Turbo",
+    "slug": "sdxl-turbo",
+    "description": "Real-time image generation model with single-step diffusion.",
+    "websiteUrl": "https://stability.ai",
+    "tags": [
+      "image-generation",
+      "real-time",
+      "fast",
+      "stability-ai"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Midjourney Alpha",
+    "slug": "midjourney-alpha",
+    "description": "Midjourney's web-based image generation interface with new features.",
+    "websiteUrl": "https://www.midjourney.com",
+    "tags": [
+      "image-generation",
+      "web-app",
+      "ai-art",
+      "creative"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Rive AI",
+    "slug": "rive-ai",
+    "description": "AI-powered interactive animation tool for web and app experiences.",
+    "websiteUrl": "https://rive.app",
+    "tags": [
+      "animation",
+      "interactive",
+      "ai",
+      "design"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Adobe Podcast",
+    "slug": "adobe-podcast",
+    "description": "AI-powered audio recording and editing tool with voice enhancement.",
+    "websiteUrl": "https://podcast.adobe.com",
+    "tags": [
+      "ai-audio",
+      "podcast",
+      "voice-enhancement",
+      "adobe"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Riverside AI",
+    "slug": "riverside-ai",
+    "description": "AI-powered podcast and video recording with transcription features.",
+    "websiteUrl": "https://riverside.fm",
+    "tags": [
+      "ai-audio",
+      "podcast",
+      "recording",
+      "transcription"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Koala AI",
+    "slug": "koala-ai",
+    "description": "AI writing tool specializing in SEO-optimized blog content.",
+    "websiteUrl": "https://koala.sh",
+    "tags": [
+      "ai-writing",
+      "seo",
+      "blog",
+      "content"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Surfer SEO",
+    "slug": "surfer-seo",
+    "description": "AI-powered SEO content optimization and planning tool.",
+    "websiteUrl": "https://surferseo.com",
+    "tags": [
+      "ai-writing",
+      "seo",
+      "optimization",
+      "content"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Typeface",
+    "slug": "typeface",
+    "description": "Enterprise generative AI platform for branded content creation.",
+    "websiteUrl": "https://www.typeface.ai",
+    "tags": [
+      "ai-writing",
+      "enterprise",
+      "branded-content",
+      "generation"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Luma Dream Machine",
+    "slug": "luma-dream-machine",
+    "description": "AI video generation model for creating realistic video from text.",
+    "websiteUrl": "https://lumalabs.ai/dream-machine",
+    "tags": [
+      "video-generation",
+      "text-to-video",
+      "realistic",
+      "ai"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Domo AI",
+    "slug": "domo-ai",
+    "description": "AI tool for converting videos into different animation styles.",
+    "websiteUrl": "https://domoai.app",
+    "tags": [
+      "ai-video",
+      "animation",
+      "style-transfer",
+      "creative"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Gamma AI",
+    "slug": "gamma-ai-presentations",
+    "description": "AI-powered tool for creating beautiful presentations and documents.",
+    "websiteUrl": "https://gamma.app",
+    "tags": [
+      "ai-presentation",
+      "documents",
+      "design",
+      "automation"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Napkin AI",
+    "slug": "napkin-ai",
+    "description": "AI tool that turns text into professional visual diagrams.",
+    "websiteUrl": "https://www.napkin.ai",
+    "tags": [
+      "ai-design",
+      "diagrams",
+      "text-to-visual",
+      "business"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Luma Genie",
+    "slug": "luma-genie",
+    "description": "AI model for generating 3D objects from text descriptions.",
+    "websiteUrl": "https://lumalabs.ai/genie",
+    "tags": [
+      "3d-generation",
+      "text-to-3d",
+      "ai",
+      "objects"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "StabilityAI Stable Video",
+    "slug": "stable-video",
+    "description": "Stability AI's open model for generating videos from images.",
+    "websiteUrl": "https://stability.ai",
+    "tags": [
+      "video-generation",
+      "image-to-video",
+      "open-source",
+      "stability-ai"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Arize AI",
+    "slug": "arize-ai",
+    "description": "ML observability platform for monitoring model performance in production.",
+    "websiteUrl": "https://arize.com",
+    "tags": [
+      "ml-platform",
+      "observability",
+      "monitoring",
+      "production"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Evidently AI",
+    "slug": "evidently-ai",
+    "description": "Open-source ML monitoring framework for data and model quality.",
+    "websiteUrl": "https://www.evidentlyai.com",
+    "tags": [
+      "ml-platform",
+      "monitoring",
+      "open-source",
+      "data-quality"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Determined AI",
+    "slug": "determined-ai",
+    "description": "Open-source deep learning training platform with distributed computing.",
+    "websiteUrl": "https://www.determined.ai",
+    "tags": [
+      "ml-platform",
+      "training",
+      "distributed",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Comet Opik",
+    "slug": "comet-opik",
+    "description": "Open-source platform for evaluating and testing LLM applications.",
+    "websiteUrl": "https://www.comet.com/site/products/opik/",
+    "tags": [
+      "llm-observability",
+      "evaluation",
+      "testing",
+      "open-source"
+    ],
+    "primaryCategory": "ai",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Mistral Le Chat",
+    "slug": "mistral-le-chat",
+    "description": "Mistral's conversational AI assistant web application.",
+    "websiteUrl": "https://chat.mistral.ai",
+    "tags": [
+      "ai-assistant",
+      "chatbot",
+      "mistral",
+      "conversational"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Tencent Hunyuan",
+    "slug": "tencent-hunyuan",
+    "description": "Tencent's large language model for enterprise and consumer applications.",
+    "websiteUrl": "https://hunyuan.tencent.com",
+    "tags": [
+      "llm",
+      "enterprise",
+      "tencent",
+      "chinese"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Baidu ERNIE Bot",
+    "slug": "ernie-bot",
+    "description": "Baidu's AI chatbot powered by the ERNIE large language model.",
+    "websiteUrl": "https://yiyan.baidu.com",
+    "tags": [
+      "ai-assistant",
+      "chatbot",
+      "baidu",
+      "chinese"
+    ],
+    "primaryCategory": "ai",
+    "type": "saas",
+    "baselineScore": 7.0
+  }
+]

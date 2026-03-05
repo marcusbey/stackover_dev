@@ -1,0 +1,883 @@
+[
+  {
+    "name": "Stripe",
+    "slug": "stripe",
+    "description": "Complete payment processing platform for internet businesses with extensive APIs.",
+    "websiteUrl": "https://stripe.com",
+    "tags": [
+      "payment-processing",
+      "api",
+      "subscriptions",
+      "invoicing"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 9.4
+  },
+  {
+    "name": "PayPal",
+    "slug": "paypal",
+    "description": "Global online payment system supporting personal and business transactions worldwide.",
+    "websiteUrl": "https://www.paypal.com",
+    "tags": [
+      "payment-processing",
+      "checkout",
+      "invoicing"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Square",
+    "slug": "square",
+    "description": "Payment and point-of-sale platform designed for seamless in-person and online commerce.",
+    "websiteUrl": "https://squareup.com",
+    "tags": [
+      "pos",
+      "payment-processing",
+      "invoicing",
+      "hardware"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Adyen",
+    "slug": "adyen",
+    "description": "Enterprise payment platform offering unified commerce across online, mobile, and POS.",
+    "websiteUrl": "https://www.adyen.com",
+    "tags": [
+      "payment-processing",
+      "enterprise",
+      "pos",
+      "global"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Braintree",
+    "slug": "braintree",
+    "description": "PayPal-owned payment gateway that supports cards, PayPal, Venmo, and digital wallets.",
+    "websiteUrl": "https://www.braintreepayments.com",
+    "tags": [
+      "payment-processing",
+      "gateway",
+      "mobile-payments"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Paddle",
+    "slug": "paddle",
+    "description": "Merchant of record platform handling payments, taxes, and subscriptions for SaaS.",
+    "websiteUrl": "https://www.paddle.com",
+    "tags": [
+      "merchant-of-record",
+      "subscriptions",
+      "tax-compliance",
+      "saas"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "LemonSqueezy",
+    "slug": "lemonsqueezy",
+    "description": "All-in-one merchant of record for selling digital products and subscriptions.",
+    "websiteUrl": "https://www.lemonsqueezy.com",
+    "tags": [
+      "merchant-of-record",
+      "digital-products",
+      "subscriptions"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Chargebee",
+    "slug": "chargebee",
+    "description": "Subscription billing and revenue management platform for recurring business models.",
+    "websiteUrl": "https://www.chargebee.com",
+    "tags": [
+      "subscriptions",
+      "billing",
+      "revenue-management",
+      "dunning"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Recurly",
+    "slug": "recurly",
+    "description": "Subscription management and recurring billing platform for businesses with revenue recovery.",
+    "websiteUrl": "https://recurly.com",
+    "tags": [
+      "subscriptions",
+      "billing",
+      "dunning",
+      "revenue-recovery"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Stripe Billing",
+    "slug": "stripe-billing",
+    "description": "Stripe's powerful built-in subscription and invoicing engine for managing recurring payments.",
+    "websiteUrl": "https://stripe.com/billing",
+    "tags": [
+      "subscriptions",
+      "invoicing",
+      "billing",
+      "api"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "FreshBooks",
+    "slug": "freshbooks",
+    "description": "Cloud accounting and invoicing software designed for small businesses and freelancers.",
+    "websiteUrl": "https://www.freshbooks.com",
+    "tags": [
+      "invoicing",
+      "accounting",
+      "small-business",
+      "expenses"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Wave",
+    "slug": "wave-financial",
+    "description": "Free invoicing and accounting software for small businesses and entrepreneurs.",
+    "websiteUrl": "https://www.waveapps.com",
+    "tags": [
+      "invoicing",
+      "accounting",
+      "free",
+      "small-business"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Zoho Invoice",
+    "slug": "zoho-invoice",
+    "description": "Online invoicing solution with automated payment reminders and time tracking.",
+    "websiteUrl": "https://www.zoho.com/invoice/",
+    "tags": [
+      "invoicing",
+      "automation",
+      "time-tracking"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Coinbase Commerce",
+    "slug": "coinbase-commerce",
+    "description": "Cryptocurrency payment gateway enabling merchants to accept Bitcoin and altcoins.",
+    "websiteUrl": "https://commerce.coinbase.com",
+    "tags": [
+      "crypto-payments",
+      "bitcoin",
+      "blockchain",
+      "checkout"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "BitPay",
+    "slug": "bitpay",
+    "description": "Bitcoin and cryptocurrency payment processing service designed for businesses and merchants.",
+    "websiteUrl": "https://bitpay.com",
+    "tags": [
+      "crypto-payments",
+      "bitcoin",
+      "invoicing"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Klarna",
+    "slug": "klarna",
+    "description": "Buy now pay later platform offering flexible payment options at checkout.",
+    "websiteUrl": "https://www.klarna.com",
+    "tags": [
+      "bnpl",
+      "checkout",
+      "consumer-finance",
+      "installments"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Affirm",
+    "slug": "affirm",
+    "description": "Buy now pay later solution providing transparent installment payment plans.",
+    "websiteUrl": "https://www.affirm.com",
+    "tags": [
+      "bnpl",
+      "installments",
+      "consumer-finance"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Afterpay",
+    "slug": "afterpay",
+    "description": "Interest-free installment payment service allowing consumers to split purchases into four payments.",
+    "websiteUrl": "https://www.afterpay.com",
+    "tags": [
+      "bnpl",
+      "installments",
+      "checkout"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Sift",
+    "slug": "sift",
+    "description": "Digital fraud prevention platform using machine learning to detect payment fraud.",
+    "websiteUrl": "https://sift.com",
+    "tags": [
+      "fraud-prevention",
+      "machine-learning",
+      "risk-management"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Riskified",
+    "slug": "riskified",
+    "description": "AI-powered fraud management platform that guarantees chargeback protection for merchants.",
+    "websiteUrl": "https://www.riskified.com",
+    "tags": [
+      "fraud-prevention",
+      "ai",
+      "chargeback-protection"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "TaxJar",
+    "slug": "taxjar",
+    "description": "Automated sales tax calculation, reporting, and filing for e-commerce businesses.",
+    "websiteUrl": "https://www.taxjar.com",
+    "tags": [
+      "tax-compliance",
+      "sales-tax",
+      "automation",
+      "ecommerce"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Avalara",
+    "slug": "avalara",
+    "description": "Cloud-based platform automating tax compliance for transaction taxes across global jurisdictions.",
+    "websiteUrl": "https://www.avalara.com",
+    "tags": [
+      "tax-compliance",
+      "automation",
+      "enterprise",
+      "global"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "GoCardless",
+    "slug": "gocardless",
+    "description": "Direct debit and bank payment collection platform for recurring payments.",
+    "websiteUrl": "https://gocardless.com",
+    "tags": [
+      "direct-debit",
+      "bank-payments",
+      "recurring",
+      "api"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Mollie",
+    "slug": "mollie",
+    "description": "European payment service provider with simple API and local payment methods.",
+    "websiteUrl": "https://www.mollie.com",
+    "tags": [
+      "payment-processing",
+      "europe",
+      "api",
+      "local-payments"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Razorpay",
+    "slug": "razorpay",
+    "description": "Indian payment gateway supporting cards, UPI, wallets, and banking for businesses.",
+    "websiteUrl": "https://razorpay.com",
+    "tags": [
+      "payment-processing",
+      "india",
+      "upi",
+      "api"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Paystack",
+    "slug": "paystack",
+    "description": "African payment infrastructure enabling businesses to accept payments across Africa.",
+    "websiteUrl": "https://paystack.com",
+    "tags": [
+      "payment-processing",
+      "africa",
+      "api",
+      "mobile-money"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Flutterwave",
+    "slug": "flutterwave",
+    "description": "Payment technology company providing seamless and reliable payment solutions across Africa.",
+    "websiteUrl": "https://flutterwave.com",
+    "tags": [
+      "payment-processing",
+      "africa",
+      "api",
+      "cross-border"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Wise Business",
+    "slug": "wise-business",
+    "description": "International money transfer and multi-currency account platform built for global businesses.",
+    "websiteUrl": "https://wise.com/business/",
+    "tags": [
+      "international-payments",
+      "multi-currency",
+      "transfers"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Checkout.com",
+    "slug": "checkout-com",
+    "description": "Enterprise payment processing platform with global acquiring and risk management.",
+    "websiteUrl": "https://www.checkout.com",
+    "tags": [
+      "payment-processing",
+      "enterprise",
+      "acquiring",
+      "api"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "2Checkout (Verifone)",
+    "slug": "2checkout",
+    "description": "Global payment platform and merchant of record for digital commerce.",
+    "websiteUrl": "https://www.2checkout.com",
+    "tags": [
+      "merchant-of-record",
+      "global",
+      "digital-commerce"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "FastSpring",
+    "slug": "fastspring",
+    "description": "Full-service ecommerce platform and merchant of record for software companies.",
+    "websiteUrl": "https://fastspring.com",
+    "tags": [
+      "merchant-of-record",
+      "software",
+      "subscriptions",
+      "global"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Gumroad",
+    "slug": "gumroad",
+    "description": "Simple platform for creators to sell digital products and memberships directly.",
+    "websiteUrl": "https://gumroad.com",
+    "tags": [
+      "digital-products",
+      "creator-economy",
+      "checkout"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Plaid",
+    "slug": "plaid",
+    "description": "Financial infrastructure API that securely connects applications with users' bank accounts.",
+    "websiteUrl": "https://plaid.com",
+    "tags": [
+      "banking-api",
+      "fintech",
+      "account-linking",
+      "verification"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Dwolla",
+    "slug": "dwolla",
+    "description": "ACH payment API enabling businesses to facilitate bank transfers programmatically.",
+    "websiteUrl": "https://www.dwolla.com",
+    "tags": [
+      "ach",
+      "bank-transfers",
+      "api",
+      "fintech"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Authorize.Net",
+    "slug": "authorize-net",
+    "description": "Long-established payment gateway for accepting credit cards and e-checks online.",
+    "websiteUrl": "https://www.authorize.net",
+    "tags": [
+      "payment-gateway",
+      "credit-cards",
+      "e-checks"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Worldpay",
+    "slug": "worldpay",
+    "description": "Global payment processing company that serves merchants across multiple sales channels.",
+    "websiteUrl": "https://www.worldpay.com",
+    "tags": [
+      "payment-processing",
+      "enterprise",
+      "global",
+      "pos"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Clover",
+    "slug": "clover",
+    "description": "Point-of-sale system with hardware and software for small business payments.",
+    "websiteUrl": "https://www.clover.com",
+    "tags": [
+      "pos",
+      "hardware",
+      "small-business",
+      "payment-processing"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Toast",
+    "slug": "toast-pos",
+    "description": "Restaurant-focused point-of-sale and management platform with fully integrated payment processing.",
+    "websiteUrl": "https://pos.toasttab.com",
+    "tags": [
+      "pos",
+      "restaurant",
+      "payment-processing",
+      "management"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Lightspeed",
+    "slug": "lightspeed",
+    "description": "Commerce platform combining POS, ecommerce, and payment processing for retailers.",
+    "websiteUrl": "https://www.lightspeedhq.com",
+    "tags": [
+      "pos",
+      "ecommerce",
+      "retail",
+      "payment-processing"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Zuora",
+    "slug": "zuora",
+    "description": "Enterprise subscription management platform handling billing, revenue recognition, and payments.",
+    "websiteUrl": "https://www.zuora.com",
+    "tags": [
+      "subscriptions",
+      "enterprise",
+      "billing",
+      "revenue-recognition"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Bill.com",
+    "slug": "bill-com",
+    "description": "Accounts payable and receivable automation platform that simplifies business payment workflows.",
+    "websiteUrl": "https://www.bill.com",
+    "tags": [
+      "accounts-payable",
+      "accounts-receivable",
+      "automation",
+      "invoicing"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Melio",
+    "slug": "melio",
+    "description": "Business payment platform that simplifies accounts payable management for small businesses.",
+    "websiteUrl": "https://meliopayments.com",
+    "tags": [
+      "accounts-payable",
+      "small-business",
+      "vendor-payments"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Helcim",
+    "slug": "helcim",
+    "description": "Transparent payment processing with interchange-plus pricing and no monthly fees.",
+    "websiteUrl": "https://www.helcim.com",
+    "tags": [
+      "payment-processing",
+      "transparent-pricing",
+      "pos",
+      "api"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Payoneer",
+    "slug": "payoneer",
+    "description": "Cross-border payment platform serving freelancers, marketplaces, and global businesses worldwide.",
+    "websiteUrl": "https://www.payoneer.com",
+    "tags": [
+      "cross-border",
+      "freelancers",
+      "marketplace-payments"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Tipalti",
+    "slug": "tipalti",
+    "description": "Global payables automation platform for mass payments and supplier management.",
+    "websiteUrl": "https://tipalti.com",
+    "tags": [
+      "accounts-payable",
+      "mass-payments",
+      "automation",
+      "compliance"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Marqeta",
+    "slug": "marqeta",
+    "description": "Modern card issuing platform for creating and managing payment card programs.",
+    "websiteUrl": "https://www.marqeta.com",
+    "tags": [
+      "card-issuing",
+      "fintech",
+      "api",
+      "virtual-cards"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Rapyd",
+    "slug": "rapyd",
+    "description": "Fintech-as-a-service platform offering global payments, payouts, and embedded financial tools.",
+    "websiteUrl": "https://www.rapyd.net",
+    "tags": [
+      "fintech",
+      "global",
+      "payouts",
+      "api"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Sezzle",
+    "slug": "sezzle",
+    "description": "Buy now pay later platform splitting purchases into four interest-free payments.",
+    "websiteUrl": "https://sezzle.com",
+    "tags": [
+      "bnpl",
+      "installments",
+      "checkout"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 6.9
+  },
+  {
+    "name": "Zip (QuadPay)",
+    "slug": "zip-pay",
+    "description": "Buy now pay later service offering flexible installment payment options.",
+    "websiteUrl": "https://zip.co",
+    "tags": [
+      "bnpl",
+      "installments",
+      "consumer-finance"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Bolt",
+    "slug": "bolt-checkout",
+    "description": "One-click checkout platform designed to increase conversion rates for merchants.",
+    "websiteUrl": "https://www.bolt.com",
+    "tags": [
+      "checkout",
+      "conversion",
+      "one-click",
+      "ecommerce"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Stripe Connect",
+    "slug": "stripe-connect",
+    "description": "Marketplace and platform payment solution for splitting payments between parties.",
+    "websiteUrl": "https://stripe.com/connect",
+    "tags": [
+      "marketplace-payments",
+      "platform",
+      "split-payments",
+      "api"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 9.1
+  },
+  {
+    "name": "PayPal Commerce Platform",
+    "slug": "paypal-commerce-platform",
+    "description": "PayPal's marketplace solution for platforms that manage complex multi-party payment flows.",
+    "websiteUrl": "https://www.paypal.com/us/business/platforms-and-marketplaces",
+    "tags": [
+      "marketplace-payments",
+      "platform",
+      "global"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Finix",
+    "slug": "finix",
+    "description": "Payment infrastructure platform enabling companies to become their own payment facilitator.",
+    "websiteUrl": "https://www.finix.com",
+    "tags": [
+      "payment-facilitation",
+      "api",
+      "fintech",
+      "infrastructure"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Spreedly",
+    "slug": "spreedly",
+    "description": "Payment orchestration platform connecting to multiple gateways through one API.",
+    "websiteUrl": "https://www.spreedly.com",
+    "tags": [
+      "payment-orchestration",
+      "gateway",
+      "api",
+      "vault"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Brex",
+    "slug": "brex",
+    "description": "Corporate card and spend management platform for startups and growing companies.",
+    "websiteUrl": "https://www.brex.com",
+    "tags": [
+      "corporate-cards",
+      "expense-management",
+      "fintech"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Ramp",
+    "slug": "ramp",
+    "description": "Corporate card and finance automation platform focused on saving companies money.",
+    "websiteUrl": "https://ramp.com",
+    "tags": [
+      "corporate-cards",
+      "expense-management",
+      "automation",
+      "fintech"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Mercury",
+    "slug": "mercury",
+    "description": "Banking and financial services platform built for startups and tech companies.",
+    "websiteUrl": "https://mercury.com",
+    "tags": [
+      "banking",
+      "fintech",
+      "startups",
+      "treasury"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Stripe Tax",
+    "slug": "stripe-tax",
+    "description": "Automated tax calculation and collection integrated into Stripe payment flows.",
+    "websiteUrl": "https://stripe.com/tax",
+    "tags": [
+      "tax-compliance",
+      "automation",
+      "sales-tax",
+      "vat"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Lago",
+    "slug": "lago",
+    "description": "Open-source metering and usage-based billing platform built for product-led SaaS companies.",
+    "websiteUrl": "https://www.getlago.com",
+    "tags": [
+      "billing",
+      "usage-based",
+      "open-source",
+      "metering"
+    ],
+    "primaryCategory": "payments",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Stigg",
+    "slug": "stigg",
+    "description": "Pricing and packaging infrastructure for SaaS companies managing monetization and entitlements.",
+    "websiteUrl": "https://www.stigg.io",
+    "tags": [
+      "pricing",
+      "monetization",
+      "entitlements",
+      "saas"
+    ],
+    "primaryCategory": "payments",
+    "type": "saas",
+    "baselineScore": 7.1
+  }
+]

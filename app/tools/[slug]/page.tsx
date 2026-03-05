@@ -3,6 +3,7 @@ import { fetchQuery, preloadQuery } from "convex/nextjs";
 import { api } from "@/convex/_generated/api";
 import { ToolProfileContent } from "./tool-profile-content";
 import { notFound } from "next/navigation";
+import { SITE_URL, SITE_NAME } from "@/lib/site-config";
 
 interface ToolPageProps {
   params: Promise<{ slug: string }>;
@@ -19,7 +20,7 @@ export async function generateMetadata({
   }
 
   const title = `${tool.name} — Reviews, Pricing & Alternatives`;
-  const description = `${tool.description} See ratings, pros & cons, and top alternatives on stackover.dev.`;
+  const description = `${tool.description} See ratings, pros & cons, and top alternatives on ${SITE_NAME}.`;
 
   return {
     title,
@@ -27,7 +28,7 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: `https://stackover.dev/tools/${slug}`,
+      url: `${SITE_URL}/tools/${slug}`,
       type: "website",
     },
     twitter: {
@@ -36,7 +37,7 @@ export async function generateMetadata({
       description,
     },
     alternates: {
-      canonical: `https://stackover.dev/tools/${slug}`,
+      canonical: `${SITE_URL}/tools/${slug}`,
     },
   };
 }
@@ -88,19 +89,19 @@ export default async function ToolProfilePage({ params }: ToolPageProps) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://stackover.dev",
+        item: SITE_URL,
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Tools",
-        item: "https://stackover.dev/tools",
+        item: `${SITE_URL}/tools`,
       },
       {
         "@type": "ListItem",
         position: 3,
         name: tool.name,
-        item: `https://stackover.dev/tools/${slug}`,
+        item: `${SITE_URL}/tools/${slug}`,
       },
     ],
   };

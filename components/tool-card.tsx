@@ -8,6 +8,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { getLogoUrl } from "@/lib/logos";
 import { useState } from "react";
+import { ActivitySparkline } from "@/components/activity-sparkline";
+import { AlivenessBadge } from "@/components/aliveness-badge";
 
 interface ToolCardProps {
   tool: {
@@ -22,6 +24,8 @@ interface ToolCardProps {
     finalScore?: number;
     voteCount?: number;
     tags?: string[];
+    alivenessScore?: number;
+    activityData?: number[];
   };
   filterNodeId?: Id<"filterNodes">;
 }
@@ -62,6 +66,7 @@ export function ToolCard({ tool, filterNodeId }: ToolCardProps) {
                   <Badge variant="outline" className="text-[10px] px-1.5 py-0">
                     {tool.type}
                   </Badge>
+                  <AlivenessBadge score={tool.alivenessScore} showLabel={false} />
                 </div>
                 <p className="text-xs text-muted-foreground line-clamp-2">
                   {tool.description}
@@ -76,6 +81,15 @@ export function ToolCard({ tool, filterNodeId }: ToolCardProps) {
                         {tag}
                       </span>
                     ))}
+                  </div>
+                )}
+                {tool.activityData && tool.activityData.length > 0 && (
+                  <div className="mt-2">
+                    <ActivitySparkline
+                      data={tool.activityData}
+                      alivenessScore={tool.alivenessScore}
+                      height={20}
+                    />
                   </div>
                 )}
               </div>

@@ -1,0 +1,1192 @@
+[
+  {
+    "name": "Jira",
+    "slug": "jira",
+    "description": "Issue and project tracking software for agile development teams by Atlassian.",
+    "websiteUrl": "https://atlassian.com/software/jira",
+    "tags": ["project-management", "issue-tracking", "agile", "atlassian"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Linear",
+    "slug": "linear",
+    "description": "Fast, streamlined issue tracking tool designed for modern software development teams.",
+    "websiteUrl": "https://linear.app",
+    "tags": ["project-management", "issue-tracking", "agile", "modern"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "Asana",
+    "slug": "asana",
+    "description": "Work management platform for teams to organize projects, tasks, and workflows.",
+    "websiteUrl": "https://asana.com",
+    "tags": ["project-management", "task-management", "workflows", "collaboration"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Trello",
+    "slug": "trello",
+    "description": "Visual project management tool using Kanban boards, lists, and cards.",
+    "websiteUrl": "https://trello.com",
+    "tags": ["project-management", "kanban", "visual", "simple"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "ClickUp",
+    "slug": "clickup",
+    "description": "All-in-one productivity platform with tasks, docs, goals, and time tracking.",
+    "websiteUrl": "https://clickup.com",
+    "tags": ["project-management", "productivity", "all-in-one", "tasks"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Monday.com",
+    "slug": "monday-com",
+    "description": "Work operating system for teams to manage projects, processes, and daily work.",
+    "websiteUrl": "https://monday.com",
+    "tags": ["project-management", "work-os", "customizable", "automation"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Height",
+    "slug": "height",
+    "description": "Autonomous project management tool with AI-powered task creation and organization.",
+    "websiteUrl": "https://height.app",
+    "tags": ["project-management", "ai", "autonomous", "modern"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Shortcut",
+    "slug": "shortcut",
+    "description": "Project management platform for software teams with stories, epics, and iterations.",
+    "websiteUrl": "https://shortcut.com",
+    "tags": ["project-management", "software-teams", "agile", "stories"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Basecamp",
+    "slug": "basecamp",
+    "description": "Simple project management and team communication tool with opinionated workflows.",
+    "websiteUrl": "https://basecamp.com",
+    "tags": ["project-management", "communication", "simple", "opinionated"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Wrike",
+    "slug": "wrike",
+    "description": "Enterprise work management platform for cross-functional project collaboration.",
+    "websiteUrl": "https://wrike.com",
+    "tags": ["project-management", "enterprise", "cross-functional", "workflows"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Smartsheet",
+    "slug": "smartsheet",
+    "description": "Dynamic work platform for managing projects and portfolios in a spreadsheet interface.",
+    "websiteUrl": "https://smartsheet.com",
+    "tags": ["project-management", "spreadsheet", "portfolio", "enterprise"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Teamwork",
+    "slug": "teamwork",
+    "description": "Project management software for client work with time tracking and billing.",
+    "websiteUrl": "https://teamwork.com",
+    "tags": ["project-management", "client-work", "time-tracking", "billing"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Todoist",
+    "slug": "todoist",
+    "description": "Task management app for organizing personal and team to-do lists and projects.",
+    "websiteUrl": "https://todoist.com",
+    "tags": ["task-management", "to-do", "personal-productivity", "cross-platform"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Things 3",
+    "slug": "things-3",
+    "description": "Award-winning personal task manager for Apple devices with elegant design.",
+    "websiteUrl": "https://culturedcode.com/things/",
+    "tags": ["task-management", "apple", "personal-productivity", "design"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "TickTick",
+    "slug": "ticktick",
+    "description": "Cross-platform task manager with calendar, habit tracking, and Pomodoro timer.",
+    "websiteUrl": "https://ticktick.com",
+    "tags": ["task-management", "calendar", "habits", "pomodoro"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Any.do",
+    "slug": "any-do",
+    "description": "Task management and daily planner app for organizing personal and work tasks.",
+    "websiteUrl": "https://any.do",
+    "tags": ["task-management", "daily-planner", "personal-productivity"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Microsoft To Do",
+    "slug": "microsoft-to-do",
+    "description": "Simple task management app by Microsoft with smart daily planning suggestions.",
+    "websiteUrl": "https://todo.microsoft.com",
+    "tags": ["task-management", "microsoft", "daily-planning", "simple"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Hive",
+    "slug": "hive",
+    "description": "Project management platform with flexible views, automation, and time tracking.",
+    "websiteUrl": "https://hive.com",
+    "tags": ["project-management", "flexible-views", "automation", "time-tracking"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Airtable",
+    "slug": "airtable",
+    "description": "Low-code platform combining spreadsheet simplicity with database power for teams.",
+    "websiteUrl": "https://airtable.com",
+    "tags": ["database", "spreadsheet", "low-code", "project-management"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Notion",
+    "slug": "notion",
+    "description": "All-in-one workspace for notes, docs, wikis, projects, and databases.",
+    "websiteUrl": "https://notion.so",
+    "tags": ["note-taking", "wiki", "databases", "all-in-one", "collaboration"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "Obsidian",
+    "slug": "obsidian",
+    "description": "Local-first Markdown knowledge base with bidirectional linking and graph view.",
+    "websiteUrl": "https://obsidian.md",
+    "tags": ["note-taking", "markdown", "knowledge-base", "local-first"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Roam Research",
+    "slug": "roam-research",
+    "description": "Networked thought tool with bidirectional links for non-linear note-taking.",
+    "websiteUrl": "https://roamresearch.com",
+    "tags": ["note-taking", "networked-thought", "bidirectional-links", "research"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Craft",
+    "slug": "craft",
+    "description": "Beautiful document and note-taking app for Apple devices with rich formatting.",
+    "websiteUrl": "https://craft.do",
+    "tags": ["note-taking", "documents", "apple", "beautiful"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Bear",
+    "slug": "bear",
+    "description": "Elegant Markdown writing app for Apple devices with tagging and search.",
+    "websiteUrl": "https://bear.app",
+    "tags": ["note-taking", "markdown", "apple", "writing"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Apple Notes",
+    "slug": "apple-notes",
+    "description": "Built-in note-taking app on Apple devices with folders, tags, and collaboration.",
+    "websiteUrl": "https://apple.com/icloud/#notes",
+    "tags": ["note-taking", "apple", "built-in", "simple"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Logseq",
+    "slug": "logseq",
+    "description": "Open-source knowledge management tool with outlining, backlinks, and graph view.",
+    "websiteUrl": "https://logseq.com",
+    "tags": ["note-taking", "open-source", "knowledge-management", "outliner"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Capacities",
+    "slug": "capacities",
+    "description": "Object-based note-taking tool organizing information by type rather than folders.",
+    "websiteUrl": "https://capacities.io",
+    "tags": ["note-taking", "object-based", "knowledge-management", "modern"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Mem",
+    "slug": "mem",
+    "description": "AI-powered note-taking tool that self-organizes notes and surfaces relevant context.",
+    "websiteUrl": "https://mem.ai",
+    "tags": ["note-taking", "ai", "self-organizing", "context"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Reflect",
+    "slug": "reflect",
+    "description": "Fast note-taking app with bidirectional links, AI integration, and end-to-end encryption.",
+    "websiteUrl": "https://reflect.app",
+    "tags": ["note-taking", "backlinks", "ai", "encryption"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Tana",
+    "slug": "tana",
+    "description": "Supertag-powered workspace combining notes, tasks, and databases in an outliner.",
+    "websiteUrl": "https://tana.inc",
+    "tags": ["note-taking", "outliner", "supertags", "databases"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Joplin",
+    "slug": "joplin",
+    "description": "Open-source note-taking app with Markdown support, encryption, and sync.",
+    "websiteUrl": "https://joplinapp.org",
+    "tags": ["note-taking", "open-source", "markdown", "encryption"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Standard Notes",
+    "slug": "standard-notes",
+    "description": "End-to-end encrypted note-taking app focused on privacy and longevity.",
+    "websiteUrl": "https://standardnotes.com",
+    "tags": ["note-taking", "encrypted", "privacy", "cross-platform"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Simplenote",
+    "slug": "simplenote",
+    "description": "Free, minimalist note-taking app with instant sync across all devices.",
+    "websiteUrl": "https://simplenote.com",
+    "tags": ["note-taking", "minimalist", "free", "sync"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Evernote",
+    "slug": "evernote",
+    "description": "Note-taking and organization app for capturing ideas, web clips, and documents.",
+    "websiteUrl": "https://evernote.com",
+    "tags": ["note-taking", "web-clipping", "organization", "search"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Google Docs",
+    "slug": "google-docs",
+    "description": "Cloud-based document editor with real-time collaboration and commenting.",
+    "websiteUrl": "https://docs.google.com",
+    "tags": ["documents", "collaboration", "real-time", "google"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Coda",
+    "slug": "coda",
+    "description": "All-in-one doc combining documents, spreadsheets, and apps for team workflows.",
+    "websiteUrl": "https://coda.io",
+    "tags": ["documents", "spreadsheets", "apps", "all-in-one"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Slite",
+    "slug": "slite",
+    "description": "Team knowledge base and documentation tool with AI-powered search capabilities.",
+    "websiteUrl": "https://slite.com",
+    "tags": ["documents", "knowledge-base", "ai-search", "team"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Almanac",
+    "slug": "almanac",
+    "description": "Modern document collaboration platform with templates and approval workflows.",
+    "websiteUrl": "https://almanac.io",
+    "tags": ["documents", "templates", "workflows", "collaboration"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Quip",
+    "slug": "quip",
+    "description": "Salesforce-owned collaborative documents and spreadsheets for enterprise teams.",
+    "websiteUrl": "https://quip.com",
+    "tags": ["documents", "collaboration", "salesforce", "enterprise"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Dropbox Paper",
+    "slug": "dropbox-paper",
+    "description": "Collaborative document workspace by Dropbox for team notes and project docs.",
+    "websiteUrl": "https://paper.dropbox.com",
+    "tags": ["documents", "collaboration", "dropbox", "workspace"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "HackMD",
+    "slug": "hackmd",
+    "description": "Collaborative Markdown editor for real-time documentation and knowledge sharing.",
+    "websiteUrl": "https://hackmd.io",
+    "tags": ["documents", "markdown", "real-time", "collaboration"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Miro",
+    "slug": "miro",
+    "description": "Online collaborative whiteboard platform for brainstorming, planning, and workshops.",
+    "websiteUrl": "https://miro.com",
+    "tags": ["whiteboard", "brainstorming", "collaboration", "visual"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "FigJam",
+    "slug": "figjam",
+    "description": "Collaborative whiteboard by Figma for brainstorming, diagramming, and team planning.",
+    "websiteUrl": "https://figma.com/figjam",
+    "tags": ["whiteboard", "brainstorming", "figma", "collaboration"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Excalidraw",
+    "slug": "excalidraw",
+    "description": "Open-source virtual whiteboard for creating hand-drawn style diagrams and sketches.",
+    "websiteUrl": "https://excalidraw.com",
+    "tags": ["whiteboard", "open-source", "diagrams", "hand-drawn"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "tldraw",
+    "slug": "tldraw",
+    "description": "Open-source collaborative whiteboard and drawing tool with a minimal interface.",
+    "websiteUrl": "https://tldraw.com",
+    "tags": ["whiteboard", "open-source", "drawing", "minimal"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Whimsical",
+    "slug": "whimsical",
+    "description": "Visual workspace for flowcharts, wireframes, mind maps, and sticky notes.",
+    "websiteUrl": "https://whimsical.com",
+    "tags": ["whiteboard", "flowcharts", "wireframes", "mind-maps"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Lucidchart",
+    "slug": "lucidchart",
+    "description": "Cloud-based diagramming tool for flowcharts, org charts, and technical diagrams.",
+    "websiteUrl": "https://lucidchart.com",
+    "tags": ["diagramming", "flowcharts", "org-charts", "collaboration"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Draw.io",
+    "slug": "draw-io",
+    "description": "Free open-source diagramming tool for flowcharts, network diagrams, and UML.",
+    "websiteUrl": "https://draw.io",
+    "tags": ["diagramming", "open-source", "free", "flowcharts"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Eraser",
+    "slug": "eraser",
+    "description": "Technical design tool for architecture diagrams, docs, and whiteboarding for engineers.",
+    "websiteUrl": "https://eraser.io",
+    "tags": ["diagramming", "architecture", "whiteboard", "engineering"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Mural",
+    "slug": "mural",
+    "description": "Digital workspace for visual collaboration with templates for workshops and planning.",
+    "websiteUrl": "https://mural.co",
+    "tags": ["whiteboard", "workshops", "visual-collaboration", "templates"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Slack",
+    "slug": "slack",
+    "description": "Team messaging platform with channels, integrations, and workflow automation.",
+    "websiteUrl": "https://slack.com",
+    "tags": ["messaging", "channels", "integrations", "communication"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Discord",
+    "slug": "discord",
+    "description": "Communication platform with voice, video, and text channels for communities and teams.",
+    "websiteUrl": "https://discord.com",
+    "tags": ["messaging", "voice", "community", "channels"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Microsoft Teams",
+    "slug": "microsoft-teams",
+    "description": "Enterprise collaboration platform with chat, video meetings, and Office integration.",
+    "websiteUrl": "https://microsoft.com/teams",
+    "tags": ["messaging", "video-conferencing", "microsoft", "enterprise"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Twist",
+    "slug": "twist",
+    "description": "Async-first team communication tool with organized threads and calm notifications.",
+    "websiteUrl": "https://twist.com",
+    "tags": ["messaging", "async", "threads", "calm"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Element",
+    "slug": "element",
+    "description": "Open-source, end-to-end encrypted messaging platform built on the Matrix protocol.",
+    "websiteUrl": "https://element.io",
+    "tags": ["messaging", "open-source", "encrypted", "matrix"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Zulip",
+    "slug": "zulip",
+    "description": "Open-source chat platform with topic-based threading for organized conversations.",
+    "websiteUrl": "https://zulip.com",
+    "tags": ["messaging", "open-source", "threading", "organized"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Rocket.Chat",
+    "slug": "rocket-chat",
+    "description": "Open-source team communication platform with chat, video, and omnichannel messaging.",
+    "websiteUrl": "https://rocket.chat",
+    "tags": ["messaging", "open-source", "self-hosted", "omnichannel"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Mattermost",
+    "slug": "mattermost",
+    "description": "Open-source collaboration platform for secure team messaging and developer workflows.",
+    "websiteUrl": "https://mattermost.com",
+    "tags": ["messaging", "open-source", "secure", "developer"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Zoom",
+    "slug": "zoom",
+    "description": "Video conferencing platform for meetings, webinars, and virtual collaboration.",
+    "websiteUrl": "https://zoom.us",
+    "tags": ["video-conferencing", "meetings", "webinars", "collaboration"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Google Meet",
+    "slug": "google-meet",
+    "description": "Video conferencing service by Google integrated with Google Workspace.",
+    "websiteUrl": "https://meet.google.com",
+    "tags": ["video-conferencing", "google", "meetings", "workspace"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Around",
+    "slug": "around",
+    "description": "Lightweight video calling tool designed for seamless, always-on team collaboration.",
+    "websiteUrl": "https://around.co",
+    "tags": ["video-conferencing", "lightweight", "always-on", "collaboration"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Whereby",
+    "slug": "whereby",
+    "description": "Browser-based video meeting platform requiring no downloads or app installations.",
+    "websiteUrl": "https://whereby.com",
+    "tags": ["video-conferencing", "browser-based", "no-download", "simple"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Gather",
+    "slug": "gather",
+    "description": "Virtual office platform with spatial video chat for remote team collaboration.",
+    "websiteUrl": "https://gather.town",
+    "tags": ["virtual-office", "spatial", "video-chat", "remote-work"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Loom",
+    "slug": "loom-collaboration",
+    "description": "Async video messaging tool for screen recordings, walkthroughs, and team updates.",
+    "websiteUrl": "https://loom.com",
+    "tags": ["async-video", "screen-recording", "communication", "walkthroughs"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Dropbox",
+    "slug": "dropbox",
+    "description": "Cloud file storage and sharing platform with sync, backup, and collaboration.",
+    "websiteUrl": "https://dropbox.com",
+    "tags": ["file-sharing", "cloud-storage", "sync", "backup"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Google Drive",
+    "slug": "google-drive",
+    "description": "Cloud storage service by Google for file sharing, collaboration, and backup.",
+    "websiteUrl": "https://drive.google.com",
+    "tags": ["file-sharing", "cloud-storage", "google", "collaboration"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Box",
+    "slug": "box",
+    "description": "Enterprise cloud content management platform with security and compliance features.",
+    "websiteUrl": "https://box.com",
+    "tags": ["file-sharing", "cloud-storage", "enterprise", "security"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "OneDrive",
+    "slug": "onedrive",
+    "description": "Microsoft cloud storage service integrated with Office 365 and Windows.",
+    "websiteUrl": "https://onedrive.live.com",
+    "tags": ["file-sharing", "cloud-storage", "microsoft", "office-365"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "iCloud Drive",
+    "slug": "icloud-drive",
+    "description": "Apple cloud storage service for syncing files across all Apple devices.",
+    "websiteUrl": "https://icloud.com",
+    "tags": ["file-sharing", "cloud-storage", "apple", "sync"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "pCloud",
+    "slug": "pcloud",
+    "description": "Secure cloud storage with client-side encryption and lifetime plan options.",
+    "websiteUrl": "https://pcloud.com",
+    "tags": ["file-sharing", "cloud-storage", "encryption", "lifetime"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "WeTransfer",
+    "slug": "wetransfer",
+    "description": "Simple file transfer service for sending large files up to 2GB for free.",
+    "websiteUrl": "https://wetransfer.com",
+    "tags": ["file-sharing", "file-transfer", "simple", "large-files"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Confluence",
+    "slug": "confluence",
+    "description": "Team wiki and documentation platform by Atlassian for knowledge sharing.",
+    "websiteUrl": "https://atlassian.com/software/confluence",
+    "tags": ["wiki", "documentation", "atlassian", "knowledge-sharing"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Nuclino",
+    "slug": "nuclino",
+    "description": "Lightweight team wiki with instant search and visual knowledge graph navigation.",
+    "websiteUrl": "https://nuclino.com",
+    "tags": ["wiki", "knowledge-base", "visual", "lightweight"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Outline",
+    "slug": "outline",
+    "description": "Open-source team knowledge base with fast search and Markdown editing.",
+    "websiteUrl": "https://getoutline.com",
+    "tags": ["wiki", "open-source", "knowledge-base", "markdown"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "BookStack",
+    "slug": "bookstack",
+    "description": "Open-source wiki platform for organizing content with books, chapters, and pages.",
+    "websiteUrl": "https://bookstackapp.com",
+    "tags": ["wiki", "open-source", "self-hosted", "documentation"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Wiki.js",
+    "slug": "wiki-js",
+    "description": "Open-source modern wiki engine with a clean interface and multiple editors.",
+    "websiteUrl": "https://js.wiki",
+    "tags": ["wiki", "open-source", "modern", "self-hosted"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Toggl Track",
+    "slug": "toggl-track",
+    "description": "Simple time tracking tool for teams with reporting and project budgeting.",
+    "websiteUrl": "https://toggl.com/track",
+    "tags": ["time-tracking", "reporting", "budgeting", "simple"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Clockify",
+    "slug": "clockify",
+    "description": "Free time tracking tool for teams with timesheets, reports, and project tracking.",
+    "websiteUrl": "https://clockify.me",
+    "tags": ["time-tracking", "free", "timesheets", "reports"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Harvest",
+    "slug": "harvest",
+    "description": "Time tracking and invoicing tool for teams with project budgeting and reports.",
+    "websiteUrl": "https://getharvest.com",
+    "tags": ["time-tracking", "invoicing", "budgeting", "reports"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Toggl Plan",
+    "slug": "toggl-plan",
+    "description": "Visual project planning tool with timelines and team workload management.",
+    "websiteUrl": "https://toggl.com/plan",
+    "tags": ["project-planning", "timelines", "workload", "visual"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "RescueTime",
+    "slug": "rescuetime",
+    "description": "Automatic time tracking app that measures productivity and digital habits.",
+    "websiteUrl": "https://rescuetime.com",
+    "tags": ["time-tracking", "productivity", "automatic", "habits"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Everhour",
+    "slug": "everhour",
+    "description": "Time tracking tool that integrates into project management apps like Asana and Jira.",
+    "websiteUrl": "https://everhour.com",
+    "tags": ["time-tracking", "integrations", "project-management", "budgeting"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Lattice",
+    "slug": "lattice",
+    "description": "People management platform for OKRs, performance reviews, and employee engagement.",
+    "websiteUrl": "https://lattice.com",
+    "tags": ["okr", "performance-management", "engagement", "hr"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Viva Goals",
+    "slug": "viva-goals",
+    "description": "Microsoft OKR solution for aligning team goals with organizational strategy.",
+    "websiteUrl": "https://microsoft.com/en-us/microsoft-viva/goals",
+    "tags": ["okr", "goal-setting", "microsoft", "alignment"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Perdoo",
+    "slug": "perdoo",
+    "description": "OKR and strategy platform for aligning teams around goals and KPIs.",
+    "websiteUrl": "https://perdoo.com",
+    "tags": ["okr", "strategy", "goal-alignment", "kpi"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Weekdone",
+    "slug": "weekdone",
+    "description": "OKR software with weekly planning, check-ins, and progress tracking features.",
+    "websiteUrl": "https://weekdone.com",
+    "tags": ["okr", "weekly-planning", "check-ins", "progress-tracking"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Gtmhub",
+    "slug": "gtmhub",
+    "description": "OKR management platform for enterprises with data-driven goal tracking and insights.",
+    "websiteUrl": "https://gtmhub.com",
+    "tags": ["okr", "enterprise", "data-driven", "goal-tracking"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Parabol",
+    "slug": "parabol",
+    "description": "Open-source meeting facilitation tool for agile retrospectives and standups.",
+    "websiteUrl": "https://parabol.co",
+    "tags": ["retrospectives", "agile", "meetings", "open-source"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "EasyRetro",
+    "slug": "easyretro",
+    "description": "Simple online retrospective board for agile teams to collaborate and improve.",
+    "websiteUrl": "https://easyretro.io",
+    "tags": ["retrospectives", "agile", "simple", "collaboration"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Metro Retro",
+    "slug": "metro-retro",
+    "description": "Fun retrospective tool with creative templates and real-time team collaboration.",
+    "websiteUrl": "https://metroretro.io",
+    "tags": ["retrospectives", "templates", "fun", "real-time"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Geekbot",
+    "slug": "geekbot",
+    "description": "Slack bot for async standups, retrospectives, and team surveys without meetings.",
+    "websiteUrl": "https://geekbot.com",
+    "tags": ["standups", "async", "slack", "retrospectives"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Standuply",
+    "slug": "standuply",
+    "description": "Slack bot for running async standups, polls, and retrospectives for remote teams.",
+    "websiteUrl": "https://standuply.com",
+    "tags": ["standups", "async", "slack", "polls"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Range",
+    "slug": "range",
+    "description": "Team productivity tool for check-ins, objectives, and meeting facilitation.",
+    "websiteUrl": "https://range.co",
+    "tags": ["check-ins", "objectives", "meetings", "productivity"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Krisp",
+    "slug": "krisp",
+    "description": "AI-powered noise cancellation app for calls with transcription and meeting notes.",
+    "websiteUrl": "https://krisp.ai",
+    "tags": ["noise-cancellation", "ai", "calls", "transcription"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Tandem",
+    "slug": "tandem",
+    "description": "Virtual office app for remote teams with presence indicators and instant collaboration.",
+    "websiteUrl": "https://tandem.chat",
+    "tags": ["virtual-office", "remote-work", "presence", "collaboration"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Pitch",
+    "slug": "pitch",
+    "description": "Collaborative presentation software for creating beautiful decks with your team.",
+    "websiteUrl": "https://pitch.com",
+    "tags": ["presentations", "collaboration", "design", "decks"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Google Slides",
+    "slug": "google-slides",
+    "description": "Cloud-based presentation tool by Google with real-time collaboration features.",
+    "websiteUrl": "https://slides.google.com",
+    "tags": ["presentations", "google", "collaboration", "cloud"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Keynote",
+    "slug": "keynote",
+    "description": "Apple's presentation software for creating cinematic presentations with visual effects.",
+    "websiteUrl": "https://apple.com/keynote",
+    "tags": ["presentations", "apple", "design", "visual-effects"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Beautiful.ai",
+    "slug": "beautiful-ai",
+    "description": "AI-powered presentation software that automatically designs beautiful slides.",
+    "websiteUrl": "https://beautiful.ai",
+    "tags": ["presentations", "ai", "design", "automated"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Gamma",
+    "slug": "gamma",
+    "description": "AI-powered presentation and document builder for creating polished content fast.",
+    "websiteUrl": "https://gamma.app",
+    "tags": ["presentations", "ai", "documents", "fast"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Canva Presentations",
+    "slug": "canva-presentations",
+    "description": "Presentation tool within Canva with templates, animations, and brand kit support.",
+    "websiteUrl": "https://canva.com/presentations",
+    "tags": ["presentations", "templates", "design", "canva"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Notion Calendar",
+    "slug": "notion-calendar",
+    "description": "Calendar app by Notion with scheduling, time blocking, and Notion integration.",
+    "websiteUrl": "https://notion.so/product/calendar",
+    "tags": ["calendar", "scheduling", "time-blocking", "notion"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Fantastical",
+    "slug": "fantastical",
+    "description": "Powerful calendar app for Apple devices with natural language input and widgets.",
+    "websiteUrl": "https://flexibits.com/fantastical",
+    "tags": ["calendar", "apple", "natural-language", "widgets"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Calendso",
+    "slug": "calendso",
+    "description": "Open-source scheduling infrastructure, now known as Cal.com, for booking appointments.",
+    "websiteUrl": "https://cal.com",
+    "tags": ["calendar", "scheduling", "open-source", "booking"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Sunsama",
+    "slug": "sunsama",
+    "description": "Daily planner that combines tasks from multiple tools into a calm daily workflow.",
+    "websiteUrl": "https://sunsama.com",
+    "tags": ["daily-planner", "task-management", "calm", "integrations"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Akiflow",
+    "slug": "akiflow",
+    "description": "Time-blocking task manager that consolidates tasks and calendar in one interface.",
+    "websiteUrl": "https://akiflow.com",
+    "tags": ["task-management", "time-blocking", "calendar", "productivity"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Motion",
+    "slug": "motion",
+    "description": "AI-powered calendar and task manager that auto-schedules work for optimal productivity.",
+    "websiteUrl": "https://usemotion.com",
+    "tags": ["calendar", "ai", "auto-scheduling", "task-management"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Raycast",
+    "slug": "raycast",
+    "description": "Productivity launcher for macOS with extensions, snippets, and AI integration.",
+    "websiteUrl": "https://raycast.com",
+    "tags": ["productivity", "launcher", "macos", "extensions"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Alfred",
+    "slug": "alfred",
+    "description": "macOS productivity app with custom workflows, clipboard history, and file search.",
+    "websiteUrl": "https://alfredapp.com",
+    "tags": ["productivity", "launcher", "macos", "workflows"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "1Password for Teams",
+    "slug": "1password-teams",
+    "description": "Team password manager for sharing credentials and secrets securely.",
+    "websiteUrl": "https://1password.com/teams",
+    "tags": ["password-manager", "team", "secrets", "security"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Linen",
+    "slug": "linen",
+    "description": "Slack alternative that makes conversations searchable and SEO-friendly for communities.",
+    "websiteUrl": "https://linen.dev",
+    "tags": ["messaging", "community", "searchable", "seo"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Fibery",
+    "slug": "fibery",
+    "description": "Connected workspace for product teams combining strategy, ideation, and execution.",
+    "websiteUrl": "https://fibery.io",
+    "tags": ["project-management", "product-management", "workspace", "connected"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Craft.do Docs",
+    "slug": "craft-docs",
+    "description": "Beautiful document creation tool with nested pages, backlinks, and collaboration.",
+    "websiteUrl": "https://craft.do",
+    "tags": ["documents", "beautiful", "nested-pages", "collaboration"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Plane",
+    "slug": "plane",
+    "description": "Open-source project management tool alternative to Jira with modern UX.",
+    "websiteUrl": "https://plane.so",
+    "tags": ["project-management", "open-source", "issue-tracking", "modern"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Taiga",
+    "slug": "taiga",
+    "description": "Open-source project management tool for agile teams with Kanban and Scrum support.",
+    "websiteUrl": "https://taiga.io",
+    "tags": ["project-management", "open-source", "agile", "scrum"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "OpenProject",
+    "slug": "openproject",
+    "description": "Open-source project management software with Gantt charts, agile boards, and time tracking.",
+    "websiteUrl": "https://openproject.org",
+    "tags": ["project-management", "open-source", "gantt", "time-tracking"],
+    "primaryCategory": "collaboration",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Taskade",
+    "slug": "taskade",
+    "description": "AI-powered workspace for tasks, notes, and collaborative workflows in one tool.",
+    "websiteUrl": "https://taskade.com",
+    "tags": ["task-management", "ai", "notes", "collaboration"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Google Sheets",
+    "slug": "google-sheets",
+    "description": "Cloud-based spreadsheet application by Google for data analysis and collaboration.",
+    "websiteUrl": "https://sheets.google.com",
+    "tags": ["spreadsheet", "collaboration", "data-analysis", "google"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Microsoft Excel Online",
+    "slug": "microsoft-excel-online",
+    "description": "Browser-based version of Excel for collaborative spreadsheet editing and analysis.",
+    "websiteUrl": "https://office.live.com/start/Excel.aspx",
+    "tags": ["spreadsheet", "microsoft", "collaboration", "data-analysis"],
+    "primaryCategory": "collaboration",
+    "type": "saas",
+    "baselineScore": 8.5
+  }
+]

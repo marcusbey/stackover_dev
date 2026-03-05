@@ -1,0 +1,746 @@
+[
+  {
+    "name": "Greenhouse",
+    "slug": "greenhouse",
+    "description": "Structured hiring platform with applicant tracking and interview management tools.",
+    "websiteUrl": "https://www.greenhouse.com",
+    "tags": [
+      "ats",
+      "hiring",
+      "interviews",
+      "enterprise"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Lever",
+    "slug": "lever",
+    "description": "Talent acquisition suite combining ATS and CRM for proactive recruiting.",
+    "websiteUrl": "https://www.lever.co",
+    "tags": [
+      "ats",
+      "crm",
+      "recruiting",
+      "talent-acquisition"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Workable",
+    "slug": "workable",
+    "description": "All-in-one recruiting software with AI sourcing and collaborative hiring tools.",
+    "websiteUrl": "https://www.workable.com",
+    "tags": [
+      "ats",
+      "recruiting",
+      "ai-sourcing",
+      "collaboration"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Ashby",
+    "slug": "ashby",
+    "description": "All-in-one recruiting platform combining ATS, CRM, scheduling, and hiring analytics.",
+    "websiteUrl": "https://www.ashbyhq.com",
+    "tags": [
+      "ats",
+      "recruiting",
+      "analytics",
+      "scheduling"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Gusto",
+    "slug": "gusto",
+    "description": "Modern HR platform for payroll, benefits, and team management for small businesses.",
+    "websiteUrl": "https://gusto.com",
+    "tags": [
+      "payroll",
+      "benefits",
+      "hr-platform",
+      "small-business"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Rippling",
+    "slug": "rippling",
+    "description": "Unified workforce platform managing HR, IT, payroll, and spend in one place.",
+    "websiteUrl": "https://www.rippling.com",
+    "tags": [
+      "hr-platform",
+      "payroll",
+      "it-management",
+      "unified"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "BambooHR",
+    "slug": "bamboohr",
+    "description": "HR software for small and medium businesses with hiring, onboarding, and payroll.",
+    "websiteUrl": "https://www.bamboohr.com",
+    "tags": [
+      "hr-platform",
+      "onboarding",
+      "payroll",
+      "smb"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Deel",
+    "slug": "deel",
+    "description": "Global payroll and compliance platform for hiring international contractors and employees.",
+    "websiteUrl": "https://www.deel.com",
+    "tags": [
+      "global-payroll",
+      "compliance",
+      "contractors",
+      "international"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Remote",
+    "slug": "remote-hr",
+    "description": "Global employment platform for hiring, paying, and managing remote teams worldwide.",
+    "websiteUrl": "https://remote.com",
+    "tags": [
+      "global-employment",
+      "payroll",
+      "compliance",
+      "remote-work"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Oyster HR",
+    "slug": "oyster-hr",
+    "description": "Global employment platform enabling companies to hire and pay international talent.",
+    "websiteUrl": "https://www.oysterhr.com",
+    "tags": [
+      "global-employment",
+      "payroll",
+      "compliance"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Paylocity",
+    "slug": "paylocity",
+    "description": "Cloud payroll and HCM platform with workforce management and talent tools.",
+    "websiteUrl": "https://www.paylocity.com",
+    "tags": [
+      "payroll",
+      "hcm",
+      "workforce-management",
+      "talent"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "ADP",
+    "slug": "adp",
+    "description": "Enterprise payroll, tax, and human capital management solutions for all sizes.",
+    "websiteUrl": "https://www.adp.com",
+    "tags": [
+      "payroll",
+      "hcm",
+      "enterprise",
+      "tax"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Justworks",
+    "slug": "justworks",
+    "description": "PEO platform simplifying payroll, benefits, compliance, and HR for small businesses.",
+    "websiteUrl": "https://justworks.com",
+    "tags": [
+      "peo",
+      "payroll",
+      "benefits",
+      "compliance"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Paychex",
+    "slug": "paychex",
+    "description": "Payroll, HR, and benefits platform serving small to enterprise businesses.",
+    "websiteUrl": "https://www.paychex.com",
+    "tags": [
+      "payroll",
+      "hr-platform",
+      "benefits",
+      "enterprise"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Lattice",
+    "slug": "lattice",
+    "description": "People management platform for performance reviews, goals, engagement, and growth.",
+    "websiteUrl": "https://lattice.com",
+    "tags": [
+      "performance-management",
+      "goals",
+      "engagement",
+      "reviews"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "15Five",
+    "slug": "15five",
+    "description": "Performance management platform with weekly check-ins, OKRs, and engagement surveys.",
+    "websiteUrl": "https://www.15five.com",
+    "tags": [
+      "performance-management",
+      "okrs",
+      "check-ins",
+      "engagement"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Culture Amp",
+    "slug": "culture-amp",
+    "description": "Employee experience platform for engagement surveys, performance management, and professional development.",
+    "websiteUrl": "https://www.cultureamp.com",
+    "tags": [
+      "employee-engagement",
+      "surveys",
+      "performance",
+      "analytics"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Leapsome",
+    "slug": "leapsome",
+    "description": "People enablement platform with performance reviews, engagement surveys, and learning tools.",
+    "websiteUrl": "https://www.leapsome.com",
+    "tags": [
+      "performance-management",
+      "engagement",
+      "learning",
+      "feedback"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Bonusly",
+    "slug": "bonusly",
+    "description": "Employee recognition and rewards platform for building a culture of appreciation.",
+    "websiteUrl": "https://bonus.ly",
+    "tags": [
+      "employee-recognition",
+      "rewards",
+      "culture",
+      "engagement"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Donut",
+    "slug": "donut",
+    "description": "Slack bot that connects teammates for virtual coffee chats and introductions.",
+    "websiteUrl": "https://www.donut.com",
+    "tags": [
+      "employee-engagement",
+      "slack",
+      "team-building",
+      "connections"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Udemy Business",
+    "slug": "udemy-business",
+    "description": "Corporate learning platform with thousands of on-demand courses for employee training.",
+    "websiteUrl": "https://business.udemy.com",
+    "tags": [
+      "learning",
+      "training",
+      "courses",
+      "corporate"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Coursera for Business",
+    "slug": "coursera-business",
+    "description": "Enterprise learning platform offering university and industry courses for upskilling.",
+    "websiteUrl": "https://www.coursera.org/business",
+    "tags": [
+      "learning",
+      "upskilling",
+      "university-courses",
+      "corporate"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "LinkedIn Learning",
+    "slug": "linkedin-learning",
+    "description": "Professional development platform with video courses taught by industry experts.",
+    "websiteUrl": "https://www.linkedin.com/learning/",
+    "tags": [
+      "learning",
+      "professional-development",
+      "video-courses"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Checkr",
+    "slug": "checkr",
+    "description": "AI-powered background check platform for faster and fairer hiring decisions.",
+    "websiteUrl": "https://checkr.com",
+    "tags": [
+      "background-checks",
+      "ai",
+      "compliance",
+      "hiring"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Certn",
+    "slug": "certn",
+    "description": "Global background screening platform with instant results and API integration.",
+    "websiteUrl": "https://certn.co",
+    "tags": [
+      "background-checks",
+      "global",
+      "api",
+      "screening"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Carta",
+    "slug": "carta",
+    "description": "Equity management platform for cap tables, valuations, and stock option administration.",
+    "websiteUrl": "https://carta.com",
+    "tags": [
+      "equity-management",
+      "cap-table",
+      "stock-options",
+      "valuations"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "AngelList (Rollup)",
+    "slug": "angellist-rollup",
+    "description": "Fund management and equity platform for startups and venture capital firms.",
+    "websiteUrl": "https://www.angellist.com",
+    "tags": [
+      "equity-management",
+      "fund-management",
+      "startups",
+      "venture-capital"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Pulley",
+    "slug": "pulley",
+    "description": "Cap table management platform designed for startups with scenario modeling.",
+    "websiteUrl": "https://pulley.com",
+    "tags": [
+      "cap-table",
+      "equity-management",
+      "startups",
+      "modeling"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Workday",
+    "slug": "workday",
+    "description": "Enterprise cloud platform for finance, HR, and planning with analytics.",
+    "websiteUrl": "https://www.workday.com",
+    "tags": [
+      "hcm",
+      "enterprise",
+      "finance",
+      "analytics"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "SAP SuccessFactors",
+    "slug": "sap-successfactors",
+    "description": "Enterprise cloud HCM suite for core HR, talent management, and analytics.",
+    "websiteUrl": "https://www.sap.com/products/hcm.html",
+    "tags": [
+      "hcm",
+      "enterprise",
+      "talent-management",
+      "sap"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Personio",
+    "slug": "personio",
+    "description": "All-in-one HR platform for European SMEs covering hiring, payroll, and management.",
+    "websiteUrl": "https://www.personio.com",
+    "tags": [
+      "hr-platform",
+      "europe",
+      "payroll",
+      "smb"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Bob (HiBob)",
+    "slug": "hibob",
+    "description": "Modern HR platform for managing people, culture, and compensation globally.",
+    "websiteUrl": "https://www.hibob.com",
+    "tags": [
+      "hr-platform",
+      "culture",
+      "compensation",
+      "global"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Zenefits",
+    "slug": "zenefits",
+    "description": "Cloud HR platform for managing onboarding, benefits, payroll, and PTO.",
+    "websiteUrl": "https://www.zenefits.com",
+    "tags": [
+      "hr-platform",
+      "benefits",
+      "payroll",
+      "onboarding"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Namely",
+    "slug": "namely",
+    "description": "HR platform for mid-sized companies with payroll, benefits, and talent management.",
+    "websiteUrl": "https://www.namely.com",
+    "tags": [
+      "hr-platform",
+      "payroll",
+      "benefits",
+      "mid-market"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Lano",
+    "slug": "lano",
+    "description": "Global payroll and EOR platform for managing international workforce compliance.",
+    "websiteUrl": "https://www.lano.io",
+    "tags": [
+      "global-payroll",
+      "eor",
+      "compliance",
+      "international"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Papaya Global",
+    "slug": "papaya-global",
+    "description": "Global payroll and payments platform automating workforce management across countries.",
+    "websiteUrl": "https://www.papayaglobal.com",
+    "tags": [
+      "global-payroll",
+      "payments",
+      "compliance",
+      "automation"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "ChartHop",
+    "slug": "charthop",
+    "description": "Org chart and people analytics platform for visualizing and planning your workforce.",
+    "websiteUrl": "https://www.charthop.com",
+    "tags": [
+      "org-chart",
+      "people-analytics",
+      "planning",
+      "visualization"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Pingboard",
+    "slug": "pingboard",
+    "description": "Org chart software with employee directory, status updates, and peer recognition.",
+    "websiteUrl": "https://pingboard.com",
+    "tags": [
+      "org-chart",
+      "employee-directory",
+      "recognition"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Gem",
+    "slug": "gem-recruiting",
+    "description": "Talent engagement platform for sourcing, nurturing, and analytics in recruiting.",
+    "websiteUrl": "https://www.gem.com",
+    "tags": [
+      "recruiting",
+      "sourcing",
+      "engagement",
+      "analytics"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Breezy HR",
+    "slug": "breezy-hr",
+    "description": "End-to-end recruiting software with visual drag-and-drop pipeline and workflow automation.",
+    "websiteUrl": "https://breezy.hr",
+    "tags": [
+      "ats",
+      "recruiting",
+      "automation",
+      "pipeline"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "JazzHR",
+    "slug": "jazzhr",
+    "description": "Affordable applicant tracking system for small businesses with job posting tools.",
+    "websiteUrl": "https://www.jazzhr.com",
+    "tags": [
+      "ats",
+      "small-business",
+      "job-posting",
+      "affordable"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Recruitee",
+    "slug": "recruitee",
+    "description": "Collaborative hiring platform with employer branding tools and visual pipeline management.",
+    "websiteUrl": "https://recruitee.com",
+    "tags": [
+      "ats",
+      "collaborative-hiring",
+      "employer-branding"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "SmartRecruiters",
+    "slug": "smartrecruiters",
+    "description": "Enterprise talent acquisition suite with ATS, CRM, and marketplace integrations.",
+    "websiteUrl": "https://www.smartrecruiters.com",
+    "tags": [
+      "ats",
+      "enterprise",
+      "talent-acquisition",
+      "marketplace"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Wellfound (AngelList Talent)",
+    "slug": "wellfound",
+    "description": "Job platform connecting startup companies with candidates seeking startup roles.",
+    "websiteUrl": "https://wellfound.com",
+    "tags": [
+      "job-board",
+      "startups",
+      "recruiting",
+      "talent"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Calendly",
+    "slug": "calendly",
+    "description": "Scheduling automation platform for booking meetings and interviews without back-and-forth.",
+    "websiteUrl": "https://calendly.com",
+    "tags": [
+      "scheduling",
+      "automation",
+      "interviews",
+      "meetings"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "GoodTime",
+    "slug": "goodtime",
+    "description": "Interview scheduling automation platform that optimizes the overall candidate hiring experience.",
+    "websiteUrl": "https://www.goodtime.io",
+    "tags": [
+      "interview-scheduling",
+      "automation",
+      "candidate-experience"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Compa",
+    "slug": "compa",
+    "description": "Compensation management platform providing real-time market data for pay decisions.",
+    "websiteUrl": "https://www.compa.as",
+    "tags": [
+      "compensation",
+      "market-data",
+      "pay-equity"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Pave",
+    "slug": "pave",
+    "description": "Real-time compensation benchmarking and planning platform designed for modern growing companies.",
+    "websiteUrl": "https://www.pave.com",
+    "tags": [
+      "compensation",
+      "benchmarking",
+      "equity",
+      "planning"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Sapling",
+    "slug": "sapling-hr",
+    "description": "People operations platform for managing employee onboarding, offboarding, and HR workflows.",
+    "websiteUrl": "https://www.saplinghr.com",
+    "tags": [
+      "onboarding",
+      "offboarding",
+      "workflows",
+      "people-ops"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Trainual",
+    "slug": "trainual",
+    "description": "Training and onboarding platform for documenting processes and standard operating procedures.",
+    "websiteUrl": "https://trainual.com",
+    "tags": [
+      "training",
+      "onboarding",
+      "sops",
+      "knowledge-base"
+    ],
+    "primaryCategory": "hr",
+    "type": "saas",
+    "baselineScore": 7.5
+  }
+]

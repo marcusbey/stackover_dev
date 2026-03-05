@@ -1,0 +1,752 @@
+[
+  {
+    "name": "Buffer",
+    "slug": "buffer",
+    "description": "Social media management tool for scheduling posts and analyzing performance across platforms.",
+    "websiteUrl": "https://buffer.com",
+    "tags": ["social-media-management", "scheduling", "analytics"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Hootsuite",
+    "slug": "hootsuite",
+    "description": "Enterprise social media management platform for scheduling, monitoring, and reporting across networks.",
+    "websiteUrl": "https://www.hootsuite.com",
+    "tags": ["social-media-management", "enterprise", "scheduling", "monitoring"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Later",
+    "slug": "later",
+    "description": "Visual social media scheduling tool focused on Instagram, TikTok, and Pinterest content planning.",
+    "websiteUrl": "https://later.com",
+    "tags": ["social-media-management", "scheduling", "visual", "instagram"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Sprout Social",
+    "slug": "sprout-social",
+    "description": "All-in-one social media management platform with publishing, analytics, and engagement tools.",
+    "websiteUrl": "https://sproutsocial.com",
+    "tags": ["social-media-management", "enterprise", "analytics", "engagement"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Brandwatch",
+    "slug": "brandwatch",
+    "description": "Social listening and consumer intelligence platform for tracking brand mentions and trends.",
+    "websiteUrl": "https://www.brandwatch.com",
+    "tags": ["social-listening", "analytics", "brand-monitoring", "intelligence"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Mention",
+    "slug": "mention",
+    "description": "Media monitoring tool that tracks brand mentions across social media, news, and the web.",
+    "websiteUrl": "https://mention.com",
+    "tags": ["social-listening", "brand-monitoring", "media", "alerts"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Agorapulse",
+    "slug": "agorapulse",
+    "description": "Social media management tool with inbox, publishing, reporting, and team collaboration features.",
+    "websiteUrl": "https://www.agorapulse.com",
+    "tags": ["social-media-management", "inbox", "publishing", "reporting"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "SocialBee",
+    "slug": "socialbee",
+    "description": "Social media management tool with content categorization and evergreen recycling capabilities.",
+    "websiteUrl": "https://socialbee.com",
+    "tags": ["social-media-management", "content-recycling", "scheduling"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Discord",
+    "slug": "discord",
+    "description": "Voice, video, and text communication platform for building communities around shared interests.",
+    "websiteUrl": "https://discord.com",
+    "tags": ["community", "chat", "voice", "gaming", "servers"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Circle",
+    "slug": "circle",
+    "description": "Modern community platform for creators and brands to host discussions, courses, and events.",
+    "websiteUrl": "https://circle.so",
+    "tags": ["community", "creators", "discussions", "memberships"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Mighty Networks",
+    "slug": "mighty-networks",
+    "description": "Community platform combining courses, memberships, and events under your own brand.",
+    "websiteUrl": "https://www.mightynetworks.com",
+    "tags": ["community", "courses", "memberships", "creators"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Tribe (Bettermode)",
+    "slug": "bettermode",
+    "description": "Customizable community platform for brands to build engagement portals and knowledge bases.",
+    "websiteUrl": "https://www.bettermode.com",
+    "tags": ["community", "customizable", "knowledge-base", "engagement"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Discourse",
+    "slug": "discourse",
+    "description": "Open-source forum software for building civilized community discussions with modern features.",
+    "websiteUrl": "https://www.discourse.org",
+    "tags": ["forum", "open-source", "community", "discussions"],
+    "primaryCategory": "social",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Reddit",
+    "slug": "reddit",
+    "description": "Social news and discussion platform organized into topic-based communities called subreddits.",
+    "websiteUrl": "https://www.reddit.com",
+    "tags": ["forum", "social-news", "communities", "discussions"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Slack",
+    "slug": "slack",
+    "description": "Team communication platform with channels, messaging, and app integrations for workplaces.",
+    "websiteUrl": "https://slack.com",
+    "tags": ["messaging", "team-communication", "channels", "integrations"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Telegram",
+    "slug": "telegram",
+    "description": "Cloud-based messaging app with groups, channels, and bots for personal and community use.",
+    "websiteUrl": "https://telegram.org",
+    "tags": ["messaging", "groups", "channels", "bots"],
+    "primaryCategory": "social",
+    "type": "tool",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Twitter/X API",
+    "slug": "twitter-x-api",
+    "description": "API for accessing Twitter/X data including tweets, users, and engagement programmatically.",
+    "websiteUrl": "https://developer.x.com",
+    "tags": ["social-api", "twitter", "data-access", "developer"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Instagram Graph API",
+    "slug": "instagram-graph-api",
+    "description": "API for managing Instagram business accounts, publishing content, and accessing insights.",
+    "websiteUrl": "https://developers.facebook.com/docs/instagram-api",
+    "tags": ["social-api", "instagram", "publishing", "insights"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Facebook Graph API",
+    "slug": "facebook-graph-api",
+    "description": "Primary API for reading and writing data to the Facebook social graph programmatically.",
+    "websiteUrl": "https://developers.facebook.com/docs/graph-api",
+    "tags": ["social-api", "facebook", "data-access", "developer"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Stream",
+    "slug": "stream",
+    "description": "API for building scalable activity feeds and chat messaging into applications.",
+    "websiteUrl": "https://getstream.io",
+    "tags": ["activity-feeds", "chat", "api", "real-time"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Sendbird",
+    "slug": "sendbird",
+    "description": "Chat and messaging API for embedding in-app communication into mobile and web applications.",
+    "websiteUrl": "https://sendbird.com",
+    "tags": ["chat-api", "messaging", "in-app", "real-time"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Linktree",
+    "slug": "linktree",
+    "description": "Link-in-bio tool that creates a landing page with multiple links for social media profiles.",
+    "websiteUrl": "https://linktr.ee",
+    "tags": ["link-in-bio", "landing-page", "social-media", "creators"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Beacons",
+    "slug": "beacons",
+    "description": "All-in-one creator platform with link-in-bio, media kit, email marketing, and online store.",
+    "websiteUrl": "https://beacons.ai",
+    "tags": ["link-in-bio", "creators", "media-kit", "monetization"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Stan Store",
+    "slug": "stan-store",
+    "description": "Link-in-bio storefront for creators to sell digital products, bookings, and courses.",
+    "websiteUrl": "https://www.stan.store",
+    "tags": ["link-in-bio", "creators", "digital-products", "storefront"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Gumroad",
+    "slug": "gumroad",
+    "description": "Platform for creators to sell digital products, memberships, and physical goods directly to fans.",
+    "websiteUrl": "https://gumroad.com",
+    "tags": ["social-commerce", "creators", "digital-products", "selling"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Patreon",
+    "slug": "patreon",
+    "description": "Membership platform where creators earn recurring revenue from fans through exclusive content.",
+    "websiteUrl": "https://www.patreon.com",
+    "tags": ["memberships", "creators", "subscriptions", "monetization"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Substack",
+    "slug": "substack",
+    "description": "Publishing platform for independent writers to create paid newsletters and build audiences.",
+    "websiteUrl": "https://substack.com",
+    "tags": ["newsletters", "publishing", "creators", "subscriptions"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "CreatorIQ",
+    "slug": "creatoriq",
+    "description": "Enterprise influencer marketing platform for discovering, managing, and measuring creator campaigns.",
+    "websiteUrl": "https://creatoriq.com",
+    "tags": ["influencer-marketing", "enterprise", "campaigns", "analytics"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Upfluence",
+    "slug": "upfluence",
+    "description": "Influencer marketing platform for finding influencers and managing brand ambassador programs.",
+    "websiteUrl": "https://www.upfluence.com",
+    "tags": ["influencer-marketing", "discovery", "ambassador", "e-commerce"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "AspireIQ",
+    "slug": "aspireiq",
+    "description": "Community-driven influencer marketing platform connecting brands with content creators at scale.",
+    "websiteUrl": "https://www.aspire.io",
+    "tags": ["influencer-marketing", "community", "content-creators"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Sprinklr",
+    "slug": "sprinklr",
+    "description": "Unified customer experience management platform with social media and marketing capabilities.",
+    "websiteUrl": "https://www.sprinklr.com",
+    "tags": ["social-media-management", "enterprise", "customer-experience", "unified"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Khoros",
+    "slug": "khoros",
+    "description": "Digital customer engagement platform combining social media management with community forums.",
+    "websiteUrl": "https://khoros.com",
+    "tags": ["social-media-management", "community", "customer-engagement"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Loomly",
+    "slug": "loomly",
+    "description": "Brand management platform for social media content creation, scheduling, and collaboration.",
+    "websiteUrl": "https://www.loomly.com",
+    "tags": ["social-media-management", "content-creation", "collaboration", "scheduling"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Tailwind",
+    "slug": "tailwind-social",
+    "description": "Social media scheduling tool specialized for Pinterest and Instagram with smart scheduling.",
+    "websiteUrl": "https://www.tailwindapp.com",
+    "tags": ["social-media-management", "pinterest", "instagram", "scheduling"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "CoSchedule",
+    "slug": "coschedule",
+    "description": "Marketing calendar and social media organizer for planning content across teams and platforms.",
+    "websiteUrl": "https://coschedule.com",
+    "tags": ["social-media-management", "marketing-calendar", "content-planning"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Publer",
+    "slug": "publer",
+    "description": "Social media scheduling tool with bulk upload, auto-scheduling, and link-in-bio features.",
+    "websiteUrl": "https://publer.io",
+    "tags": ["social-media-management", "scheduling", "bulk-upload", "link-in-bio"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Disqus",
+    "slug": "disqus",
+    "description": "Comment system plugin that adds discussions, reactions, and moderation to any website.",
+    "websiteUrl": "https://disqus.com",
+    "tags": ["comments", "discussions", "moderation", "plugin"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Commento",
+    "slug": "commento",
+    "description": "Privacy-focused commenting platform that embeds lightweight discussions on any website.",
+    "websiteUrl": "https://commento.io",
+    "tags": ["comments", "privacy", "lightweight", "embed"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Giscus",
+    "slug": "giscus",
+    "description": "Open-source comment system powered by GitHub Discussions for static sites and blogs.",
+    "websiteUrl": "https://giscus.app",
+    "tags": ["comments", "open-source", "github", "static-sites"],
+    "primaryCategory": "social",
+    "type": "tool",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Auth0 Social Login",
+    "slug": "auth0-social-login",
+    "description": "Social login integration supporting Google, Facebook, GitHub, and dozens of identity providers.",
+    "websiteUrl": "https://auth0.com/docs/authenticate/identity-providers/social-identity-providers",
+    "tags": ["social-login", "authentication", "identity", "oauth"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Clerk",
+    "slug": "clerk",
+    "description": "Authentication platform with social login, user management, and embeddable UI components.",
+    "websiteUrl": "https://clerk.com",
+    "tags": ["social-login", "authentication", "user-management", "components"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "ShareThis",
+    "slug": "sharethis",
+    "description": "Social sharing buttons and plugins that let visitors share website content across networks.",
+    "websiteUrl": "https://sharethis.com",
+    "tags": ["social-sharing", "buttons", "plugins", "websites"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "AddThis",
+    "slug": "addthis",
+    "description": "Free social sharing tools and plugins for websites to increase content distribution.",
+    "websiteUrl": "https://www.addthis.com",
+    "tags": ["social-sharing", "buttons", "free", "websites"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 6.3
+  },
+  {
+    "name": "Trustpilot",
+    "slug": "trustpilot",
+    "description": "Online review platform where consumers share feedback and businesses manage their reputation.",
+    "websiteUrl": "https://www.trustpilot.com",
+    "tags": ["reviews", "reputation", "trust", "consumer"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "G2",
+    "slug": "g2",
+    "description": "Software review platform where businesses and users compare and rate SaaS products.",
+    "websiteUrl": "https://www.g2.com",
+    "tags": ["reviews", "software-comparison", "ratings", "b2b"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Yotpo",
+    "slug": "yotpo",
+    "description": "E-commerce marketing platform for reviews, loyalty programs, and user-generated content.",
+    "websiteUrl": "https://www.yotpo.com",
+    "tags": ["reviews", "ugc", "e-commerce", "loyalty"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Bazaarvoice",
+    "slug": "bazaarvoice",
+    "description": "User-generated content platform for collecting and displaying ratings, reviews, and Q&A.",
+    "websiteUrl": "https://www.bazaarvoice.com",
+    "tags": ["ugc", "reviews", "ratings", "e-commerce"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Mastodon",
+    "slug": "mastodon",
+    "description": "Open-source decentralized social network using the ActivityPub protocol for federated microblogging.",
+    "websiteUrl": "https://joinmastodon.org",
+    "tags": ["decentralized", "open-source", "fediverse", "microblogging"],
+    "primaryCategory": "social",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Bluesky",
+    "slug": "bluesky",
+    "description": "Decentralized social media platform built on the AT Protocol for open microblogging.",
+    "websiteUrl": "https://bsky.app",
+    "tags": ["decentralized", "microblogging", "at-protocol", "open"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Forem",
+    "slug": "forem",
+    "description": "Open-source community platform powering DEV.to for building developer-focused social networks.",
+    "websiteUrl": "https://www.forem.com",
+    "tags": ["community", "open-source", "developer", "forum"],
+    "primaryCategory": "social",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Orbit",
+    "slug": "orbit",
+    "description": "Community growth platform for tracking member engagement across dev tools and social channels.",
+    "websiteUrl": "https://orbit.love",
+    "tags": ["community-analytics", "engagement", "developer-relations", "growth"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Common Room",
+    "slug": "common-room",
+    "description": "Community intelligence platform that unifies signals from social, chat, and product channels.",
+    "websiteUrl": "https://www.commonroom.io",
+    "tags": ["community-analytics", "intelligence", "signals", "engagement"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Hivebrite",
+    "slug": "hivebrite",
+    "description": "Community management platform for alumni networks, associations, and professional communities.",
+    "websiteUrl": "https://hivebrite.com",
+    "tags": ["community", "alumni", "associations", "networking"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Vanilla Forums",
+    "slug": "vanilla-forums",
+    "description": "Cloud-based community forum platform for brands to build customer support and engagement hubs.",
+    "websiteUrl": "https://vanillaforums.com",
+    "tags": ["forum", "community", "customer-support", "enterprise"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "phpBB",
+    "slug": "phpbb",
+    "description": "Free open-source bulletin board software for building discussion forums on your own server.",
+    "websiteUrl": "https://www.phpbb.com",
+    "tags": ["forum", "open-source", "self-hosted", "php"],
+    "primaryCategory": "social",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "vBulletin",
+    "slug": "vbulletin",
+    "description": "Commercial forum software with community features, content management, and moderation tools.",
+    "websiteUrl": "https://www.vbulletin.com",
+    "tags": ["forum", "community", "moderation", "cms"],
+    "primaryCategory": "social",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Sprinkle Data",
+    "slug": "socialinsider",
+    "description": "Social media analytics platform for competitive benchmarking and performance reporting.",
+    "websiteUrl": "https://www.socialinsider.io",
+    "tags": ["social-analytics", "benchmarking", "competitive-analysis", "reporting"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Iconosquare",
+    "slug": "iconosquare",
+    "description": "Social media analytics and management tool for Instagram, Facebook, TikTok, and LinkedIn.",
+    "websiteUrl": "https://www.iconosquare.com",
+    "tags": ["social-analytics", "instagram", "management", "reporting"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Emplifi",
+    "slug": "emplifi",
+    "description": "Social media marketing platform combining analytics, publishing, and social commerce tools.",
+    "websiteUrl": "https://emplifi.io",
+    "tags": ["social-media-management", "analytics", "social-commerce", "enterprise"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Canva",
+    "slug": "canva-social",
+    "description": "Design platform with social media templates, scheduling, and content creation for marketers.",
+    "websiteUrl": "https://www.canva.com",
+    "tags": ["design", "social-media", "templates", "content-creation"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Liker",
+    "slug": "likeshop",
+    "description": "Shoppable link-in-bio tool that turns social media feeds into clickable storefronts.",
+    "websiteUrl": "https://www.likeshop.me",
+    "tags": ["link-in-bio", "social-commerce", "shoppable", "e-commerce"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 6.7
+  },
+  {
+    "name": "Nolt",
+    "slug": "nolt",
+    "description": "User feedback board for collecting, organizing, and prioritizing feature requests publicly.",
+    "websiteUrl": "https://nolt.io",
+    "tags": ["feedback", "feature-requests", "community", "voting"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Canny",
+    "slug": "canny",
+    "description": "Feature request management tool that lets users vote on ideas and track product roadmaps.",
+    "websiteUrl": "https://canny.io",
+    "tags": ["feedback", "feature-requests", "roadmap", "voting"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "UserVoice",
+    "slug": "uservoice",
+    "description": "Product feedback management platform for collecting and prioritizing user feature requests.",
+    "websiteUrl": "https://www.uservoice.com",
+    "tags": ["feedback", "product-management", "feature-requests", "enterprise"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Matrix (Element)",
+    "slug": "matrix-element",
+    "description": "Open-source decentralized communication protocol with Element as its flagship client app.",
+    "websiteUrl": "https://element.io",
+    "tags": ["messaging", "decentralized", "open-source", "encryption"],
+    "primaryCategory": "social",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Rocket.Chat",
+    "slug": "rocket-chat",
+    "description": "Open-source team communication platform with chat, video, and omnichannel messaging features.",
+    "websiteUrl": "https://www.rocket.chat",
+    "tags": ["messaging", "open-source", "self-hosted", "team-communication"],
+    "primaryCategory": "social",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Mattermost",
+    "slug": "mattermost",
+    "description": "Open-source, self-hosted messaging platform for secure team collaboration and DevOps workflows.",
+    "websiteUrl": "https://mattermost.com",
+    "tags": ["messaging", "open-source", "self-hosted", "devops"],
+    "primaryCategory": "social",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Chatwoot",
+    "slug": "chatwoot",
+    "description": "Open-source customer engagement platform with live chat, social media, and email channels.",
+    "websiteUrl": "https://www.chatwoot.com",
+    "tags": ["live-chat", "open-source", "customer-engagement", "omnichannel"],
+    "primaryCategory": "social",
+    "type": "tool",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Crisp",
+    "slug": "crisp",
+    "description": "Business messaging platform combining live chat, chatbot, and shared inbox for customer support.",
+    "websiteUrl": "https://crisp.chat",
+    "tags": ["live-chat", "chatbot", "shared-inbox", "customer-support"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Intercom",
+    "slug": "intercom",
+    "description": "Customer messaging platform with live chat, bots, and help center for business communication.",
+    "websiteUrl": "https://www.intercom.com",
+    "tags": ["live-chat", "customer-messaging", "bots", "support"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Zendesk Community",
+    "slug": "zendesk-community",
+    "description": "Community forum feature within Zendesk for building customer self-service and peer support.",
+    "websiteUrl": "https://www.zendesk.com/service/help-center/community-forum-software/",
+    "tags": ["community", "customer-support", "forum", "self-service"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Ghost",
+    "slug": "ghost",
+    "description": "Open-source publishing platform for professional bloggers with memberships and newsletters.",
+    "websiteUrl": "https://ghost.org",
+    "tags": ["publishing", "blogging", "memberships", "newsletters"],
+    "primaryCategory": "social",
+    "type": "tool",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Hashnode",
+    "slug": "hashnode",
+    "description": "Blogging platform for developers with custom domains and a built-in developer community.",
+    "websiteUrl": "https://hashnode.com",
+    "tags": ["blogging", "developer", "community", "custom-domain"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Medium",
+    "slug": "medium",
+    "description": "Online publishing platform for writers and thinkers with built-in audience distribution.",
+    "websiteUrl": "https://medium.com",
+    "tags": ["publishing", "blogging", "audience", "writing"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Twitch",
+    "slug": "twitch",
+    "description": "Live streaming platform primarily for gaming with community features and monetization tools.",
+    "websiteUrl": "https://www.twitch.tv",
+    "tags": ["live-streaming", "gaming", "community", "monetization"],
+    "primaryCategory": "social",
+    "type": "saas",
+    "baselineScore": 8.5
+  }
+]

@@ -1,0 +1,985 @@
+[
+  {
+    "name": "Shopify",
+    "slug": "shopify",
+    "description": "Leading e-commerce platform for creating and managing online stores easily.",
+    "websiteUrl": "https://www.shopify.com",
+    "tags": [
+      "ecommerce-platform",
+      "storefront",
+      "hosting",
+      "payments"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "WooCommerce",
+    "slug": "woocommerce",
+    "description": "Open-source WordPress plugin turning any site into a full e-commerce store.",
+    "websiteUrl": "https://woocommerce.com",
+    "tags": [
+      "ecommerce-platform",
+      "wordpress",
+      "open-source",
+      "plugins"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "tool",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "BigCommerce",
+    "slug": "bigcommerce",
+    "description": "Enterprise e-commerce platform with headless capabilities and built-in multi-channel selling tools.",
+    "websiteUrl": "https://www.bigcommerce.com",
+    "tags": [
+      "ecommerce-platform",
+      "enterprise",
+      "headless",
+      "multi-channel"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Medusa",
+    "slug": "medusa",
+    "description": "Open-source headless commerce engine built for developers with modular architecture.",
+    "websiteUrl": "https://medusajs.com",
+    "tags": [
+      "headless-commerce",
+      "open-source",
+      "developer-tools",
+      "api"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "tool",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Saleor",
+    "slug": "saleor",
+    "description": "GraphQL-first open-source headless commerce platform designed for building modern storefronts.",
+    "websiteUrl": "https://saleor.io",
+    "tags": [
+      "headless-commerce",
+      "graphql",
+      "open-source",
+      "api"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Commerce.js",
+    "slug": "commerce-js",
+    "description": "Headless commerce API for building custom e-commerce experiences from scratch.",
+    "websiteUrl": "https://commercejs.com",
+    "tags": [
+      "headless-commerce",
+      "api",
+      "developer-tools"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Commercetools",
+    "slug": "commercetools",
+    "description": "Enterprise headless commerce platform built on modern MACH architecture principles.",
+    "websiteUrl": "https://commercetools.com",
+    "tags": [
+      "headless-commerce",
+      "enterprise",
+      "mach",
+      "api"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Snipcart",
+    "slug": "snipcart",
+    "description": "Developer-first shopping cart that adds e-commerce to any website via HTML.",
+    "websiteUrl": "https://snipcart.com",
+    "tags": [
+      "shopping-cart",
+      "developer-tools",
+      "headless",
+      "html"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Shopify Hydrogen",
+    "slug": "shopify-hydrogen",
+    "description": "Shopify's React-based framework for building fully custom headless commerce storefronts.",
+    "websiteUrl": "https://hydrogen.shopify.dev",
+    "tags": [
+      "headless-commerce",
+      "react",
+      "shopify",
+      "framework"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Amazon Seller Central",
+    "slug": "amazon-seller-central",
+    "description": "Amazon's marketplace platform for third-party sellers to list and sell products.",
+    "websiteUrl": "https://sellercentral.amazon.com",
+    "tags": [
+      "marketplace",
+      "fulfillment",
+      "global",
+      "retail"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Etsy",
+    "slug": "etsy",
+    "description": "Online marketplace focused on handmade, vintage, and uniquely creative goods.",
+    "websiteUrl": "https://www.etsy.com",
+    "tags": [
+      "marketplace",
+      "handmade",
+      "creative",
+      "vintage"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "eBay",
+    "slug": "ebay",
+    "description": "Global online auction and shopping marketplace for buyers and sellers.",
+    "websiteUrl": "https://www.ebay.com",
+    "tags": [
+      "marketplace",
+      "auction",
+      "global",
+      "resale"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Magento (Adobe Commerce)",
+    "slug": "magento",
+    "description": "Flexible open-source e-commerce platform built for enterprise-level customizable online stores.",
+    "websiteUrl": "https://business.adobe.com/products/magento/magento-commerce.html",
+    "tags": [
+      "ecommerce-platform",
+      "enterprise",
+      "open-source",
+      "self-hosted"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "PrestaShop",
+    "slug": "prestashop",
+    "description": "Open-source e-commerce solution for creating, managing, and scaling online stores.",
+    "websiteUrl": "https://www.prestashop.com",
+    "tags": [
+      "ecommerce-platform",
+      "open-source",
+      "self-hosted"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Wix eCommerce",
+    "slug": "wix-ecommerce",
+    "description": "Drag-and-drop website builder with integrated e-commerce and payment processing capabilities.",
+    "websiteUrl": "https://www.wix.com/ecommerce/website",
+    "tags": [
+      "ecommerce-platform",
+      "website-builder",
+      "drag-and-drop"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Squarespace Commerce",
+    "slug": "squarespace-commerce",
+    "description": "Beautiful website builder with integrated e-commerce features designed for creative businesses.",
+    "websiteUrl": "https://www.squarespace.com/ecommerce",
+    "tags": [
+      "ecommerce-platform",
+      "website-builder",
+      "design",
+      "templates"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "ShipStation",
+    "slug": "shipstation",
+    "description": "Multi-carrier shipping software that automates order fulfillment and label creation.",
+    "websiteUrl": "https://www.shipstation.com",
+    "tags": [
+      "shipping",
+      "fulfillment",
+      "automation",
+      "multi-carrier"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "EasyPost",
+    "slug": "easypost",
+    "description": "Shipping API providing rate comparison and label generation across carriers.",
+    "websiteUrl": "https://www.easypost.com",
+    "tags": [
+      "shipping",
+      "api",
+      "multi-carrier",
+      "tracking"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Shippo",
+    "slug": "shippo",
+    "description": "Multi-carrier shipping platform with discounted rates and label printing API.",
+    "websiteUrl": "https://goshippo.com",
+    "tags": [
+      "shipping",
+      "api",
+      "discounted-rates",
+      "labels"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "ShipBob",
+    "slug": "shipbob",
+    "description": "Third-party logistics and fulfillment platform built for direct-to-consumer e-commerce brands.",
+    "websiteUrl": "https://www.shipbob.com",
+    "tags": [
+      "fulfillment",
+      "3pl",
+      "warehousing",
+      "dtc"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Yotpo",
+    "slug": "yotpo",
+    "description": "E-commerce marketing platform for reviews, loyalty, referrals, and SMS marketing.",
+    "websiteUrl": "https://www.yotpo.com",
+    "tags": [
+      "reviews",
+      "loyalty",
+      "marketing",
+      "ugc"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Judge.me",
+    "slug": "judge-me",
+    "description": "Product review app for Shopify with photo and video reviews.",
+    "websiteUrl": "https://judge.me",
+    "tags": [
+      "reviews",
+      "shopify",
+      "ugc",
+      "social-proof"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Stamped.io",
+    "slug": "stamped-io",
+    "description": "Reviews and loyalty platform helping e-commerce brands build social proof.",
+    "websiteUrl": "https://stamped.io",
+    "tags": [
+      "reviews",
+      "loyalty",
+      "social-proof"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Algolia",
+    "slug": "algolia-commerce",
+    "description": "AI-powered search and discovery platform optimized for e-commerce product catalogs.",
+    "websiteUrl": "https://www.algolia.com",
+    "tags": [
+      "search",
+      "product-discovery",
+      "ai",
+      "api"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Printful",
+    "slug": "printful",
+    "description": "Print-on-demand fulfillment service for custom apparel, accessories, and home goods.",
+    "websiteUrl": "https://www.printful.com",
+    "tags": [
+      "print-on-demand",
+      "fulfillment",
+      "custom-products",
+      "dropshipping"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Printify",
+    "slug": "printify",
+    "description": "Print-on-demand platform connecting merchants with a global print provider network.",
+    "websiteUrl": "https://printify.com",
+    "tags": [
+      "print-on-demand",
+      "custom-products",
+      "dropshipping"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Oberlo",
+    "slug": "oberlo",
+    "description": "Shopify dropshipping app for finding and importing products from suppliers.",
+    "websiteUrl": "https://www.oberlo.com",
+    "tags": [
+      "dropshipping",
+      "shopify",
+      "product-sourcing"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Spocket",
+    "slug": "spocket",
+    "description": "Dropshipping marketplace offering fast-shipping products from US and EU suppliers.",
+    "websiteUrl": "https://www.spocket.co",
+    "tags": [
+      "dropshipping",
+      "product-sourcing",
+      "us-suppliers",
+      "eu-suppliers"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Cin7",
+    "slug": "cin7",
+    "description": "Inventory management platform connecting multiple sales channels, warehouses, and suppliers together.",
+    "websiteUrl": "https://www.cin7.com",
+    "tags": [
+      "inventory-management",
+      "warehousing",
+      "multi-channel",
+      "automation"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "TradeGecko (QuickBooks Commerce)",
+    "slug": "tradegecko",
+    "description": "Inventory and order management platform for wholesalers and online sellers.",
+    "websiteUrl": "https://www.tradegecko.com",
+    "tags": [
+      "inventory-management",
+      "order-management",
+      "wholesale"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Ordoro",
+    "slug": "ordoro",
+    "description": "Inventory management and shipping platform built for multi-channel e-commerce sellers.",
+    "websiteUrl": "https://www.ordoro.com",
+    "tags": [
+      "inventory-management",
+      "shipping",
+      "multi-channel"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Klaviyo",
+    "slug": "klaviyo",
+    "description": "E-commerce marketing automation platform powering targeted email and SMS campaigns.",
+    "websiteUrl": "https://www.klaviyo.com",
+    "tags": [
+      "email-marketing",
+      "sms",
+      "automation",
+      "ecommerce"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Privy",
+    "slug": "privy",
+    "description": "E-commerce conversion platform with popups, email, and SMS for Shopify stores.",
+    "websiteUrl": "https://www.privy.com",
+    "tags": [
+      "popups",
+      "email-marketing",
+      "conversion",
+      "shopify"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Recharge",
+    "slug": "recharge",
+    "description": "Subscription management platform for e-commerce brands handling recurring orders and bundles.",
+    "websiteUrl": "https://rechargepayments.com",
+    "tags": [
+      "subscriptions",
+      "recurring-orders",
+      "shopify",
+      "retention"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Bold Commerce",
+    "slug": "bold-commerce",
+    "description": "Suite of e-commerce apps for subscriptions, pricing, and checkout customization.",
+    "websiteUrl": "https://boldcommerce.com",
+    "tags": [
+      "subscriptions",
+      "checkout",
+      "shopify",
+      "pricing"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Cratejoy",
+    "slug": "cratejoy",
+    "description": "Subscription box marketplace and platform for launching subscription commerce businesses.",
+    "websiteUrl": "https://www.cratejoy.com",
+    "tags": [
+      "subscription-boxes",
+      "marketplace",
+      "ecommerce-platform"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Ecwid",
+    "slug": "ecwid",
+    "description": "E-commerce widget that adds an online store to any existing website.",
+    "websiteUrl": "https://www.ecwid.com",
+    "tags": [
+      "ecommerce-platform",
+      "widget",
+      "multi-channel"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Sellfy",
+    "slug": "sellfy",
+    "description": "Simple e-commerce platform for creators selling digital and physical products.",
+    "websiteUrl": "https://sellfy.com",
+    "tags": [
+      "digital-products",
+      "creator-economy",
+      "ecommerce-platform"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 6.9
+  },
+  {
+    "name": "Volusion",
+    "slug": "volusion",
+    "description": "E-commerce website builder with built-in shopping cart and marketing tools.",
+    "websiteUrl": "https://www.volusion.com",
+    "tags": [
+      "ecommerce-platform",
+      "website-builder",
+      "shopping-cart"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "OpenCart",
+    "slug": "opencart",
+    "description": "Free open-source e-commerce platform with an extensive marketplace for add-on extensions.",
+    "websiteUrl": "https://www.opencart.com",
+    "tags": [
+      "ecommerce-platform",
+      "open-source",
+      "self-hosted",
+      "extensions"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Shopware",
+    "slug": "shopware",
+    "description": "Open-source e-commerce platform popular in Europe with powerful headless capabilities.",
+    "websiteUrl": "https://www.shopware.com",
+    "tags": [
+      "ecommerce-platform",
+      "open-source",
+      "headless",
+      "europe"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "tool",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Elastic Path",
+    "slug": "elastic-path",
+    "description": "Composable commerce platform for building custom commerce experiences at scale.",
+    "websiteUrl": "https://www.elasticpath.com",
+    "tags": [
+      "headless-commerce",
+      "composable",
+      "enterprise",
+      "api"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Fabric",
+    "slug": "fabric-commerce",
+    "description": "Modular headless commerce platform purpose-built for enterprise brands and large retailers.",
+    "websiteUrl": "https://fabric.inc",
+    "tags": [
+      "headless-commerce",
+      "modular",
+      "enterprise"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Nuvemshop",
+    "slug": "nuvemshop",
+    "description": "Leading e-commerce platform in Latin America for small and mid-sized businesses.",
+    "websiteUrl": "https://www.nuvemshop.com.br",
+    "tags": [
+      "ecommerce-platform",
+      "latin-america",
+      "small-business"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Webflow Ecommerce",
+    "slug": "webflow-ecommerce",
+    "description": "Visual web design platform with integrated e-commerce for custom online stores.",
+    "websiteUrl": "https://webflow.com/ecommerce",
+    "tags": [
+      "ecommerce-platform",
+      "website-builder",
+      "visual-design",
+      "no-code"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Feedonomics",
+    "slug": "feedonomics",
+    "description": "Product feed management platform that optimizes listings across major shopping channels.",
+    "websiteUrl": "https://feedonomics.com",
+    "tags": [
+      "product-feeds",
+      "channel-management",
+      "optimization"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "ChannelAdvisor",
+    "slug": "channeladvisor",
+    "description": "Multi-channel commerce platform managing product listings across marketplaces and advertising channels.",
+    "websiteUrl": "https://www.channeladvisor.com",
+    "tags": [
+      "multi-channel",
+      "marketplace-management",
+      "advertising"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Bazaarvoice",
+    "slug": "bazaarvoice",
+    "description": "User-generated content platform for managing product reviews, ratings, and customer Q&A.",
+    "websiteUrl": "https://www.bazaarvoice.com",
+    "tags": [
+      "reviews",
+      "ugc",
+      "ratings",
+      "enterprise"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Loop Returns",
+    "slug": "loop-returns",
+    "description": "Returns management platform for Shopify brands automating exchanges and refunds.",
+    "websiteUrl": "https://www.loopreturns.com",
+    "tags": [
+      "returns",
+      "exchanges",
+      "shopify",
+      "retention"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Returnly",
+    "slug": "returnly",
+    "description": "Returns experience platform that offers instant refunds and incentivized exchange options.",
+    "websiteUrl": "https://returnly.com",
+    "tags": [
+      "returns",
+      "exchanges",
+      "instant-refunds"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Nosto",
+    "slug": "nosto",
+    "description": "AI-powered personalization platform delivering tailored product recommendations for e-commerce stores.",
+    "websiteUrl": "https://www.nosto.com",
+    "tags": [
+      "personalization",
+      "ai",
+      "recommendations",
+      "merchandising"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Searchspring",
+    "slug": "searchspring",
+    "description": "Site search, merchandising, and personalization platform built for e-commerce online stores.",
+    "websiteUrl": "https://searchspring.com",
+    "tags": [
+      "search",
+      "merchandising",
+      "personalization"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Gorgias",
+    "slug": "gorgias",
+    "description": "E-commerce-focused helpdesk integrating with Shopify to automate customer support workflows.",
+    "websiteUrl": "https://www.gorgias.com",
+    "tags": [
+      "customer-support",
+      "helpdesk",
+      "shopify",
+      "automation"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Smile.io",
+    "slug": "smile-io",
+    "description": "Loyalty and rewards program platform for e-commerce brands and Shopify stores.",
+    "websiteUrl": "https://smile.io",
+    "tags": [
+      "loyalty",
+      "rewards",
+      "shopify",
+      "retention"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "LoyaltyLion",
+    "slug": "loyaltylion",
+    "description": "Customer loyalty platform with points, rewards, and referral programs for e-commerce.",
+    "websiteUrl": "https://loyaltylion.com",
+    "tags": [
+      "loyalty",
+      "rewards",
+      "referrals",
+      "retention"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Rebuy",
+    "slug": "rebuy",
+    "description": "AI-powered personalization engine for Shopify enabling upsells, cross-sells, and smart recommendations.",
+    "websiteUrl": "https://www.rebuyengine.com",
+    "tags": [
+      "personalization",
+      "upselling",
+      "shopify",
+      "ai"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Aftership",
+    "slug": "aftership",
+    "description": "Shipment tracking platform providing automated delivery updates for e-commerce orders.",
+    "websiteUrl": "https://www.aftership.com",
+    "tags": [
+      "tracking",
+      "shipping",
+      "notifications",
+      "post-purchase"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Skubana (Extensiv)",
+    "slug": "skubana",
+    "description": "Operations platform unifying inventory, orders, and fulfillment for e-commerce brands.",
+    "websiteUrl": "https://www.extensiv.com",
+    "tags": [
+      "inventory-management",
+      "order-management",
+      "fulfillment",
+      "operations"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Katana",
+    "slug": "katana-mrp",
+    "description": "Manufacturing and inventory management software designed specifically for e-commerce product makers.",
+    "websiteUrl": "https://katanamrp.com",
+    "tags": [
+      "manufacturing",
+      "inventory-management",
+      "production"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Shogun",
+    "slug": "shogun",
+    "description": "Page builder and frontend platform for creating custom Shopify storefront pages.",
+    "websiteUrl": "https://getshogun.com",
+    "tags": [
+      "page-builder",
+      "shopify",
+      "storefront",
+      "no-code"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "PageFly",
+    "slug": "pagefly",
+    "description": "Drag-and-drop page builder for Shopify stores with responsive design templates.",
+    "websiteUrl": "https://pagefly.io",
+    "tags": [
+      "page-builder",
+      "shopify",
+      "drag-and-drop",
+      "templates"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Sellbrite",
+    "slug": "sellbrite",
+    "description": "Multi-channel listing tool for selling on Amazon, eBay, Walmart, and more.",
+    "websiteUrl": "https://www.sellbrite.com",
+    "tags": [
+      "multi-channel",
+      "listing-tool",
+      "marketplace-management"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Gooten",
+    "slug": "gooten",
+    "description": "Print-on-demand and custom product fulfillment platform serving e-commerce businesses globally.",
+    "websiteUrl": "https://www.gooten.com",
+    "tags": [
+      "print-on-demand",
+      "fulfillment",
+      "custom-products"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 6.7
+  },
+  {
+    "name": "Shipengine",
+    "slug": "shipengine",
+    "description": "Shipping API for rate comparison, label generation, and package tracking.",
+    "websiteUrl": "https://www.shipengine.com",
+    "tags": [
+      "shipping",
+      "api",
+      "labels",
+      "tracking"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Doofinder",
+    "slug": "doofinder",
+    "description": "Intelligent site search engine for e-commerce stores boosting product discovery.",
+    "websiteUrl": "https://www.doofinder.com",
+    "tags": [
+      "search",
+      "product-discovery",
+      "ai"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Klevu",
+    "slug": "klevu",
+    "description": "AI-powered product discovery suite with intelligent search, recommendations, and merchandising tools.",
+    "websiteUrl": "https://www.klevu.com",
+    "tags": [
+      "search",
+      "ai",
+      "product-discovery",
+      "merchandising"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Depict.ai",
+    "slug": "depict-ai",
+    "description": "AI product recommendations engine built for fashion and lifestyle e-commerce.",
+    "websiteUrl": "https://www.depict.ai",
+    "tags": [
+      "recommendations",
+      "ai",
+      "fashion",
+      "personalization"
+    ],
+    "primaryCategory": "ecommerce",
+    "type": "saas",
+    "baselineScore": 7.0
+  }
+]

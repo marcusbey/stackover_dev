@@ -111,7 +111,7 @@ export const search = query({
 export const featured = query({
   args: {},
   handler: async (ctx) => {
-    const categories = ["ai", "dev-tools", "databases", "web", "cloud", "design"];
+    const categories = ["ai", "dev-tools", "databases", "web", "cloud", "design", "hosting"];
     const sections: { category: string; tools: any[] }[] = [];
 
     for (const cat of categories) {
@@ -164,5 +164,58 @@ export const byTag = query({
     return results
       .filter((t) => t.tags?.includes(args.tag))
       .slice(0, take);
+  },
+});
+
+export const byCategoryRanked = query({
+  args: { category: v.string() },
+  handler: async (ctx, args) => {
+    const tools = await ctx.db
+      .query("tools")
+      .withIndex("by_primary_category", (q) =>
+        q.eq("primaryCategory", args.category)
+      )
+      .collect();
+
+    const ranked = await Promise.all(
+      tools.map(async (tool) => {
+        const votes = await ctx.db
+          .query("categoryVotes")
+          .withIndex("by_tool_category", (q) =>
+            q.eq("toolId", tool._id).eq("category", args.category)
+          )
+          .collect();
+
+        const upvotes = votes.filter((v) => v.value === 1).length;
+        const downvotes = votes.filter((v) => v.value === -1).length;
+        const netVotes = upvotes - downvotes;
+
+        return {
+          ...tool,
+          upvotes,
+          downvotes,
+          netVotes,
+          voteCount: votes.length,
+        };
+      })
+    );
+
+    return ranked.sort((a, b) => {
+      if (b.netVotes !== a.netVotes) return b.netVotes - a.netVotes;
+      return b.baselineScore - a.baselineScore;
+    });
+  },
+});
+
+export const activityForTool = query({
+  args: { toolId: v.id("tools") },
+  handler: async (ctx, args) => {
+    const rows = await ctx.db
+      .query("toolActivity")
+      .withIndex("by_tool_week", (q) => q.eq("toolId", args.toolId))
+      .order("asc")
+      .take(52);
+
+    return rows;
   },
 });

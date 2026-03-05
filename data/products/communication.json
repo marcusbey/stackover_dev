@@ -1,0 +1,1109 @@
+[
+  {
+    "name": "SendGrid",
+    "slug": "sendgrid",
+    "description": "Cloud-based email delivery platform for transactional and marketing emails at scale.",
+    "websiteUrl": "https://sendgrid.com",
+    "tags": [
+      "email-api",
+      "transactional-email",
+      "marketing-email",
+      "deliverability"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Resend",
+    "slug": "resend",
+    "description": "Modern email API for developers with React Email integration and great DX.",
+    "websiteUrl": "https://resend.com",
+    "tags": [
+      "email-api",
+      "transactional-email",
+      "developer-tools",
+      "react"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Postmark",
+    "slug": "postmark",
+    "description": "Fast and reliable transactional email service focused on delivery speed.",
+    "websiteUrl": "https://postmarkapp.com",
+    "tags": [
+      "email-api",
+      "transactional-email",
+      "deliverability"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Mailgun",
+    "slug": "mailgun",
+    "description": "Email API service for sending, receiving, and tracking transactional emails.",
+    "websiteUrl": "https://www.mailgun.com",
+    "tags": [
+      "email-api",
+      "transactional-email",
+      "tracking",
+      "validation"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Amazon SES",
+    "slug": "amazon-ses",
+    "description": "Cost-effective email sending service from AWS for transactional and bulk email.",
+    "websiteUrl": "https://aws.amazon.com/ses/",
+    "tags": [
+      "email-api",
+      "aws",
+      "transactional-email",
+      "bulk-email"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "SparkPost",
+    "slug": "sparkpost",
+    "description": "Email delivery service providing analytics, deliverability tools, and sending APIs.",
+    "websiteUrl": "https://www.sparkpost.com",
+    "tags": [
+      "email-api",
+      "deliverability",
+      "analytics"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Mailchimp Transactional (Mandrill)",
+    "slug": "mandrill",
+    "description": "Transactional email API by Mailchimp for triggered and automated emails.",
+    "websiteUrl": "https://mailchimp.com/features/transactional-email/",
+    "tags": [
+      "email-api",
+      "transactional-email",
+      "mailchimp"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Mailtrap",
+    "slug": "mailtrap",
+    "description": "Email testing and sending platform for inspecting emails in staging environments.",
+    "websiteUrl": "https://mailtrap.io",
+    "tags": [
+      "email-testing",
+      "email-api",
+      "staging",
+      "developer-tools"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Twilio",
+    "slug": "twilio",
+    "description": "Cloud communications platform providing SMS, voice, video, and messaging APIs.",
+    "websiteUrl": "https://www.twilio.com",
+    "tags": [
+      "sms",
+      "voice",
+      "messaging",
+      "api",
+      "cpaas"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Vonage",
+    "slug": "vonage",
+    "description": "Communications API platform offering SMS, voice, video, and messaging services.",
+    "websiteUrl": "https://www.vonage.com",
+    "tags": [
+      "sms",
+      "voice",
+      "video",
+      "api",
+      "cpaas"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "MessageBird",
+    "slug": "messagebird",
+    "description": "Omnichannel communication platform supporting SMS, WhatsApp, voice, and live chat.",
+    "websiteUrl": "https://messagebird.com",
+    "tags": [
+      "sms",
+      "whatsapp",
+      "omnichannel",
+      "api"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Plivo",
+    "slug": "plivo",
+    "description": "Cloud communication platform offering SMS and voice APIs for global messaging.",
+    "websiteUrl": "https://www.plivo.com",
+    "tags": [
+      "sms",
+      "voice",
+      "api",
+      "global"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Sinch",
+    "slug": "sinch",
+    "description": "Cloud communications platform providing enterprise messaging, voice, and video engagement APIs.",
+    "websiteUrl": "https://www.sinch.com",
+    "tags": [
+      "sms",
+      "voice",
+      "messaging",
+      "api"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Bandwidth",
+    "slug": "bandwidth",
+    "description": "Enterprise communications API platform for voice, messaging, and emergency services.",
+    "websiteUrl": "https://www.bandwidth.com",
+    "tags": [
+      "voice",
+      "sms",
+      "enterprise",
+      "api"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Telnyx",
+    "slug": "telnyx",
+    "description": "Communications platform with voice, messaging, and networking APIs on private infrastructure.",
+    "websiteUrl": "https://telnyx.com",
+    "tags": [
+      "voice",
+      "sms",
+      "api",
+      "networking"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "OneSignal",
+    "slug": "onesignal",
+    "description": "Multi-channel customer engagement platform for push, email, SMS, and in-app messaging.",
+    "websiteUrl": "https://onesignal.com",
+    "tags": [
+      "push-notifications",
+      "multi-channel",
+      "messaging",
+      "engagement"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Firebase Cloud Messaging",
+    "slug": "firebase-cloud-messaging",
+    "description": "Google's free cross-platform messaging solution for delivering push notifications reliably.",
+    "websiteUrl": "https://firebase.google.com/products/cloud-messaging",
+    "tags": [
+      "push-notifications",
+      "google",
+      "mobile",
+      "cross-platform"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Pushwoosh",
+    "slug": "pushwoosh",
+    "description": "Multi-channel push notification and messaging platform designed for mobile user engagement.",
+    "websiteUrl": "https://www.pushwoosh.com",
+    "tags": [
+      "push-notifications",
+      "mobile",
+      "engagement",
+      "automation"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Airship",
+    "slug": "airship",
+    "description": "Mobile-first customer engagement platform for push, SMS, and in-app messaging.",
+    "websiteUrl": "https://www.airship.com",
+    "tags": [
+      "push-notifications",
+      "mobile",
+      "engagement",
+      "in-app"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Braze",
+    "slug": "braze",
+    "description": "Customer engagement platform for personalized messaging across channels at scale.",
+    "websiteUrl": "https://www.braze.com",
+    "tags": [
+      "engagement",
+      "push-notifications",
+      "email",
+      "multi-channel"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Customer.io",
+    "slug": "customer-io",
+    "description": "Automated messaging platform for targeted emails, push, SMS, and webhooks.",
+    "websiteUrl": "https://customer.io",
+    "tags": [
+      "automation",
+      "email",
+      "push-notifications",
+      "sms"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Intercom",
+    "slug": "intercom",
+    "description": "Customer messaging platform with live chat, bots, and in-app communication.",
+    "websiteUrl": "https://www.intercom.com",
+    "tags": [
+      "live-chat",
+      "in-app-messaging",
+      "customer-support",
+      "bots"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Stream",
+    "slug": "stream-chat",
+    "description": "Chat and activity feed API for building scalable in-app messaging features.",
+    "websiteUrl": "https://getstream.io",
+    "tags": [
+      "chat-sdk",
+      "in-app-messaging",
+      "activity-feeds",
+      "api"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Sendbird",
+    "slug": "sendbird",
+    "description": "In-app chat, voice, and video API for building real-time communication features.",
+    "websiteUrl": "https://sendbird.com",
+    "tags": [
+      "chat-sdk",
+      "in-app-messaging",
+      "voice",
+      "video"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Crisp",
+    "slug": "crisp",
+    "description": "Customer messaging platform combining live chat, chatbot, and shared inbox.",
+    "websiteUrl": "https://crisp.chat",
+    "tags": [
+      "live-chat",
+      "chatbot",
+      "shared-inbox",
+      "customer-support"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Drift",
+    "slug": "drift",
+    "description": "Conversational marketing and sales platform with chatbots and live chat.",
+    "websiteUrl": "https://www.drift.com",
+    "tags": [
+      "live-chat",
+      "chatbot",
+      "conversational-marketing",
+      "sales"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Zendesk Chat",
+    "slug": "zendesk-chat",
+    "description": "Live chat software fully integrated with Zendesk's broader customer support platform.",
+    "websiteUrl": "https://www.zendesk.com/chat/",
+    "tags": [
+      "live-chat",
+      "customer-support",
+      "zendesk"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Tawk.to",
+    "slug": "tawk-to",
+    "description": "Free live chat application for websites with unlimited agents and chat history.",
+    "websiteUrl": "https://www.tawk.to",
+    "tags": [
+      "live-chat",
+      "free",
+      "customer-support",
+      "widget"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "LiveChat",
+    "slug": "livechat",
+    "description": "Premium live chat and helpdesk software for online customer service.",
+    "websiteUrl": "https://www.livechat.com",
+    "tags": [
+      "live-chat",
+      "helpdesk",
+      "customer-support"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Agora",
+    "slug": "agora",
+    "description": "Real-time voice, video, and interactive live streaming SDK for web and mobile.",
+    "websiteUrl": "https://www.agora.io",
+    "tags": [
+      "video",
+      "voice",
+      "webrtc",
+      "sdk",
+      "real-time"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Twilio Video",
+    "slug": "twilio-video",
+    "description": "Programmable video API for embedding real-time video communication into apps.",
+    "websiteUrl": "https://www.twilio.com/video",
+    "tags": [
+      "video",
+      "webrtc",
+      "api",
+      "real-time"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Daily.co",
+    "slug": "daily-co",
+    "description": "WebRTC video and audio API for building real-time communication features.",
+    "websiteUrl": "https://www.daily.co",
+    "tags": [
+      "video",
+      "webrtc",
+      "api",
+      "voice"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Vonage Video (TokBox)",
+    "slug": "vonage-video",
+    "description": "Video API platform for embedding live video sessions into web and mobile apps.",
+    "websiteUrl": "https://www.vonage.com/communications-apis/video/",
+    "tags": [
+      "video",
+      "webrtc",
+      "api",
+      "live-video"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "100ms",
+    "slug": "100ms",
+    "description": "Live video and audio infrastructure SDK for conferencing, streaming, and recording.",
+    "websiteUrl": "https://www.100ms.live",
+    "tags": [
+      "video",
+      "audio",
+      "sdk",
+      "streaming",
+      "webrtc"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Livekit",
+    "slug": "livekit",
+    "description": "Open-source WebRTC infrastructure for building real-time video and audio apps.",
+    "websiteUrl": "https://livekit.io",
+    "tags": [
+      "webrtc",
+      "open-source",
+      "video",
+      "audio",
+      "real-time"
+    ],
+    "primaryCategory": "communication",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Jitsi",
+    "slug": "jitsi",
+    "description": "Open-source video conferencing platform offering secure, fully self-hostable communication infrastructure.",
+    "websiteUrl": "https://jitsi.org",
+    "tags": [
+      "video-conferencing",
+      "open-source",
+      "self-hosted",
+      "webrtc"
+    ],
+    "primaryCategory": "communication",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Zoom Video SDK",
+    "slug": "zoom-video-sdk",
+    "description": "Zoom's video SDK for embedding customizable video experiences into applications.",
+    "websiteUrl": "https://developers.zoom.us/docs/video-sdk/",
+    "tags": [
+      "video",
+      "sdk",
+      "conferencing",
+      "api"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Whereby",
+    "slug": "whereby",
+    "description": "Browser-based video meeting API for embedding video calls without downloads.",
+    "websiteUrl": "https://whereby.com",
+    "tags": [
+      "video",
+      "meetings",
+      "api",
+      "browser-based"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Knock",
+    "slug": "knock",
+    "description": "Notification infrastructure API for building in-app, email, push, and SMS notifications.",
+    "websiteUrl": "https://knock.app",
+    "tags": [
+      "notifications",
+      "in-app",
+      "api",
+      "multi-channel"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Novu",
+    "slug": "novu",
+    "description": "Open-source notification infrastructure for managing and delivering multi-channel notifications at scale.",
+    "websiteUrl": "https://novu.co",
+    "tags": [
+      "notifications",
+      "open-source",
+      "multi-channel",
+      "api"
+    ],
+    "primaryCategory": "communication",
+    "type": "tool",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Courier",
+    "slug": "courier",
+    "description": "Notification orchestration platform routing messages across email, SMS, push, and chat.",
+    "websiteUrl": "https://www.courier.com",
+    "tags": [
+      "notifications",
+      "orchestration",
+      "multi-channel",
+      "api"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "MagicBell",
+    "slug": "magicbell",
+    "description": "Embeddable notification inbox and flexible multi-channel notification API for modern applications.",
+    "websiteUrl": "https://magicbell.com",
+    "tags": [
+      "notifications",
+      "in-app",
+      "inbox",
+      "api"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Slack API",
+    "slug": "slack-api",
+    "description": "API for building integrations, bots, and workflows within Slack workspaces.",
+    "websiteUrl": "https://api.slack.com",
+    "tags": [
+      "messaging",
+      "api",
+      "bots",
+      "integrations"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Discord.js",
+    "slug": "discord-js",
+    "description": "Node.js library for interacting with the Discord API to build bots.",
+    "websiteUrl": "https://discord.js.org",
+    "tags": [
+      "discord",
+      "bots",
+      "node-js",
+      "open-source"
+    ],
+    "primaryCategory": "communication",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "WhatsApp Business API",
+    "slug": "whatsapp-business-api",
+    "description": "Meta's API for businesses to send messages and notifications via WhatsApp.",
+    "websiteUrl": "https://business.whatsapp.com/products/business-platform",
+    "tags": [
+      "whatsapp",
+      "messaging",
+      "api",
+      "business"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Telegram Bot API",
+    "slug": "telegram-bot-api",
+    "description": "API for building bots on Telegram with messaging, payments, and inline features.",
+    "websiteUrl": "https://core.telegram.org/bots/api",
+    "tags": [
+      "telegram",
+      "bots",
+      "api",
+      "messaging"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Mailjet",
+    "slug": "mailjet",
+    "description": "Email delivery and marketing platform with collaborative real-time template editing tools.",
+    "websiteUrl": "https://www.mailjet.com",
+    "tags": [
+      "email-api",
+      "marketing-email",
+      "collaboration",
+      "templates"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Sendinblue (Brevo)",
+    "slug": "brevo",
+    "description": "All-in-one marketing platform combining email, SMS, chat, and CRM capabilities.",
+    "websiteUrl": "https://www.brevo.com",
+    "tags": [
+      "email",
+      "sms",
+      "marketing",
+      "crm"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Mailersend",
+    "slug": "mailersend",
+    "description": "Transactional email and SMS service with intuitive API and drag-and-drop templates.",
+    "websiteUrl": "https://www.mailersend.com",
+    "tags": [
+      "email-api",
+      "transactional-email",
+      "sms",
+      "templates"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Pusher",
+    "slug": "pusher",
+    "description": "Hosted APIs for building real-time features with WebSockets and channels.",
+    "websiteUrl": "https://pusher.com",
+    "tags": [
+      "real-time",
+      "websockets",
+      "channels",
+      "api"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Ably",
+    "slug": "ably",
+    "description": "Real-time messaging infrastructure for building live, collaborative, and event-driven experiences.",
+    "websiteUrl": "https://ably.com",
+    "tags": [
+      "real-time",
+      "pub-sub",
+      "websockets",
+      "api"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "PubNub",
+    "slug": "pubnub",
+    "description": "Real-time communication API for chat, notifications, and IoT data streaming.",
+    "websiteUrl": "https://www.pubnub.com",
+    "tags": [
+      "real-time",
+      "chat",
+      "pub-sub",
+      "iot"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Socket.IO",
+    "slug": "socket-io",
+    "description": "Open-source JavaScript library enabling real-time bidirectional event-based communication between clients and servers.",
+    "websiteUrl": "https://socket.io",
+    "tags": [
+      "real-time",
+      "websockets",
+      "open-source",
+      "node-js"
+    ],
+    "primaryCategory": "communication",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "ZeroBounce",
+    "slug": "zerobounce",
+    "description": "Email verification and validation service reducing bounces and improving deliverability.",
+    "websiteUrl": "https://www.zerobounce.net",
+    "tags": [
+      "email-verification",
+      "validation",
+      "deliverability"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Hunter.io",
+    "slug": "hunter-io",
+    "description": "Email finder and verification tool for discovering professional email addresses.",
+    "websiteUrl": "https://hunter.io",
+    "tags": [
+      "email-finder",
+      "verification",
+      "outreach"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Chatwoot",
+    "slug": "chatwoot",
+    "description": "Open-source customer engagement platform with live chat and omnichannel support.",
+    "websiteUrl": "https://www.chatwoot.com",
+    "tags": [
+      "live-chat",
+      "open-source",
+      "omnichannel",
+      "customer-support"
+    ],
+    "primaryCategory": "communication",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Freshchat",
+    "slug": "freshchat",
+    "description": "Modern messaging software for managing sales, marketing, and support conversations together.",
+    "websiteUrl": "https://www.freshworks.com/live-chat-software/",
+    "tags": [
+      "live-chat",
+      "messaging",
+      "bots",
+      "customer-support"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "HelpScout",
+    "slug": "helpscout",
+    "description": "Customer support platform with shared inbox, help center, and live chat.",
+    "websiteUrl": "https://www.helpscout.com",
+    "tags": [
+      "customer-support",
+      "shared-inbox",
+      "help-center",
+      "live-chat"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Front",
+    "slug": "front",
+    "description": "Shared inbox platform for teams managing email, SMS, and social media together.",
+    "websiteUrl": "https://front.com",
+    "tags": [
+      "shared-inbox",
+      "email",
+      "collaboration",
+      "customer-support"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Loom",
+    "slug": "loom",
+    "description": "Async video messaging tool for recording and sharing screen and camera videos.",
+    "websiteUrl": "https://www.loom.com",
+    "tags": [
+      "async-video",
+      "screen-recording",
+      "messaging",
+      "collaboration"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Mux",
+    "slug": "mux",
+    "description": "Video infrastructure API for streaming, encoding, and monitoring video content.",
+    "websiteUrl": "https://www.mux.com",
+    "tags": [
+      "video",
+      "streaming",
+      "api",
+      "encoding"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Dyte",
+    "slug": "dyte",
+    "description": "Developer-friendly SDK for adding real-time video and voice to applications.",
+    "websiteUrl": "https://dyte.io",
+    "tags": [
+      "video",
+      "voice",
+      "sdk",
+      "real-time"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Textmagic",
+    "slug": "textmagic",
+    "description": "Business SMS service for sending notifications, alerts, and marketing texts.",
+    "websiteUrl": "https://www.textmagic.com",
+    "tags": [
+      "sms",
+      "business-messaging",
+      "notifications"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "ClickSend",
+    "slug": "clicksend",
+    "description": "Multi-channel communications platform for SMS, email, voice, and direct mail.",
+    "websiteUrl": "https://www.clicksend.com",
+    "tags": [
+      "sms",
+      "email",
+      "voice",
+      "multi-channel"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Africa's Talking",
+    "slug": "africas-talking",
+    "description": "Communication APIs for SMS, voice, USSD, and payments across Africa.",
+    "websiteUrl": "https://africastalking.com",
+    "tags": [
+      "sms",
+      "voice",
+      "api",
+      "africa"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Infobip",
+    "slug": "infobip",
+    "description": "Global omnichannel communication platform for SMS, email, voice, and chat apps.",
+    "websiteUrl": "https://www.infobip.com",
+    "tags": [
+      "omnichannel",
+      "sms",
+      "voice",
+      "global"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Bird (MessageBird)",
+    "slug": "bird-crm",
+    "description": "CRM-first communication platform for managing email, SMS, and WhatsApp messaging together.",
+    "websiteUrl": "https://bird.com",
+    "tags": [
+      "crm",
+      "email",
+      "sms",
+      "whatsapp"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Engagespot",
+    "slug": "engagespot",
+    "description": "Multi-channel notification API with embeddable in-app inbox and user preference management.",
+    "websiteUrl": "https://engagespot.co",
+    "tags": [
+      "notifications",
+      "in-app",
+      "preferences",
+      "api"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Loops",
+    "slug": "loops",
+    "description": "Email platform built for SaaS companies to send product and marketing emails.",
+    "websiteUrl": "https://loops.so",
+    "tags": [
+      "email",
+      "saas",
+      "marketing",
+      "product-email"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Svix",
+    "slug": "svix",
+    "description": "Webhook delivery infrastructure providing reliable webhook sending as a service.",
+    "websiteUrl": "https://www.svix.com",
+    "tags": [
+      "webhooks",
+      "infrastructure",
+      "api",
+      "reliability"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Hookdeck",
+    "slug": "hookdeck",
+    "description": "Webhook infrastructure platform for reliably receiving, transforming, and routing incoming webhooks.",
+    "websiteUrl": "https://hookdeck.com",
+    "tags": [
+      "webhooks",
+      "infrastructure",
+      "routing",
+      "developer-tools"
+    ],
+    "primaryCategory": "communication",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Centrifugo",
+    "slug": "centrifugo",
+    "description": "Open-source real-time messaging server for WebSocket and SSE connections at scale.",
+    "websiteUrl": "https://centrifugal.dev",
+    "tags": [
+      "real-time",
+      "websockets",
+      "open-source",
+      "server"
+    ],
+    "primaryCategory": "communication",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Rocket.Chat",
+    "slug": "rocket-chat",
+    "description": "Open-source team communication platform with chat, video, and file sharing.",
+    "websiteUrl": "https://www.rocket.chat",
+    "tags": [
+      "team-chat",
+      "open-source",
+      "self-hosted",
+      "video"
+    ],
+    "primaryCategory": "communication",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Matrix (Element)",
+    "slug": "matrix-element",
+    "description": "Open-source decentralized communication protocol with end-to-end encryption and federated messaging.",
+    "websiteUrl": "https://element.io",
+    "tags": [
+      "decentralized",
+      "open-source",
+      "encryption",
+      "protocol"
+    ],
+    "primaryCategory": "communication",
+    "type": "tool",
+    "baselineScore": 7.7
+  }
+]

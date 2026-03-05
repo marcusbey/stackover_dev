@@ -252,7 +252,7 @@ export function ExplorerContent() {
                         <h2 className="text-lg font-semibold mb-4">
                           Hot Right Now
                         </h2>
-                        <div className="space-y-3">
+                        <div className="space-y-4">
                           {hotTools.map((tool) => (
                             <ToolCard key={tool._id} tool={tool} />
                           ))}
@@ -264,7 +264,7 @@ export function ExplorerContent() {
                         <h2 className="text-lg font-semibold mb-4">
                           Trending
                         </h2>
-                        <div className="space-y-3">
+                        <div className="space-y-4">
                           {trendingTools.map((tool) => (
                             <ToolCard key={tool._id} tool={tool} />
                           ))}

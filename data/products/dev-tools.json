@@ -1,0 +1,3751 @@
+[
+  {
+    "name": "Visual Studio Code",
+    "slug": "vscode",
+    "description": "Microsoft's free, extensible code editor with rich plugin ecosystem.",
+    "websiteUrl": "https://code.visualstudio.com",
+    "tags": [
+      "ide",
+      "editor",
+      "microsoft",
+      "extensions"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 9.5
+  },
+  {
+    "name": "IntelliJ IDEA",
+    "slug": "intellij-idea",
+    "description": "JetBrains' powerful IDE for Java and polyglot development.",
+    "websiteUrl": "https://www.jetbrains.com/idea/",
+    "tags": [
+      "ide",
+      "java",
+      "jetbrains",
+      "professional"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "WebStorm",
+    "slug": "webstorm",
+    "description": "JetBrains IDE for JavaScript and TypeScript web development.",
+    "websiteUrl": "https://www.jetbrains.com/webstorm/",
+    "tags": [
+      "ide",
+      "javascript",
+      "typescript",
+      "jetbrains"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "PyCharm",
+    "slug": "pycharm",
+    "description": "JetBrains IDE for Python development with scientific tools support.",
+    "websiteUrl": "https://www.jetbrains.com/pycharm/",
+    "tags": [
+      "ide",
+      "python",
+      "jetbrains",
+      "data-science"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "GoLand",
+    "slug": "goland",
+    "description": "JetBrains IDE specifically designed for Go language development.",
+    "websiteUrl": "https://www.jetbrains.com/go/",
+    "tags": [
+      "ide",
+      "go",
+      "jetbrains",
+      "professional"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "RustRover",
+    "slug": "rustrover",
+    "description": "JetBrains IDE for Rust development with cargo integration.",
+    "websiteUrl": "https://www.jetbrains.com/rust/",
+    "tags": [
+      "ide",
+      "rust",
+      "jetbrains",
+      "professional"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "CLion",
+    "slug": "clion",
+    "description": "JetBrains cross-platform IDE for C and C++ development.",
+    "websiteUrl": "https://www.jetbrains.com/clion/",
+    "tags": [
+      "ide",
+      "c++",
+      "jetbrains",
+      "cmake"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Rider",
+    "slug": "rider",
+    "description": "JetBrains cross-platform IDE for .NET and game development.",
+    "websiteUrl": "https://www.jetbrains.com/rider/",
+    "tags": [
+      "ide",
+      "dotnet",
+      "jetbrains",
+      "unity"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Android Studio",
+    "slug": "android-studio",
+    "description": "Google's official IDE for Android application development.",
+    "websiteUrl": "https://developer.android.com/studio",
+    "tags": [
+      "ide",
+      "android",
+      "google",
+      "mobile"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Xcode",
+    "slug": "xcode",
+    "description": "Apple's IDE for developing iOS, macOS, and Apple platform apps.",
+    "websiteUrl": "https://developer.apple.com/xcode/",
+    "tags": [
+      "ide",
+      "ios",
+      "macos",
+      "apple"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Zed",
+    "slug": "zed",
+    "description": "High-performance multiplayer code editor built in Rust.",
+    "websiteUrl": "https://zed.dev",
+    "tags": [
+      "editor",
+      "fast",
+      "rust",
+      "multiplayer"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Neovim",
+    "slug": "neovim",
+    "description": "Hyper-extensible Vim-based text editor for terminal power users.",
+    "websiteUrl": "https://neovim.io",
+    "tags": [
+      "editor",
+      "terminal",
+      "vim",
+      "extensible"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Vim",
+    "slug": "vim",
+    "description": "Highly configurable modal text editor for efficient editing.",
+    "websiteUrl": "https://www.vim.org",
+    "tags": [
+      "editor",
+      "terminal",
+      "modal",
+      "classic"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Sublime Text",
+    "slug": "sublime-text",
+    "description": "Fast, sophisticated text editor for code, markup, and prose.",
+    "websiteUrl": "https://www.sublimetext.com",
+    "tags": [
+      "editor",
+      "fast",
+      "lightweight",
+      "cross-platform"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Emacs",
+    "slug": "emacs",
+    "description": "Extensible and customizable text editor with Lisp programming.",
+    "websiteUrl": "https://www.gnu.org/software/emacs/",
+    "tags": [
+      "editor",
+      "lisp",
+      "extensible",
+      "terminal"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Nova",
+    "slug": "nova",
+    "description": "Panic's native macOS code editor with modern design and extensions.",
+    "websiteUrl": "https://nova.app",
+    "tags": [
+      "editor",
+      "macos",
+      "native",
+      "design"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Fleet",
+    "slug": "fleet",
+    "description": "JetBrains' lightweight editor with smart mode for IDE features.",
+    "websiteUrl": "https://www.jetbrains.com/fleet/",
+    "tags": [
+      "editor",
+      "lightweight",
+      "jetbrains",
+      "smart"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Helix",
+    "slug": "helix",
+    "description": "Post-modern modal text editor with built-in LSP and tree-sitter.",
+    "websiteUrl": "https://helix-editor.com",
+    "tags": [
+      "editor",
+      "modal",
+      "rust",
+      "terminal"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "GitHub",
+    "slug": "github",
+    "description": "World's largest platform for code hosting and collaboration.",
+    "websiteUrl": "https://github.com",
+    "tags": [
+      "version-control",
+      "git",
+      "collaboration",
+      "code-hosting"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 9.5
+  },
+  {
+    "name": "GitLab",
+    "slug": "gitlab",
+    "description": "Complete DevOps platform with built-in CI/CD and code management.",
+    "websiteUrl": "https://gitlab.com",
+    "tags": [
+      "version-control",
+      "devops",
+      "ci-cd",
+      "self-hosted"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Bitbucket",
+    "slug": "bitbucket",
+    "description": "Atlassian's Git repository management with Jira integration.",
+    "websiteUrl": "https://bitbucket.org",
+    "tags": [
+      "version-control",
+      "git",
+      "atlassian",
+      "jira"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Gitea",
+    "slug": "gitea",
+    "description": "Lightweight self-hosted Git service with simple setup.",
+    "websiteUrl": "https://gitea.io",
+    "tags": [
+      "version-control",
+      "self-hosted",
+      "git",
+      "lightweight"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Forgejo",
+    "slug": "forgejo",
+    "description": "Community-driven self-hosted Git forge forked from Gitea.",
+    "websiteUrl": "https://forgejo.org",
+    "tags": [
+      "version-control",
+      "self-hosted",
+      "git",
+      "community"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Sourcetree",
+    "slug": "sourcetree",
+    "description": "Free visual Git and Mercurial client for Mac and Windows.",
+    "websiteUrl": "https://www.sourcetreeapp.com",
+    "tags": [
+      "version-control",
+      "git-gui",
+      "atlassian",
+      "desktop"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "GitKraken",
+    "slug": "gitkraken",
+    "description": "Visual Git client with intuitive interface and team collaboration.",
+    "websiteUrl": "https://www.gitkraken.com",
+    "tags": [
+      "version-control",
+      "git-gui",
+      "visualization",
+      "team"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "GitHub Desktop",
+    "slug": "github-desktop",
+    "description": "Official GitHub desktop client for simplified Git workflow.",
+    "websiteUrl": "https://desktop.github.com",
+    "tags": [
+      "version-control",
+      "git-gui",
+      "github",
+      "desktop"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Jenkins",
+    "slug": "jenkins",
+    "description": "Leading open-source automation server for CI/CD pipelines.",
+    "websiteUrl": "https://www.jenkins.io",
+    "tags": [
+      "ci-cd",
+      "automation",
+      "open-source",
+      "pipelines"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "GitHub Actions",
+    "slug": "github-actions",
+    "description": "GitHub's integrated CI/CD and automation workflow platform.",
+    "websiteUrl": "https://github.com/features/actions",
+    "tags": [
+      "ci-cd",
+      "automation",
+      "github",
+      "workflows"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "CircleCI",
+    "slug": "circleci",
+    "description": "Cloud-native CI/CD platform for fast software delivery.",
+    "websiteUrl": "https://circleci.com",
+    "tags": [
+      "ci-cd",
+      "cloud",
+      "automation",
+      "pipelines"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Travis CI",
+    "slug": "travis-ci",
+    "description": "Hosted CI/CD service for building and testing GitHub projects.",
+    "websiteUrl": "https://www.travis-ci.com",
+    "tags": [
+      "ci-cd",
+      "hosted",
+      "github",
+      "testing"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "GitLab CI",
+    "slug": "gitlab-ci",
+    "description": "GitLab's built-in CI/CD tool with integrated pipeline management.",
+    "websiteUrl": "https://docs.gitlab.com/ee/ci/",
+    "tags": [
+      "ci-cd",
+      "gitlab",
+      "pipelines",
+      "integrated"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Drone CI",
+    "slug": "drone-ci",
+    "description": "Container-native CI/CD platform with simple YAML configuration.",
+    "websiteUrl": "https://www.drone.io",
+    "tags": [
+      "ci-cd",
+      "containers",
+      "self-hosted",
+      "yaml"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Buildkite",
+    "slug": "buildkite",
+    "description": "Hybrid CI/CD platform running pipelines on your own infrastructure.",
+    "websiteUrl": "https://buildkite.com",
+    "tags": [
+      "ci-cd",
+      "hybrid",
+      "scalable",
+      "infrastructure"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "TeamCity",
+    "slug": "teamcity",
+    "description": "JetBrains' powerful CI/CD server with smart build management.",
+    "websiteUrl": "https://www.jetbrains.com/teamcity/",
+    "tags": [
+      "ci-cd",
+      "jetbrains",
+      "build-management",
+      "enterprise"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Semaphore CI",
+    "slug": "semaphore-ci",
+    "description": "Fast CI/CD platform with parallel pipeline execution.",
+    "websiteUrl": "https://semaphoreci.com",
+    "tags": [
+      "ci-cd",
+      "fast",
+      "parallel",
+      "cloud"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Woodpecker CI",
+    "slug": "woodpecker-ci",
+    "description": "Community fork of Drone CI with active open-source development.",
+    "websiteUrl": "https://woodpecker-ci.org",
+    "tags": [
+      "ci-cd",
+      "open-source",
+      "self-hosted",
+      "containers"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Dagger",
+    "slug": "dagger",
+    "description": "Programmable CI/CD engine that runs pipelines in containers.",
+    "websiteUrl": "https://dagger.io",
+    "tags": [
+      "ci-cd",
+      "containers",
+      "programmable",
+      "portable"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "npm",
+    "slug": "npm",
+    "description": "Default package manager for Node.js and JavaScript ecosystem.",
+    "websiteUrl": "https://www.npmjs.com",
+    "tags": [
+      "package-manager",
+      "nodejs",
+      "javascript",
+      "registry"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Yarn",
+    "slug": "yarn",
+    "description": "Fast, reliable JavaScript package manager with workspaces support.",
+    "websiteUrl": "https://yarnpkg.com",
+    "tags": [
+      "package-manager",
+      "javascript",
+      "workspaces",
+      "fast"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "pnpm",
+    "slug": "pnpm",
+    "description": "Fast, disk-efficient JavaScript package manager using symlinks.",
+    "websiteUrl": "https://pnpm.io",
+    "tags": [
+      "package-manager",
+      "javascript",
+      "efficient",
+      "monorepo"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Bun Package Manager",
+    "slug": "bun-pm",
+    "description": "Ultra-fast JavaScript package manager built into the Bun runtime.",
+    "websiteUrl": "https://bun.sh",
+    "tags": [
+      "package-manager",
+      "javascript",
+      "fast",
+      "bun"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "pip",
+    "slug": "pip",
+    "description": "Standard package installer for Python packages from PyPI.",
+    "websiteUrl": "https://pip.pypa.io",
+    "tags": [
+      "package-manager",
+      "python",
+      "pypi",
+      "standard"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Poetry",
+    "slug": "poetry",
+    "description": "Python dependency management and packaging made easy.",
+    "websiteUrl": "https://python-poetry.org",
+    "tags": [
+      "package-manager",
+      "python",
+      "dependency-management",
+      "packaging"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "uv",
+    "slug": "uv",
+    "description": "Extremely fast Python package manager and resolver written in Rust.",
+    "websiteUrl": "https://github.com/astral-sh/uv",
+    "tags": [
+      "package-manager",
+      "python",
+      "fast",
+      "rust"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Cargo",
+    "slug": "cargo",
+    "description": "Rust's official package manager and build system.",
+    "websiteUrl": "https://doc.rust-lang.org/cargo/",
+    "tags": [
+      "package-manager",
+      "rust",
+      "build-system",
+      "official"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Go Modules",
+    "slug": "go-modules",
+    "description": "Go's built-in dependency management and versioning system.",
+    "websiteUrl": "https://go.dev/ref/mod",
+    "tags": [
+      "package-manager",
+      "go",
+      "dependency-management",
+      "built-in"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Homebrew",
+    "slug": "homebrew",
+    "description": "The missing package manager for macOS and Linux systems.",
+    "websiteUrl": "https://brew.sh",
+    "tags": [
+      "package-manager",
+      "macos",
+      "linux",
+      "system"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Composer",
+    "slug": "composer",
+    "description": "Dependency manager for PHP projects and packages.",
+    "websiteUrl": "https://getcomposer.org",
+    "tags": [
+      "package-manager",
+      "php",
+      "dependency-management"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "NuGet",
+    "slug": "nuget",
+    "description": "Package manager for .NET development with Visual Studio integration.",
+    "websiteUrl": "https://www.nuget.org",
+    "tags": [
+      "package-manager",
+      "dotnet",
+      "microsoft",
+      "packages"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Maven",
+    "slug": "maven",
+    "description": "Build automation and dependency management tool for Java projects.",
+    "websiteUrl": "https://maven.apache.org",
+    "tags": [
+      "package-manager",
+      "java",
+      "build-tool",
+      "apache"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Gradle",
+    "slug": "gradle",
+    "description": "Flexible build automation tool for Java, Android, and multi-language projects.",
+    "websiteUrl": "https://gradle.org",
+    "tags": [
+      "package-manager",
+      "java",
+      "build-tool",
+      "android"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Docker",
+    "slug": "docker",
+    "description": "Platform for building, shipping, and running containerized applications.",
+    "websiteUrl": "https://www.docker.com",
+    "tags": [
+      "containers",
+      "containerization",
+      "devops",
+      "deployment"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "Docker Desktop",
+    "slug": "docker-desktop",
+    "description": "Desktop application for managing Docker containers on Mac and Windows.",
+    "websiteUrl": "https://www.docker.com/products/docker-desktop/",
+    "tags": [
+      "containers",
+      "desktop",
+      "docker",
+      "gui"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Podman",
+    "slug": "podman",
+    "description": "Daemonless container engine compatible with Docker as an alternative.",
+    "websiteUrl": "https://podman.io",
+    "tags": [
+      "containers",
+      "daemonless",
+      "rootless",
+      "docker-alternative"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Docker Compose",
+    "slug": "docker-compose",
+    "description": "Tool for defining and running multi-container Docker applications.",
+    "websiteUrl": "https://docs.docker.com/compose/",
+    "tags": [
+      "containers",
+      "orchestration",
+      "multi-container",
+      "yaml"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "OrbStack",
+    "slug": "orbstack",
+    "description": "Fast and lightweight Docker desktop alternative for macOS.",
+    "websiteUrl": "https://orbstack.dev",
+    "tags": [
+      "containers",
+      "macos",
+      "lightweight",
+      "docker-alternative"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Colima",
+    "slug": "colima",
+    "description": "Free container runtime for macOS and Linux with minimal setup.",
+    "websiteUrl": "https://github.com/abiosoft/colima",
+    "tags": [
+      "containers",
+      "macos",
+      "free",
+      "minimal"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Postman",
+    "slug": "postman",
+    "description": "Leading API development and testing platform for developers.",
+    "websiteUrl": "https://www.postman.com",
+    "tags": [
+      "api-tools",
+      "testing",
+      "development",
+      "collaboration"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Insomnia",
+    "slug": "insomnia",
+    "description": "Open-source API client for REST, GraphQL, and gRPC testing.",
+    "websiteUrl": "https://insomnia.rest",
+    "tags": [
+      "api-tools",
+      "rest",
+      "graphql",
+      "open-source"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Hoppscotch",
+    "slug": "hoppscotch",
+    "description": "Open-source API development ecosystem with real-time collaboration.",
+    "websiteUrl": "https://hoppscotch.io",
+    "tags": [
+      "api-tools",
+      "open-source",
+      "web-based",
+      "collaboration"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Bruno",
+    "slug": "bruno",
+    "description": "Open-source API client storing collections as files in Git.",
+    "websiteUrl": "https://www.usebruno.com",
+    "tags": [
+      "api-tools",
+      "open-source",
+      "git-friendly",
+      "offline"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Thunder Client",
+    "slug": "thunder-client",
+    "description": "Lightweight REST API client extension for Visual Studio Code.",
+    "websiteUrl": "https://www.thunderclient.com",
+    "tags": [
+      "api-tools",
+      "vscode",
+      "lightweight",
+      "rest"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "RapidAPI",
+    "slug": "rapidapi",
+    "description": "API marketplace and testing hub for discovering and connecting APIs.",
+    "websiteUrl": "https://rapidapi.com",
+    "tags": [
+      "api-tools",
+      "marketplace",
+      "testing",
+      "discovery"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Swagger",
+    "slug": "swagger",
+    "description": "API documentation and design tools using the OpenAPI specification.",
+    "websiteUrl": "https://swagger.io",
+    "tags": [
+      "api-tools",
+      "documentation",
+      "openapi",
+      "design"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Stoplight",
+    "slug": "stoplight",
+    "description": "API design and documentation platform with visual OpenAPI editor.",
+    "websiteUrl": "https://stoplight.io",
+    "tags": [
+      "api-tools",
+      "design",
+      "documentation",
+      "openapi"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "iTerm2",
+    "slug": "iterm2",
+    "description": "Feature-rich terminal emulator replacement for macOS Terminal.",
+    "websiteUrl": "https://iterm2.com",
+    "tags": [
+      "terminal",
+      "macos",
+      "emulator",
+      "productivity"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Warp",
+    "slug": "warp",
+    "description": "Modern terminal with AI assistance, blocks, and collaboration features.",
+    "websiteUrl": "https://www.warp.dev",
+    "tags": [
+      "terminal",
+      "modern",
+      "ai",
+      "collaboration"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Alacritty",
+    "slug": "alacritty",
+    "description": "GPU-accelerated terminal emulator focused on speed and simplicity.",
+    "websiteUrl": "https://alacritty.org",
+    "tags": [
+      "terminal",
+      "gpu-accelerated",
+      "fast",
+      "minimal"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Kitty",
+    "slug": "kitty",
+    "description": "Fast, feature-rich GPU-based terminal emulator for power users.",
+    "websiteUrl": "https://sw.kovidgoyal.net/kitty/",
+    "tags": [
+      "terminal",
+      "gpu-accelerated",
+      "feature-rich",
+      "cross-platform"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "WezTerm",
+    "slug": "wezterm",
+    "description": "GPU-accelerated terminal emulator and multiplexer written in Rust.",
+    "websiteUrl": "https://wezfurlong.org/wezterm/",
+    "tags": [
+      "terminal",
+      "gpu-accelerated",
+      "rust",
+      "multiplexer"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Hyper",
+    "slug": "hyper-terminal",
+    "description": "Electron-based terminal with web technology extensibility.",
+    "websiteUrl": "https://hyper.is",
+    "tags": [
+      "terminal",
+      "electron",
+      "extensible",
+      "web-tech"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Windows Terminal",
+    "slug": "windows-terminal",
+    "description": "Microsoft's modern terminal for Windows with tabs and GPU rendering.",
+    "websiteUrl": "https://github.com/microsoft/terminal",
+    "tags": [
+      "terminal",
+      "windows",
+      "microsoft",
+      "modern"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "tmux",
+    "slug": "tmux",
+    "description": "Terminal multiplexer for managing multiple sessions and panes.",
+    "websiteUrl": "https://github.com/tmux/tmux",
+    "tags": [
+      "terminal",
+      "multiplexer",
+      "sessions",
+      "productivity"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Zellij",
+    "slug": "zellij",
+    "description": "Terminal workspace manager with floating panes and plugins.",
+    "websiteUrl": "https://zellij.dev",
+    "tags": [
+      "terminal",
+      "multiplexer",
+      "rust",
+      "plugins"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Starship",
+    "slug": "starship",
+    "description": "Minimal, blazing-fast cross-shell prompt with smart defaults.",
+    "websiteUrl": "https://starship.rs",
+    "tags": [
+      "terminal",
+      "prompt",
+      "cross-shell",
+      "rust"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Oh My Zsh",
+    "slug": "oh-my-zsh",
+    "description": "Framework for managing Zsh configuration with plugins and themes.",
+    "websiteUrl": "https://ohmyz.sh",
+    "tags": [
+      "terminal",
+      "zsh",
+      "framework",
+      "plugins"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "SonarQube",
+    "slug": "sonarqube",
+    "description": "Platform for continuous code quality inspection and security analysis.",
+    "websiteUrl": "https://www.sonarsource.com/products/sonarqube/",
+    "tags": [
+      "code-quality",
+      "static-analysis",
+      "security",
+      "continuous-inspection"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "ESLint",
+    "slug": "eslint",
+    "description": "Pluggable linting utility for JavaScript and TypeScript code.",
+    "websiteUrl": "https://eslint.org",
+    "tags": [
+      "code-quality",
+      "linter",
+      "javascript",
+      "typescript"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Prettier",
+    "slug": "prettier",
+    "description": "Opinionated code formatter supporting many languages and editors.",
+    "websiteUrl": "https://prettier.io",
+    "tags": [
+      "code-quality",
+      "formatter",
+      "multi-language",
+      "opinionated"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Biome",
+    "slug": "biome",
+    "description": "Fast formatter and linter for JavaScript and TypeScript in Rust.",
+    "websiteUrl": "https://biomejs.dev",
+    "tags": [
+      "code-quality",
+      "formatter",
+      "linter",
+      "rust"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Oxlint",
+    "slug": "oxlint",
+    "description": "Blazingly fast JavaScript and TypeScript linter written in Rust.",
+    "websiteUrl": "https://oxc-project.github.io",
+    "tags": [
+      "code-quality",
+      "linter",
+      "fast",
+      "rust"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Ruff",
+    "slug": "ruff",
+    "description": "Extremely fast Python linter and formatter written in Rust.",
+    "websiteUrl": "https://docs.astral.sh/ruff/",
+    "tags": [
+      "code-quality",
+      "python",
+      "linter",
+      "rust"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Black",
+    "slug": "black",
+    "description": "Uncompromising Python code formatter with deterministic output.",
+    "websiteUrl": "https://black.readthedocs.io",
+    "tags": [
+      "code-quality",
+      "python",
+      "formatter",
+      "opinionated"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Stylelint",
+    "slug": "stylelint",
+    "description": "Mighty CSS linter that helps avoid errors and enforce conventions.",
+    "websiteUrl": "https://stylelint.io",
+    "tags": [
+      "code-quality",
+      "css",
+      "linter",
+      "conventions"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "golangci-lint",
+    "slug": "golangci-lint",
+    "description": "Fast Go linters aggregator running multiple linters in parallel.",
+    "websiteUrl": "https://golangci-lint.run",
+    "tags": [
+      "code-quality",
+      "go",
+      "linter",
+      "fast"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Clippy",
+    "slug": "clippy",
+    "description": "Official Rust linter with helpful suggestions for idiomatic code.",
+    "websiteUrl": "https://doc.rust-lang.org/clippy/",
+    "tags": [
+      "code-quality",
+      "rust",
+      "linter",
+      "official"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "ShellCheck",
+    "slug": "shellcheck",
+    "description": "Static analysis tool for shell scripts finding bugs and issues.",
+    "websiteUrl": "https://www.shellcheck.net",
+    "tags": [
+      "code-quality",
+      "shell",
+      "linter",
+      "static-analysis"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Snyk",
+    "slug": "snyk",
+    "description": "Developer security platform for finding and fixing vulnerabilities.",
+    "websiteUrl": "https://snyk.io",
+    "tags": [
+      "security",
+      "vulnerability-scanning",
+      "dependencies",
+      "devsecops"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Dependabot",
+    "slug": "dependabot",
+    "description": "GitHub's automated dependency update and security alert tool.",
+    "websiteUrl": "https://github.com/dependabot",
+    "tags": [
+      "security",
+      "dependency-updates",
+      "github",
+      "automation"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Renovate",
+    "slug": "renovate",
+    "description": "Automated dependency update tool with flexible configuration.",
+    "websiteUrl": "https://www.mend.io/renovate/",
+    "tags": [
+      "security",
+      "dependency-updates",
+      "automation",
+      "multi-platform"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Storybook",
+    "slug": "storybook",
+    "description": "UI component workshop for building and testing components in isolation.",
+    "websiteUrl": "https://storybook.js.org",
+    "tags": [
+      "documentation",
+      "ui-components",
+      "testing",
+      "workshop"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Docusaurus",
+    "slug": "docusaurus",
+    "description": "Meta's static site generator for creating documentation websites.",
+    "websiteUrl": "https://docusaurus.io",
+    "tags": [
+      "documentation",
+      "static-site",
+      "meta",
+      "react"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Mintlify",
+    "slug": "mintlify",
+    "description": "Beautiful documentation platform with AI-powered search.",
+    "websiteUrl": "https://mintlify.com",
+    "tags": [
+      "documentation",
+      "ai-search",
+      "beautiful",
+      "api-docs"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "ReadMe",
+    "slug": "readme",
+    "description": "Developer hub platform for interactive API documentation.",
+    "websiteUrl": "https://readme.com",
+    "tags": [
+      "documentation",
+      "api-docs",
+      "interactive",
+      "developer-hub"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "GitBook",
+    "slug": "gitbook",
+    "description": "Modern documentation platform with Git-backed content management.",
+    "websiteUrl": "https://www.gitbook.com",
+    "tags": [
+      "documentation",
+      "git-backed",
+      "knowledge-base",
+      "collaboration"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Nextra",
+    "slug": "nextra",
+    "description": "Next.js-based documentation site generator with MDX support.",
+    "websiteUrl": "https://nextra.site",
+    "tags": [
+      "documentation",
+      "nextjs",
+      "mdx",
+      "static-site"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "VitePress",
+    "slug": "vitepress",
+    "description": "Vite-powered static site generator for documentation sites.",
+    "websiteUrl": "https://vitepress.dev",
+    "tags": [
+      "documentation",
+      "vite",
+      "vue",
+      "static-site"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Typedoc",
+    "slug": "typedoc",
+    "description": "Documentation generator for TypeScript projects from source code.",
+    "websiteUrl": "https://typedoc.org",
+    "tags": [
+      "documentation",
+      "typescript",
+      "api-docs",
+      "auto-generated"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Jest",
+    "slug": "jest",
+    "description": "JavaScript testing framework with zero config and snapshot testing.",
+    "websiteUrl": "https://jestjs.io",
+    "tags": [
+      "testing",
+      "javascript",
+      "unit-testing",
+      "snapshot"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Vitest",
+    "slug": "vitest",
+    "description": "Blazing fast unit test framework powered by Vite.",
+    "websiteUrl": "https://vitest.dev",
+    "tags": [
+      "testing",
+      "vite",
+      "fast",
+      "unit-testing"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Playwright",
+    "slug": "playwright",
+    "description": "Microsoft's end-to-end testing framework for modern web apps.",
+    "websiteUrl": "https://playwright.dev",
+    "tags": [
+      "testing",
+      "e2e",
+      "browser-automation",
+      "microsoft"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Cypress",
+    "slug": "cypress",
+    "description": "JavaScript end-to-end testing framework with time-travel debugging.",
+    "websiteUrl": "https://www.cypress.io",
+    "tags": [
+      "testing",
+      "e2e",
+      "browser-automation",
+      "debugging"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Selenium",
+    "slug": "selenium",
+    "description": "Browser automation framework for web application testing across browsers.",
+    "websiteUrl": "https://www.selenium.dev",
+    "tags": [
+      "testing",
+      "browser-automation",
+      "cross-browser",
+      "classic"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Testing Library",
+    "slug": "testing-library",
+    "description": "Family of testing utilities encouraging good testing practices.",
+    "websiteUrl": "https://testing-library.com",
+    "tags": [
+      "testing",
+      "unit-testing",
+      "react",
+      "accessibility"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Mocha",
+    "slug": "mocha",
+    "description": "Feature-rich JavaScript test framework for Node.js and browsers.",
+    "websiteUrl": "https://mochajs.org",
+    "tags": [
+      "testing",
+      "javascript",
+      "nodejs",
+      "flexible"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "pytest",
+    "slug": "pytest",
+    "description": "Mature full-featured Python testing tool with plugin architecture.",
+    "websiteUrl": "https://docs.pytest.org",
+    "tags": [
+      "testing",
+      "python",
+      "plugins",
+      "fixtures"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "JUnit",
+    "slug": "junit",
+    "description": "Standard unit testing framework for Java applications.",
+    "websiteUrl": "https://junit.org",
+    "tags": [
+      "testing",
+      "java",
+      "unit-testing",
+      "standard"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Storybook Test",
+    "slug": "storybook-test",
+    "description": "Component testing with Storybook's play functions and interactions.",
+    "websiteUrl": "https://storybook.js.org/docs/writing-tests",
+    "tags": [
+      "testing",
+      "component-testing",
+      "storybook",
+      "interactions"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Puppeteer",
+    "slug": "puppeteer",
+    "description": "Node.js library for controlling headless Chrome and Chromium.",
+    "websiteUrl": "https://pptr.dev",
+    "tags": [
+      "testing",
+      "browser-automation",
+      "headless",
+      "google"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "k6",
+    "slug": "k6",
+    "description": "Modern load testing tool for performance testing with JavaScript.",
+    "websiteUrl": "https://k6.io",
+    "tags": [
+      "testing",
+      "load-testing",
+      "performance",
+      "grafana"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Locust",
+    "slug": "locust",
+    "description": "Open-source load testing tool with Python-based user scenarios.",
+    "websiteUrl": "https://locust.io",
+    "tags": [
+      "testing",
+      "load-testing",
+      "python",
+      "distributed"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "MSW",
+    "slug": "msw",
+    "description": "API mocking library using Service Worker for browser and Node.js.",
+    "websiteUrl": "https://mswjs.io",
+    "tags": [
+      "testing",
+      "api-mocking",
+      "service-worker",
+      "typescript"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Linear",
+    "slug": "linear",
+    "description": "Modern project management tool built for software development teams.",
+    "websiteUrl": "https://linear.app",
+    "tags": [
+      "project-management",
+      "issue-tracking",
+      "agile",
+      "modern"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Jira",
+    "slug": "jira",
+    "description": "Atlassian's project management platform for agile software teams.",
+    "websiteUrl": "https://www.atlassian.com/software/jira",
+    "tags": [
+      "project-management",
+      "issue-tracking",
+      "agile",
+      "atlassian"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Notion",
+    "slug": "notion",
+    "description": "All-in-one workspace for notes, docs, wikis, and project management.",
+    "websiteUrl": "https://www.notion.so",
+    "tags": [
+      "project-management",
+      "documentation",
+      "wiki",
+      "workspace"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Slack",
+    "slug": "slack",
+    "description": "Team messaging platform with channels, integrations, and workflows.",
+    "websiteUrl": "https://slack.com",
+    "tags": [
+      "communication",
+      "messaging",
+      "team",
+      "integrations"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Discord",
+    "slug": "discord",
+    "description": "Community platform with voice, video, and text communication channels.",
+    "websiteUrl": "https://discord.com",
+    "tags": [
+      "communication",
+      "community",
+      "voice",
+      "messaging"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Figma",
+    "slug": "figma",
+    "description": "Collaborative design tool for UI/UX design and prototyping.",
+    "websiteUrl": "https://www.figma.com",
+    "tags": [
+      "design",
+      "ui-ux",
+      "collaboration",
+      "prototyping"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "Sentry",
+    "slug": "sentry",
+    "description": "Application monitoring and error tracking platform for developers.",
+    "websiteUrl": "https://sentry.io",
+    "tags": [
+      "monitoring",
+      "error-tracking",
+      "performance",
+      "debugging"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Datadog",
+    "slug": "datadog",
+    "description": "Cloud monitoring and analytics platform for infrastructure and apps.",
+    "websiteUrl": "https://www.datadoghq.com",
+    "tags": [
+      "monitoring",
+      "analytics",
+      "cloud",
+      "observability"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Grafana",
+    "slug": "grafana",
+    "description": "Open-source platform for monitoring and observability dashboards.",
+    "websiteUrl": "https://grafana.com",
+    "tags": [
+      "monitoring",
+      "dashboards",
+      "observability",
+      "open-source"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Prometheus",
+    "slug": "prometheus",
+    "description": "Open-source monitoring system with time-series database and alerting.",
+    "websiteUrl": "https://prometheus.io",
+    "tags": [
+      "monitoring",
+      "time-series",
+      "alerting",
+      "open-source"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "New Relic",
+    "slug": "new-relic",
+    "description": "Full-stack observability platform for monitoring application performance.",
+    "websiteUrl": "https://newrelic.com",
+    "tags": [
+      "monitoring",
+      "apm",
+      "observability",
+      "full-stack"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "LogRocket",
+    "slug": "logrocket",
+    "description": "Session replay and error tracking for frontend web applications.",
+    "websiteUrl": "https://logrocket.com",
+    "tags": [
+      "monitoring",
+      "session-replay",
+      "frontend",
+      "debugging"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "PagerDuty",
+    "slug": "pagerduty",
+    "description": "Incident management platform for real-time operations and alerting.",
+    "websiteUrl": "https://www.pagerduty.com",
+    "tags": [
+      "monitoring",
+      "incident-management",
+      "alerting",
+      "on-call"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "BetterStack",
+    "slug": "betterstack",
+    "description": "Uptime monitoring, logging, and incident management in one platform.",
+    "websiteUrl": "https://betterstack.com",
+    "tags": [
+      "monitoring",
+      "uptime",
+      "logging",
+      "incident-management"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Axiom",
+    "slug": "axiom",
+    "description": "Log management and analytics platform with unlimited data retention.",
+    "websiteUrl": "https://axiom.co",
+    "tags": [
+      "monitoring",
+      "logging",
+      "analytics",
+      "unlimited"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Highlight.io",
+    "slug": "highlight-io",
+    "description": "Open-source full-stack monitoring with session replay and logging.",
+    "websiteUrl": "https://www.highlight.io",
+    "tags": [
+      "monitoring",
+      "session-replay",
+      "open-source",
+      "full-stack"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Raycast",
+    "slug": "raycast",
+    "description": "Productivity launcher for macOS with extensions and developer tools.",
+    "websiteUrl": "https://www.raycast.com",
+    "tags": [
+      "productivity",
+      "launcher",
+      "macos",
+      "extensions"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Fig",
+    "slug": "fig",
+    "description": "Terminal autocomplete and productivity tool for command-line workflows.",
+    "websiteUrl": "https://fig.io",
+    "tags": [
+      "terminal",
+      "autocomplete",
+      "productivity",
+      "cli"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "DevToys",
+    "slug": "devtoys",
+    "description": "Swiss army knife of developer utilities for common encoding tasks.",
+    "websiteUrl": "https://devtoys.app",
+    "tags": [
+      "productivity",
+      "utilities",
+      "encoding",
+      "developer-tools"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "ngrok",
+    "slug": "ngrok",
+    "description": "Secure tunneling to expose local servers to the internet.",
+    "websiteUrl": "https://ngrok.com",
+    "tags": [
+      "networking",
+      "tunneling",
+      "localhost",
+      "webhooks"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "LocalTunnel",
+    "slug": "localtunnel",
+    "description": "Free tool to expose local web servers with public URLs.",
+    "websiteUrl": "https://localtunnel.github.io/www/",
+    "tags": [
+      "networking",
+      "tunneling",
+      "free",
+      "localhost"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Tailscale",
+    "slug": "tailscale",
+    "description": "Zero-config VPN built on WireGuard for secure networking.",
+    "websiteUrl": "https://tailscale.com",
+    "tags": [
+      "networking",
+      "vpn",
+      "wireguard",
+      "zero-config"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Chromatic",
+    "slug": "chromatic",
+    "description": "Visual testing and review platform for UI components with Storybook.",
+    "websiteUrl": "https://www.chromatic.com",
+    "tags": [
+      "testing",
+      "visual-testing",
+      "storybook",
+      "review"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Percy",
+    "slug": "percy",
+    "description": "Visual testing platform for catching UI regressions automatically.",
+    "websiteUrl": "https://percy.io",
+    "tags": [
+      "testing",
+      "visual-testing",
+      "regression",
+      "automation"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Codecov",
+    "slug": "codecov",
+    "description": "Code coverage reporting tool integrated with CI/CD workflows.",
+    "websiteUrl": "https://about.codecov.io",
+    "tags": [
+      "testing",
+      "code-coverage",
+      "ci-cd",
+      "reporting"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Turborepo",
+    "slug": "turborepo",
+    "description": "High-performance build system for JavaScript and TypeScript monorepos.",
+    "websiteUrl": "https://turbo.build/repo",
+    "tags": [
+      "build-tools",
+      "monorepo",
+      "caching",
+      "vercel"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Nx",
+    "slug": "nx",
+    "description": "Smart monorepo build system with computation caching and task orchestration.",
+    "websiteUrl": "https://nx.dev",
+    "tags": [
+      "build-tools",
+      "monorepo",
+      "caching",
+      "task-orchestration"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Lerna",
+    "slug": "lerna",
+    "description": "Tool for managing JavaScript monorepos with package publishing.",
+    "websiteUrl": "https://lerna.js.org",
+    "tags": [
+      "build-tools",
+      "monorepo",
+      "publishing",
+      "javascript"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Changesets",
+    "slug": "changesets",
+    "description": "Tool for versioning and changelog management in monorepos.",
+    "websiteUrl": "https://github.com/changesets/changesets",
+    "tags": [
+      "build-tools",
+      "versioning",
+      "changelog",
+      "monorepo"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Husky",
+    "slug": "husky",
+    "description": "Git hooks manager for running scripts on commit and push.",
+    "websiteUrl": "https://typicode.github.io/husky/",
+    "tags": [
+      "code-quality",
+      "git-hooks",
+      "automation",
+      "pre-commit"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "lint-staged",
+    "slug": "lint-staged",
+    "description": "Run linters on staged Git files to ensure code quality before commit.",
+    "websiteUrl": "https://github.com/lint-staged/lint-staged",
+    "tags": [
+      "code-quality",
+      "git-hooks",
+      "linting",
+      "staged-files"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "commitlint",
+    "slug": "commitlint",
+    "description": "Lint commit messages to enforce conventional commit format.",
+    "websiteUrl": "https://commitlint.js.org",
+    "tags": [
+      "code-quality",
+      "git-hooks",
+      "commit-messages",
+      "conventions"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Doppler",
+    "slug": "doppler",
+    "description": "Universal secrets manager for syncing environment variables securely.",
+    "websiteUrl": "https://www.doppler.com",
+    "tags": [
+      "security",
+      "secrets-management",
+      "env-vars",
+      "sync"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Vault",
+    "slug": "hashicorp-vault",
+    "description": "HashiCorp's secrets management and data protection platform.",
+    "websiteUrl": "https://www.vaultproject.io",
+    "tags": [
+      "security",
+      "secrets-management",
+      "hashicorp",
+      "encryption"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "1Password Developer",
+    "slug": "1password-developer",
+    "description": "1Password's developer tools for secrets management in workflows.",
+    "websiteUrl": "https://developer.1password.com",
+    "tags": [
+      "security",
+      "secrets-management",
+      "1password",
+      "developer"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Retool",
+    "slug": "retool",
+    "description": "Low-code platform for building internal tools and admin panels.",
+    "websiteUrl": "https://retool.com",
+    "tags": [
+      "low-code",
+      "internal-tools",
+      "admin-panels",
+      "database"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Appsmith",
+    "slug": "appsmith",
+    "description": "Open-source low-code platform for building internal applications.",
+    "websiteUrl": "https://www.appsmith.com",
+    "tags": [
+      "low-code",
+      "internal-tools",
+      "open-source",
+      "admin"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "ToolJet",
+    "slug": "tooljet",
+    "description": "Open-source low-code platform for building business applications.",
+    "websiteUrl": "https://www.tooljet.com",
+    "tags": [
+      "low-code",
+      "internal-tools",
+      "open-source",
+      "business"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Nhost",
+    "slug": "nhost",
+    "description": "Open-source Firebase alternative with GraphQL and Postgres.",
+    "websiteUrl": "https://nhost.io",
+    "tags": [
+      "backend",
+      "graphql",
+      "postgres",
+      "firebase-alternative"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Coolify",
+    "slug": "coolify",
+    "description": "Open-source self-hostable Heroku/Netlify/Vercel alternative.",
+    "websiteUrl": "https://coolify.io",
+    "tags": [
+      "deployment",
+      "self-hosted",
+      "paas",
+      "open-source"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Nix",
+    "slug": "nix",
+    "description": "Reproducible package manager and build system for reliable environments.",
+    "websiteUrl": "https://nixos.org",
+    "tags": [
+      "package-manager",
+      "reproducible",
+      "build-system",
+      "linux"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "DevContainers",
+    "slug": "devcontainers",
+    "description": "Development environment specification using containers for consistency.",
+    "websiteUrl": "https://containers.dev",
+    "tags": [
+      "containers",
+      "dev-environment",
+      "vscode",
+      "consistency"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "GitHub Codespaces",
+    "slug": "github-codespaces",
+    "description": "Cloud development environments powered by VS Code in your browser.",
+    "websiteUrl": "https://github.com/features/codespaces",
+    "tags": [
+      "cloud-ide",
+      "github",
+      "vscode",
+      "development"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Gitpod",
+    "slug": "gitpod",
+    "description": "Cloud development environments that spin up pre-configured workspaces.",
+    "websiteUrl": "https://www.gitpod.io",
+    "tags": [
+      "cloud-ide",
+      "workspaces",
+      "pre-configured",
+      "remote"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "StackBlitz",
+    "slug": "stackblitz",
+    "description": "Browser-based IDE with full Node.js environment using WebContainers.",
+    "websiteUrl": "https://stackblitz.com",
+    "tags": [
+      "cloud-ide",
+      "browser",
+      "webcontainers",
+      "instant"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "CodeSandbox",
+    "slug": "codesandbox",
+    "description": "Online IDE for rapid web development with instant live previews.",
+    "websiteUrl": "https://codesandbox.io",
+    "tags": [
+      "cloud-ide",
+      "browser",
+      "live-preview",
+      "collaboration"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Replit",
+    "slug": "replit",
+    "description": "Browser-based IDE with multiplayer collaboration and deployment.",
+    "websiteUrl": "https://replit.com",
+    "tags": [
+      "cloud-ide",
+      "multiplayer",
+      "deployment",
+      "learning"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Regex101",
+    "slug": "regex101",
+    "description": "Online regex tester and debugger with explanation and reference.",
+    "websiteUrl": "https://regex101.com",
+    "tags": [
+      "productivity",
+      "regex",
+      "testing",
+      "learning"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "JSON Crack",
+    "slug": "json-crack",
+    "description": "Open-source tool for visualizing JSON data as interactive graphs.",
+    "websiteUrl": "https://jsoncrack.com",
+    "tags": [
+      "productivity",
+      "json",
+      "visualization",
+      "open-source"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Excalidraw",
+    "slug": "excalidraw",
+    "description": "Virtual whiteboard for sketching diagrams with a hand-drawn feel.",
+    "websiteUrl": "https://excalidraw.com",
+    "tags": [
+      "design",
+      "whiteboard",
+      "diagrams",
+      "open-source"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Mermaid",
+    "slug": "mermaid",
+    "description": "JavaScript library for generating diagrams from text and code.",
+    "websiteUrl": "https://mermaid.js.org",
+    "tags": [
+      "design",
+      "diagrams",
+      "text-to-diagram",
+      "markdown"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "draw.io",
+    "slug": "draw-io",
+    "description": "Free online diagram editor for flowcharts and architecture diagrams.",
+    "websiteUrl": "https://www.drawio.com",
+    "tags": [
+      "design",
+      "diagrams",
+      "free",
+      "flowcharts"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Eraser",
+    "slug": "eraser",
+    "description": "Collaborative design tool for technical diagrams and documentation.",
+    "websiteUrl": "https://www.eraser.io",
+    "tags": [
+      "design",
+      "diagrams",
+      "collaboration",
+      "technical"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Bun",
+    "slug": "bun-runtime",
+    "description": "All-in-one JavaScript runtime, bundler, and package manager.",
+    "websiteUrl": "https://bun.sh",
+    "tags": [
+      "runtime",
+      "javascript",
+      "fast",
+      "all-in-one"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Deno",
+    "slug": "deno",
+    "description": "Secure JavaScript and TypeScript runtime with built-in tooling.",
+    "websiteUrl": "https://deno.com",
+    "tags": [
+      "runtime",
+      "typescript",
+      "secure",
+      "built-in-tools"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Node.js",
+    "slug": "nodejs",
+    "description": "JavaScript runtime built on Chrome's V8 engine for server-side code.",
+    "websiteUrl": "https://nodejs.org",
+    "tags": [
+      "runtime",
+      "javascript",
+      "server-side",
+      "v8"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "Volta",
+    "slug": "volta",
+    "description": "Hassle-free JavaScript tool manager for Node.js version management.",
+    "websiteUrl": "https://volta.sh",
+    "tags": [
+      "version-manager",
+      "nodejs",
+      "javascript",
+      "rust"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "fnm",
+    "slug": "fnm",
+    "description": "Fast and simple Node.js version manager built in Rust.",
+    "websiteUrl": "https://fnm.vercel.app",
+    "tags": [
+      "version-manager",
+      "nodejs",
+      "fast",
+      "rust"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "asdf",
+    "slug": "asdf",
+    "description": "Universal version manager for multiple programming language runtimes.",
+    "websiteUrl": "https://asdf-vm.com",
+    "tags": [
+      "version-manager",
+      "multi-language",
+      "plugins",
+      "universal"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "mise",
+    "slug": "mise",
+    "description": "Polyglot dev tool version manager and task runner in Rust.",
+    "websiteUrl": "https://mise.jdx.dev",
+    "tags": [
+      "version-manager",
+      "task-runner",
+      "polyglot",
+      "rust"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "direnv",
+    "slug": "direnv",
+    "description": "Environment variable manager that loads variables per directory.",
+    "websiteUrl": "https://direnv.net",
+    "tags": [
+      "productivity",
+      "env-vars",
+      "directory",
+      "shell"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Insomnia Designer",
+    "slug": "insomnia-designer",
+    "description": "API design tool with OpenAPI spec editing and Git sync.",
+    "websiteUrl": "https://insomnia.rest",
+    "tags": [
+      "api-tools",
+      "design",
+      "openapi",
+      "git-sync"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "GraphQL Playground",
+    "slug": "graphql-playground",
+    "description": "Interactive GraphQL IDE for exploring and testing GraphQL APIs.",
+    "websiteUrl": "https://github.com/graphql/graphql-playground",
+    "tags": [
+      "api-tools",
+      "graphql",
+      "ide",
+      "testing"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Apollo Studio",
+    "slug": "apollo-studio",
+    "description": "GraphQL development platform with schema management and metrics.",
+    "websiteUrl": "https://www.apollographql.com/docs/studio/",
+    "tags": [
+      "api-tools",
+      "graphql",
+      "schema-management",
+      "metrics"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Hasura",
+    "slug": "hasura",
+    "description": "Instant GraphQL API engine over PostgreSQL and other databases.",
+    "websiteUrl": "https://hasura.io",
+    "tags": [
+      "api-tools",
+      "graphql",
+      "postgres",
+      "instant-api"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "tRPC",
+    "slug": "trpc",
+    "description": "End-to-end typesafe APIs without schemas or code generation.",
+    "websiteUrl": "https://trpc.io",
+    "tags": [
+      "api-tools",
+      "typescript",
+      "typesafe",
+      "rpc"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Hono",
+    "slug": "hono",
+    "description": "Ultrafast web framework for Cloudflare Workers, Deno, and Bun.",
+    "websiteUrl": "https://hono.dev",
+    "tags": [
+      "framework",
+      "edge",
+      "ultrafast",
+      "multi-runtime"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Elysia",
+    "slug": "elysia",
+    "description": "TypeScript web framework for Bun with end-to-end type safety.",
+    "websiteUrl": "https://elysiajs.com",
+    "tags": [
+      "framework",
+      "bun",
+      "typescript",
+      "typesafe"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Fastify",
+    "slug": "fastify",
+    "description": "Fast and low-overhead web framework for Node.js applications.",
+    "websiteUrl": "https://fastify.dev",
+    "tags": [
+      "framework",
+      "nodejs",
+      "fast",
+      "low-overhead"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Nitro",
+    "slug": "nitro",
+    "description": "Universal web server framework powering Nuxt with auto-imports.",
+    "websiteUrl": "https://nitro.unjs.io",
+    "tags": [
+      "framework",
+      "server",
+      "universal",
+      "nuxt"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Encore",
+    "slug": "encore",
+    "description": "Backend development platform with infrastructure from code approach.",
+    "websiteUrl": "https://encore.dev",
+    "tags": [
+      "framework",
+      "backend",
+      "infrastructure",
+      "typescript"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Effect",
+    "slug": "effect-ts",
+    "description": "TypeScript library for building robust and composable applications.",
+    "websiteUrl": "https://effect.website",
+    "tags": [
+      "framework",
+      "typescript",
+      "composable",
+      "functional"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Zod",
+    "slug": "zod",
+    "description": "TypeScript-first schema validation library with static type inference.",
+    "websiteUrl": "https://zod.dev",
+    "tags": [
+      "validation",
+      "typescript",
+      "schema",
+      "type-inference"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Valibot",
+    "slug": "valibot",
+    "description": "Modular schema validation library with small bundle size.",
+    "websiteUrl": "https://valibot.dev",
+    "tags": [
+      "validation",
+      "modular",
+      "small-bundle",
+      "typescript"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Typebox",
+    "slug": "typebox",
+    "description": "JSON Schema type builder with static type resolution for TypeScript.",
+    "websiteUrl": "https://github.com/sinclairzx81/typebox",
+    "tags": [
+      "validation",
+      "json-schema",
+      "typescript",
+      "type-builder"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Convex",
+    "slug": "convex",
+    "description": "Reactive backend platform with real-time database and serverless functions.",
+    "websiteUrl": "https://www.convex.dev",
+    "tags": [
+      "backend",
+      "real-time",
+      "serverless",
+      "database"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Upstash",
+    "slug": "upstash-dev",
+    "description": "Serverless data platform with Redis, Kafka, and QStash for edge.",
+    "websiteUrl": "https://upstash.com",
+    "tags": [
+      "backend",
+      "serverless",
+      "redis",
+      "edge"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Trigger.dev",
+    "slug": "trigger-dev",
+    "description": "Open-source platform for running reliable background jobs in TypeScript.",
+    "websiteUrl": "https://trigger.dev",
+    "tags": [
+      "backend",
+      "background-jobs",
+      "typescript",
+      "open-source"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Inngest",
+    "slug": "inngest",
+    "description": "Event-driven durable functions platform for reliable workflows.",
+    "websiteUrl": "https://www.inngest.com",
+    "tags": [
+      "backend",
+      "event-driven",
+      "durable-functions",
+      "workflows"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Resend",
+    "slug": "resend",
+    "description": "Email API for developers with React Email integration.",
+    "websiteUrl": "https://resend.com",
+    "tags": [
+      "backend",
+      "email-api",
+      "react-email",
+      "developer"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Neon Authorize",
+    "slug": "neon-authorize",
+    "description": "Row-level security authorization for Neon Postgres databases.",
+    "websiteUrl": "https://neon.tech",
+    "tags": [
+      "backend",
+      "authorization",
+      "postgres",
+      "security"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Socket",
+    "slug": "socket-dev",
+    "description": "Security tool detecting supply chain attacks in open-source packages.",
+    "websiteUrl": "https://socket.dev",
+    "tags": [
+      "security",
+      "supply-chain",
+      "open-source",
+      "packages"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "GitGuardian",
+    "slug": "gitguardian",
+    "description": "Secrets detection platform scanning code for leaked credentials.",
+    "websiteUrl": "https://www.gitguardian.com",
+    "tags": [
+      "security",
+      "secrets-detection",
+      "scanning",
+      "git"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Semgrep",
+    "slug": "semgrep",
+    "description": "Fast open-source static analysis tool for finding code vulnerabilities.",
+    "websiteUrl": "https://semgrep.dev",
+    "tags": [
+      "security",
+      "static-analysis",
+      "open-source",
+      "vulnerabilities"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "PhpStorm",
+    "slug": "phpstorm",
+    "description": "JetBrains IDE for PHP development with deep code understanding.",
+    "websiteUrl": "https://www.jetbrains.com/phpstorm/",
+    "tags": [
+      "ide",
+      "php",
+      "jetbrains",
+      "professional"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "DataSpell",
+    "slug": "dataspell",
+    "description": "JetBrains IDE for data science with Jupyter notebook support.",
+    "websiteUrl": "https://www.jetbrains.com/dataspell/",
+    "tags": [
+      "ide",
+      "data-science",
+      "jupyter",
+      "jetbrains"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Atom",
+    "slug": "atom",
+    "description": "GitHub's hackable text editor built on Electron framework.",
+    "websiteUrl": "https://github.blog/2022-06-08-sunsetting-atom/",
+    "tags": [
+      "editor",
+      "hackable",
+      "electron",
+      "github"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 6.0
+  },
+  {
+    "name": "Lapce",
+    "slug": "lapce",
+    "description": "Lightning-fast code editor written in Rust with modal editing.",
+    "websiteUrl": "https://lapce.dev",
+    "tags": [
+      "editor",
+      "fast",
+      "rust",
+      "modal"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Gogs",
+    "slug": "gogs",
+    "description": "Painless self-hosted Git service written in Go.",
+    "websiteUrl": "https://gogs.io",
+    "tags": [
+      "version-control",
+      "self-hosted",
+      "git",
+      "go"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Azure DevOps",
+    "slug": "azure-devops",
+    "description": "Microsoft's DevOps platform with repos, pipelines, and boards.",
+    "websiteUrl": "https://azure.microsoft.com/en-us/products/devops/",
+    "tags": [
+      "ci-cd",
+      "devops",
+      "microsoft",
+      "azure"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Harness",
+    "slug": "harness",
+    "description": "Modern CI/CD platform with AI-powered deployment verification.",
+    "websiteUrl": "https://www.harness.io",
+    "tags": [
+      "ci-cd",
+      "ai-powered",
+      "deployment",
+      "modern"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "GoCD",
+    "slug": "gocd",
+    "description": "Open-source CI/CD server with advanced pipeline modeling.",
+    "websiteUrl": "https://www.gocd.org",
+    "tags": [
+      "ci-cd",
+      "open-source",
+      "pipelines",
+      "thoughtworks"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Argo Workflows",
+    "slug": "argo-workflows",
+    "description": "Kubernetes-native workflow engine for CI/CD and data processing.",
+    "websiteUrl": "https://argoproj.github.io/workflows/",
+    "tags": [
+      "ci-cd",
+      "kubernetes",
+      "workflows",
+      "open-source"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Tekton",
+    "slug": "tekton",
+    "description": "Cloud-native CI/CD framework for Kubernetes pipelines.",
+    "websiteUrl": "https://tekton.dev",
+    "tags": [
+      "ci-cd",
+      "kubernetes",
+      "cloud-native",
+      "cncf"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Earthly",
+    "slug": "earthly",
+    "description": "Build automation tool combining Dockerfiles and Makefiles.",
+    "websiteUrl": "https://earthly.dev",
+    "tags": [
+      "ci-cd",
+      "build-automation",
+      "containers",
+      "reproducible"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Bazel",
+    "slug": "bazel",
+    "description": "Google's build system for fast, reliable multi-language builds.",
+    "websiteUrl": "https://bazel.build",
+    "tags": [
+      "build-tools",
+      "google",
+      "multi-language",
+      "fast"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "CMake",
+    "slug": "cmake",
+    "description": "Cross-platform build system generator for C/C++ projects.",
+    "websiteUrl": "https://cmake.org",
+    "tags": [
+      "build-tools",
+      "c++",
+      "cross-platform",
+      "generator"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Make",
+    "slug": "make",
+    "description": "Classic Unix build automation tool using Makefiles for dependencies.",
+    "websiteUrl": "https://www.gnu.org/software/make/",
+    "tags": [
+      "build-tools",
+      "unix",
+      "automation",
+      "classic"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Just",
+    "slug": "just",
+    "description": "Modern command runner alternative to Make with simpler syntax.",
+    "websiteUrl": "https://just.systems",
+    "tags": [
+      "build-tools",
+      "command-runner",
+      "simple",
+      "modern"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Task",
+    "slug": "task",
+    "description": "Task runner and build tool written in Go as a Make alternative.",
+    "websiteUrl": "https://taskfile.dev",
+    "tags": [
+      "build-tools",
+      "task-runner",
+      "go",
+      "yaml"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Bundler",
+    "slug": "bundler",
+    "description": "Ruby gem dependency manager ensuring consistent environments.",
+    "websiteUrl": "https://bundler.io",
+    "tags": [
+      "package-manager",
+      "ruby",
+      "gems",
+      "dependencies"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Rye",
+    "slug": "rye",
+    "description": "Comprehensive Python project management tool by Armin Ronacher.",
+    "websiteUrl": "https://rye.astral.sh",
+    "tags": [
+      "package-manager",
+      "python",
+      "project-management",
+      "modern"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Conda",
+    "slug": "conda",
+    "description": "Cross-platform package and environment manager for data science.",
+    "websiteUrl": "https://docs.conda.io",
+    "tags": [
+      "package-manager",
+      "python",
+      "data-science",
+      "environments"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Pixi",
+    "slug": "pixi",
+    "description": "Fast cross-platform package manager built on conda ecosystem.",
+    "websiteUrl": "https://pixi.sh",
+    "tags": [
+      "package-manager",
+      "cross-platform",
+      "conda",
+      "fast"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "WakaTime",
+    "slug": "wakatime",
+    "description": "Automatic time tracking for developers across all IDEs.",
+    "websiteUrl": "https://wakatime.com",
+    "tags": [
+      "productivity",
+      "time-tracking",
+      "ide-plugin",
+      "dashboards"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "CodeClimate",
+    "slug": "codeclimate",
+    "description": "Automated code review and quality analysis platform.",
+    "websiteUrl": "https://codeclimate.com",
+    "tags": [
+      "code-quality",
+      "automated-review",
+      "analysis",
+      "metrics"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Sourcegraph",
+    "slug": "sourcegraph",
+    "description": "Code search and intelligence platform for large codebases.",
+    "websiteUrl": "https://sourcegraph.com",
+    "tags": [
+      "code-search",
+      "intelligence",
+      "large-codebases",
+      "navigation"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "LaunchDarkly",
+    "slug": "launchdarkly",
+    "description": "Feature management platform for controlled feature flag rollouts.",
+    "websiteUrl": "https://launchdarkly.com",
+    "tags": [
+      "feature-flags",
+      "rollouts",
+      "experimentation",
+      "enterprise"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Unleash",
+    "slug": "unleash",
+    "description": "Open-source feature flag management system for controlled releases.",
+    "websiteUrl": "https://www.getunleash.io",
+    "tags": [
+      "feature-flags",
+      "open-source",
+      "releases",
+      "management"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Flipt",
+    "slug": "flipt",
+    "description": "Open-source feature flag infrastructure with GitOps support.",
+    "websiteUrl": "https://www.flipt.io",
+    "tags": [
+      "feature-flags",
+      "open-source",
+      "gitops",
+      "infrastructure"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Flagsmith",
+    "slug": "flagsmith",
+    "description": "Open-source feature flag and remote config service.",
+    "websiteUrl": "https://flagsmith.com",
+    "tags": [
+      "feature-flags",
+      "remote-config",
+      "open-source",
+      "service"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Opsgenie",
+    "slug": "opsgenie",
+    "description": "Atlassian's incident management and alerting platform.",
+    "websiteUrl": "https://www.atlassian.com/software/opsgenie",
+    "tags": [
+      "monitoring",
+      "incident-management",
+      "alerting",
+      "atlassian"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Jaeger",
+    "slug": "jaeger",
+    "description": "Open-source distributed tracing system for microservices.",
+    "websiteUrl": "https://www.jaegertracing.io",
+    "tags": [
+      "monitoring",
+      "tracing",
+      "microservices",
+      "open-source"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "OpenTelemetry",
+    "slug": "opentelemetry",
+    "description": "Vendor-neutral observability framework for traces, metrics, and logs.",
+    "websiteUrl": "https://opentelemetry.io",
+    "tags": [
+      "monitoring",
+      "observability",
+      "vendor-neutral",
+      "cncf"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Zipkin",
+    "slug": "zipkin",
+    "description": "Distributed tracing system for troubleshooting latency problems.",
+    "websiteUrl": "https://zipkin.io",
+    "tags": [
+      "monitoring",
+      "tracing",
+      "latency",
+      "distributed"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Loki",
+    "slug": "loki",
+    "description": "Grafana's horizontally scalable log aggregation system.",
+    "websiteUrl": "https://grafana.com/oss/loki/",
+    "tags": [
+      "monitoring",
+      "logging",
+      "grafana",
+      "scalable"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Tempo",
+    "slug": "tempo",
+    "description": "Grafana's distributed tracing backend with deep Grafana integration.",
+    "websiteUrl": "https://grafana.com/oss/tempo/",
+    "tags": [
+      "monitoring",
+      "tracing",
+      "grafana",
+      "backend"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "ELK Stack",
+    "slug": "elk-stack",
+    "description": "Elasticsearch, Logstash, and Kibana for log management and analytics.",
+    "websiteUrl": "https://www.elastic.co/elastic-stack",
+    "tags": [
+      "monitoring",
+      "logging",
+      "analytics",
+      "elastic"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Backstage",
+    "slug": "backstage",
+    "description": "Spotify's open-source developer portal for managing infrastructure.",
+    "websiteUrl": "https://backstage.io",
+    "tags": [
+      "developer-portal",
+      "spotify",
+      "open-source",
+      "infrastructure"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Port",
+    "slug": "port-dev",
+    "description": "Internal developer portal for managing software catalog and workflows.",
+    "websiteUrl": "https://www.getport.io",
+    "tags": [
+      "developer-portal",
+      "catalog",
+      "workflows",
+      "platform"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Swagger Editor",
+    "slug": "swagger-editor",
+    "description": "Browser-based editor for designing APIs with the OpenAPI specification.",
+    "websiteUrl": "https://editor.swagger.io",
+    "tags": [
+      "api-tools",
+      "editor",
+      "openapi",
+      "browser"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "httpie",
+    "slug": "httpie",
+    "description": "User-friendly command-line HTTP client for API testing.",
+    "websiteUrl": "https://httpie.io",
+    "tags": [
+      "api-tools",
+      "cli",
+      "http-client",
+      "user-friendly"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "curlie",
+    "slug": "curlie",
+    "description": "HTTPie-like tool combining curl power with a user-friendly interface.",
+    "websiteUrl": "https://curlie.io",
+    "tags": [
+      "api-tools",
+      "cli",
+      "curl",
+      "user-friendly"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "lazygit",
+    "slug": "lazygit",
+    "description": "Simple terminal UI for git commands with visual diff viewing.",
+    "websiteUrl": "https://github.com/jesseduffield/lazygit",
+    "tags": [
+      "version-control",
+      "tui",
+      "git",
+      "visual"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "lazydocker",
+    "slug": "lazydocker",
+    "description": "Simple terminal UI for Docker and Docker Compose management.",
+    "websiteUrl": "https://github.com/jesseduffield/lazydocker",
+    "tags": [
+      "containers",
+      "tui",
+      "docker",
+      "management"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "k9s",
+    "slug": "k9s",
+    "description": "Terminal UI for managing Kubernetes clusters interactively.",
+    "websiteUrl": "https://k9scli.io",
+    "tags": [
+      "containers",
+      "kubernetes",
+      "tui",
+      "management"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Asciinema",
+    "slug": "asciinema",
+    "description": "Tool for recording and sharing terminal sessions as text.",
+    "websiteUrl": "https://asciinema.org",
+    "tags": [
+      "terminal",
+      "recording",
+      "sharing",
+      "documentation"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "bat",
+    "slug": "bat",
+    "description": "Cat command clone with syntax highlighting and Git integration.",
+    "websiteUrl": "https://github.com/sharkdp/bat",
+    "tags": [
+      "terminal",
+      "cli",
+      "syntax-highlighting",
+      "rust"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "ripgrep",
+    "slug": "ripgrep",
+    "description": "Ultra-fast recursive search tool respecting gitignore rules.",
+    "websiteUrl": "https://github.com/BurntSushi/ripgrep",
+    "tags": [
+      "terminal",
+      "search",
+      "fast",
+      "rust"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "fd",
+    "slug": "fd",
+    "description": "Simple, fast alternative to find command with intuitive syntax.",
+    "websiteUrl": "https://github.com/sharkdp/fd",
+    "tags": [
+      "terminal",
+      "search",
+      "fast",
+      "rust"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "fzf",
+    "slug": "fzf",
+    "description": "General-purpose command-line fuzzy finder for any list.",
+    "websiteUrl": "https://github.com/junegunn/fzf",
+    "tags": [
+      "terminal",
+      "fuzzy-finder",
+      "interactive",
+      "go"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "exa",
+    "slug": "exa",
+    "description": "Modern replacement for ls with colors and Git integration.",
+    "websiteUrl": "https://the.exa.website",
+    "tags": [
+      "terminal",
+      "cli",
+      "ls-replacement",
+      "rust"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "zoxide",
+    "slug": "zoxide",
+    "description": "Smarter cd command that learns your most used directories.",
+    "websiteUrl": "https://github.com/ajeetdsouza/zoxide",
+    "tags": [
+      "terminal",
+      "navigation",
+      "smart",
+      "rust"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "delta",
+    "slug": "delta",
+    "description": "Syntax-highlighting pager for git, diff, and grep output.",
+    "websiteUrl": "https://github.com/dandavison/delta",
+    "tags": [
+      "terminal",
+      "git",
+      "diff",
+      "syntax-highlighting"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Atuin",
+    "slug": "atuin",
+    "description": "Shell history sync and search with SQLite-backed storage.",
+    "websiteUrl": "https://atuin.sh",
+    "tags": [
+      "terminal",
+      "shell-history",
+      "search",
+      "sync"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Coder",
+    "slug": "coder",
+    "description": "Self-hosted cloud development environment platform for teams.",
+    "websiteUrl": "https://coder.com",
+    "tags": [
+      "cloud-ide",
+      "self-hosted",
+      "team",
+      "development"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Vercel v0",
+    "slug": "vercel-v0-tool",
+    "description": "AI-powered UI component generator by Vercel using natural language.",
+    "websiteUrl": "https://v0.dev",
+    "tags": [
+      "ai-coding",
+      "ui-generation",
+      "vercel",
+      "natural-language"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Wrangler",
+    "slug": "wrangler",
+    "description": "Cloudflare's CLI tool for developing and deploying Workers.",
+    "websiteUrl": "https://developers.cloudflare.com/workers/wrangler/",
+    "tags": [
+      "cli",
+      "cloudflare",
+      "workers",
+      "deployment"
+    ],
+    "primaryCategory": "dev-tools",
+    "type": "tool",
+    "baselineScore": 7.8
+  }
+]

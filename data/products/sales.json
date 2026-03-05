@@ -1,0 +1,932 @@
+[
+  {
+    "name": "Salesforce",
+    "slug": "salesforce",
+    "description": "Enterprise CRM platform for sales, service, and marketing with extensive customization.",
+    "websiteUrl": "https://salesforce.com",
+    "tags": ["crm", "enterprise", "sales", "customization"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "HubSpot CRM",
+    "slug": "hubspot-crm",
+    "description": "Free CRM platform with sales, marketing, and customer service tools built in.",
+    "websiteUrl": "https://hubspot.com/products/crm",
+    "tags": ["crm", "free", "sales", "marketing"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Pipedrive",
+    "slug": "pipedrive",
+    "description": "Sales-focused CRM with visual pipeline management and activity-based selling methodology.",
+    "websiteUrl": "https://pipedrive.com",
+    "tags": ["crm", "pipeline-management", "sales", "activity-tracking"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Close",
+    "slug": "close-crm",
+    "description": "CRM built for inside sales teams with calling, email, and SMS built in.",
+    "websiteUrl": "https://close.com",
+    "tags": ["crm", "inside-sales", "calling", "email"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Attio",
+    "slug": "attio",
+    "description": "Next-generation CRM with flexible data modeling and real-time collaboration features.",
+    "websiteUrl": "https://attio.com",
+    "tags": ["crm", "modern", "flexible", "collaboration"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Zoho CRM",
+    "slug": "zoho-crm",
+    "description": "Comprehensive CRM platform with AI assistant, automation, and multichannel communication.",
+    "websiteUrl": "https://zoho.com/crm",
+    "tags": ["crm", "ai", "automation", "multichannel"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Freshsales",
+    "slug": "freshsales",
+    "description": "AI-powered CRM by Freshworks with built-in phone, email, and lead scoring.",
+    "websiteUrl": "https://freshworks.com/crm/sales",
+    "tags": ["crm", "ai", "lead-scoring", "freshworks"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Copper",
+    "slug": "copper-crm",
+    "description": "Google Workspace-native CRM that integrates deeply with Gmail and Google apps.",
+    "websiteUrl": "https://copper.com",
+    "tags": ["crm", "google-workspace", "gmail", "integration"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Insightly",
+    "slug": "insightly",
+    "description": "CRM and project management platform for small businesses with workflow automation.",
+    "websiteUrl": "https://insightly.com",
+    "tags": ["crm", "project-management", "small-business", "automation"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Monday Sales CRM",
+    "slug": "monday-sales-crm",
+    "description": "Customizable CRM built on Monday.com with pipeline management and automations.",
+    "websiteUrl": "https://monday.com/crm",
+    "tags": ["crm", "customizable", "pipeline", "monday"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Nutshell",
+    "slug": "nutshell",
+    "description": "Simple CRM and email marketing platform for small sales teams.",
+    "websiteUrl": "https://nutshell.com",
+    "tags": ["crm", "small-business", "email-marketing", "simple"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Less Annoying CRM",
+    "slug": "less-annoying-crm",
+    "description": "Simple, affordable CRM designed specifically for small businesses and solopreneurs.",
+    "websiteUrl": "https://lessannoyingcrm.com",
+    "tags": ["crm", "small-business", "simple", "affordable"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Folk",
+    "slug": "folk-crm",
+    "description": "Lightweight CRM for relationship management with a clean, spreadsheet-like interface.",
+    "websiteUrl": "https://folk.app",
+    "tags": ["crm", "lightweight", "relationship-management", "modern"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Streak",
+    "slug": "streak",
+    "description": "CRM built inside Gmail for managing pipelines without leaving your inbox.",
+    "websiteUrl": "https://streak.com",
+    "tags": ["crm", "gmail", "inbox", "pipeline"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Capsule CRM",
+    "slug": "capsule-crm",
+    "description": "Simple online CRM for managing contacts, sales opportunities, and tasks.",
+    "websiteUrl": "https://capsulecrm.com",
+    "tags": ["crm", "contacts", "simple", "small-business"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Microsoft Dynamics 365",
+    "slug": "microsoft-dynamics-365",
+    "description": "Enterprise CRM and ERP platform from Microsoft with AI-powered business applications.",
+    "websiteUrl": "https://dynamics.microsoft.com",
+    "tags": ["crm", "erp", "enterprise", "microsoft"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "SugarCRM",
+    "slug": "sugarcrm",
+    "description": "CRM platform with AI-driven predictions and time-aware customer experience features.",
+    "websiteUrl": "https://sugarcrm.com",
+    "tags": ["crm", "ai", "enterprise", "customer-experience"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Twenty",
+    "slug": "twenty-crm",
+    "description": "Open-source CRM alternative to Salesforce with a modern, flexible architecture.",
+    "websiteUrl": "https://twenty.com",
+    "tags": ["crm", "open-source", "modern", "self-hosted"],
+    "primaryCategory": "sales",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Outreach",
+    "slug": "outreach",
+    "description": "Sales execution platform for managing sequences, calls, and deal intelligence.",
+    "websiteUrl": "https://outreach.io",
+    "tags": ["sales-engagement", "sequences", "calls", "deal-intelligence"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Salesloft",
+    "slug": "salesloft",
+    "description": "Sales engagement platform for cadence management, calling, and revenue intelligence.",
+    "websiteUrl": "https://salesloft.com",
+    "tags": ["sales-engagement", "cadences", "calling", "revenue-intelligence"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Apollo.io",
+    "slug": "apollo-io",
+    "description": "Sales intelligence platform with a B2B contact database and engagement tools.",
+    "websiteUrl": "https://apollo.io",
+    "tags": ["sales-intelligence", "contact-database", "prospecting", "engagement"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Groove",
+    "slug": "groove-sales",
+    "description": "Sales engagement platform native to Salesforce for email tracking and cadences.",
+    "websiteUrl": "https://groove.co",
+    "tags": ["sales-engagement", "salesforce", "email-tracking", "cadences"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Mixmax",
+    "slug": "mixmax",
+    "description": "Sales engagement tool for Gmail with scheduling, sequences, and email tracking.",
+    "websiteUrl": "https://mixmax.com",
+    "tags": ["sales-engagement", "gmail", "scheduling", "sequences"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "ZoomInfo",
+    "slug": "zoominfo",
+    "description": "B2B data platform providing company and contact intelligence for go-to-market teams.",
+    "websiteUrl": "https://zoominfo.com",
+    "tags": ["lead-generation", "b2b-data", "contact-intelligence", "prospecting"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Lusha",
+    "slug": "lusha",
+    "description": "B2B contact data platform for finding accurate phone numbers and email addresses.",
+    "websiteUrl": "https://lusha.com",
+    "tags": ["lead-generation", "contact-data", "prospecting", "b2b"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Cognism",
+    "slug": "cognism",
+    "description": "B2B sales intelligence platform with verified phone numbers and GDPR-compliant data.",
+    "websiteUrl": "https://cognism.com",
+    "tags": ["lead-generation", "sales-intelligence", "b2b-data", "gdpr"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "LeadIQ",
+    "slug": "leadiq",
+    "description": "Prospecting platform for finding contact data and tracking buying signals.",
+    "websiteUrl": "https://leadiq.com",
+    "tags": ["lead-generation", "prospecting", "contact-data", "buying-signals"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Seamless.AI",
+    "slug": "seamless-ai",
+    "description": "AI-powered sales intelligence platform for finding verified B2B contact information.",
+    "websiteUrl": "https://seamless.ai",
+    "tags": ["lead-generation", "ai", "contact-data", "b2b"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "LinkedIn Sales Navigator",
+    "slug": "linkedin-sales-navigator",
+    "description": "LinkedIn's advanced sales tool for lead discovery, relationship building, and insights.",
+    "websiteUrl": "https://business.linkedin.com/sales-solutions/sales-navigator",
+    "tags": ["lead-generation", "linkedin", "social-selling", "prospecting"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "UpLead",
+    "slug": "uplead",
+    "description": "B2B prospecting platform with verified contact data and real-time email verification.",
+    "websiteUrl": "https://uplead.com",
+    "tags": ["lead-generation", "prospecting", "email-verification", "b2b"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "RocketReach",
+    "slug": "rocketreach",
+    "description": "Contact information lookup tool for finding emails and phone numbers of professionals.",
+    "websiteUrl": "https://rocketreach.co",
+    "tags": ["lead-generation", "contact-data", "email-finder", "prospecting"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Kaspr",
+    "slug": "kaspr",
+    "description": "LinkedIn prospecting tool for extracting verified phone numbers and email addresses.",
+    "websiteUrl": "https://kaspr.io",
+    "tags": ["lead-generation", "linkedin", "contact-data", "prospecting"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "PandaDoc",
+    "slug": "pandadoc",
+    "description": "Document automation platform for proposals, contracts, and e-signatures.",
+    "websiteUrl": "https://pandadoc.com",
+    "tags": ["proposals", "contracts", "e-signatures", "document-automation"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "DocuSign",
+    "slug": "docusign",
+    "description": "Electronic signature platform for sending, signing, and managing digital agreements.",
+    "websiteUrl": "https://docusign.com",
+    "tags": ["e-signatures", "contracts", "agreements", "document-management"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Proposify",
+    "slug": "proposify",
+    "description": "Online proposal software for creating, tracking, and closing sales proposals.",
+    "websiteUrl": "https://proposify.com",
+    "tags": ["proposals", "sales", "templates", "tracking"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Better Proposals",
+    "slug": "better-proposals",
+    "description": "Web-based proposal software with beautiful templates and built-in e-signatures.",
+    "websiteUrl": "https://betterproposals.io",
+    "tags": ["proposals", "templates", "e-signatures", "web-based"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Qwilr",
+    "slug": "qwilr",
+    "description": "Interactive proposal and sales document builder with web-based page experiences.",
+    "websiteUrl": "https://qwilr.com",
+    "tags": ["proposals", "interactive", "sales-documents", "web-based"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "HelloSign",
+    "slug": "hellosign",
+    "description": "Simple e-signature solution by Dropbox for signing and requesting document signatures.",
+    "websiteUrl": "https://hellosign.com",
+    "tags": ["e-signatures", "documents", "dropbox", "simple"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "SignNow",
+    "slug": "signnow",
+    "description": "E-signature platform with document workflows, templates, and team collaboration.",
+    "websiteUrl": "https://signnow.com",
+    "tags": ["e-signatures", "workflows", "templates", "collaboration"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Gong",
+    "slug": "gong",
+    "description": "Revenue intelligence platform analyzing sales calls to provide deal and team insights.",
+    "websiteUrl": "https://gong.io",
+    "tags": ["revenue-intelligence", "conversation-analytics", "sales-coaching", "ai"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Chorus",
+    "slug": "chorus",
+    "description": "Conversation intelligence platform by ZoomInfo for analyzing sales calls and meetings.",
+    "websiteUrl": "https://chorus.ai",
+    "tags": ["conversation-intelligence", "sales-calls", "analytics", "zoominfo"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Clari",
+    "slug": "clari",
+    "description": "Revenue operations platform for pipeline inspection, forecasting, and deal management.",
+    "websiteUrl": "https://clari.com",
+    "tags": ["revenue-operations", "forecasting", "pipeline", "deal-management"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "People.ai",
+    "slug": "people-ai",
+    "description": "AI revenue intelligence platform automating activity capture and deal insights.",
+    "websiteUrl": "https://people.ai",
+    "tags": ["revenue-intelligence", "ai", "activity-capture", "analytics"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Avoma",
+    "slug": "avoma",
+    "description": "AI meeting assistant for note-taking, transcription, and conversation intelligence.",
+    "websiteUrl": "https://avoma.com",
+    "tags": ["meeting-assistant", "transcription", "conversation-intelligence", "ai"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Fireflies.ai",
+    "slug": "fireflies-ai",
+    "description": "AI meeting note-taker that records, transcribes, and summarizes sales conversations.",
+    "websiteUrl": "https://fireflies.ai",
+    "tags": ["meeting-assistant", "transcription", "ai", "note-taking"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Otter.ai",
+    "slug": "otter-ai",
+    "description": "AI-powered meeting transcription and note-taking tool with real-time collaboration.",
+    "websiteUrl": "https://otter.ai",
+    "tags": ["transcription", "meeting-notes", "ai", "collaboration"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Calendly",
+    "slug": "calendly",
+    "description": "Scheduling automation platform for booking meetings without back-and-forth emails.",
+    "websiteUrl": "https://calendly.com",
+    "tags": ["scheduling", "meetings", "automation", "calendar"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Cal.com",
+    "slug": "cal-com",
+    "description": "Open-source scheduling infrastructure for individuals and businesses with full customization.",
+    "websiteUrl": "https://cal.com",
+    "tags": ["scheduling", "open-source", "meetings", "customizable"],
+    "primaryCategory": "sales",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "SavvyCal",
+    "slug": "savvycal",
+    "description": "Scheduling tool with personalized links, calendar overlay, and a polished experience.",
+    "websiteUrl": "https://savvycal.com",
+    "tags": ["scheduling", "meetings", "personalized", "calendar"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Chili Piper",
+    "slug": "chili-piper",
+    "description": "Inbound lead conversion platform with instant scheduling, routing, and handoff tools.",
+    "websiteUrl": "https://chilipiper.com",
+    "tags": ["scheduling", "lead-routing", "inbound", "conversion"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Reclaim.ai",
+    "slug": "reclaim-ai",
+    "description": "AI scheduling tool that automatically finds time for tasks, habits, and meetings.",
+    "websiteUrl": "https://reclaim.ai",
+    "tags": ["scheduling", "ai", "time-management", "calendar"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Doodle",
+    "slug": "doodle",
+    "description": "Meeting scheduling tool for finding the best time for group meetings and events.",
+    "websiteUrl": "https://doodle.com",
+    "tags": ["scheduling", "group-meetings", "polls", "calendar"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "DealHub",
+    "slug": "dealhub",
+    "description": "Revenue platform with CPQ, contract management, and subscription billing tools.",
+    "websiteUrl": "https://dealhub.io",
+    "tags": ["cpq", "contract-management", "billing", "revenue"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Vendavo",
+    "slug": "vendavo",
+    "description": "Price optimization and management platform for B2B enterprises to maximize revenue.",
+    "websiteUrl": "https://vendavo.com",
+    "tags": ["pricing", "cpq", "b2b", "enterprise"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "PROS",
+    "slug": "pros",
+    "description": "AI-powered pricing and CPQ platform for optimizing B2B selling and revenue.",
+    "websiteUrl": "https://pros.com",
+    "tags": ["pricing", "cpq", "ai", "b2b"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Salesforce CPQ",
+    "slug": "salesforce-cpq",
+    "description": "Configure-price-quote solution within Salesforce for complex product quoting workflows.",
+    "websiteUrl": "https://salesforce.com/products/cpq",
+    "tags": ["cpq", "salesforce", "quoting", "enterprise"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "CaptivateIQ",
+    "slug": "captivateiq",
+    "description": "Sales commission management platform for designing and automating incentive compensation.",
+    "websiteUrl": "https://captivateiq.com",
+    "tags": ["commissions", "sales-compensation", "incentives", "automation"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Spiff",
+    "slug": "spiff",
+    "description": "Commission management platform automating complex sales compensation calculations.",
+    "websiteUrl": "https://spiff.com",
+    "tags": ["commissions", "sales-compensation", "automation", "analytics"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "QuotaPath",
+    "slug": "quotapath",
+    "description": "Commission tracking platform for sales reps to visualize earnings and quota attainment.",
+    "websiteUrl": "https://quotapath.com",
+    "tags": ["commissions", "quota-tracking", "sales-compensation", "visibility"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Forecastio",
+    "slug": "forecastio",
+    "description": "Sales forecasting and performance analytics platform for data-driven revenue planning.",
+    "websiteUrl": "https://forecastio.ai",
+    "tags": ["forecasting", "sales-analytics", "revenue-planning", "performance"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "InsightSquared",
+    "slug": "insightsquared",
+    "description": "Revenue intelligence and forecasting platform with AI-powered analytics for sales teams.",
+    "websiteUrl": "https://insightsquared.com",
+    "tags": ["revenue-intelligence", "forecasting", "analytics", "ai"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Highspot",
+    "slug": "highspot",
+    "description": "Sales enablement platform for content management, training, and buyer engagement.",
+    "websiteUrl": "https://highspot.com",
+    "tags": ["sales-enablement", "content-management", "training", "engagement"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Seismic",
+    "slug": "seismic",
+    "description": "Sales enablement and marketing orchestration platform for content and buyer engagement.",
+    "websiteUrl": "https://seismic.com",
+    "tags": ["sales-enablement", "content-management", "marketing", "engagement"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Showpad",
+    "slug": "showpad",
+    "description": "Sales enablement platform combining content management with seller readiness tools.",
+    "websiteUrl": "https://showpad.com",
+    "tags": ["sales-enablement", "content-management", "training", "readiness"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Guru",
+    "slug": "guru",
+    "description": "Knowledge management platform surfacing trusted information in sales team workflows.",
+    "websiteUrl": "https://getguru.com",
+    "tags": ["knowledge-management", "sales-enablement", "wiki", "workflows"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "MindTickle",
+    "slug": "mindtickle",
+    "description": "Revenue enablement platform for sales readiness, training, and content management.",
+    "websiteUrl": "https://mindtickle.com",
+    "tags": ["sales-enablement", "training", "readiness", "coaching"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Brainshark",
+    "slug": "brainshark",
+    "description": "Sales readiness platform for training, coaching, and content creation for sales teams.",
+    "websiteUrl": "https://brainshark.com",
+    "tags": ["sales-enablement", "training", "coaching", "content-creation"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "SalesHood",
+    "slug": "saleshood",
+    "description": "Revenue enablement platform with video coaching, content sharing, and training tools.",
+    "websiteUrl": "https://saleshood.com",
+    "tags": ["sales-enablement", "coaching", "training", "video"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Vidyard for Sales",
+    "slug": "vidyard-sales",
+    "description": "Video messaging tool for sales teams to create personalized video outreach at scale.",
+    "websiteUrl": "https://vidyard.com/sales",
+    "tags": ["video-messaging", "sales-outreach", "personalization", "engagement"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Loom for Sales",
+    "slug": "loom-sales",
+    "description": "Async video messaging for sales prospecting and deal-stage communication.",
+    "websiteUrl": "https://loom.com/usecases/sales",
+    "tags": ["video-messaging", "async", "sales-outreach", "prospecting"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Lavender",
+    "slug": "lavender",
+    "description": "AI email assistant for sales reps that coaches on email writing and effectiveness.",
+    "websiteUrl": "https://lavender.ai",
+    "tags": ["email-assistant", "ai", "sales-outreach", "coaching"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Regie.ai",
+    "slug": "regie-ai",
+    "description": "AI sales engagement platform for auto-generating personalized outreach sequences.",
+    "websiteUrl": "https://regie.ai",
+    "tags": ["ai", "sales-engagement", "outreach", "content-generation"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Revenue Grid",
+    "slug": "revenue-grid",
+    "description": "Revenue intelligence platform with guided selling and Salesforce inbox integration.",
+    "websiteUrl": "https://revenuegrid.com",
+    "tags": ["revenue-intelligence", "guided-selling", "salesforce", "inbox"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Scratchpad",
+    "slug": "scratchpad",
+    "description": "Workspace for sales teams to update Salesforce, manage pipelines, and take notes.",
+    "websiteUrl": "https://scratchpad.com",
+    "tags": ["salesforce", "pipeline-management", "notes", "productivity"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Dooly",
+    "slug": "dooly",
+    "description": "Connected workspace for sales teams that syncs notes and data to Salesforce.",
+    "websiteUrl": "https://dooly.ai",
+    "tags": ["salesforce", "note-taking", "pipeline", "productivity"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Wingman",
+    "slug": "wingman",
+    "description": "Real-time sales coaching tool providing cue cards and insights during live calls.",
+    "websiteUrl": "https://trywingman.com",
+    "tags": ["conversation-intelligence", "real-time-coaching", "calls", "ai"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Clearslide",
+    "slug": "clearslide",
+    "description": "Sales engagement platform for content sharing, presentations, and communication analytics.",
+    "websiteUrl": "https://clearslide.com",
+    "tags": ["sales-engagement", "presentations", "content-sharing", "analytics"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Yesware",
+    "slug": "yesware",
+    "description": "Email tracking and sales productivity tool for Gmail and Outlook users.",
+    "websiteUrl": "https://yesware.com",
+    "tags": ["email-tracking", "sales-productivity", "gmail", "outlook"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "HubSpot Sales Hub",
+    "slug": "hubspot-sales-hub",
+    "description": "Sales software with email tracking, meeting scheduling, and pipeline management tools.",
+    "websiteUrl": "https://hubspot.com/products/sales",
+    "tags": ["sales-tools", "email-tracking", "pipeline", "hubspot"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Salesflare",
+    "slug": "salesflare",
+    "description": "Automated CRM for small B2B businesses that fills itself out from existing data.",
+    "websiteUrl": "https://salesflare.com",
+    "tags": ["crm", "automated", "small-business", "b2b"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Lemcal",
+    "slug": "lemcal",
+    "description": "Meeting scheduling tool by Lemlist with personalized booking pages and integrations.",
+    "websiteUrl": "https://lemcal.com",
+    "tags": ["scheduling", "meetings", "booking-pages", "lemlist"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Warmly",
+    "slug": "warmly",
+    "description": "Signal-based revenue orchestration platform identifying website visitors for outreach.",
+    "websiteUrl": "https://warmly.ai",
+    "tags": ["website-visitors", "signal-based", "prospecting", "ai"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Qualified",
+    "slug": "qualified",
+    "description": "Conversational sales platform for Salesforce users to engage website visitors in real time.",
+    "websiteUrl": "https://qualified.com",
+    "tags": ["conversational-sales", "salesforce", "live-chat", "website-visitors"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "LeadSquared",
+    "slug": "leadsquared",
+    "description": "Sales execution CRM with marketing automation for high-velocity sales teams.",
+    "websiteUrl": "https://leadsquared.com",
+    "tags": ["crm", "marketing-automation", "high-velocity-sales", "lead-management"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Freshworks CRM Suite",
+    "slug": "freshworks-crm-suite",
+    "description": "Unified CRM suite combining sales, marketing, and support on one platform.",
+    "websiteUrl": "https://freshworks.com/crm",
+    "tags": ["crm", "unified-platform", "sales", "marketing"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Keap",
+    "slug": "keap",
+    "description": "CRM and marketing automation platform designed for small businesses and entrepreneurs.",
+    "websiteUrl": "https://keap.com",
+    "tags": ["crm", "marketing-automation", "small-business", "automation"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Nimble",
+    "slug": "nimble",
+    "description": "Social CRM that enriches contacts from social media profiles and interactions.",
+    "websiteUrl": "https://nimble.com",
+    "tags": ["crm", "social-crm", "contact-enrichment", "small-business"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Zendesk Sell",
+    "slug": "zendesk-sell",
+    "description": "Sales CRM by Zendesk with pipeline visibility, productivity tools, and analytics.",
+    "websiteUrl": "https://zendesk.com/sell",
+    "tags": ["crm", "pipeline", "productivity", "zendesk"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Mediafly",
+    "slug": "mediafly",
+    "description": "Revenue enablement platform for interactive content, coaching, and buyer engagement.",
+    "websiteUrl": "https://mediafly.com",
+    "tags": ["sales-enablement", "interactive-content", "coaching", "engagement"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Ebsta",
+    "slug": "ebsta",
+    "description": "Revenue intelligence platform providing relationship scores and pipeline insights for Salesforce.",
+    "websiteUrl": "https://ebsta.com",
+    "tags": ["revenue-intelligence", "relationship-scoring", "salesforce", "pipeline"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Instantly CRM",
+    "slug": "instantly-crm",
+    "description": "Built-in CRM within Instantly for managing leads from cold email campaigns.",
+    "websiteUrl": "https://instantly.ai/crm",
+    "tags": ["crm", "cold-email", "lead-management", "outreach"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Dealfront",
+    "slug": "dealfront",
+    "description": "Go-to-market platform for European B2B sales with web visitor identification and data.",
+    "websiteUrl": "https://dealfront.com",
+    "tags": ["lead-generation", "website-visitors", "b2b-data", "europe"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Drift",
+    "slug": "drift-sales",
+    "description": "Conversational sales platform with AI chatbots for qualifying and routing leads.",
+    "websiteUrl": "https://drift.com",
+    "tags": ["conversational-sales", "chatbots", "lead-qualification", "routing"],
+    "primaryCategory": "sales",
+    "type": "saas",
+    "baselineScore": 7.8
+  }
+]

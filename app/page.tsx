@@ -1,18 +1,18 @@
 import { ExplorerContent } from "./explorer-content";
+import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from "@/lib/site-config";
 
 export default function Home() {
   const websiteJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "stackover.dev",
-    url: "https://stackover.dev",
-    description:
-      "Compare 2,400+ AI tools, developer templates, and agents. Community-ranked with real votes.",
+    name: SITE_NAME,
+    url: SITE_URL,
+    description: SITE_DESCRIPTION,
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://stackover.dev/?q={search_term_string}",
+        urlTemplate: `${SITE_URL}/?q={search_term_string}`,
       },
       "query-input": "required name=search_term_string",
     },
@@ -21,9 +21,9 @@ export default function Home() {
   const orgJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "stackover.dev",
-    url: "https://stackover.dev",
-    logo: "https://stackover.dev/logo.png",
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: `${SITE_URL}/logo.png`,
     sameAs: [],
   };
 

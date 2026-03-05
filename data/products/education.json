@@ -1,0 +1,502 @@
+[
+  {
+    "name": "Canvas LMS",
+    "slug": "canvas-lms",
+    "description": "Open-source learning management system used by schools and universities worldwide.",
+    "websiteUrl": "https://www.instructure.com/canvas",
+    "tags": ["lms", "education", "e-learning", "universities"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Moodle",
+    "slug": "moodle",
+    "description": "Open-source learning platform designed to provide educators with a customizable course system.",
+    "websiteUrl": "https://moodle.org",
+    "tags": ["lms", "open-source", "education", "courses"],
+    "primaryCategory": "education",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Teachable",
+    "slug": "teachable",
+    "description": "Platform for creators to build and sell online courses and coaching programs.",
+    "websiteUrl": "https://teachable.com",
+    "tags": ["online-courses", "creators", "e-learning"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Thinkific",
+    "slug": "thinkific",
+    "description": "Course creation platform that lets entrepreneurs build and sell online courses.",
+    "websiteUrl": "https://www.thinkific.com",
+    "tags": ["online-courses", "creators", "e-learning", "course-builder"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Kajabi",
+    "slug": "kajabi",
+    "description": "All-in-one platform for selling digital products, online courses, and memberships.",
+    "websiteUrl": "https://kajabi.com",
+    "tags": ["online-courses", "memberships", "digital-products", "creators"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Podia",
+    "slug": "podia",
+    "description": "Platform to sell online courses, downloads, webinars, and community memberships.",
+    "websiteUrl": "https://www.podia.com",
+    "tags": ["online-courses", "digital-products", "creators"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Codecademy",
+    "slug": "codecademy",
+    "description": "Interactive platform that teaches coding through hands-on exercises in many programming languages.",
+    "websiteUrl": "https://www.codecademy.com",
+    "tags": ["coding-education", "interactive", "programming", "learn-to-code"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "freeCodeCamp",
+    "slug": "freecodecamp",
+    "description": "Free, open-source platform offering coding certifications through project-based learning.",
+    "websiteUrl": "https://www.freecodecamp.org",
+    "tags": ["coding-education", "free", "open-source", "certifications"],
+    "primaryCategory": "education",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "LeetCode",
+    "slug": "leetcode",
+    "description": "Platform for practicing coding interview problems with algorithm and data structure challenges.",
+    "websiteUrl": "https://leetcode.com",
+    "tags": ["coding-interviews", "algorithms", "practice", "competitive-programming"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "HackerRank",
+    "slug": "hackerrank",
+    "description": "Developer skills platform for practicing coding challenges and technical hiring assessments.",
+    "websiteUrl": "https://www.hackerrank.com",
+    "tags": ["coding-interviews", "hiring", "challenges", "assessments"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Codewars",
+    "slug": "codewars",
+    "description": "Community-driven platform where developers improve skills by solving coding kata challenges.",
+    "websiteUrl": "https://www.codewars.com",
+    "tags": ["coding-practice", "community", "kata", "programming"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Exercism",
+    "slug": "exercism",
+    "description": "Free coding practice platform with mentor-guided exercises across dozens of programming languages.",
+    "websiteUrl": "https://exercism.org",
+    "tags": ["coding-practice", "mentoring", "open-source", "languages"],
+    "primaryCategory": "education",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Udemy",
+    "slug": "udemy",
+    "description": "Global online course marketplace with thousands of video courses on every topic.",
+    "websiteUrl": "https://www.udemy.com",
+    "tags": ["online-courses", "marketplace", "video", "self-paced"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Coursera",
+    "slug": "coursera",
+    "description": "Online learning platform offering university-level courses, certificates, and degree programs.",
+    "websiteUrl": "https://www.coursera.org",
+    "tags": ["online-courses", "universities", "certificates", "degrees"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "edX",
+    "slug": "edx",
+    "description": "Online learning platform founded by Harvard and MIT offering university courses and programs.",
+    "websiteUrl": "https://www.edx.org",
+    "tags": ["online-courses", "universities", "mooc", "certificates"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Pluralsight",
+    "slug": "pluralsight",
+    "description": "Technology skills platform with expert-led video courses for developers and IT professionals.",
+    "websiteUrl": "https://www.pluralsight.com",
+    "tags": ["tech-education", "video-courses", "enterprise", "skill-assessment"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "LinkedIn Learning",
+    "slug": "linkedin-learning",
+    "description": "Online learning platform with business, technology, and creative skills courses from experts.",
+    "websiteUrl": "https://www.linkedin.com/learning",
+    "tags": ["professional-development", "video-courses", "business", "tech"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Skillshare",
+    "slug": "skillshare",
+    "description": "Online learning community with thousands of classes in design, business, and creative skills.",
+    "websiteUrl": "https://www.skillshare.com",
+    "tags": ["creative-skills", "design", "video-courses", "community"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Khan Academy",
+    "slug": "khan-academy",
+    "description": "Free educational platform offering practice exercises and instructional videos across all subjects.",
+    "websiteUrl": "https://www.khanacademy.org",
+    "tags": ["free", "k-12", "math", "science", "nonprofit"],
+    "primaryCategory": "education",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Quizlet",
+    "slug": "quizlet",
+    "description": "Study tool with flashcards, practice tests, and AI-powered learning modes for students.",
+    "websiteUrl": "https://quizlet.com",
+    "tags": ["flashcards", "study", "memorization", "students"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Kahoot!",
+    "slug": "kahoot",
+    "description": "Game-based learning platform for creating and playing interactive quizzes in classrooms.",
+    "websiteUrl": "https://kahoot.com",
+    "tags": ["gamification", "quizzes", "classrooms", "engagement"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Google Classroom",
+    "slug": "google-classroom",
+    "description": "Free web service that simplifies creating, distributing, and grading assignments for schools.",
+    "websiteUrl": "https://classroom.google.com",
+    "tags": ["virtual-classroom", "google", "assignments", "schools"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Zoom for Education",
+    "slug": "zoom-education",
+    "description": "Video conferencing platform tailored for virtual classrooms and remote teaching experiences.",
+    "websiteUrl": "https://zoom.us/education",
+    "tags": ["video-conferencing", "virtual-classroom", "remote-learning"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Duolingo",
+    "slug": "duolingo",
+    "description": "Gamified language learning app with bite-sized lessons in over 40 languages.",
+    "websiteUrl": "https://www.duolingo.com",
+    "tags": ["language-learning", "gamification", "mobile", "free"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Babbel",
+    "slug": "babbel",
+    "description": "Language learning app with conversation-focused lessons designed by linguistic experts.",
+    "websiteUrl": "https://www.babbel.com",
+    "tags": ["language-learning", "conversation", "mobile"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Rosetta Stone",
+    "slug": "rosetta-stone",
+    "description": "Immersive language learning software using visual and audio cues for natural acquisition.",
+    "websiteUrl": "https://www.rosettastone.com",
+    "tags": ["language-learning", "immersive", "enterprise"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Notion for Education",
+    "slug": "notion-education",
+    "description": "All-in-one workspace for students to organize notes, projects, and study materials.",
+    "websiteUrl": "https://www.notion.so/product/education",
+    "tags": ["note-taking", "organization", "students", "workspace"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Anki",
+    "slug": "anki",
+    "description": "Open-source spaced repetition flashcard program for efficient long-term memorization.",
+    "websiteUrl": "https://apps.ankiweb.net",
+    "tags": ["flashcards", "spaced-repetition", "open-source", "memorization"],
+    "primaryCategory": "education",
+    "type": "tool",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Blackboard Learn",
+    "slug": "blackboard-learn",
+    "description": "Enterprise learning management system widely used by higher education institutions globally.",
+    "websiteUrl": "https://www.anthology.com/products/teaching-and-learning/learning-effectiveness/blackboard-learn",
+    "tags": ["lms", "higher-education", "enterprise"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Schoology",
+    "slug": "schoology",
+    "description": "Learning management system combining course management with a social networking interface for schools.",
+    "websiteUrl": "https://www.powerschool.com/classroom/schoology-learning/",
+    "tags": ["lms", "k-12", "social-learning"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Edmodo",
+    "slug": "edmodo",
+    "description": "Social learning platform connecting teachers, students, and parents for classroom communication.",
+    "websiteUrl": "https://www.edmodo.com",
+    "tags": ["social-learning", "classrooms", "communication", "k-12"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Brilliant",
+    "slug": "brilliant",
+    "description": "Interactive learning platform focused on math, science, and computer science problem-solving.",
+    "websiteUrl": "https://brilliant.org",
+    "tags": ["math", "science", "interactive", "problem-solving"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "MasterClass",
+    "slug": "masterclass",
+    "description": "Online platform offering video classes taught by world-renowned experts and celebrities.",
+    "websiteUrl": "https://www.masterclass.com",
+    "tags": ["video-courses", "celebrity-instructors", "creative", "entertainment"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Udacity",
+    "slug": "udacity",
+    "description": "Online education platform specializing in technology nanodegree programs with industry partnerships.",
+    "websiteUrl": "https://www.udacity.com",
+    "tags": ["nanodegrees", "tech-education", "career", "ai"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "DataCamp",
+    "slug": "datacamp",
+    "description": "Interactive platform teaching data science, analytics, and AI through hands-on coding exercises.",
+    "websiteUrl": "https://www.datacamp.com",
+    "tags": ["data-science", "coding", "interactive", "analytics"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Codecademy Pro",
+    "slug": "codecademy-pro",
+    "description": "Premium tier of Codecademy with career paths, real-world projects, and certification prep.",
+    "websiteUrl": "https://www.codecademy.com/pro",
+    "tags": ["coding-education", "career-paths", "projects", "certifications"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Scrimba",
+    "slug": "scrimba",
+    "description": "Interactive coding screencasts where learners can pause and edit the instructor's code directly.",
+    "websiteUrl": "https://scrimba.com",
+    "tags": ["coding-education", "interactive", "frontend", "screencasts"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Egghead.io",
+    "slug": "egghead-io",
+    "description": "Concise video tutorials for professional web developers on modern frameworks and tools.",
+    "websiteUrl": "https://egghead.io",
+    "tags": ["web-development", "video-courses", "professional", "concise"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Frontend Masters",
+    "slug": "frontend-masters",
+    "description": "In-depth video courses on frontend and fullstack web development from industry experts.",
+    "websiteUrl": "https://frontendmasters.com",
+    "tags": ["web-development", "video-courses", "frontend", "expert-led"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Wes Bos Courses",
+    "slug": "wesbos",
+    "description": "Premium web development courses covering JavaScript, React, Node.js, and modern CSS.",
+    "websiteUrl": "https://wesbos.com/courses",
+    "tags": ["web-development", "javascript", "react", "courses"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Prezi",
+    "slug": "prezi",
+    "description": "Presentation software with zooming interface for creating dynamic and engaging visual presentations.",
+    "websiteUrl": "https://prezi.com",
+    "tags": ["presentations", "visual", "education", "engagement"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Nearpod",
+    "slug": "nearpod",
+    "description": "Interactive classroom platform with real-time student engagement tools and formative assessments.",
+    "websiteUrl": "https://nearpod.com",
+    "tags": ["interactive", "classrooms", "assessments", "engagement"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Turnitin",
+    "slug": "turnitin",
+    "description": "Academic integrity platform for plagiarism detection and writing feedback in education.",
+    "websiteUrl": "https://www.turnitin.com",
+    "tags": ["plagiarism-detection", "academic-integrity", "writing", "grading"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Gradescope",
+    "slug": "gradescope",
+    "description": "AI-assisted grading platform that streamlines assessment workflows for instructors and TAs.",
+    "websiteUrl": "https://www.gradescope.com",
+    "tags": ["grading", "assessment", "ai", "higher-education"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Classdojo",
+    "slug": "classdojo",
+    "description": "Communication app connecting teachers, students, and families to build classroom communities.",
+    "websiteUrl": "https://www.classdojo.com",
+    "tags": ["classroom-management", "communication", "k-12", "parents"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Remind",
+    "slug": "remind",
+    "description": "Communication platform for schools to send messages to students and parents safely.",
+    "websiteUrl": "https://www.remind.com",
+    "tags": ["communication", "messaging", "schools", "parents"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Pear Deck",
+    "slug": "pear-deck",
+    "description": "Interactive presentation tool that turns slides into formative assessments during class.",
+    "websiteUrl": "https://www.peardeck.com",
+    "tags": ["interactive", "presentations", "formative-assessment", "classrooms"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Loom for Education",
+    "slug": "loom-education",
+    "description": "Video messaging tool used by educators to create quick instructional and feedback videos.",
+    "websiteUrl": "https://www.loom.com/education",
+    "tags": ["video", "asynchronous", "feedback", "instructional"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Obsidian",
+    "slug": "obsidian",
+    "description": "Knowledge management app with linked notes and graph view for personal knowledge bases.",
+    "websiteUrl": "https://obsidian.md",
+    "tags": ["note-taking", "knowledge-management", "markdown", "linked-notes"],
+    "primaryCategory": "education",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Remnote",
+    "slug": "remnote",
+    "description": "Note-taking tool with built-in spaced repetition flashcards for students and researchers.",
+    "websiteUrl": "https://www.remnote.com",
+    "tags": ["note-taking", "spaced-repetition", "flashcards", "students"],
+    "primaryCategory": "education",
+    "type": "saas",
+    "baselineScore": 7.4
+  }
+]

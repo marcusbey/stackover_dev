@@ -18,6 +18,37 @@ export interface NavItem {
   columns?: NavColumn[];
 }
 
+/** Short descriptions for each category slug */
+const CATEGORY_DESCRIPTIONS: Record<string, string> = {
+  web: "Frameworks, libraries & full-stack tools",
+  mobile: "iOS, Android & cross-platform SDKs",
+  nocode: "Build apps without writing code",
+  design: "UI kits, prototyping & design systems",
+  cms: "Manage content, blogs & docs",
+  ai: "LLMs, ML models & AI APIs",
+  databases: "SQL, NoSQL & real-time datastores",
+  analytics: "Track usage, events & conversions",
+  search: "Full-text & vector search engines",
+  cloud: "Cloud platforms & infrastructure",
+  "dev-tools": "IDEs, CLIs & developer utilities",
+  auth: "Login, OAuth & access control",
+  monitoring: "Observability, logs & alerting",
+  hosting: "Deploy, serve & scale your app",
+  domains: "Register & manage domain names",
+  marketing: "Email campaigns, SEO & ads",
+  sales: "CRM, pipelines & lead management",
+  ecommerce: "Storefronts, carts & checkout",
+  payments: "Billing, subscriptions & invoices",
+  hr: "Hiring, payroll & team management",
+  communication: "Email, SMS & push notifications",
+  collaboration: "Team chat, docs & project tools",
+  support: "Help desks, ticketing & live chat",
+  social: "Activity feeds & social features",
+  automation: "Workflows, bots & integrations",
+  education: "Courses, LMS & learning platforms",
+  video: "Streaming, editing & media APIs",
+};
+
 export const NAV_ITEMS: NavItem[] = [
   {
     key: "explore",
@@ -83,6 +114,21 @@ export const NAV_ITEMS: NavItem[] = [
           },
         ],
       },
+      {
+        title: "Build",
+        links: [
+          {
+            label: "Stack Builder",
+            href: "/stacks/new",
+            description: "Build your tech stack step by step",
+          },
+          {
+            label: "Company Stacks",
+            href: "/stacks",
+            description: "See what top companies use",
+          },
+        ],
+      },
     ],
   },
   {
@@ -134,23 +180,26 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 function buildCategoryColumns(): NavColumn[] {
-  const cats = SEARCH_CATEGORIES;
-  const colSize = Math.ceil(cats.length / 3);
-  return [
-    {
-      links: cats
-        .slice(0, colSize)
-        .map((c) => ({ label: c.label, href: `/categories/${c.slug}` })),
-    },
-    {
-      links: cats
-        .slice(colSize, colSize * 2)
-        .map((c) => ({ label: c.label, href: `/categories/${c.slug}` })),
-    },
-    {
-      links: cats
-        .slice(colSize * 2)
-        .map((c) => ({ label: c.label, href: `/categories/${c.slug}` })),
-    },
+  const groups: { title: string; slugs: string[] }[] = [
+    { title: "Build", slugs: ["web", "mobile", "nocode", "design", "cms"] },
+    { title: "Data & AI", slugs: ["ai", "databases", "analytics", "search"] },
+    { title: "Infra", slugs: ["cloud", "dev-tools", "auth", "monitoring", "hosting", "domains"] },
+    { title: "Growth", slugs: ["marketing", "sales", "ecommerce", "payments", "hr"] },
+    { title: "Connect", slugs: ["communication", "collaboration", "support", "social", "automation", "education", "video"] },
   ];
+
+  return groups.map((group) => ({
+    title: group.title,
+    links: group.slugs
+      .map((slug) => {
+        const cat = SEARCH_CATEGORIES.find((c) => c.slug === slug);
+        if (!cat) return null;
+        return {
+          label: cat.label,
+          href: `/categories/${slug}`,
+          description: CATEGORY_DESCRIPTIONS[slug],
+        };
+      })
+      .filter(Boolean) as NavLink[],
+  }));
 }

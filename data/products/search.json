@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Algolia",
+    "slug": "algolia",
+    "description": "Search-as-a-service platform providing fast, relevant search experiences via hosted APIs.",
+    "websiteUrl": "https://www.algolia.com",
+    "tags": ["search-engine", "api", "hosted", "relevance"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Typesense",
+    "slug": "typesense",
+    "description": "Open-source typo-tolerant search engine optimized for speed and instant search experiences.",
+    "websiteUrl": "https://typesense.org",
+    "tags": ["search-engine", "open-source", "typo-tolerant", "fast"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Meilisearch",
+    "slug": "meilisearch",
+    "description": "Open-source, lightning-fast search engine with typo tolerance and easy-to-use RESTful API.",
+    "websiteUrl": "https://www.meilisearch.com",
+    "tags": ["search-engine", "open-source", "fast", "rest-api"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Elasticsearch",
+    "slug": "elasticsearch",
+    "description": "Distributed search and analytics engine for full-text search, logging, and real-time data.",
+    "websiteUrl": "https://www.elastic.co/elasticsearch",
+    "tags": ["search-engine", "distributed", "full-text", "analytics"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "OpenSearch",
+    "slug": "opensearch",
+    "description": "Community-driven, open-source search and analytics suite forked from Elasticsearch 7.10.",
+    "websiteUrl": "https://opensearch.org",
+    "tags": ["search-engine", "open-source", "analytics", "aws"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Apache Solr",
+    "slug": "apache-solr",
+    "description": "Open-source enterprise search platform built on Apache Lucene with advanced full-text capabilities.",
+    "websiteUrl": "https://solr.apache.org",
+    "tags": ["search-engine", "enterprise", "lucene", "open-source"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Swiftype",
+    "slug": "swiftype",
+    "description": "Elastic-powered site search and enterprise search service with easy integration for websites.",
+    "websiteUrl": "https://swiftype.com",
+    "tags": ["site-search", "enterprise", "elastic", "saas"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "AddSearch",
+    "slug": "addsearch",
+    "description": "Site search service that provides fast and relevant search results for websites and apps.",
+    "websiteUrl": "https://www.addsearch.com",
+    "tags": ["site-search", "saas", "relevance", "websites"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Pinecone",
+    "slug": "pinecone",
+    "description": "Managed vector database for building high-performance semantic search and AI applications.",
+    "websiteUrl": "https://www.pinecone.io",
+    "tags": ["vector-database", "semantic-search", "ai", "embeddings"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Weaviate",
+    "slug": "weaviate",
+    "description": "Open-source vector database for building semantic search and AI-native applications at scale.",
+    "websiteUrl": "https://weaviate.io",
+    "tags": ["vector-database", "semantic-search", "open-source", "ai"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Qdrant",
+    "slug": "qdrant",
+    "description": "Open-source vector similarity search engine optimized for neural network embeddings and filtering.",
+    "websiteUrl": "https://qdrant.tech",
+    "tags": ["vector-database", "similarity-search", "open-source", "embeddings"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Chroma",
+    "slug": "chroma",
+    "description": "Open-source embedding database designed for AI applications with simple developer experience.",
+    "websiteUrl": "https://www.trychroma.com",
+    "tags": ["vector-database", "embeddings", "ai", "open-source"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Milvus",
+    "slug": "milvus",
+    "description": "Open-source vector database built for scalable similarity search across billions of vectors.",
+    "websiteUrl": "https://milvus.io",
+    "tags": ["vector-database", "scalable", "open-source", "similarity"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Google Search Console",
+    "slug": "google-search-console",
+    "description": "Free Google tool for monitoring website search performance, indexing, and SEO issues.",
+    "websiteUrl": "https://search.google.com/search-console",
+    "tags": ["search-analytics", "seo", "google", "free"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Google Custom Search",
+    "slug": "google-custom-search",
+    "description": "API for adding Google-powered search to your website or application with customizable results.",
+    "websiteUrl": "https://programmablesearchengine.google.com",
+    "tags": ["site-search", "google", "api", "customizable"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Coveo",
+    "slug": "coveo",
+    "description": "AI-powered search and recommendations platform for enterprise websites and customer portals.",
+    "websiteUrl": "https://www.coveo.com",
+    "tags": ["enterprise-search", "ai", "recommendations", "relevance"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Yext",
+    "slug": "yext",
+    "description": "AI search platform for building search experiences across websites, apps, and knowledge bases.",
+    "websiteUrl": "https://www.yext.com",
+    "tags": ["site-search", "ai", "knowledge-graph", "answers"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Docsearch by Algolia",
+    "slug": "docsearch",
+    "description": "Free search tool by Algolia specifically designed for technical documentation websites.",
+    "websiteUrl": "https://docsearch.algolia.com",
+    "tags": ["documentation-search", "free", "algolia", "developer"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Zinc",
+    "slug": "zinc-search",
+    "description": "Lightweight open-source search engine written in Go as a simpler alternative to Elasticsearch.",
+    "websiteUrl": "https://zincsearch.com",
+    "tags": ["search-engine", "lightweight", "open-source", "go"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Manticore Search",
+    "slug": "manticore-search",
+    "description": "Open-source database for fast full-text search with SQL-compatible query language support.",
+    "websiteUrl": "https://manticoresearch.com",
+    "tags": ["search-engine", "full-text", "sql", "open-source"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Orama",
+    "slug": "orama",
+    "description": "Full-text and vector search engine that runs in the browser, on the server, or at the edge.",
+    "websiteUrl": "https://orama.com",
+    "tags": ["search-engine", "edge", "browser", "vector"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Pagefind",
+    "slug": "pagefind",
+    "description": "Fully static search library for indexing and searching static site content with zero hosting.",
+    "websiteUrl": "https://pagefind.app",
+    "tags": ["static-search", "static-sites", "lightweight", "open-source"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Lunr.js",
+    "slug": "lunr-js",
+    "description": "Small, client-side full-text search library for JavaScript applications without external services.",
+    "websiteUrl": "https://lunrjs.com",
+    "tags": ["client-side", "javascript", "lightweight", "full-text"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Flexsearch",
+    "slug": "flexsearch",
+    "description": "High-performance full-text search library for JavaScript with memory-efficient indexing.",
+    "websiteUrl": "https://github.com/nextapps-de/flexsearch",
+    "tags": ["client-side", "javascript", "fast", "indexing"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "ScrapingBee",
+    "slug": "scrapingbee",
+    "description": "Web scraping API handling headless browsers, proxies, and CAPTCHAs for data extraction.",
+    "websiteUrl": "https://www.scrapingbee.com",
+    "tags": ["web-scraping", "api", "headless", "proxies"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Apify",
+    "slug": "apify",
+    "description": "Web scraping and automation platform with a cloud infrastructure and actor-based architecture.",
+    "websiteUrl": "https://apify.com",
+    "tags": ["web-scraping", "automation", "cloud", "actors"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Crawlee",
+    "slug": "crawlee",
+    "description": "Open-source Node.js library for building reliable web crawlers and scrapers with anti-blocking.",
+    "websiteUrl": "https://crawlee.dev",
+    "tags": ["web-scraping", "crawling", "open-source", "node-js"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Bright Data",
+    "slug": "bright-data",
+    "description": "Web data platform with proxy networks and scraping infrastructure for large-scale data collection.",
+    "websiteUrl": "https://brightdata.com",
+    "tags": ["web-scraping", "proxy", "data-collection", "enterprise"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Scrapy",
+    "slug": "scrapy",
+    "description": "Open-source Python framework for extracting data from websites with a collaborative and extensible design.",
+    "websiteUrl": "https://scrapy.org",
+    "tags": ["web-scraping", "python", "open-source", "framework"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Oxylabs",
+    "slug": "oxylabs",
+    "description": "Premium proxy and web scraping solutions for gathering public web data at enterprise scale.",
+    "websiteUrl": "https://oxylabs.io",
+    "tags": ["web-scraping", "proxy", "enterprise", "data-collection"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "SerpApi",
+    "slug": "serpapi",
+    "description": "API for scraping search engine results from Google, Bing, and other search providers.",
+    "websiteUrl": "https://serpapi.com",
+    "tags": ["search-api", "serp", "scraping", "google"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Diffbot",
+    "slug": "diffbot",
+    "description": "AI-powered web data extraction tool that turns websites into structured data automatically.",
+    "websiteUrl": "https://www.diffbot.com",
+    "tags": ["web-scraping", "ai", "structured-data", "knowledge-graph"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Browserless",
+    "slug": "browserless",
+    "description": "Headless browser service for web scraping, screenshots, and PDF generation via API.",
+    "websiteUrl": "https://www.browserless.io",
+    "tags": ["headless-browser", "scraping", "api", "screenshots"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Searchkit",
+    "slug": "searchkit",
+    "description": "Open-source UI toolkit for building search interfaces on top of Elasticsearch and OpenSearch.",
+    "websiteUrl": "https://www.searchkit.co",
+    "tags": ["search-ui", "elasticsearch", "open-source", "react"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "InstantSearch",
+    "slug": "instantsearch",
+    "description": "Algolia's open-source UI library for building fast search and discovery experiences in React.",
+    "websiteUrl": "https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/",
+    "tags": ["search-ui", "algolia", "react", "open-source"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Trieve",
+    "slug": "trieve",
+    "description": "Open-source search and RAG infrastructure combining full-text, semantic, and hybrid search.",
+    "websiteUrl": "https://trieve.ai",
+    "tags": ["search-engine", "rag", "semantic", "hybrid"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Vespa",
+    "slug": "vespa",
+    "description": "Open-source big data serving engine for search, recommendation, and real-time computation at scale.",
+    "websiteUrl": "https://vespa.ai",
+    "tags": ["search-engine", "big-data", "real-time", "recommendation"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Fuse.js",
+    "slug": "fuse-js",
+    "description": "Lightweight fuzzy-search library for JavaScript with no dependencies and simple configuration.",
+    "websiteUrl": "https://www.fusejs.io",
+    "tags": ["fuzzy-search", "javascript", "lightweight", "client-side"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Crawl4AI",
+    "slug": "crawl4ai",
+    "description": "Open-source web crawler optimized for AI and LLM data extraction and preparation.",
+    "websiteUrl": "https://github.com/unclecode/crawl4ai",
+    "tags": ["web-scraping", "ai", "llm", "open-source"],
+    "primaryCategory": "search",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Firecrawl",
+    "slug": "firecrawl",
+    "description": "API for crawling websites and converting pages to clean markdown for LLM applications.",
+    "websiteUrl": "https://www.firecrawl.dev",
+    "tags": ["web-scraping", "markdown", "llm", "api"],
+    "primaryCategory": "search",
+    "type": "saas",
+    "baselineScore": 7.6
+  }
+]

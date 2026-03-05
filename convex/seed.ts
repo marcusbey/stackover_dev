@@ -92,11 +92,13 @@ export const seed = internalMutation({
       name: "PostgreSQL", slug: "postgresql", description: "The most advanced open-source relational database.",
       logoUrl: "/logos/postgresql.svg", websiteUrl: "https://postgresql.org", type: "tool",
       baselineScore: 9.3, pros: ["Battle-tested", "Extensions ecosystem", "ACID compliant"], cons: ["Complex tuning", "Hosting required"], isHot: false, isTrending: false,
+      githubUrl: "https://github.com/postgres/postgres",
     });
     const mongodb = await ctx.db.insert("tools", {
       name: "MongoDB", slug: "mongodb", description: "Popular document database for flexible schema applications.",
       logoUrl: "/logos/mongodb.svg", websiteUrl: "https://mongodb.com", type: "tool",
       baselineScore: 8.0, pros: ["Flexible schema", "Easy to start", "Atlas cloud"], cons: ["No joins", "Consistency tradeoffs"], isHot: false, isTrending: false,
+      githubUrl: "https://github.com/mongodb/mongo",
     });
     const pinecone = await ctx.db.insert("tools", {
       name: "Pinecone", slug: "pinecone", description: "Managed vector database purpose-built for AI applications.",
@@ -107,26 +109,31 @@ export const seed = internalMutation({
       name: "Supabase", slug: "supabase", description: "Open-source Firebase alternative with Postgres, Auth, and Realtime.",
       logoUrl: "/logos/supabase.svg", websiteUrl: "https://supabase.com", type: "saas",
       baselineScore: 8.9, pros: ["Postgres under hood", "Auth built-in", "Generous free tier"], cons: ["Edge functions limited", "Vendor coupling"], isHot: true, isTrending: true,
+      githubUrl: "https://github.com/supabase/supabase",
     });
     const nextjs = await ctx.db.insert("tools", {
       name: "Next.js", slug: "nextjs", description: "The React framework for production with SSR, SSG, and App Router.",
       logoUrl: "/logos/nextjs.svg", websiteUrl: "https://nextjs.org", type: "tool",
       baselineScore: 9.4, pros: ["Full-stack React", "Vercel integration", "Server Components"], cons: ["Complex config", "Vercel-optimized"], isHot: true, isTrending: false,
+      githubUrl: "https://github.com/vercel/next.js",
     });
     const react = await ctx.db.insert("tools", {
       name: "React", slug: "react", description: "The library for building user interfaces with components.",
       logoUrl: "/logos/react.svg", websiteUrl: "https://react.dev", type: "tool",
       baselineScore: 9.1, pros: ["Massive ecosystem", "Component model", "Server Components"], cons: ["Boilerplate", "Decision fatigue"], isHot: false, isTrending: false,
+      githubUrl: "https://github.com/facebook/react",
     });
     const express = await ctx.db.insert("tools", {
       name: "Express", slug: "express", description: "Minimal and flexible Node.js web application framework.",
       logoUrl: "/logos/express.svg", websiteUrl: "https://expressjs.com", type: "tool",
       baselineScore: 7.8, pros: ["Simple", "Huge ecosystem", "Battle-tested"], cons: ["No built-in structure", "Callback-based"], isHot: false, isTrending: false,
+      githubUrl: "https://github.com/expressjs/express",
     });
     const nuxt = await ctx.db.insert("tools", {
       name: "Nuxt", slug: "nuxt", description: "The intuitive Vue framework for building full-stack web apps.",
       logoUrl: "/logos/nuxt.svg", websiteUrl: "https://nuxt.com", type: "tool",
       baselineScore: 8.4, pros: ["Auto-imports", "File-based routing", "SEO-friendly"], cons: ["Smaller ecosystem", "Vue dependency"], isHot: false, isTrending: false,
+      githubUrl: "https://github.com/nuxt/nuxt",
     });
     const v0Tool = await ctx.db.insert("tools", {
       name: "v0", slug: "v0", description: "Vercel's AI-powered UI generation tool using shadcn/ui components.",

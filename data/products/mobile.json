@@ -1,0 +1,1482 @@
+[
+  {
+    "name": "React Native",
+    "slug": "react-native",
+    "description": "Build native mobile apps using JavaScript and React components.",
+    "websiteUrl": "https://reactnative.dev",
+    "tags": ["cross-platform", "javascript", "mobile-framework", "react"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Flutter",
+    "slug": "flutter",
+    "description": "Google's UI toolkit for building natively compiled mobile applications from one codebase.",
+    "websiteUrl": "https://flutter.dev",
+    "tags": ["cross-platform", "dart", "mobile-framework", "google"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 9.1
+  },
+  {
+    "name": "Expo",
+    "slug": "expo",
+    "description": "Platform for building universal React Native apps with managed workflows.",
+    "websiteUrl": "https://expo.dev",
+    "tags": ["react-native", "mobile-framework", "javascript", "managed"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Ionic",
+    "slug": "ionic",
+    "description": "Open-source framework for building cross-platform mobile apps with web technologies.",
+    "websiteUrl": "https://ionicframework.com",
+    "tags": ["cross-platform", "hybrid", "web-technologies", "angular"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Capacitor",
+    "slug": "capacitor",
+    "description": "Native runtime for building cross-platform web apps with native device access.",
+    "websiteUrl": "https://capacitorjs.com",
+    "tags": ["cross-platform", "native-bridge", "web-technologies", "ionic"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "NativeScript",
+    "slug": "nativescript",
+    "description": "Open-source framework for building truly native mobile apps with JavaScript or TypeScript.",
+    "websiteUrl": "https://nativescript.org",
+    "tags": ["cross-platform", "native", "javascript", "typescript"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "SwiftUI",
+    "slug": "swiftui",
+    "description": "Apple's declarative UI framework for building apps across all Apple platforms.",
+    "websiteUrl": "https://developer.apple.com/xcode/swiftui/",
+    "tags": ["ios", "apple", "declarative-ui", "swift"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Jetpack Compose",
+    "slug": "jetpack-compose",
+    "description": "Android's modern declarative UI toolkit for building native interfaces in Kotlin.",
+    "websiteUrl": "https://developer.android.com/jetpack/compose",
+    "tags": ["android", "kotlin", "declarative-ui", "google"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Kotlin Multiplatform Mobile",
+    "slug": "kotlin-multiplatform-mobile",
+    "description": "Share business logic between Android and iOS using Kotlin from JetBrains.",
+    "websiteUrl": "https://kotlinlang.org/lp/multiplatform/",
+    "tags": ["cross-platform", "kotlin", "code-sharing", "jetbrains"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Xamarin",
+    "slug": "xamarin",
+    "description": "Microsoft's framework for building native Android and iOS apps with .NET and C#.",
+    "websiteUrl": "https://dotnet.microsoft.com/apps/xamarin",
+    "tags": ["cross-platform", "csharp", "dotnet", "microsoft"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": ".NET MAUI",
+    "slug": "dotnet-maui",
+    "description": "Multi-platform app UI framework for building native apps with .NET and C#.",
+    "websiteUrl": "https://dotnet.microsoft.com/apps/maui",
+    "tags": ["cross-platform", "csharp", "dotnet", "microsoft"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Swift",
+    "slug": "swift",
+    "description": "Apple's powerful and intuitive programming language for iOS and macOS development.",
+    "websiteUrl": "https://swift.org",
+    "tags": ["ios", "apple", "programming-language", "native"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "Kotlin",
+    "slug": "kotlin",
+    "description": "Modern programming language for Android development, fully interoperable with Java.",
+    "websiteUrl": "https://kotlinlang.org",
+    "tags": ["android", "programming-language", "jetbrains", "jvm"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 9.1
+  },
+  {
+    "name": "Xcode",
+    "slug": "xcode",
+    "description": "Apple's integrated development environment for building apps on all Apple platforms.",
+    "websiteUrl": "https://developer.apple.com/xcode/",
+    "tags": ["ios", "ide", "apple", "development"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Android Studio",
+    "slug": "android-studio",
+    "description": "Official IDE for Android app development built on IntelliJ IDEA.",
+    "websiteUrl": "https://developer.android.com/studio",
+    "tags": ["android", "ide", "google", "development"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Firebase",
+    "slug": "firebase",
+    "description": "Google's platform providing backend services, analytics, and tools for mobile apps.",
+    "websiteUrl": "https://firebase.google.com",
+    "tags": ["backend", "google", "baas", "realtime-database"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.9
+  },
+  {
+    "name": "Appwrite",
+    "slug": "appwrite",
+    "description": "Open-source backend-as-a-service platform for web and mobile developers.",
+    "websiteUrl": "https://appwrite.io",
+    "tags": ["backend", "open-source", "baas", "self-hosted"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Supabase",
+    "slug": "supabase-mobile",
+    "description": "Open-source Firebase alternative with Postgres database and mobile SDKs.",
+    "websiteUrl": "https://supabase.com",
+    "tags": ["backend", "postgres", "open-source", "baas"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Parse Platform",
+    "slug": "parse-platform",
+    "description": "Open-source application framework providing backend services for mobile applications.",
+    "websiteUrl": "https://parseplatform.org",
+    "tags": ["backend", "open-source", "baas", "self-hosted"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "AWS Amplify",
+    "slug": "aws-amplify",
+    "description": "Full-stack development platform for building scalable mobile and web applications on AWS.",
+    "websiteUrl": "https://aws.amazon.com/amplify/",
+    "tags": ["backend", "aws", "baas", "cloud"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "OneSignal",
+    "slug": "onesignal",
+    "description": "Leading platform for push notifications, email, SMS, and in-app messaging.",
+    "websiteUrl": "https://onesignal.com",
+    "tags": ["push-notifications", "messaging", "engagement", "mobile-marketing"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Pushwoosh",
+    "slug": "pushwoosh",
+    "description": "Customer engagement platform with multi-channel push notifications for mobile apps.",
+    "websiteUrl": "https://www.pushwoosh.com",
+    "tags": ["push-notifications", "messaging", "engagement"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Firebase Cloud Messaging",
+    "slug": "firebase-cloud-messaging",
+    "description": "Free cross-platform messaging solution for reliably sending push notifications.",
+    "websiteUrl": "https://firebase.google.com/products/cloud-messaging",
+    "tags": ["push-notifications", "google", "firebase", "messaging"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Airship",
+    "slug": "airship",
+    "description": "Mobile-first customer engagement platform for push notifications and in-app experiences.",
+    "websiteUrl": "https://www.airship.com",
+    "tags": ["push-notifications", "engagement", "mobile-marketing"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Appium",
+    "slug": "appium",
+    "description": "Open-source automation framework for testing native and hybrid mobile applications.",
+    "websiteUrl": "https://appium.io",
+    "tags": ["testing", "automation", "open-source", "cross-platform"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Detox",
+    "slug": "detox",
+    "description": "Gray-box end-to-end testing framework for React Native mobile applications.",
+    "websiteUrl": "https://wix.github.io/Detox/",
+    "tags": ["testing", "react-native", "e2e", "automation"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "XCTest",
+    "slug": "xctest",
+    "description": "Apple's testing framework for writing unit and UI tests for iOS apps.",
+    "websiteUrl": "https://developer.apple.com/documentation/xctest",
+    "tags": ["testing", "ios", "apple", "unit-testing"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Espresso",
+    "slug": "espresso",
+    "description": "Google's testing framework for writing reliable Android UI tests.",
+    "websiteUrl": "https://developer.android.com/training/testing/espresso",
+    "tags": ["testing", "android", "google", "ui-testing"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Maestro",
+    "slug": "maestro",
+    "description": "Simple and effective mobile UI testing framework for Android and iOS apps.",
+    "websiteUrl": "https://maestro.mobile.dev",
+    "tags": ["testing", "e2e", "mobile-testing", "automation"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "BrowserStack",
+    "slug": "browserstack-mobile",
+    "description": "Cloud platform for testing mobile apps on real devices and browsers.",
+    "websiteUrl": "https://www.browserstack.com",
+    "tags": ["testing", "cloud-testing", "real-devices", "cross-browser"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Sauce Labs",
+    "slug": "sauce-labs",
+    "description": "Cloud-based automated testing platform for mobile and web applications.",
+    "websiteUrl": "https://saucelabs.com",
+    "tags": ["testing", "cloud-testing", "automation", "ci-cd"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Firebase Test Lab",
+    "slug": "firebase-test-lab",
+    "description": "Cloud-based app testing infrastructure for testing Android and iOS apps.",
+    "websiteUrl": "https://firebase.google.com/products/test-lab",
+    "tags": ["testing", "google", "cloud-testing", "firebase"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "App Store Connect",
+    "slug": "app-store-connect",
+    "description": "Apple's platform for managing and distributing apps on the App Store.",
+    "websiteUrl": "https://appstoreconnect.apple.com",
+    "tags": ["distribution", "apple", "app-store", "publishing"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Google Play Console",
+    "slug": "google-play-console",
+    "description": "Google's platform for publishing and managing Android apps on Google Play.",
+    "websiteUrl": "https://play.google.com/console",
+    "tags": ["distribution", "google", "play-store", "publishing"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "TestFlight",
+    "slug": "testflight",
+    "description": "Apple's platform for beta testing iOS apps before App Store release.",
+    "websiteUrl": "https://developer.apple.com/testflight/",
+    "tags": ["beta-testing", "distribution", "apple", "ios"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Firebase App Distribution",
+    "slug": "firebase-app-distribution",
+    "description": "Distribute pre-release versions of your app to trusted testers quickly.",
+    "websiteUrl": "https://firebase.google.com/products/app-distribution",
+    "tags": ["beta-testing", "distribution", "firebase", "google"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Fastlane",
+    "slug": "fastlane",
+    "description": "Open-source tool for automating iOS and Android app building, testing, and releasing.",
+    "websiteUrl": "https://fastlane.tools",
+    "tags": ["automation", "ci-cd", "deployment", "open-source"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "CodePush",
+    "slug": "codepush",
+    "description": "Cloud service for deploying mobile app updates directly to users' devices.",
+    "websiteUrl": "https://microsoft.github.io/code-push/",
+    "tags": ["ota-updates", "react-native", "microsoft", "deployment"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Bitrise",
+    "slug": "bitrise",
+    "description": "Mobile-first CI/CD platform for automating builds, tests, and deployments.",
+    "websiteUrl": "https://bitrise.io",
+    "tags": ["ci-cd", "automation", "mobile-devops", "builds"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Codemagic",
+    "slug": "codemagic",
+    "description": "CI/CD tool built specifically for mobile apps, especially Flutter projects.",
+    "websiteUrl": "https://codemagic.io",
+    "tags": ["ci-cd", "flutter", "automation", "builds"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Appcircle",
+    "slug": "appcircle",
+    "description": "Mobile CI/CD platform with enterprise features for iOS and Android builds.",
+    "websiteUrl": "https://appcircle.io",
+    "tags": ["ci-cd", "automation", "enterprise", "builds"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Mixpanel",
+    "slug": "mixpanel-mobile",
+    "description": "Product analytics platform for tracking user interactions in mobile apps.",
+    "websiteUrl": "https://mixpanel.com",
+    "tags": ["analytics", "product-analytics", "user-tracking", "events"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Amplitude",
+    "slug": "amplitude-mobile",
+    "description": "Digital analytics platform for understanding user behavior in mobile apps.",
+    "websiteUrl": "https://amplitude.com",
+    "tags": ["analytics", "product-analytics", "user-behavior", "data"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Firebase Analytics",
+    "slug": "firebase-analytics",
+    "description": "Free app measurement solution providing insights on app usage and engagement.",
+    "websiteUrl": "https://firebase.google.com/products/analytics",
+    "tags": ["analytics", "google", "firebase", "free"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Flurry",
+    "slug": "flurry",
+    "description": "Free mobile analytics platform by Yahoo for understanding app performance and users.",
+    "websiteUrl": "https://www.flurry.com",
+    "tags": ["analytics", "free", "yahoo", "mobile-analytics"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Adjust",
+    "slug": "adjust",
+    "description": "Mobile measurement and fraud prevention platform for app marketing analytics.",
+    "websiteUrl": "https://www.adjust.com",
+    "tags": ["attribution", "analytics", "mobile-marketing", "fraud-prevention"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "AppsFlyer",
+    "slug": "appsflyer",
+    "description": "Mobile attribution and marketing analytics platform for measuring campaign performance.",
+    "websiteUrl": "https://www.appsflyer.com",
+    "tags": ["attribution", "analytics", "mobile-marketing", "measurement"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Branch",
+    "slug": "branch",
+    "description": "Mobile linking and measurement platform for deep linking and attribution.",
+    "websiteUrl": "https://branch.io",
+    "tags": ["deep-linking", "attribution", "mobile-marketing"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Sentry Mobile",
+    "slug": "sentry-mobile",
+    "description": "Error tracking and performance monitoring platform for mobile applications.",
+    "websiteUrl": "https://sentry.io/for/mobile/",
+    "tags": ["error-tracking", "monitoring", "crash-reporting", "performance"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Crashlytics",
+    "slug": "crashlytics",
+    "description": "Real-time crash reporting tool that helps track and fix app stability issues.",
+    "websiteUrl": "https://firebase.google.com/products/crashlytics",
+    "tags": ["crash-reporting", "firebase", "google", "monitoring"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Bugsnag",
+    "slug": "bugsnag",
+    "description": "Application stability management platform for detecting and diagnosing mobile crashes.",
+    "websiteUrl": "https://www.bugsnag.com",
+    "tags": ["crash-reporting", "error-tracking", "monitoring", "stability"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Instabug",
+    "slug": "instabug",
+    "description": "In-app bug reporting, crash analytics, and user feedback platform for mobile.",
+    "websiteUrl": "https://instabug.com",
+    "tags": ["bug-reporting", "crash-reporting", "feedback", "mobile-qa"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Flipper",
+    "slug": "flipper",
+    "description": "Desktop debugging platform for mobile apps built by Meta for React Native.",
+    "websiteUrl": "https://fbflipper.com",
+    "tags": ["debugging", "react-native", "meta", "developer-tools"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Reactotron",
+    "slug": "reactotron",
+    "description": "Desktop app for inspecting React Native and React.js applications during development.",
+    "websiteUrl": "https://github.com/infinitered/reactotron",
+    "tags": ["debugging", "react-native", "developer-tools", "open-source"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Charles Proxy",
+    "slug": "charles-proxy",
+    "description": "HTTP proxy for debugging and monitoring network traffic in mobile apps.",
+    "websiteUrl": "https://www.charlesproxy.com",
+    "tags": ["debugging", "networking", "proxy", "developer-tools"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Proxyman",
+    "slug": "proxyman",
+    "description": "Modern native macOS app for debugging HTTP/HTTPS network requests.",
+    "websiteUrl": "https://proxyman.io",
+    "tags": ["debugging", "networking", "proxy", "macos"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "RevenueCat",
+    "slug": "revenuecat",
+    "description": "In-app purchase and subscription management platform for mobile apps.",
+    "websiteUrl": "https://www.revenuecat.com",
+    "tags": ["monetization", "in-app-purchase", "subscriptions", "billing"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Adapty",
+    "slug": "adapty",
+    "description": "Subscription analytics and monetization platform for mobile applications.",
+    "websiteUrl": "https://adapty.io",
+    "tags": ["monetization", "subscriptions", "analytics", "paywalls"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Qonversion",
+    "slug": "qonversion",
+    "description": "In-app subscription infrastructure with analytics and A/B testing for mobile.",
+    "websiteUrl": "https://qonversion.io",
+    "tags": ["monetization", "subscriptions", "ab-testing", "analytics"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "AdMob",
+    "slug": "admob",
+    "description": "Google's mobile advertising platform for monetizing apps with in-app ads.",
+    "websiteUrl": "https://admob.google.com",
+    "tags": ["monetization", "advertising", "google", "ads"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "React Navigation",
+    "slug": "react-navigation",
+    "description": "Extensible routing and navigation library for React Native applications.",
+    "websiteUrl": "https://reactnavigation.org",
+    "tags": ["navigation", "react-native", "routing", "open-source"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Expo Router",
+    "slug": "expo-router",
+    "description": "File-based routing library for React Native and Expo applications.",
+    "websiteUrl": "https://expo.github.io/router/",
+    "tags": ["navigation", "routing", "expo", "react-native"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "NativeWind",
+    "slug": "nativewind",
+    "description": "Universal styling system using Tailwind CSS for React Native applications.",
+    "websiteUrl": "https://www.nativewind.dev",
+    "tags": ["styling", "tailwindcss", "react-native", "ui"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Tamagui",
+    "slug": "tamagui",
+    "description": "Universal UI kit for React Native and web with optimized performance.",
+    "websiteUrl": "https://tamagui.dev",
+    "tags": ["ui-kit", "react-native", "cross-platform", "performance"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "React Native Paper",
+    "slug": "react-native-paper",
+    "description": "Material Design component library for React Native applications.",
+    "websiteUrl": "https://reactnativepaper.com",
+    "tags": ["ui-kit", "material-design", "react-native", "components"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "React Native Elements",
+    "slug": "react-native-elements",
+    "description": "Cross-platform React Native UI toolkit with customizable components.",
+    "websiteUrl": "https://reactnativeelements.com",
+    "tags": ["ui-kit", "react-native", "components", "open-source"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Gluestack UI",
+    "slug": "gluestack-ui",
+    "description": "Universal UI library for React Native and web with accessibility support.",
+    "websiteUrl": "https://gluestack.io",
+    "tags": ["ui-kit", "react-native", "accessibility", "universal"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Realm",
+    "slug": "realm",
+    "description": "Mobile-first database designed for fast, offline-capable local data storage.",
+    "websiteUrl": "https://realm.io",
+    "tags": ["database", "offline", "local-storage", "mongodb"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "WatermelonDB",
+    "slug": "watermelondb",
+    "description": "High-performance reactive database for React Native and React applications.",
+    "websiteUrl": "https://watermelondb.dev",
+    "tags": ["database", "react-native", "offline", "reactive"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "SQLite",
+    "slug": "sqlite-mobile",
+    "description": "Lightweight embedded relational database engine widely used in mobile apps.",
+    "websiteUrl": "https://www.sqlite.org",
+    "tags": ["database", "embedded", "local-storage", "sql"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "MMKV",
+    "slug": "mmkv",
+    "description": "High-performance key-value storage framework for mobile from WeChat.",
+    "websiteUrl": "https://github.com/Tencent/MMKV",
+    "tags": ["storage", "key-value", "performance", "tencent"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "AsyncStorage",
+    "slug": "async-storage",
+    "description": "Asynchronous, persistent, key-value storage system for React Native.",
+    "websiteUrl": "https://react-native-async-storage.github.io/async-storage/",
+    "tags": ["storage", "react-native", "key-value", "persistence"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "CocoaPods",
+    "slug": "cocoapods",
+    "description": "Dependency manager for Swift and Objective-C Cocoa projects.",
+    "websiteUrl": "https://cocoapods.org",
+    "tags": ["package-manager", "ios", "dependencies", "swift"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Swift Package Manager",
+    "slug": "swift-package-manager",
+    "description": "Apple's official tool for managing Swift code distribution and dependencies.",
+    "websiteUrl": "https://swift.org/package-manager/",
+    "tags": ["package-manager", "ios", "swift", "apple"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Gradle",
+    "slug": "gradle-mobile",
+    "description": "Build automation tool used as the official build system for Android apps.",
+    "websiteUrl": "https://gradle.org",
+    "tags": ["build-tool", "android", "automation", "dependencies"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "EAS Build",
+    "slug": "eas-build",
+    "description": "Cloud build service from Expo for compiling React Native apps remotely.",
+    "websiteUrl": "https://expo.dev/eas",
+    "tags": ["builds", "expo", "cloud", "ci-cd"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Lottie",
+    "slug": "lottie-mobile",
+    "description": "Library for rendering After Effects animations natively on mobile and web.",
+    "websiteUrl": "https://airbnb.io/lottie/",
+    "tags": ["animation", "after-effects", "airbnb", "ui"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Rive",
+    "slug": "rive-mobile",
+    "description": "Real-time interactive design and animation tool for apps and games.",
+    "websiteUrl": "https://rive.app",
+    "tags": ["animation", "interactive", "design", "ui"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "React Native Reanimated",
+    "slug": "react-native-reanimated",
+    "description": "Powerful animation library providing smooth native-driven animations for React Native.",
+    "websiteUrl": "https://docs.swmansion.com/react-native-reanimated/",
+    "tags": ["animation", "react-native", "performance", "native"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Moti",
+    "slug": "moti",
+    "description": "Universal animation library for React Native powered by Reanimated.",
+    "websiteUrl": "https://moti.fyi",
+    "tags": ["animation", "react-native", "reanimated", "universal"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "React Native Gesture Handler",
+    "slug": "react-native-gesture-handler",
+    "description": "Declarative API for handling native touch and gesture events in React Native.",
+    "websiteUrl": "https://docs.swmansion.com/react-native-gesture-handler/",
+    "tags": ["gestures", "react-native", "touch", "native"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "React Native Skia",
+    "slug": "react-native-skia",
+    "description": "High-performance 2D graphics library for React Native using Google's Skia engine.",
+    "websiteUrl": "https://shopify.github.io/react-native-skia/",
+    "tags": ["graphics", "react-native", "skia", "2d-rendering"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "MobX",
+    "slug": "mobx-mobile",
+    "description": "Simple, scalable state management library commonly used in React Native apps.",
+    "websiteUrl": "https://mobx.js.org",
+    "tags": ["state-management", "reactive", "react-native", "javascript"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Zustand",
+    "slug": "zustand-mobile",
+    "description": "Small, fast, and scalable state management for React and React Native.",
+    "websiteUrl": "https://zustand-demo.pmnd.rs",
+    "tags": ["state-management", "react-native", "lightweight", "hooks"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Redux Toolkit",
+    "slug": "redux-toolkit-mobile",
+    "description": "Official toolset for efficient Redux development in React Native apps.",
+    "websiteUrl": "https://redux-toolkit.js.org",
+    "tags": ["state-management", "redux", "react-native", "javascript"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Jotai",
+    "slug": "jotai-mobile",
+    "description": "Primitive and flexible state management for React and React Native.",
+    "websiteUrl": "https://jotai.org",
+    "tags": ["state-management", "atomic", "react-native", "lightweight"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "React Query",
+    "slug": "react-query-mobile",
+    "description": "Data fetching and caching library for React Native and React apps.",
+    "websiteUrl": "https://tanstack.com/query",
+    "tags": ["data-fetching", "caching", "react-native", "server-state"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Storybook React Native",
+    "slug": "storybook-react-native",
+    "description": "UI component development environment for building React Native components in isolation.",
+    "websiteUrl": "https://storybook.js.org/tutorials/intro-to-storybook/react-native/en/get-started/",
+    "tags": ["ui-development", "component-library", "react-native", "storybook"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "FlutterFlow",
+    "slug": "flutterflow",
+    "description": "Visual app builder for creating Flutter applications with drag-and-drop interface.",
+    "websiteUrl": "https://flutterflow.io",
+    "tags": ["low-code", "flutter", "visual-builder", "app-builder"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Draftbit",
+    "slug": "draftbit",
+    "description": "Visual app builder for creating cross-platform mobile apps powered by React Native.",
+    "websiteUrl": "https://draftbit.com",
+    "tags": ["low-code", "react-native", "visual-builder", "app-builder"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "AppGyver",
+    "slug": "appgyver",
+    "description": "No-code platform for building professional mobile and web applications visually.",
+    "websiteUrl": "https://www.appgyver.com",
+    "tags": ["no-code", "visual-builder", "sap", "app-builder"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Firebase Remote Config",
+    "slug": "firebase-remote-config",
+    "description": "Cloud service to change app behavior and appearance without publishing an update.",
+    "websiteUrl": "https://firebase.google.com/products/remote-config",
+    "tags": ["feature-flags", "configuration", "firebase", "google"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "LaunchDarkly Mobile",
+    "slug": "launchdarkly-mobile",
+    "description": "Feature management platform with mobile SDKs for controlled feature rollouts.",
+    "websiteUrl": "https://launchdarkly.com",
+    "tags": ["feature-flags", "rollouts", "ab-testing", "mobile-sdk"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Appcenter",
+    "slug": "appcenter",
+    "description": "Microsoft's platform for building, testing, distributing, and monitoring mobile apps.",
+    "websiteUrl": "https://appcenter.ms",
+    "tags": ["ci-cd", "distribution", "analytics", "microsoft"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Expo Application Services",
+    "slug": "expo-application-services",
+    "description": "Cloud services for building, submitting, and updating Expo and React Native apps.",
+    "websiteUrl": "https://expo.dev/eas",
+    "tags": ["cloud-services", "expo", "deployment", "updates"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Shopify Mobile",
+    "slug": "shopify-mobile-sdk",
+    "description": "SDKs and tools for building mobile commerce experiences powered by Shopify.",
+    "websiteUrl": "https://shopify.dev/docs/custom-storefronts/mobile",
+    "tags": ["ecommerce", "mobile-commerce", "shopify", "sdk"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Stripe Mobile SDK",
+    "slug": "stripe-mobile-sdk",
+    "description": "Mobile SDKs for integrating Stripe payments into iOS and Android apps.",
+    "websiteUrl": "https://stripe.com/docs/mobile",
+    "tags": ["payments", "stripe", "sdk", "in-app-payments"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "MapKit",
+    "slug": "mapkit",
+    "description": "Apple's framework for embedding maps and location services into iOS apps.",
+    "websiteUrl": "https://developer.apple.com/maps/",
+    "tags": ["maps", "location", "apple", "ios"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Google Maps SDK",
+    "slug": "google-maps-sdk-mobile",
+    "description": "Google Maps SDK for adding interactive maps to Android and iOS applications.",
+    "websiteUrl": "https://developers.google.com/maps/documentation/android-sdk",
+    "tags": ["maps", "location", "google", "sdk"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Mapbox Mobile",
+    "slug": "mapbox-mobile",
+    "description": "Customizable maps and location services platform for mobile applications.",
+    "websiteUrl": "https://www.mapbox.com/mobile",
+    "tags": ["maps", "location", "customizable", "sdk"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Core Data",
+    "slug": "core-data",
+    "description": "Apple's framework for managing object graphs and persisting data in iOS apps.",
+    "websiteUrl": "https://developer.apple.com/documentation/coredata",
+    "tags": ["database", "ios", "apple", "persistence"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "SwiftData",
+    "slug": "swiftdata",
+    "description": "Modern framework for data modeling and persistence in Swift applications.",
+    "websiteUrl": "https://developer.apple.com/xcode/swiftdata/",
+    "tags": ["database", "ios", "apple", "swift"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Room Database",
+    "slug": "room-database",
+    "description": "Android persistence library providing an abstraction layer over SQLite.",
+    "websiteUrl": "https://developer.android.com/training/data-storage/room",
+    "tags": ["database", "android", "google", "sqlite"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "App Clips",
+    "slug": "app-clips",
+    "description": "Apple technology for providing lightweight app experiences without full installation.",
+    "websiteUrl": "https://developer.apple.com/app-clips/",
+    "tags": ["ios", "apple", "instant-apps", "lightweight"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Google Instant Apps",
+    "slug": "google-instant-apps",
+    "description": "Android feature allowing users to run apps without installation from search results.",
+    "websiteUrl": "https://developer.android.com/topic/google-play-instant",
+    "tags": ["android", "google", "instant-apps", "lightweight"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Expo Notifications",
+    "slug": "expo-notifications",
+    "description": "Cross-platform push notification library for Expo and React Native apps.",
+    "websiteUrl": "https://docs.expo.dev/push-notifications/overview/",
+    "tags": ["push-notifications", "expo", "react-native", "cross-platform"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Firebase Auth",
+    "slug": "firebase-auth-mobile",
+    "description": "Authentication service supporting email, social login, and phone auth for mobile.",
+    "websiteUrl": "https://firebase.google.com/products/auth",
+    "tags": ["authentication", "firebase", "social-login", "google"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Auth0 Mobile",
+    "slug": "auth0-mobile",
+    "description": "Identity platform with mobile SDKs for authentication and authorization.",
+    "websiteUrl": "https://auth0.com",
+    "tags": ["authentication", "identity", "oauth", "mobile-sdk"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Clerk Mobile",
+    "slug": "clerk-mobile",
+    "description": "Drop-in authentication and user management platform with mobile support.",
+    "websiteUrl": "https://clerk.com",
+    "tags": ["authentication", "user-management", "mobile-sdk"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "ARKit",
+    "slug": "arkit",
+    "description": "Apple's framework for creating augmented reality experiences on iOS devices.",
+    "websiteUrl": "https://developer.apple.com/augmented-reality/arkit/",
+    "tags": ["ar", "augmented-reality", "apple", "ios"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "ARCore",
+    "slug": "arcore",
+    "description": "Google's platform for building augmented reality experiences on Android devices.",
+    "websiteUrl": "https://developers.google.com/ar",
+    "tags": ["ar", "augmented-reality", "google", "android"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Unity Mobile",
+    "slug": "unity-mobile",
+    "description": "Cross-platform game engine widely used for mobile game development.",
+    "websiteUrl": "https://unity.com/solutions/mobile",
+    "tags": ["game-engine", "cross-platform", "3d", "2d"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Unreal Engine Mobile",
+    "slug": "unreal-engine-mobile",
+    "description": "Epic Games' engine for creating high-fidelity mobile games and experiences.",
+    "websiteUrl": "https://www.unrealengine.com/en-US/mobile",
+    "tags": ["game-engine", "3d", "high-fidelity", "epic"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Cocos2d-x",
+    "slug": "cocos2dx",
+    "description": "Open-source cross-platform game engine for building 2D mobile games.",
+    "websiteUrl": "https://www.cocos.com/en/cocos2d-x",
+    "tags": ["game-engine", "2d", "open-source", "cross-platform"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Godot Mobile",
+    "slug": "godot-mobile",
+    "description": "Open-source game engine with excellent mobile export support.",
+    "websiteUrl": "https://godotengine.org",
+    "tags": ["game-engine", "open-source", "2d", "3d"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Waldo",
+    "slug": "waldo",
+    "description": "No-code mobile testing platform that creates and runs tests automatically.",
+    "websiteUrl": "https://www.waldo.com",
+    "tags": ["testing", "no-code", "automation", "mobile-qa"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Appetize.io",
+    "slug": "appetize-io",
+    "description": "Cloud-based platform for streaming iOS and Android apps in the browser.",
+    "websiteUrl": "https://appetize.io",
+    "tags": ["emulator", "browser-testing", "cloud", "preview"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Emerge Tools",
+    "slug": "emerge-tools",
+    "description": "App size analysis and performance monitoring tools for mobile development teams.",
+    "websiteUrl": "https://www.emergetools.com",
+    "tags": ["performance", "app-size", "monitoring", "optimization"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Perfetto",
+    "slug": "perfetto",
+    "description": "System-wide tracing and profiling tool for Android performance analysis.",
+    "websiteUrl": "https://perfetto.dev",
+    "tags": ["profiling", "android", "performance", "tracing"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Instruments",
+    "slug": "instruments-xcode",
+    "description": "Apple's performance analysis and testing tool bundled with Xcode.",
+    "websiteUrl": "https://developer.apple.com/instruments/",
+    "tags": ["profiling", "ios", "performance", "apple"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Firebase Realtime Database",
+    "slug": "firebase-realtime-database",
+    "description": "Cloud-hosted NoSQL database with real-time data sync for mobile apps.",
+    "websiteUrl": "https://firebase.google.com/products/realtime-database",
+    "tags": ["database", "realtime", "firebase", "nosql"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Cloud Firestore",
+    "slug": "cloud-firestore",
+    "description": "Flexible, scalable NoSQL cloud database for mobile and web development.",
+    "websiteUrl": "https://firebase.google.com/products/firestore",
+    "tags": ["database", "nosql", "firebase", "realtime"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Firebase Storage",
+    "slug": "firebase-storage",
+    "description": "Cloud storage service for uploading and serving user-generated content in apps.",
+    "websiteUrl": "https://firebase.google.com/products/storage",
+    "tags": ["storage", "file-upload", "firebase", "cloud"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "React Native Maps",
+    "slug": "react-native-maps",
+    "description": "Map components for React Native apps supporting Apple Maps and Google Maps.",
+    "websiteUrl": "https://github.com/react-native-maps/react-native-maps",
+    "tags": ["maps", "react-native", "components", "open-source"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "React Native Firebase",
+    "slug": "react-native-firebase",
+    "description": "Well-tested Firebase integration library for React Native applications.",
+    "websiteUrl": "https://rnfirebase.io",
+    "tags": ["firebase", "react-native", "integration", "open-source"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Flipper Zero SDK",
+    "slug": "flutter-bloc",
+    "description": "State management library for Flutter using the BLoC design pattern.",
+    "websiteUrl": "https://bloclibrary.dev",
+    "tags": ["state-management", "flutter", "bloc", "dart"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Riverpod",
+    "slug": "riverpod",
+    "description": "Reactive caching and data-binding framework for Dart and Flutter.",
+    "websiteUrl": "https://riverpod.dev",
+    "tags": ["state-management", "flutter", "dart", "reactive"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "GetX",
+    "slug": "getx",
+    "description": "Lightweight Flutter solution combining state management, routing, and dependency injection.",
+    "websiteUrl": "https://pub.dev/packages/get",
+    "tags": ["state-management", "flutter", "routing", "lightweight"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Provider",
+    "slug": "provider-flutter",
+    "description": "Recommended state management approach for Flutter using InheritedWidgets.",
+    "websiteUrl": "https://pub.dev/packages/provider",
+    "tags": ["state-management", "flutter", "dart", "google-recommended"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Hive",
+    "slug": "hive-flutter",
+    "description": "Lightweight, fast key-value database written in pure Dart for Flutter apps.",
+    "websiteUrl": "https://pub.dev/packages/hive",
+    "tags": ["database", "flutter", "key-value", "dart"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Drift",
+    "slug": "drift-flutter",
+    "description": "Reactive persistence library for Flutter and Dart built on SQLite.",
+    "websiteUrl": "https://drift.simonbinder.eu",
+    "tags": ["database", "flutter", "sqlite", "reactive"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Isar",
+    "slug": "isar",
+    "description": "Extremely fast cross-platform NoSQL database for Flutter applications.",
+    "websiteUrl": "https://isar.dev",
+    "tags": ["database", "flutter", "nosql", "high-performance"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Objective-C",
+    "slug": "objective-c",
+    "description": "Legacy programming language for iOS and macOS development predating Swift.",
+    "websiteUrl": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/",
+    "tags": ["ios", "programming-language", "apple", "legacy"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Java Android",
+    "slug": "java-android",
+    "description": "Original programming language for Android app development on the JVM.",
+    "websiteUrl": "https://developer.android.com/guide",
+    "tags": ["android", "programming-language", "jvm", "legacy"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Braze",
+    "slug": "braze",
+    "description": "Customer engagement platform for personalized messaging across mobile channels.",
+    "websiteUrl": "https://www.braze.com",
+    "tags": ["engagement", "messaging", "mobile-marketing", "personalization"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "CleverTap",
+    "slug": "clevertap",
+    "description": "Customer engagement platform combining analytics and multi-channel mobile marketing.",
+    "websiteUrl": "https://clevertap.com",
+    "tags": ["engagement", "analytics", "mobile-marketing", "retention"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Notifee",
+    "slug": "notifee",
+    "description": "Local notification library for React Native with advanced customization support.",
+    "websiteUrl": "https://notifee.app",
+    "tags": ["notifications", "react-native", "local-notifications", "android"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Tauri Mobile",
+    "slug": "tauri-mobile",
+    "description": "Framework for building small, fast mobile apps with web frontend and Rust backend.",
+    "websiteUrl": "https://tauri.app",
+    "tags": ["cross-platform", "rust", "web-technologies", "lightweight"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Kotlin Compose Multiplatform",
+    "slug": "compose-multiplatform",
+    "description": "JetBrains framework for sharing Compose UI code across Android, iOS, and desktop.",
+    "websiteUrl": "https://www.jetbrains.com/lp/compose-multiplatform/",
+    "tags": ["cross-platform", "compose", "jetbrains", "kotlin"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Kaspresso",
+    "slug": "kaspresso",
+    "description": "Android UI testing framework built on Espresso and UI Automator by Kaspersky.",
+    "websiteUrl": "https://github.com/KasperskyLab/Kaspresso",
+    "tags": ["testing", "android", "ui-testing", "kotlin"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Patrol",
+    "slug": "patrol",
+    "description": "Flutter-first UI testing framework with native automation capabilities.",
+    "websiteUrl": "https://patrol.leancode.co",
+    "tags": ["testing", "flutter", "ui-testing", "native"],
+    "primaryCategory": "mobile",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Shake",
+    "slug": "shake-bug-reporting",
+    "description": "In-app bug and feedback reporting tool for mobile development teams.",
+    "websiteUrl": "https://www.shakebugs.com",
+    "tags": ["bug-reporting", "feedback", "mobile-qa", "sdk"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "UXCam",
+    "slug": "uxcam",
+    "description": "Mobile analytics platform with session replay and heatmaps for app UX research.",
+    "websiteUrl": "https://uxcam.com",
+    "tags": ["analytics", "session-replay", "ux-research", "heatmaps"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Smartlook",
+    "slug": "smartlook-mobile",
+    "description": "Qualitative analytics platform with session recordings for mobile apps.",
+    "websiteUrl": "https://www.smartlook.com",
+    "tags": ["analytics", "session-replay", "recordings", "mobile"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Firebase Performance Monitoring",
+    "slug": "firebase-performance",
+    "description": "Service providing insights into app performance characteristics and bottlenecks.",
+    "websiteUrl": "https://firebase.google.com/products/performance",
+    "tags": ["performance", "monitoring", "firebase", "google"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "New Relic Mobile",
+    "slug": "new-relic-mobile",
+    "description": "Application performance monitoring platform with mobile-specific crash and network analysis.",
+    "websiteUrl": "https://newrelic.com/mobile-monitoring",
+    "tags": ["apm", "monitoring", "crash-reporting", "performance"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Datadog Mobile",
+    "slug": "datadog-mobile",
+    "description": "Real user monitoring for mobile apps with performance and error tracking.",
+    "websiteUrl": "https://www.datadoghq.com/product/real-user-monitoring/",
+    "tags": ["monitoring", "rum", "observability", "apm"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Embrace",
+    "slug": "embrace",
+    "description": "Mobile observability platform providing detailed session-level performance data.",
+    "websiteUrl": "https://embrace.io",
+    "tags": ["observability", "performance", "session-data", "mobile"],
+    "primaryCategory": "mobile",
+    "type": "saas",
+    "baselineScore": 7.5
+  }
+]

@@ -1,0 +1,772 @@
+[
+  {
+    "name": "Zendesk",
+    "slug": "zendesk",
+    "description": "Customer service platform with ticketing, live chat, knowledge base, and analytics.",
+    "websiteUrl": "https://zendesk.com",
+    "tags": ["help-desk", "ticketing", "live-chat", "knowledge-base"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Intercom",
+    "slug": "intercom",
+    "description": "Customer messaging platform combining live chat, bots, and help center in one tool.",
+    "websiteUrl": "https://intercom.com",
+    "tags": ["live-chat", "chatbots", "help-center", "messaging"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Freshdesk",
+    "slug": "freshdesk",
+    "description": "Cloud-based help desk software with multi-channel ticketing and automation workflows.",
+    "websiteUrl": "https://freshdesk.com",
+    "tags": ["help-desk", "ticketing", "automation", "multi-channel"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Help Scout",
+    "slug": "help-scout",
+    "description": "Customer support platform with shared inbox, knowledge base, and live chat.",
+    "websiteUrl": "https://helpscout.com",
+    "tags": ["help-desk", "shared-inbox", "knowledge-base", "live-chat"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Front",
+    "slug": "front",
+    "description": "Shared inbox platform for managing customer communication with team collaboration.",
+    "websiteUrl": "https://front.com",
+    "tags": ["shared-inbox", "collaboration", "email-management", "customer-communication"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "HubSpot Service Hub",
+    "slug": "hubspot-service-hub",
+    "description": "Customer service software with ticketing, knowledge base, and customer feedback tools.",
+    "websiteUrl": "https://hubspot.com/products/service",
+    "tags": ["help-desk", "ticketing", "knowledge-base", "hubspot"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Zoho Desk",
+    "slug": "zoho-desk",
+    "description": "Context-aware help desk software with AI assistant and multi-channel support.",
+    "websiteUrl": "https://zoho.com/desk",
+    "tags": ["help-desk", "ai", "multi-channel", "zoho"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Kayako",
+    "slug": "kayako",
+    "description": "Customer service platform with unified conversations across email, chat, and social.",
+    "websiteUrl": "https://kayako.com",
+    "tags": ["help-desk", "unified-inbox", "multi-channel", "conversations"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Groove",
+    "slug": "groove-support",
+    "description": "Simple help desk and shared inbox for small businesses and growing teams.",
+    "websiteUrl": "https://groovehq.com",
+    "tags": ["help-desk", "shared-inbox", "small-business", "simple"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Hiver",
+    "slug": "hiver",
+    "description": "Gmail-based help desk for managing shared inboxes and customer email collaboration.",
+    "websiteUrl": "https://hiverhq.com",
+    "tags": ["help-desk", "gmail", "shared-inbox", "collaboration"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Gladly",
+    "slug": "gladly",
+    "description": "People-centered customer service platform organizing support around customer profiles.",
+    "websiteUrl": "https://gladly.com",
+    "tags": ["help-desk", "customer-centric", "multi-channel", "personalization"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Kustomer",
+    "slug": "kustomer",
+    "description": "CRM-powered customer service platform with omnichannel support and AI automation.",
+    "websiteUrl": "https://kustomer.com",
+    "tags": ["help-desk", "crm", "omnichannel", "ai"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Dixa",
+    "slug": "dixa",
+    "description": "Conversational customer service platform unifying phone, email, chat, and messaging.",
+    "websiteUrl": "https://dixa.com",
+    "tags": ["help-desk", "conversational", "omnichannel", "phone"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Helpjuice",
+    "slug": "helpjuice",
+    "description": "Knowledge base software for creating searchable self-service help documentation.",
+    "websiteUrl": "https://helpjuice.com",
+    "tags": ["knowledge-base", "self-service", "documentation", "search"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Crisp",
+    "slug": "crisp",
+    "description": "Business messaging platform with live chat, chatbot, and shared inbox features.",
+    "websiteUrl": "https://crisp.chat",
+    "tags": ["live-chat", "chatbot", "shared-inbox", "messaging"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Tawk.to",
+    "slug": "tawk-to",
+    "description": "Free live chat application for monitoring and chatting with website visitors.",
+    "websiteUrl": "https://tawk.to",
+    "tags": ["live-chat", "free", "monitoring", "messaging"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "LiveChat",
+    "slug": "livechat",
+    "description": "Live chat and help desk software for real-time customer support on websites.",
+    "websiteUrl": "https://livechat.com",
+    "tags": ["live-chat", "help-desk", "real-time", "customer-support"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Olark",
+    "slug": "olark",
+    "description": "Live chat software for sales and support with CRM integrations and automation.",
+    "websiteUrl": "https://olark.com",
+    "tags": ["live-chat", "sales", "crm-integration", "automation"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Tidio",
+    "slug": "tidio",
+    "description": "Live chat and chatbot platform for customer support and lead generation.",
+    "websiteUrl": "https://tidio.com",
+    "tags": ["live-chat", "chatbot", "lead-generation", "customer-support"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Chatwoot",
+    "slug": "chatwoot",
+    "description": "Open-source customer engagement platform with live chat and omnichannel inbox.",
+    "websiteUrl": "https://chatwoot.com",
+    "tags": ["live-chat", "open-source", "omnichannel", "self-hosted"],
+    "primaryCategory": "support",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Papercups",
+    "slug": "papercups",
+    "description": "Open-source live chat widget for websites with Slack integration and API access.",
+    "websiteUrl": "https://papercups.io",
+    "tags": ["live-chat", "open-source", "slack", "widget"],
+    "primaryCategory": "support",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Notion",
+    "slug": "notion-kb",
+    "description": "All-in-one workspace used as a knowledge base for documentation and team wikis.",
+    "websiteUrl": "https://notion.so",
+    "tags": ["knowledge-base", "wiki", "documentation", "workspace"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "GitBook",
+    "slug": "gitbook",
+    "description": "Documentation platform for creating beautiful, searchable knowledge bases and docs.",
+    "websiteUrl": "https://gitbook.com",
+    "tags": ["knowledge-base", "documentation", "developer-docs", "collaboration"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Document360",
+    "slug": "document360",
+    "description": "Knowledge base platform for creating self-service documentation and help centers.",
+    "websiteUrl": "https://document360.com",
+    "tags": ["knowledge-base", "self-service", "documentation", "help-center"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Slite",
+    "slug": "slite-kb",
+    "description": "Team knowledge base with AI-powered search and collaborative documentation tools.",
+    "websiteUrl": "https://slite.com",
+    "tags": ["knowledge-base", "team-wiki", "ai-search", "collaboration"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Archbee",
+    "slug": "archbee",
+    "description": "Documentation tool for product teams to create knowledge bases and API docs.",
+    "websiteUrl": "https://archbee.com",
+    "tags": ["knowledge-base", "documentation", "api-docs", "product-teams"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Tettra",
+    "slug": "tettra",
+    "description": "Knowledge management system for teams with AI-powered answers and content organization.",
+    "websiteUrl": "https://tettra.com",
+    "tags": ["knowledge-base", "knowledge-management", "ai", "organization"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Jira Service Management",
+    "slug": "jira-service-management",
+    "description": "IT service management solution with ITSM, incident management, and change control.",
+    "websiteUrl": "https://atlassian.com/software/jira/service-management",
+    "tags": ["itsm", "ticketing", "incident-management", "atlassian"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Linear",
+    "slug": "linear-support",
+    "description": "Modern issue tracking tool used for customer support ticketing and bug tracking.",
+    "websiteUrl": "https://linear.app",
+    "tags": ["ticketing", "issue-tracking", "bug-tracking", "modern"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "ServiceNow",
+    "slug": "servicenow",
+    "description": "Enterprise IT service management platform for workflow automation and digital operations.",
+    "websiteUrl": "https://servicenow.com",
+    "tags": ["itsm", "enterprise", "workflow-automation", "digital-operations"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Freshservice",
+    "slug": "freshservice",
+    "description": "Cloud-based IT service management solution with asset management and automation.",
+    "websiteUrl": "https://freshservice.com",
+    "tags": ["itsm", "asset-management", "automation", "cloud"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "osTicket",
+    "slug": "osticket",
+    "description": "Open-source support ticket system for managing customer inquiries and issues.",
+    "websiteUrl": "https://osticket.com",
+    "tags": ["ticketing", "open-source", "self-hosted", "help-desk"],
+    "primaryCategory": "support",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Gainsight",
+    "slug": "gainsight",
+    "description": "Customer success platform for reducing churn with health scoring and lifecycle management.",
+    "websiteUrl": "https://gainsight.com",
+    "tags": ["customer-success", "churn-prevention", "health-scoring", "lifecycle"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "ChurnZero",
+    "slug": "churnzero",
+    "description": "Customer success platform for SaaS with real-time alerts and customer health insights.",
+    "websiteUrl": "https://churnzero.com",
+    "tags": ["customer-success", "churn-prevention", "real-time", "saas"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Totango",
+    "slug": "totango",
+    "description": "Customer success platform with composable modules for customer health and engagement.",
+    "websiteUrl": "https://totango.com",
+    "tags": ["customer-success", "composable", "health-scoring", "engagement"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Vitally",
+    "slug": "vitally",
+    "description": "Customer success platform for B2B SaaS with health scores, automations, and analytics.",
+    "websiteUrl": "https://vitally.io",
+    "tags": ["customer-success", "b2b", "health-scores", "automation"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Planhat",
+    "slug": "planhat",
+    "description": "Customer platform for managing success, revenue, and product usage data.",
+    "websiteUrl": "https://planhat.com",
+    "tags": ["customer-success", "revenue-management", "usage-data", "analytics"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Catalyst",
+    "slug": "catalyst",
+    "description": "Customer success platform built for modern CS teams with workflow automation.",
+    "websiteUrl": "https://catalyst.io",
+    "tags": ["customer-success", "workflows", "automation", "modern"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Canny",
+    "slug": "canny",
+    "description": "Feature request tracking tool for capturing and prioritizing customer product feedback.",
+    "websiteUrl": "https://canny.io",
+    "tags": ["feedback", "feature-requests", "product-feedback", "roadmap"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "UserVoice",
+    "slug": "uservoice",
+    "description": "Product feedback management platform for collecting and prioritizing user suggestions.",
+    "websiteUrl": "https://uservoice.com",
+    "tags": ["feedback", "feature-requests", "product-management", "voting"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Productboard",
+    "slug": "productboard",
+    "description": "Product management platform for prioritizing features based on customer feedback.",
+    "websiteUrl": "https://productboard.com",
+    "tags": ["product-management", "feedback", "roadmap", "prioritization"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Nolt",
+    "slug": "nolt",
+    "description": "Simple feedback board for collecting and organizing user feature requests and ideas.",
+    "websiteUrl": "https://nolt.io",
+    "tags": ["feedback", "feature-requests", "voting", "simple"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Fider",
+    "slug": "fider",
+    "description": "Open-source feedback platform for collecting and prioritizing user suggestions.",
+    "websiteUrl": "https://fider.io",
+    "tags": ["feedback", "open-source", "feature-requests", "self-hosted"],
+    "primaryCategory": "support",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Featurebase",
+    "slug": "featurebase",
+    "description": "Product feedback tool with voting boards, changelogs, and roadmap visualization.",
+    "websiteUrl": "https://featurebase.app",
+    "tags": ["feedback", "changelog", "roadmap", "voting"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Sleekplan",
+    "slug": "sleekplan",
+    "description": "In-app feedback widget for collecting user feedback, changelogs, and roadmaps.",
+    "websiteUrl": "https://sleekplan.com",
+    "tags": ["feedback", "in-app", "changelog", "roadmap"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Discourse",
+    "slug": "discourse",
+    "description": "Open-source community forum platform for civilized discussion and customer communities.",
+    "websiteUrl": "https://discourse.org",
+    "tags": ["community", "forum", "open-source", "discussion"],
+    "primaryCategory": "support",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Circle",
+    "slug": "circle",
+    "description": "Community platform for creators and brands to build membership communities.",
+    "websiteUrl": "https://circle.so",
+    "tags": ["community", "membership", "creators", "engagement"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Mighty Networks",
+    "slug": "mighty-networks",
+    "description": "Community platform for building branded communities with courses and events.",
+    "websiteUrl": "https://mightynetworks.com",
+    "tags": ["community", "courses", "events", "branded"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Tribe",
+    "slug": "tribe",
+    "description": "Community platform for building branded online communities with customizable spaces.",
+    "websiteUrl": "https://tribe.so",
+    "tags": ["community", "customizable", "branded", "spaces"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Vanilla Forums",
+    "slug": "vanilla-forums",
+    "description": "Community forum software for customer support communities and knowledge sharing.",
+    "websiteUrl": "https://vanillaforums.com",
+    "tags": ["community", "forum", "knowledge-sharing", "customer-support"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Orbit",
+    "slug": "orbit",
+    "description": "Community growth platform for tracking member engagement and community health metrics.",
+    "websiteUrl": "https://orbit.love",
+    "tags": ["community", "analytics", "engagement", "community-health"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Common Room",
+    "slug": "common-room",
+    "description": "Community intelligence platform aggregating signals across community channels.",
+    "websiteUrl": "https://commonroom.io",
+    "tags": ["community", "intelligence", "signals", "analytics"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Ada",
+    "slug": "ada",
+    "description": "AI-powered customer service automation platform for resolving inquiries without agents.",
+    "websiteUrl": "https://ada.cx",
+    "tags": ["chatbot", "ai", "automation", "customer-service"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Kommunicate",
+    "slug": "kommunicate",
+    "description": "Customer support automation platform with AI chatbots and human agent handoff.",
+    "websiteUrl": "https://kommunicate.io",
+    "tags": ["chatbot", "ai", "automation", "handoff"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Botpress",
+    "slug": "botpress",
+    "description": "Open-source platform for building and deploying AI-powered conversational chatbots.",
+    "websiteUrl": "https://botpress.com",
+    "tags": ["chatbot", "open-source", "ai", "conversational"],
+    "primaryCategory": "support",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Voiceflow",
+    "slug": "voiceflow",
+    "description": "Conversational AI platform for designing and building voice and chat assistants.",
+    "websiteUrl": "https://voiceflow.com",
+    "tags": ["chatbot", "ai", "voice-assistant", "design"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Statuspage",
+    "slug": "statuspage",
+    "description": "Atlassian status page for communicating real-time service availability to customers.",
+    "websiteUrl": "https://statuspage.io",
+    "tags": ["status-page", "incident-communication", "uptime", "atlassian"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Better Uptime",
+    "slug": "better-uptime",
+    "description": "Uptime monitoring and status page service with incident management and alerting.",
+    "websiteUrl": "https://betteruptime.com",
+    "tags": ["status-page", "uptime-monitoring", "incident-management", "alerting"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Instatus",
+    "slug": "instatus",
+    "description": "Fast and beautiful status page service with quick setup and multiple integrations.",
+    "websiteUrl": "https://instatus.com",
+    "tags": ["status-page", "uptime", "fast", "beautiful"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Cachet",
+    "slug": "cachet",
+    "description": "Open-source status page system for communicating downtime and system status.",
+    "websiteUrl": "https://cachethq.io",
+    "tags": ["status-page", "open-source", "self-hosted", "downtime"],
+    "primaryCategory": "support",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Upptime",
+    "slug": "upptime",
+    "description": "Open-source uptime monitor and status page powered by GitHub Actions.",
+    "websiteUrl": "https://upptime.js.org",
+    "tags": ["status-page", "open-source", "github-actions", "uptime-monitoring"],
+    "primaryCategory": "support",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "PagerDuty",
+    "slug": "pagerduty",
+    "description": "Incident management platform for real-time alerts, on-call scheduling, and response.",
+    "websiteUrl": "https://pagerduty.com",
+    "tags": ["incident-management", "alerting", "on-call", "response"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "OpsGenie",
+    "slug": "opsgenie",
+    "description": "Incident management and alerting tool by Atlassian for on-call management.",
+    "websiteUrl": "https://atlassian.com/software/opsgenie",
+    "tags": ["incident-management", "alerting", "on-call", "atlassian"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Rootly",
+    "slug": "rootly",
+    "description": "Incident management platform for automating response workflows through Slack.",
+    "websiteUrl": "https://rootly.com",
+    "tags": ["incident-management", "automation", "slack", "response"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "incident.io",
+    "slug": "incident-io",
+    "description": "Incident management tool for declaring, running, and learning from incidents in Slack.",
+    "websiteUrl": "https://incident.io",
+    "tags": ["incident-management", "slack", "post-mortems", "automation"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Delighted",
+    "slug": "delighted",
+    "description": "Customer feedback tool for NPS, CSAT, and CES surveys with real-time dashboards.",
+    "websiteUrl": "https://delighted.com",
+    "tags": ["feedback", "nps", "csat", "surveys"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Nicereply",
+    "slug": "nicereply",
+    "description": "Customer satisfaction survey tool for measuring CSAT, NPS, and CES after support.",
+    "websiteUrl": "https://nicereply.com",
+    "tags": ["feedback", "csat", "nps", "surveys"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Klaus",
+    "slug": "klaus",
+    "description": "Quality assurance tool for reviewing and scoring customer support conversations.",
+    "websiteUrl": "https://klausapp.com",
+    "tags": ["quality-assurance", "support-qa", "conversation-review", "scoring"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "MaestroQA",
+    "slug": "maestroqa",
+    "description": "Quality assurance platform for grading customer support interactions and coaching agents.",
+    "websiteUrl": "https://maestroqa.com",
+    "tags": ["quality-assurance", "grading", "coaching", "support-qa"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Assembled",
+    "slug": "assembled",
+    "description": "Workforce management platform for support teams with forecasting and scheduling.",
+    "websiteUrl": "https://assembled.com",
+    "tags": ["workforce-management", "scheduling", "forecasting", "support-ops"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Stonly",
+    "slug": "stonly",
+    "description": "Interactive knowledge base platform with step-by-step guides and decision trees.",
+    "websiteUrl": "https://stonly.com",
+    "tags": ["knowledge-base", "interactive-guides", "self-service", "decision-trees"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Sentry",
+    "slug": "sentry",
+    "description": "Application monitoring platform for error tracking, performance, and session replay.",
+    "websiteUrl": "https://sentry.io",
+    "tags": ["error-tracking", "monitoring", "performance", "debugging"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "LogRocket",
+    "slug": "logrocket",
+    "description": "Frontend monitoring with session replay, error tracking, and performance insights.",
+    "websiteUrl": "https://logrocket.com",
+    "tags": ["session-replay", "error-tracking", "frontend-monitoring", "performance"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Datadog",
+    "slug": "datadog",
+    "description": "Cloud monitoring platform for infrastructure, APM, logs, and security observability.",
+    "websiteUrl": "https://datadoghq.com",
+    "tags": ["monitoring", "apm", "logs", "observability"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "BugHerd",
+    "slug": "bugherd",
+    "description": "Visual feedback and bug tracking tool for pinning issues directly on web pages.",
+    "websiteUrl": "https://bugherd.com",
+    "tags": ["bug-tracking", "visual-feedback", "web-development", "collaboration"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Marker.io",
+    "slug": "marker-io",
+    "description": "Visual bug reporting tool for capturing annotated screenshots and sending to project tools.",
+    "websiteUrl": "https://marker.io",
+    "tags": ["bug-reporting", "visual-feedback", "screenshots", "project-management"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Userback",
+    "slug": "userback",
+    "description": "User feedback platform with visual bug reporting, screen recording, and surveys.",
+    "websiteUrl": "https://userback.io",
+    "tags": ["feedback", "bug-reporting", "screen-recording", "visual"],
+    "primaryCategory": "support",
+    "type": "saas",
+    "baselineScore": 7.3
+  }
+]

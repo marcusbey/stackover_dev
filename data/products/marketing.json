@@ -1,0 +1,2262 @@
+[
+  {
+    "name": "Mailchimp",
+    "slug": "mailchimp",
+    "description": "All-in-one email marketing platform for campaigns, automations, and audience management.",
+    "websiteUrl": "https://mailchimp.com",
+    "tags": ["email-marketing", "automation", "newsletters", "audience-management"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "ConvertKit",
+    "slug": "convertkit",
+    "description": "Email marketing platform built for creators to grow and monetize their audience.",
+    "websiteUrl": "https://convertkit.com",
+    "tags": ["email-marketing", "creators", "newsletters", "automation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Resend",
+    "slug": "resend",
+    "description": "Modern email API for developers with a focus on deliverability and simplicity.",
+    "websiteUrl": "https://resend.com",
+    "tags": ["email-api", "transactional-email", "developer-tools"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "SendGrid",
+    "slug": "sendgrid",
+    "description": "Cloud-based email delivery service for transactional and marketing emails at scale.",
+    "websiteUrl": "https://sendgrid.com",
+    "tags": ["email-api", "transactional-email", "email-marketing", "deliverability"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Loops",
+    "slug": "loops",
+    "description": "Email platform for modern SaaS companies to send product-led marketing emails.",
+    "websiteUrl": "https://loops.so",
+    "tags": ["email-marketing", "saas", "product-led", "automation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Postmark",
+    "slug": "postmark",
+    "description": "Transactional email service known for exceptional delivery speed and reliability.",
+    "websiteUrl": "https://postmarkapp.com",
+    "tags": ["transactional-email", "email-api", "deliverability"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Brevo",
+    "slug": "brevo",
+    "description": "All-in-one marketing platform with email, SMS, chat, and CRM capabilities.",
+    "websiteUrl": "https://brevo.com",
+    "tags": ["email-marketing", "sms-marketing", "crm", "automation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Constant Contact",
+    "slug": "constant-contact",
+    "description": "Email marketing and digital marketing platform for small businesses and nonprofits.",
+    "websiteUrl": "https://constantcontact.com",
+    "tags": ["email-marketing", "small-business", "automation", "landing-pages"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "AWeber",
+    "slug": "aweber",
+    "description": "Email marketing platform with autoresponders, landing pages, and e-commerce integration.",
+    "websiteUrl": "https://aweber.com",
+    "tags": ["email-marketing", "autoresponders", "small-business"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Drip",
+    "slug": "drip",
+    "description": "E-commerce email marketing automation platform for personalized customer journeys.",
+    "websiteUrl": "https://drip.com",
+    "tags": ["email-marketing", "e-commerce", "automation", "personalization"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "MailerLite",
+    "slug": "mailerlite",
+    "description": "Affordable email marketing tool with drag-and-drop editor and automation workflows.",
+    "websiteUrl": "https://mailerlite.com",
+    "tags": ["email-marketing", "automation", "landing-pages", "newsletters"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Campaign Monitor",
+    "slug": "campaign-monitor",
+    "description": "Email marketing platform with beautiful templates and advanced personalization features.",
+    "websiteUrl": "https://campaignmonitor.com",
+    "tags": ["email-marketing", "templates", "personalization", "analytics"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Klaviyo",
+    "slug": "klaviyo",
+    "description": "Data-driven email and SMS marketing platform built for e-commerce brands.",
+    "websiteUrl": "https://klaviyo.com",
+    "tags": ["email-marketing", "sms-marketing", "e-commerce", "personalization"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Omnisend",
+    "slug": "omnisend",
+    "description": "E-commerce marketing automation with email, SMS, and push notification channels.",
+    "websiteUrl": "https://omnisend.com",
+    "tags": ["email-marketing", "sms-marketing", "e-commerce", "automation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Moosend",
+    "slug": "moosend",
+    "description": "Email marketing automation platform with AI-powered personalization and analytics.",
+    "websiteUrl": "https://moosend.com",
+    "tags": ["email-marketing", "automation", "ai", "analytics"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Buttondown",
+    "slug": "buttondown",
+    "description": "Minimalist newsletter tool for writers who want simplicity and Markdown support.",
+    "websiteUrl": "https://buttondown.email",
+    "tags": ["newsletters", "email-marketing", "markdown", "creators"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Substack",
+    "slug": "substack",
+    "description": "Newsletter platform enabling writers to publish and monetize subscription-based content.",
+    "websiteUrl": "https://substack.com",
+    "tags": ["newsletters", "publishing", "subscriptions", "creators"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Beehiiv",
+    "slug": "beehiiv",
+    "description": "Newsletter platform with built-in growth tools, monetization, and analytics for creators.",
+    "websiteUrl": "https://beehiiv.com",
+    "tags": ["newsletters", "creators", "monetization", "growth"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Ghost",
+    "slug": "ghost",
+    "description": "Open-source publishing platform for blogs, newsletters, and membership content.",
+    "websiteUrl": "https://ghost.org",
+    "tags": ["publishing", "blogging", "newsletters", "open-source", "cms"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Mailgun",
+    "slug": "mailgun",
+    "description": "Email API service for sending, receiving, and tracking transactional emails.",
+    "websiteUrl": "https://mailgun.com",
+    "tags": ["email-api", "transactional-email", "deliverability"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Amazon SES",
+    "slug": "amazon-ses",
+    "description": "Scalable cloud email service from AWS for transactional and bulk email sending.",
+    "websiteUrl": "https://aws.amazon.com/ses/",
+    "tags": ["email-api", "transactional-email", "aws", "cloud"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "SparkPost",
+    "slug": "sparkpost",
+    "description": "Enterprise email delivery and analytics platform for high-volume email senders.",
+    "websiteUrl": "https://sparkpost.com",
+    "tags": ["email-api", "transactional-email", "analytics", "enterprise"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Ahrefs",
+    "slug": "ahrefs",
+    "description": "Comprehensive SEO toolset for backlink analysis, keyword research, and site auditing.",
+    "websiteUrl": "https://ahrefs.com",
+    "tags": ["seo", "backlinks", "keyword-research", "site-audit"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "SEMrush",
+    "slug": "semrush",
+    "description": "All-in-one digital marketing toolkit for SEO, PPC, content, and competitive analysis.",
+    "websiteUrl": "https://semrush.com",
+    "tags": ["seo", "ppc", "competitive-analysis", "keyword-research"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Moz Pro",
+    "slug": "moz-pro",
+    "description": "SEO software suite with keyword tracking, site crawling, and link analysis tools.",
+    "websiteUrl": "https://moz.com",
+    "tags": ["seo", "keyword-tracking", "link-analysis", "site-audit"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Screaming Frog",
+    "slug": "screaming-frog",
+    "description": "Desktop website crawler for technical SEO auditing and site analysis.",
+    "websiteUrl": "https://screamingfrog.co.uk",
+    "tags": ["seo", "site-audit", "crawling", "technical-seo"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Surfer SEO",
+    "slug": "surfer-seo",
+    "description": "Content optimization tool that uses data-driven insights to improve search rankings.",
+    "websiteUrl": "https://surferseo.com",
+    "tags": ["seo", "content-optimization", "ai", "on-page-seo"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Clearscope",
+    "slug": "clearscope",
+    "description": "AI-powered content optimization platform for creating high-ranking search content.",
+    "websiteUrl": "https://clearscope.io",
+    "tags": ["seo", "content-optimization", "ai", "content-marketing"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Ubersuggest",
+    "slug": "ubersuggest",
+    "description": "SEO tool offering keyword suggestions, domain analysis, and content ideas.",
+    "websiteUrl": "https://neilpatel.com/ubersuggest/",
+    "tags": ["seo", "keyword-research", "content-ideas", "domain-analysis"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Mangools",
+    "slug": "mangools",
+    "description": "Affordable SEO toolset with keyword research, SERP analysis, and rank tracking.",
+    "websiteUrl": "https://mangools.com",
+    "tags": ["seo", "keyword-research", "rank-tracking", "serp-analysis"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "SE Ranking",
+    "slug": "se-ranking",
+    "description": "All-in-one SEO platform with rank tracking, site audit, and competitor analysis.",
+    "websiteUrl": "https://seranking.com",
+    "tags": ["seo", "rank-tracking", "site-audit", "competitor-analysis"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Majestic",
+    "slug": "majestic",
+    "description": "Backlink analysis tool with the largest link index for SEO research.",
+    "websiteUrl": "https://majestic.com",
+    "tags": ["seo", "backlinks", "link-analysis"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "SpyFu",
+    "slug": "spyfu",
+    "description": "Competitor research tool for analyzing SEO keywords and Google Ads strategies.",
+    "websiteUrl": "https://spyfu.com",
+    "tags": ["seo", "competitive-analysis", "ppc", "keyword-research"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Sitebulb",
+    "slug": "sitebulb",
+    "description": "Desktop SEO auditing tool with visual crawl maps and prioritized recommendations.",
+    "websiteUrl": "https://sitebulb.com",
+    "tags": ["seo", "site-audit", "crawling", "technical-seo"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Yoast SEO",
+    "slug": "yoast-seo",
+    "description": "WordPress SEO plugin for on-page optimization, readability, and schema markup.",
+    "websiteUrl": "https://yoast.com",
+    "tags": ["seo", "wordpress", "on-page-seo", "plugin"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Rank Math",
+    "slug": "rank-math",
+    "description": "WordPress SEO plugin with advanced features, schema support, and AI integration.",
+    "websiteUrl": "https://rankmath.com",
+    "tags": ["seo", "wordpress", "on-page-seo", "plugin"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Google Search Console",
+    "slug": "google-search-console",
+    "description": "Free Google tool to monitor website search performance and indexing status.",
+    "websiteUrl": "https://search.google.com/search-console",
+    "tags": ["seo", "analytics", "google", "search-performance"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Buffer",
+    "slug": "buffer",
+    "description": "Social media management tool for scheduling posts and analyzing engagement metrics.",
+    "websiteUrl": "https://buffer.com",
+    "tags": ["social-media", "scheduling", "analytics", "content-planning"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Hootsuite",
+    "slug": "hootsuite",
+    "description": "Enterprise social media management platform for scheduling, monitoring, and analytics.",
+    "websiteUrl": "https://hootsuite.com",
+    "tags": ["social-media", "scheduling", "monitoring", "enterprise"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Later",
+    "slug": "later",
+    "description": "Visual social media scheduling tool focused on Instagram and visual content planning.",
+    "websiteUrl": "https://later.com",
+    "tags": ["social-media", "scheduling", "instagram", "visual-content"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Sprout Social",
+    "slug": "sprout-social",
+    "description": "Social media management and intelligence platform for brands and agencies.",
+    "websiteUrl": "https://sproutsocial.com",
+    "tags": ["social-media", "analytics", "engagement", "enterprise"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "SocialBee",
+    "slug": "socialbee",
+    "description": "Social media management tool with content categorization and recycling features.",
+    "websiteUrl": "https://socialbee.com",
+    "tags": ["social-media", "scheduling", "content-recycling", "automation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Publer",
+    "slug": "publer",
+    "description": "Social media scheduling tool with AI content generation and bulk scheduling.",
+    "websiteUrl": "https://publer.io",
+    "tags": ["social-media", "scheduling", "ai", "bulk-scheduling"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Sendible",
+    "slug": "sendible",
+    "description": "Social media management platform designed for agencies with white-label reporting.",
+    "websiteUrl": "https://sendible.com",
+    "tags": ["social-media", "agency", "white-label", "reporting"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Loomly",
+    "slug": "loomly",
+    "description": "Social media calendar and management tool with content inspiration and approval workflows.",
+    "websiteUrl": "https://loomly.com",
+    "tags": ["social-media", "content-calendar", "approval-workflows"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Agorapulse",
+    "slug": "agorapulse",
+    "description": "Social media management tool with unified inbox, publishing, and ROI reporting.",
+    "websiteUrl": "https://agorapulse.com",
+    "tags": ["social-media", "inbox-management", "publishing", "analytics"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Brandwatch",
+    "slug": "brandwatch",
+    "description": "Social listening and consumer intelligence platform for brand monitoring and insights.",
+    "websiteUrl": "https://brandwatch.com",
+    "tags": ["social-listening", "brand-monitoring", "analytics", "consumer-intelligence"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Mention",
+    "slug": "mention",
+    "description": "Real-time media monitoring tool for tracking brand mentions across the web.",
+    "websiteUrl": "https://mention.com",
+    "tags": ["social-listening", "brand-monitoring", "media-monitoring"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "HubSpot Marketing Hub",
+    "slug": "hubspot-marketing-hub",
+    "description": "Inbound marketing platform with CRM, email, landing pages, and automation tools.",
+    "websiteUrl": "https://hubspot.com/products/marketing",
+    "tags": ["marketing-automation", "inbound-marketing", "crm", "email-marketing"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "WordPress",
+    "slug": "wordpress",
+    "description": "Open-source content management system powering over 40% of all websites.",
+    "websiteUrl": "https://wordpress.org",
+    "tags": ["cms", "blogging", "open-source", "content-marketing"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Contentful",
+    "slug": "contentful",
+    "description": "Headless CMS platform for creating and managing content across digital channels.",
+    "websiteUrl": "https://contentful.com",
+    "tags": ["cms", "headless-cms", "content-management", "api-first"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Sanity",
+    "slug": "sanity",
+    "description": "Composable content platform with real-time collaboration and customizable editing.",
+    "websiteUrl": "https://sanity.io",
+    "tags": ["cms", "headless-cms", "content-management", "real-time"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Strapi",
+    "slug": "strapi",
+    "description": "Open-source headless CMS with a customizable API and admin panel.",
+    "websiteUrl": "https://strapi.io",
+    "tags": ["cms", "headless-cms", "open-source", "api"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Webflow",
+    "slug": "webflow",
+    "description": "Visual web design and CMS platform for building professional websites without code.",
+    "websiteUrl": "https://webflow.com",
+    "tags": ["cms", "web-design", "no-code", "landing-pages"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Framer",
+    "slug": "framer",
+    "description": "Design and publish high-performance marketing websites with visual editing and CMS.",
+    "websiteUrl": "https://framer.com",
+    "tags": ["web-design", "landing-pages", "no-code", "cms"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Squarespace",
+    "slug": "squarespace",
+    "description": "All-in-one website builder with beautiful templates for businesses and portfolios.",
+    "websiteUrl": "https://squarespace.com",
+    "tags": ["website-builder", "templates", "e-commerce", "design"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Wix",
+    "slug": "wix",
+    "description": "Drag-and-drop website builder with extensive templates and app marketplace.",
+    "websiteUrl": "https://wix.com",
+    "tags": ["website-builder", "no-code", "templates", "e-commerce"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Carrd",
+    "slug": "carrd",
+    "description": "Simple one-page website builder for landing pages, profiles, and portfolios.",
+    "websiteUrl": "https://carrd.co",
+    "tags": ["landing-pages", "one-page", "simple", "affordable"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Unbounce",
+    "slug": "unbounce",
+    "description": "Landing page builder with AI-powered optimization and A/B testing capabilities.",
+    "websiteUrl": "https://unbounce.com",
+    "tags": ["landing-pages", "a-b-testing", "conversion-optimization", "ai"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Instapage",
+    "slug": "instapage",
+    "description": "Landing page platform with personalization, heatmaps, and conversion analytics.",
+    "websiteUrl": "https://instapage.com",
+    "tags": ["landing-pages", "personalization", "heatmaps", "conversion"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Leadpages",
+    "slug": "leadpages",
+    "description": "Landing page and website builder focused on lead generation and conversion.",
+    "websiteUrl": "https://leadpages.com",
+    "tags": ["landing-pages", "lead-generation", "conversion", "templates"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Landingi",
+    "slug": "landingi",
+    "description": "Landing page builder with drag-and-drop editor, popups, and funnel creation tools.",
+    "websiteUrl": "https://landingi.com",
+    "tags": ["landing-pages", "popups", "funnels", "a-b-testing"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Swipe Pages",
+    "slug": "swipe-pages",
+    "description": "AMP-powered landing page builder for fast-loading mobile-first landing pages.",
+    "websiteUrl": "https://swipepages.com",
+    "tags": ["landing-pages", "amp", "mobile-first", "conversion"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Google Ads",
+    "slug": "google-ads",
+    "description": "Online advertising platform for search, display, video, and shopping campaigns.",
+    "websiteUrl": "https://ads.google.com",
+    "tags": ["advertising", "ppc", "search-ads", "display-ads"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Meta Ads",
+    "slug": "meta-ads",
+    "description": "Advertising platform for Facebook, Instagram, and Messenger campaigns with audience targeting.",
+    "websiteUrl": "https://business.facebook.com",
+    "tags": ["advertising", "social-ads", "facebook", "instagram"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "LinkedIn Ads",
+    "slug": "linkedin-ads",
+    "description": "B2B advertising platform for reaching professionals with sponsored content and InMail.",
+    "websiteUrl": "https://business.linkedin.com/marketing-solutions/ads",
+    "tags": ["advertising", "b2b", "professional-targeting", "social-ads"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Twitter Ads",
+    "slug": "twitter-ads",
+    "description": "Advertising platform for promoted tweets, trends, and targeted campaigns on X.",
+    "websiteUrl": "https://ads.twitter.com",
+    "tags": ["advertising", "social-ads", "twitter", "promoted-content"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "TikTok Ads",
+    "slug": "tiktok-ads",
+    "description": "Advertising platform for creating and managing short-form video ad campaigns on TikTok.",
+    "websiteUrl": "https://ads.tiktok.com",
+    "tags": ["advertising", "social-ads", "video-ads", "tiktok"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Microsoft Advertising",
+    "slug": "microsoft-advertising",
+    "description": "Search advertising platform for Bing, Yahoo, and Microsoft partner networks.",
+    "websiteUrl": "https://ads.microsoft.com",
+    "tags": ["advertising", "ppc", "search-ads", "bing"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "AdRoll",
+    "slug": "adroll",
+    "description": "Retargeting and prospecting platform for display, social, and email advertising.",
+    "websiteUrl": "https://adroll.com",
+    "tags": ["advertising", "retargeting", "display-ads", "prospecting"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Taboola",
+    "slug": "taboola",
+    "description": "Content discovery and native advertising platform for driving traffic and engagement.",
+    "websiteUrl": "https://taboola.com",
+    "tags": ["advertising", "native-ads", "content-discovery", "traffic"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Outbrain",
+    "slug": "outbrain",
+    "description": "Native advertising platform for content recommendation and audience engagement.",
+    "websiteUrl": "https://outbrain.com",
+    "tags": ["advertising", "native-ads", "content-recommendation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 6.9
+  },
+  {
+    "name": "ActiveCampaign",
+    "slug": "activecampaign",
+    "description": "Customer experience automation platform combining email marketing, CRM, and automation.",
+    "websiteUrl": "https://activecampaign.com",
+    "tags": ["marketing-automation", "email-marketing", "crm", "automation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Customer.io",
+    "slug": "customer-io",
+    "description": "Messaging platform for targeted email, push, SMS, and in-app communications.",
+    "websiteUrl": "https://customer.io",
+    "tags": ["marketing-automation", "messaging", "segmentation", "multi-channel"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Marketo",
+    "slug": "marketo",
+    "description": "Enterprise marketing automation platform by Adobe for lead management and analytics.",
+    "websiteUrl": "https://marketo.com",
+    "tags": ["marketing-automation", "enterprise", "lead-management", "adobe"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Pardot",
+    "slug": "pardot",
+    "description": "Salesforce B2B marketing automation for lead nurturing, scoring, and ROI reporting.",
+    "websiteUrl": "https://salesforce.com/products/marketing-cloud/marketing-automation",
+    "tags": ["marketing-automation", "b2b", "lead-nurturing", "salesforce"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Iterable",
+    "slug": "iterable",
+    "description": "Cross-channel marketing platform for personalized messaging across email, push, and SMS.",
+    "websiteUrl": "https://iterable.com",
+    "tags": ["marketing-automation", "cross-channel", "personalization", "messaging"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Braze",
+    "slug": "braze",
+    "description": "Customer engagement platform for real-time, cross-channel messaging and personalization.",
+    "websiteUrl": "https://braze.com",
+    "tags": ["marketing-automation", "customer-engagement", "cross-channel", "real-time"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Ortto",
+    "slug": "ortto",
+    "description": "Marketing automation and analytics platform with customer journey visual builder.",
+    "websiteUrl": "https://ortto.com",
+    "tags": ["marketing-automation", "customer-journey", "analytics", "automation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Autopilot",
+    "slug": "autopilot",
+    "description": "Visual marketing automation tool for creating customer journeys with drag-and-drop.",
+    "websiteUrl": "https://autopilothq.com",
+    "tags": ["marketing-automation", "visual-builder", "customer-journey"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Encharge",
+    "slug": "encharge",
+    "description": "Marketing automation platform for SaaS with behavior-based email flows.",
+    "websiteUrl": "https://encharge.io",
+    "tags": ["marketing-automation", "saas", "behavior-based", "email-flows"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Twilio",
+    "slug": "twilio",
+    "description": "Cloud communications platform with APIs for SMS, voice, video, and email.",
+    "websiteUrl": "https://twilio.com",
+    "tags": ["sms-marketing", "communications-api", "voice", "messaging"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Plivo",
+    "slug": "plivo",
+    "description": "Cloud communication platform offering SMS and voice APIs for global messaging.",
+    "websiteUrl": "https://plivo.com",
+    "tags": ["sms-marketing", "communications-api", "voice", "global"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Vonage",
+    "slug": "vonage",
+    "description": "Communications APIs for SMS, voice, video, and authentication messaging services.",
+    "websiteUrl": "https://vonage.com",
+    "tags": ["sms-marketing", "communications-api", "voice", "video"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "MessageBird",
+    "slug": "messagebird",
+    "description": "Omnichannel communication platform for SMS, WhatsApp, and conversational messaging.",
+    "websiteUrl": "https://messagebird.com",
+    "tags": ["sms-marketing", "omnichannel", "whatsapp", "messaging"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Attentive",
+    "slug": "attentive",
+    "description": "SMS and email marketing platform for personalized mobile messaging at scale.",
+    "websiteUrl": "https://attentive.com",
+    "tags": ["sms-marketing", "mobile-marketing", "personalization", "e-commerce"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Postscript",
+    "slug": "postscript",
+    "description": "SMS marketing platform built for Shopify stores with automations and segmentation.",
+    "websiteUrl": "https://postscript.io",
+    "tags": ["sms-marketing", "shopify", "e-commerce", "automation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Google Analytics",
+    "slug": "google-analytics",
+    "description": "Web analytics service for tracking website traffic, user behavior, and conversions.",
+    "websiteUrl": "https://analytics.google.com",
+    "tags": ["analytics", "web-analytics", "google", "tracking"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Mixpanel",
+    "slug": "mixpanel",
+    "description": "Product analytics platform for tracking user interactions and conversion funnels.",
+    "websiteUrl": "https://mixpanel.com",
+    "tags": ["analytics", "product-analytics", "funnels", "user-tracking"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Amplitude",
+    "slug": "amplitude",
+    "description": "Digital analytics platform for understanding user behavior and driving product growth.",
+    "websiteUrl": "https://amplitude.com",
+    "tags": ["analytics", "product-analytics", "behavioral-analytics", "growth"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Heap",
+    "slug": "heap",
+    "description": "Auto-capture analytics platform that tracks all user interactions without manual tagging.",
+    "websiteUrl": "https://heap.io",
+    "tags": ["analytics", "auto-capture", "product-analytics", "user-tracking"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Plausible Analytics",
+    "slug": "plausible-analytics",
+    "description": "Privacy-friendly, lightweight web analytics alternative to Google Analytics.",
+    "websiteUrl": "https://plausible.io",
+    "tags": ["analytics", "privacy", "web-analytics", "open-source"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Fathom Analytics",
+    "slug": "fathom-analytics",
+    "description": "Simple, privacy-focused website analytics without tracking cookies or personal data.",
+    "websiteUrl": "https://usefathom.com",
+    "tags": ["analytics", "privacy", "web-analytics", "cookie-free"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Hotjar",
+    "slug": "hotjar",
+    "description": "Behavior analytics tool with heatmaps, session recordings, and user feedback surveys.",
+    "websiteUrl": "https://hotjar.com",
+    "tags": ["analytics", "heatmaps", "session-recording", "user-feedback"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "FullStory",
+    "slug": "fullstory",
+    "description": "Digital experience intelligence platform with session replay and frustration detection.",
+    "websiteUrl": "https://fullstory.com",
+    "tags": ["analytics", "session-replay", "ux-analytics", "frustration-detection"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Crazy Egg",
+    "slug": "crazy-egg",
+    "description": "Website optimization tool with heatmaps, scrollmaps, and A/B testing features.",
+    "websiteUrl": "https://crazyegg.com",
+    "tags": ["analytics", "heatmaps", "a-b-testing", "optimization"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Lucky Orange",
+    "slug": "lucky-orange",
+    "description": "Conversion optimization suite with dynamic heatmaps, session recordings, and surveys.",
+    "websiteUrl": "https://luckyorange.com",
+    "tags": ["analytics", "heatmaps", "session-recording", "conversion"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Segment",
+    "slug": "segment",
+    "description": "Customer data platform for collecting, unifying, and routing data to marketing tools.",
+    "websiteUrl": "https://segment.com",
+    "tags": ["analytics", "customer-data-platform", "data-routing", "integrations"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Rudderstack",
+    "slug": "rudderstack",
+    "description": "Open-source customer data platform for event streaming and warehouse-first analytics.",
+    "websiteUrl": "https://rudderstack.com",
+    "tags": ["analytics", "customer-data-platform", "open-source", "data-warehouse"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Matomo",
+    "slug": "matomo",
+    "description": "Open-source web analytics platform with full data ownership and privacy compliance.",
+    "websiteUrl": "https://matomo.org",
+    "tags": ["analytics", "web-analytics", "open-source", "privacy"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "PostHog",
+    "slug": "posthog",
+    "description": "Open-source product analytics with feature flags, session replay, and A/B testing.",
+    "websiteUrl": "https://posthog.com",
+    "tags": ["analytics", "product-analytics", "open-source", "feature-flags"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Optimizely",
+    "slug": "optimizely",
+    "description": "Experimentation platform for A/B testing, feature flags, and content optimization.",
+    "websiteUrl": "https://optimizely.com",
+    "tags": ["a-b-testing", "experimentation", "feature-flags", "optimization"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "VWO",
+    "slug": "vwo",
+    "description": "Conversion optimization platform with A/B testing, heatmaps, and personalization.",
+    "websiteUrl": "https://vwo.com",
+    "tags": ["a-b-testing", "conversion-optimization", "heatmaps", "personalization"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "AB Tasty",
+    "slug": "ab-tasty",
+    "description": "Experience optimization platform for A/B testing and AI-driven personalization.",
+    "websiteUrl": "https://abtasty.com",
+    "tags": ["a-b-testing", "personalization", "ai", "optimization"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Google Tag Manager",
+    "slug": "google-tag-manager",
+    "description": "Tag management system for deploying marketing and analytics tags without code changes.",
+    "websiteUrl": "https://tagmanager.google.com",
+    "tags": ["tag-management", "analytics", "tracking", "google"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Zapier",
+    "slug": "zapier",
+    "description": "No-code automation platform connecting thousands of apps with workflow triggers and actions.",
+    "websiteUrl": "https://zapier.com",
+    "tags": ["automation", "integrations", "no-code", "workflows"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Make",
+    "slug": "make",
+    "description": "Visual automation platform for building complex workflows connecting apps and services.",
+    "websiteUrl": "https://make.com",
+    "tags": ["automation", "integrations", "visual-builder", "workflows"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "n8n",
+    "slug": "n8n",
+    "description": "Open-source workflow automation tool with a visual node-based editor.",
+    "websiteUrl": "https://n8n.io",
+    "tags": ["automation", "open-source", "workflows", "self-hosted"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Typeform",
+    "slug": "typeform",
+    "description": "Interactive form and survey builder with conversational design for higher completion rates.",
+    "websiteUrl": "https://typeform.com",
+    "tags": ["forms", "surveys", "lead-generation", "conversational"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Tally",
+    "slug": "tally",
+    "description": "Free, simple form builder with unlimited forms and a clean interface.",
+    "websiteUrl": "https://tally.so",
+    "tags": ["forms", "surveys", "free", "simple"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Jotform",
+    "slug": "jotform",
+    "description": "Online form builder with thousands of templates and integrations for data collection.",
+    "websiteUrl": "https://jotform.com",
+    "tags": ["forms", "templates", "data-collection", "integrations"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "SurveyMonkey",
+    "slug": "surveymonkey",
+    "description": "Online survey platform for creating surveys, polls, and collecting feedback.",
+    "websiteUrl": "https://surveymonkey.com",
+    "tags": ["surveys", "feedback", "polls", "market-research"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Canva",
+    "slug": "canva",
+    "description": "Online graphic design platform with templates for social media, presentations, and marketing.",
+    "websiteUrl": "https://canva.com",
+    "tags": ["design", "graphics", "templates", "social-media"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Figma",
+    "slug": "figma",
+    "description": "Collaborative interface design tool for creating UI, prototypes, and design systems.",
+    "websiteUrl": "https://figma.com",
+    "tags": ["design", "ui-design", "prototyping", "collaboration"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "Loom",
+    "slug": "loom",
+    "description": "Async video messaging tool for recording and sharing screen and camera videos.",
+    "websiteUrl": "https://loom.com",
+    "tags": ["video", "screen-recording", "async-communication", "messaging"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Vidyard",
+    "slug": "vidyard",
+    "description": "Video hosting and analytics platform for sales and marketing video campaigns.",
+    "websiteUrl": "https://vidyard.com",
+    "tags": ["video", "video-hosting", "sales-video", "analytics"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Wistia",
+    "slug": "wistia",
+    "description": "Video hosting platform for businesses with analytics, lead capture, and branding.",
+    "websiteUrl": "https://wistia.com",
+    "tags": ["video", "video-hosting", "analytics", "lead-capture"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Descript",
+    "slug": "descript",
+    "description": "All-in-one audio and video editing tool with transcription and AI features.",
+    "websiteUrl": "https://descript.com",
+    "tags": ["video", "audio-editing", "transcription", "ai"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "PartnerStack",
+    "slug": "partnerstack",
+    "description": "Partner ecosystem platform for managing affiliate, referral, and reseller programs.",
+    "websiteUrl": "https://partnerstack.com",
+    "tags": ["affiliate-marketing", "partnerships", "referral", "channel"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Impact",
+    "slug": "impact",
+    "description": "Partnership automation platform for managing affiliates, influencers, and strategic partners.",
+    "websiteUrl": "https://impact.com",
+    "tags": ["affiliate-marketing", "partnerships", "influencer-marketing"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "ShareASale",
+    "slug": "shareasale",
+    "description": "Affiliate marketing network connecting merchants with affiliate publishers.",
+    "websiteUrl": "https://shareasale.com",
+    "tags": ["affiliate-marketing", "affiliate-network", "publishers"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Rewardful",
+    "slug": "rewardful",
+    "description": "Affiliate and referral tracking for SaaS companies integrated with Stripe.",
+    "websiteUrl": "https://rewardful.com",
+    "tags": ["affiliate-marketing", "referral", "saas", "stripe"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "FirstPromoter",
+    "slug": "firstpromoter",
+    "description": "Affiliate and referral tracking platform designed for SaaS businesses.",
+    "websiteUrl": "https://firstpromoter.com",
+    "tags": ["affiliate-marketing", "referral", "saas", "tracking"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Grin",
+    "slug": "grin",
+    "description": "Influencer marketing platform for managing creator relationships and campaigns.",
+    "websiteUrl": "https://grin.co",
+    "tags": ["influencer-marketing", "creator-management", "campaigns"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Aspire",
+    "slug": "aspire",
+    "description": "Influencer marketing platform for discovering creators and managing partnerships.",
+    "websiteUrl": "https://aspire.io",
+    "tags": ["influencer-marketing", "creator-discovery", "campaigns"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Upfluence",
+    "slug": "upfluence",
+    "description": "Influencer marketing platform with AI-powered discovery and campaign management tools.",
+    "websiteUrl": "https://upfluence.com",
+    "tags": ["influencer-marketing", "ai", "campaign-management"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "CreatorIQ",
+    "slug": "creatoriq",
+    "description": "Enterprise influencer marketing platform for managing large-scale creator programs.",
+    "websiteUrl": "https://creatoriq.com",
+    "tags": ["influencer-marketing", "enterprise", "creator-management"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Cision",
+    "slug": "cision",
+    "description": "PR and earned media platform for media monitoring, outreach, and analytics.",
+    "websiteUrl": "https://cision.com",
+    "tags": ["pr", "media-monitoring", "press-releases", "earned-media"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Muck Rack",
+    "slug": "muck-rack",
+    "description": "PR management platform for journalist outreach, media monitoring, and reporting.",
+    "websiteUrl": "https://muckrack.com",
+    "tags": ["pr", "media-outreach", "journalist-database", "monitoring"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Prowly",
+    "slug": "prowly",
+    "description": "PR software for media relations, press releases, and journalist outreach.",
+    "websiteUrl": "https://prowly.com",
+    "tags": ["pr", "media-relations", "press-releases", "outreach"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "HARO",
+    "slug": "haro",
+    "description": "Platform connecting journalists with expert sources for media coverage opportunities.",
+    "websiteUrl": "https://helpareporter.com",
+    "tags": ["pr", "media-coverage", "journalist-outreach", "link-building"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Google Optimize",
+    "slug": "google-optimize",
+    "description": "A/B testing and personalization tool integrated with Google Analytics for websites.",
+    "websiteUrl": "https://optimize.google.com",
+    "tags": ["a-b-testing", "personalization", "google", "optimization"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Privy",
+    "slug": "privy",
+    "description": "E-commerce marketing tool for popups, email capture, and cart abandonment campaigns.",
+    "websiteUrl": "https://privy.com",
+    "tags": ["e-commerce", "popups", "email-capture", "cart-abandonment"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "OptinMonster",
+    "slug": "optinmonster",
+    "description": "Lead generation tool with popups, exit-intent forms, and conversion optimization.",
+    "websiteUrl": "https://optinmonster.com",
+    "tags": ["lead-generation", "popups", "exit-intent", "conversion"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Sumo",
+    "slug": "sumo",
+    "description": "Website tools for email capture, social sharing, and traffic growth optimization.",
+    "websiteUrl": "https://sumo.com",
+    "tags": ["lead-generation", "email-capture", "social-sharing", "growth"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Hello Bar",
+    "slug": "hello-bar",
+    "description": "Website notification bar and popup tool for lead generation and announcements.",
+    "websiteUrl": "https://hellobar.com",
+    "tags": ["lead-generation", "notification-bar", "popups", "conversion"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "ReferralCandy",
+    "slug": "referralcandy",
+    "description": "Referral marketing platform for e-commerce stores to run customer referral programs.",
+    "websiteUrl": "https://referralcandy.com",
+    "tags": ["referral-marketing", "e-commerce", "word-of-mouth"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Viral Loops",
+    "slug": "viral-loops",
+    "description": "Referral and viral marketing platform with pre-built campaign templates.",
+    "websiteUrl": "https://viral-loops.com",
+    "tags": ["referral-marketing", "viral-marketing", "templates", "growth"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "GrowSurf",
+    "slug": "growsurf",
+    "description": "Referral program software for tech companies with automated reward fulfillment.",
+    "websiteUrl": "https://growsurf.com",
+    "tags": ["referral-marketing", "saas", "rewards", "automation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Shopify",
+    "slug": "shopify",
+    "description": "E-commerce platform for building online stores with payments and shipping tools.",
+    "websiteUrl": "https://shopify.com",
+    "tags": ["e-commerce", "online-store", "payments", "shipping"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "BigCommerce",
+    "slug": "bigcommerce",
+    "description": "Enterprise e-commerce platform with customizable storefronts and multi-channel selling.",
+    "websiteUrl": "https://bigcommerce.com",
+    "tags": ["e-commerce", "enterprise", "multi-channel", "storefront"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "WooCommerce",
+    "slug": "woocommerce",
+    "description": "Open-source WordPress e-commerce plugin for building customizable online stores.",
+    "websiteUrl": "https://woocommerce.com",
+    "tags": ["e-commerce", "wordpress", "open-source", "plugin"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Gumroad",
+    "slug": "gumroad",
+    "description": "Simple e-commerce platform for creators to sell digital products and memberships.",
+    "websiteUrl": "https://gumroad.com",
+    "tags": ["e-commerce", "digital-products", "creators", "memberships"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Lemlist",
+    "slug": "lemlist",
+    "description": "Cold email outreach platform with personalized images, videos, and follow-up sequences.",
+    "websiteUrl": "https://lemlist.com",
+    "tags": ["email-outreach", "cold-email", "personalization", "sequences"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Instantly",
+    "slug": "instantly",
+    "description": "Cold email software with unlimited accounts, warmup, and campaign automation.",
+    "websiteUrl": "https://instantly.ai",
+    "tags": ["email-outreach", "cold-email", "email-warmup", "automation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Smartlead",
+    "slug": "smartlead",
+    "description": "Cold email infrastructure with unlimited mailboxes, warmup, and multi-channel outreach.",
+    "websiteUrl": "https://smartlead.ai",
+    "tags": ["email-outreach", "cold-email", "mailbox-warmup", "multi-channel"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Woodpecker",
+    "slug": "woodpecker",
+    "description": "Cold email tool for B2B companies with automated follow-ups and deliverability features.",
+    "websiteUrl": "https://woodpecker.co",
+    "tags": ["email-outreach", "cold-email", "b2b", "follow-ups"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Reply.io",
+    "slug": "reply-io",
+    "description": "Sales engagement platform for automated multi-channel outreach and lead generation.",
+    "websiteUrl": "https://reply.io",
+    "tags": ["email-outreach", "sales-engagement", "multi-channel", "automation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Mailshake",
+    "slug": "mailshake",
+    "description": "Sales outreach platform for cold email campaigns with phone and social touchpoints.",
+    "websiteUrl": "https://mailshake.com",
+    "tags": ["email-outreach", "cold-email", "sales-outreach", "multi-channel"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Hunter.io",
+    "slug": "hunter-io",
+    "description": "Email finder and verification tool for discovering professional email addresses.",
+    "websiteUrl": "https://hunter.io",
+    "tags": ["email-finder", "lead-generation", "email-verification"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Snov.io",
+    "slug": "snov-io",
+    "description": "Sales automation platform with email finder, verifier, and drip campaign tools.",
+    "websiteUrl": "https://snov.io",
+    "tags": ["email-finder", "email-verification", "drip-campaigns", "sales"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Phantombuster",
+    "slug": "phantombuster",
+    "description": "Automation tool for extracting data and automating actions on social platforms.",
+    "websiteUrl": "https://phantombuster.com",
+    "tags": ["automation", "data-extraction", "social-media", "lead-generation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "BuzzSumo",
+    "slug": "buzzsumo",
+    "description": "Content research and discovery tool for finding trending topics and key influencers.",
+    "websiteUrl": "https://buzzsumo.com",
+    "tags": ["content-marketing", "content-research", "influencer-discovery", "trends"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "ContentStudio",
+    "slug": "contentstudio",
+    "description": "Content marketing platform for discovery, planning, publishing, and analytics.",
+    "websiteUrl": "https://contentstudio.io",
+    "tags": ["content-marketing", "social-media", "publishing", "content-discovery"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "CoSchedule",
+    "slug": "coschedule",
+    "description": "Marketing calendar and project management tool for organizing content workflows.",
+    "websiteUrl": "https://coschedule.com",
+    "tags": ["content-marketing", "marketing-calendar", "project-management", "workflows"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "StoryChief",
+    "slug": "storychief",
+    "description": "Content marketing platform for multi-channel publishing and collaboration workflows.",
+    "websiteUrl": "https://storychief.io",
+    "tags": ["content-marketing", "multi-channel", "publishing", "collaboration"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Jasper",
+    "slug": "jasper",
+    "description": "AI content writing platform for marketing copy, blog posts, and social content.",
+    "websiteUrl": "https://jasper.ai",
+    "tags": ["ai-writing", "content-marketing", "copywriting", "ai"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Copy.ai",
+    "slug": "copy-ai",
+    "description": "AI-powered copywriting tool for generating marketing content and sales copy.",
+    "websiteUrl": "https://copy.ai",
+    "tags": ["ai-writing", "copywriting", "content-generation", "ai"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Writesonic",
+    "slug": "writesonic",
+    "description": "AI writing assistant for creating SEO-optimized content, ads, and product descriptions.",
+    "websiteUrl": "https://writesonic.com",
+    "tags": ["ai-writing", "seo-content", "ads", "content-generation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Grammarly",
+    "slug": "grammarly",
+    "description": "AI writing assistant for grammar checking, tone adjustment, and content clarity.",
+    "websiteUrl": "https://grammarly.com",
+    "tags": ["writing", "grammar", "ai", "proofreading"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Hemingway Editor",
+    "slug": "hemingway-editor",
+    "description": "Writing tool that highlights complex sentences and suggests readability improvements.",
+    "websiteUrl": "https://hemingwayapp.com",
+    "tags": ["writing", "readability", "editing", "clarity"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Semrush ContentShake",
+    "slug": "semrush-contentshake",
+    "description": "AI-powered content creation tool integrated with SEMrush for SEO-driven writing.",
+    "websiteUrl": "https://semrush.com/contentshake/",
+    "tags": ["ai-writing", "seo", "content-creation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Drift",
+    "slug": "drift",
+    "description": "Conversational marketing platform with AI chatbots and live chat for lead generation.",
+    "websiteUrl": "https://drift.com",
+    "tags": ["conversational-marketing", "chatbots", "live-chat", "lead-generation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Intercom Marketing",
+    "slug": "intercom-marketing",
+    "description": "Customer messaging platform for targeted campaigns, product tours, and in-app messaging.",
+    "websiteUrl": "https://intercom.com",
+    "tags": ["messaging", "in-app-messaging", "product-tours", "campaigns"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "OneSignal",
+    "slug": "onesignal",
+    "description": "Customer engagement platform for push notifications, email, SMS, and in-app messages.",
+    "websiteUrl": "https://onesignal.com",
+    "tags": ["push-notifications", "messaging", "engagement", "multi-channel"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Pushwoosh",
+    "slug": "pushwoosh",
+    "description": "Multi-channel messaging platform for push notifications across mobile and web.",
+    "websiteUrl": "https://pushwoosh.com",
+    "tags": ["push-notifications", "mobile-marketing", "messaging"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Webpushr",
+    "slug": "webpushr",
+    "description": "Web push notification service for driving repeat traffic and user engagement.",
+    "websiteUrl": "https://webpushr.com",
+    "tags": ["push-notifications", "web-push", "engagement"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Userflow",
+    "slug": "userflow",
+    "description": "Product adoption platform for building in-app onboarding flows and feature announcements.",
+    "websiteUrl": "https://userflow.com",
+    "tags": ["product-adoption", "onboarding", "in-app-guides", "user-experience"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Appcues",
+    "slug": "appcues",
+    "description": "Product-led growth platform for in-app onboarding, feature adoption, and user surveys.",
+    "websiteUrl": "https://appcues.com",
+    "tags": ["product-adoption", "onboarding", "in-app-guides", "plg"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Pendo",
+    "slug": "pendo",
+    "description": "Product experience platform with analytics, in-app guides, and user feedback tools.",
+    "websiteUrl": "https://pendo.io",
+    "tags": ["product-analytics", "in-app-guides", "feedback", "product-experience"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Chameleon",
+    "slug": "chameleon",
+    "description": "Product adoption platform for creating targeted in-app tours and tooltips.",
+    "websiteUrl": "https://chameleon.io",
+    "tags": ["product-adoption", "in-app-tours", "tooltips", "user-onboarding"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "ClickFunnels",
+    "slug": "clickfunnels",
+    "description": "Sales funnel builder for creating landing pages, opt-in forms, and checkout flows.",
+    "websiteUrl": "https://clickfunnels.com",
+    "tags": ["funnels", "landing-pages", "sales", "conversion"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Systeme.io",
+    "slug": "systeme-io",
+    "description": "All-in-one marketing platform with funnels, email, courses, and affiliate management.",
+    "websiteUrl": "https://systeme.io",
+    "tags": ["funnels", "email-marketing", "courses", "all-in-one"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Kartra",
+    "slug": "kartra",
+    "description": "All-in-one business platform with funnels, email, memberships, and helpdesk tools.",
+    "websiteUrl": "https://kartra.com",
+    "tags": ["funnels", "email-marketing", "memberships", "all-in-one"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Teachable",
+    "slug": "teachable",
+    "description": "Online course platform for creating and selling digital courses and coaching.",
+    "websiteUrl": "https://teachable.com",
+    "tags": ["online-courses", "digital-products", "creators", "e-learning"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Thinkific",
+    "slug": "thinkific",
+    "description": "Course creation platform for building and selling online learning experiences.",
+    "websiteUrl": "https://thinkific.com",
+    "tags": ["online-courses", "e-learning", "creators", "memberships"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Kajabi",
+    "slug": "kajabi",
+    "description": "All-in-one platform for selling online courses, memberships, and digital products.",
+    "websiteUrl": "https://kajabi.com",
+    "tags": ["online-courses", "memberships", "digital-products", "marketing"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Podia",
+    "slug": "podia",
+    "description": "Platform for selling online courses, downloads, and community memberships.",
+    "websiteUrl": "https://podia.com",
+    "tags": ["online-courses", "digital-products", "community", "creators"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "ConvertFlow",
+    "slug": "convertflow",
+    "description": "Conversion platform for creating personalized CTAs, forms, and landing pages.",
+    "websiteUrl": "https://convertflow.com",
+    "tags": ["conversion", "personalization", "cta", "forms"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "RightMessage",
+    "slug": "rightmessage",
+    "description": "Website personalization tool that adapts content based on visitor segments.",
+    "websiteUrl": "https://rightmessage.com",
+    "tags": ["personalization", "segmentation", "conversion", "cta"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Proof",
+    "slug": "proof",
+    "description": "Social proof notification tool showing real-time visitor activity on websites.",
+    "websiteUrl": "https://useproof.com",
+    "tags": ["social-proof", "conversion", "notifications", "trust"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "TrustPulse",
+    "slug": "trustpulse",
+    "description": "Social proof notification plugin showing real purchases and signups to boost trust.",
+    "websiteUrl": "https://trustpulse.com",
+    "tags": ["social-proof", "conversion", "trust", "notifications"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 6.7
+  },
+  {
+    "name": "Trustpilot",
+    "slug": "trustpilot",
+    "description": "Consumer review platform for collecting and showcasing customer reviews and ratings.",
+    "websiteUrl": "https://trustpilot.com",
+    "tags": ["reviews", "social-proof", "reputation-management", "trust"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "G2",
+    "slug": "g2",
+    "description": "Software review marketplace for comparing business tools based on user reviews.",
+    "websiteUrl": "https://g2.com",
+    "tags": ["reviews", "software-comparison", "b2b", "social-proof"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Capterra",
+    "slug": "capterra",
+    "description": "Software review and comparison platform helping businesses find the right tools.",
+    "websiteUrl": "https://capterra.com",
+    "tags": ["reviews", "software-comparison", "b2b", "directory"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Product Hunt",
+    "slug": "product-hunt",
+    "description": "Platform for launching and discovering new tech products with community upvotes.",
+    "websiteUrl": "https://producthunt.com",
+    "tags": ["product-launch", "discovery", "community", "startups"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "AppSumo",
+    "slug": "appsumo",
+    "description": "Marketplace for software deals offering lifetime deals on SaaS and digital tools.",
+    "websiteUrl": "https://appsumo.com",
+    "tags": ["marketplace", "lifetime-deals", "saas", "software-deals"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Bitly",
+    "slug": "bitly",
+    "description": "URL shortening and link management platform with click tracking and analytics.",
+    "websiteUrl": "https://bitly.com",
+    "tags": ["link-management", "url-shortener", "analytics", "tracking"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Rebrandly",
+    "slug": "rebrandly",
+    "description": "Custom branded link management platform for creating and tracking branded short URLs.",
+    "websiteUrl": "https://rebrandly.com",
+    "tags": ["link-management", "branded-links", "url-shortener", "analytics"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Short.io",
+    "slug": "short-io",
+    "description": "White-label URL shortener with custom domains, analytics, and API access.",
+    "websiteUrl": "https://short.io",
+    "tags": ["link-management", "url-shortener", "custom-domains", "api"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Dub",
+    "slug": "dub",
+    "description": "Open-source link management platform with analytics, custom domains, and API.",
+    "websiteUrl": "https://dub.co",
+    "tags": ["link-management", "open-source", "analytics", "custom-domains"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Podcast.co",
+    "slug": "podcast-co",
+    "description": "Podcast hosting and distribution platform with analytics and website tools.",
+    "websiteUrl": "https://podcast.co",
+    "tags": ["podcasting", "hosting", "distribution", "analytics"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Anchor",
+    "slug": "anchor",
+    "description": "Free podcast creation and hosting platform by Spotify with distribution tools.",
+    "websiteUrl": "https://anchor.fm",
+    "tags": ["podcasting", "hosting", "free", "spotify"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Transistor",
+    "slug": "transistor",
+    "description": "Podcast hosting platform for professionals with analytics and multi-show support.",
+    "websiteUrl": "https://transistor.fm",
+    "tags": ["podcasting", "hosting", "analytics", "multi-show"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Buzzsprout",
+    "slug": "buzzsprout",
+    "description": "Podcast hosting platform with easy publishing, transcriptions, and directory submission.",
+    "websiteUrl": "https://buzzsprout.com",
+    "tags": ["podcasting", "hosting", "transcriptions", "directory"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Riverside",
+    "slug": "riverside",
+    "description": "Remote recording platform for high-quality podcast and video interviews.",
+    "websiteUrl": "https://riverside.fm",
+    "tags": ["podcasting", "recording", "video", "interviews"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Storylane",
+    "slug": "storylane",
+    "description": "Interactive demo platform for creating product tours and guided demonstrations.",
+    "websiteUrl": "https://storylane.io",
+    "tags": ["product-demos", "interactive-demos", "sales-enablement"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Navattic",
+    "slug": "navattic",
+    "description": "Interactive product demo software for creating self-guided demos without engineering.",
+    "websiteUrl": "https://navattic.com",
+    "tags": ["product-demos", "interactive-demos", "sales-enablement"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Reprise",
+    "slug": "reprise",
+    "description": "Demo creation platform for building interactive product demonstrations for sales teams.",
+    "websiteUrl": "https://reprise.com",
+    "tags": ["product-demos", "interactive-demos", "sales", "demo-creation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Mutiny",
+    "slug": "mutiny",
+    "description": "Website personalization platform for B2B companies to increase conversion rates.",
+    "websiteUrl": "https://mutinyhq.com",
+    "tags": ["personalization", "b2b", "conversion", "website-optimization"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Clearbit",
+    "slug": "clearbit",
+    "description": "B2B data enrichment and intelligence platform for marketing and sales teams.",
+    "websiteUrl": "https://clearbit.com",
+    "tags": ["data-enrichment", "b2b", "lead-intelligence", "firmographics"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "6sense",
+    "slug": "6sense",
+    "description": "Account-based marketing platform using AI to identify in-market buying signals.",
+    "websiteUrl": "https://6sense.com",
+    "tags": ["abm", "intent-data", "ai", "b2b"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Demandbase",
+    "slug": "demandbase",
+    "description": "Account-based marketing and sales platform with intent data and advertising tools.",
+    "websiteUrl": "https://demandbase.com",
+    "tags": ["abm", "intent-data", "advertising", "b2b"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Terminus",
+    "slug": "terminus",
+    "description": "Account-based marketing platform for multi-channel campaigns and engagement tracking.",
+    "websiteUrl": "https://terminus.com",
+    "tags": ["abm", "multi-channel", "engagement", "b2b"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "RollWorks",
+    "slug": "rollworks",
+    "description": "Account-based marketing platform for identifying and engaging target accounts.",
+    "websiteUrl": "https://rollworks.com",
+    "tags": ["abm", "account-targeting", "advertising", "b2b"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Metadata.io",
+    "slug": "metadata-io",
+    "description": "Marketing operations platform automating paid campaign execution across channels.",
+    "websiteUrl": "https://metadata.io",
+    "tags": ["advertising", "automation", "paid-campaigns", "b2b"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "PathFactory",
+    "slug": "pathfactory",
+    "description": "Content intelligence platform for personalized content experiences and buyer journeys.",
+    "websiteUrl": "https://pathfactory.com",
+    "tags": ["content-marketing", "content-intelligence", "personalization", "b2b"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Uberflip",
+    "slug": "uberflip",
+    "description": "Content experience platform for creating personalized content destinations and hubs.",
+    "websiteUrl": "https://uberflip.com",
+    "tags": ["content-marketing", "content-experience", "personalization"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Sprinklr",
+    "slug": "sprinklr",
+    "description": "Unified customer experience management platform for social, marketing, and service.",
+    "websiteUrl": "https://sprinklr.com",
+    "tags": ["social-media", "customer-experience", "enterprise", "unified-platform"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Khoros",
+    "slug": "khoros",
+    "description": "Digital customer engagement platform for social media management and community building.",
+    "websiteUrl": "https://khoros.com",
+    "tags": ["social-media", "community", "customer-engagement", "enterprise"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Unbounce Smart Copy",
+    "slug": "unbounce-smart-copy",
+    "description": "AI copywriting tool for generating marketing copy, emails, and ad variations.",
+    "websiteUrl": "https://unbounce.com/smart-copy/",
+    "tags": ["ai-writing", "copywriting", "marketing-copy", "ai"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Lately",
+    "slug": "lately",
+    "description": "AI social media management tool that repurposes long-form content into social posts.",
+    "websiteUrl": "https://lately.ai",
+    "tags": ["social-media", "ai", "content-repurposing", "automation"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Tailwind",
+    "slug": "tailwind-marketing",
+    "description": "Social media scheduling and marketing tool for Pinterest and Instagram creators.",
+    "websiteUrl": "https://tailwindapp.com",
+    "tags": ["social-media", "pinterest", "instagram", "scheduling"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Sniply",
+    "slug": "sniply",
+    "description": "Link shortener with custom call-to-action overlays on shared content pages.",
+    "websiteUrl": "https://sniply.io",
+    "tags": ["link-management", "cta", "conversion", "content-sharing"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "SparkToro",
+    "slug": "sparktoro",
+    "description": "Audience research tool for discovering where your target audience hangs out online.",
+    "websiteUrl": "https://sparktoro.com",
+    "tags": ["audience-research", "market-research", "demographics", "insights"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "SimilarWeb",
+    "slug": "similarweb",
+    "description": "Digital intelligence platform for website traffic analysis and competitive benchmarking.",
+    "websiteUrl": "https://similarweb.com",
+    "tags": ["competitive-analysis", "traffic-analysis", "market-research", "benchmarking"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "BuiltWith",
+    "slug": "builtwith",
+    "description": "Technology lookup tool to see what software and tools websites are built with.",
+    "websiteUrl": "https://builtwith.com",
+    "tags": ["competitive-analysis", "technology-lookup", "market-research"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Semrush Social",
+    "slug": "semrush-social",
+    "description": "Social media management tools within SEMrush for posting, scheduling, and analytics.",
+    "websiteUrl": "https://semrush.com/social-media/",
+    "tags": ["social-media", "scheduling", "analytics", "semrush"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Mailjet",
+    "slug": "mailjet",
+    "description": "Email delivery service with collaborative editing and real-time monitoring tools.",
+    "websiteUrl": "https://mailjet.com",
+    "tags": ["email-api", "email-marketing", "collaboration", "deliverability"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Sendinblue SMTP",
+    "slug": "sendinblue-smtp",
+    "description": "SMTP relay service for transactional email delivery with tracking and analytics.",
+    "websiteUrl": "https://brevo.com/smtp",
+    "tags": ["email-api", "smtp", "transactional-email", "deliverability"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Elastic Email",
+    "slug": "elastic-email",
+    "description": "Email delivery platform with SMTP, API, and marketing automation at affordable pricing.",
+    "websiteUrl": "https://elasticemail.com",
+    "tags": ["email-api", "email-marketing", "smtp", "affordable"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Benchmark Email",
+    "slug": "benchmark-email",
+    "description": "Email marketing platform with drag-and-drop editor and marketing automation features.",
+    "websiteUrl": "https://benchmarkemail.com",
+    "tags": ["email-marketing", "automation", "templates", "drag-and-drop"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 6.7
+  },
+  {
+    "name": "GetResponse",
+    "slug": "getresponse",
+    "description": "Email marketing platform with automation, webinars, landing pages, and conversion funnels.",
+    "websiteUrl": "https://getresponse.com",
+    "tags": ["email-marketing", "automation", "webinars", "landing-pages"],
+    "primaryCategory": "marketing",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Sendy",
+    "slug": "sendy",
+    "description": "Self-hosted email newsletter application using Amazon SES for cost-effective sending.",
+    "websiteUrl": "https://sendy.co",
+    "tags": ["email-marketing", "self-hosted", "amazon-ses", "affordable"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Listmonk",
+    "slug": "listmonk",
+    "description": "Open-source self-hosted newsletter and mailing list manager with high performance.",
+    "websiteUrl": "https://listmonk.app",
+    "tags": ["email-marketing", "open-source", "self-hosted", "newsletters"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Mautic",
+    "slug": "mautic",
+    "description": "Open-source marketing automation platform for email, social, and multi-channel campaigns.",
+    "websiteUrl": "https://mautic.org",
+    "tags": ["marketing-automation", "open-source", "email-marketing", "self-hosted"],
+    "primaryCategory": "marketing",
+    "type": "tool",
+    "baselineScore": 7.2
+  }
+]

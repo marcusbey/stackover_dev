@@ -1,8 +1,10 @@
 "use client";
 
-import { usePreloadedQuery } from "convex/react";
+import { usePreloadedQuery, useQuery } from "convex/react";
 import type { Preloaded } from "convex/react";
 import { api } from "@/convex/_generated/api";
+import { ActivitySparkline } from "@/components/activity-sparkline";
+import { AlivenessBadge } from "@/components/aliveness-badge";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -128,10 +130,96 @@ export function ToolProfileContent({ preloadedTool }: ToolProfileContentProps) {
         </Card>
       </div>
 
+      {tool.alivenessScore !== undefined && (
+        <>
+          <Separator className="my-8" />
+          <ActivitySection toolId={tool._id} tool={tool} />
+        </>
+      )}
+
       <div className="flex gap-2 mt-6">
         {tool.isHot && <Badge variant="destructive">Hot</Badge>}
         {tool.isTrending && (
           <Badge className="bg-green-600">Trending</Badge>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function ActivitySection({
+  toolId,
+  tool,
+}: {
+  toolId: typeof api.tools.activityForTool._args.toolId;
+  tool: {
+    alivenessScore?: number;
+    lastRelease?: string;
+    lastReleaseDate?: number;
+    stars?: number;
+    openIssues?: number;
+  };
+}) {
+  const activity = useQuery(api.tools.activityForTool, { toolId });
+  const weeklyData = activity?.map((r) => r.commits) ?? [];
+
+  const daysSinceRelease = tool.lastReleaseDate
+    ? Math.round((Date.now() - tool.lastReleaseDate) / (1000 * 60 * 60 * 24))
+    : null;
+
+  return (
+    <div>
+      <div className="flex items-center gap-3 mb-4">
+        <h2 className="text-lg font-semibold">Activity</h2>
+        <AlivenessBadge score={tool.alivenessScore} />
+      </div>
+
+      {weeklyData.length > 0 && (
+        <div className="mb-4">
+          <ActivitySparkline
+            data={weeklyData}
+            alivenessScore={tool.alivenessScore}
+            height={48}
+          />
+          <p className="text-[11px] text-muted-foreground mt-1">
+            {weeklyData.length}-week commit activity
+          </p>
+        </div>
+      )}
+
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        {tool.lastRelease && (
+          <div>
+            <p className="text-xs text-muted-foreground">Latest Release</p>
+            <p className="text-sm font-medium">{tool.lastRelease}</p>
+            {daysSinceRelease !== null && (
+              <p className="text-[11px] text-muted-foreground">
+                {daysSinceRelease === 0 ? "Today" : `${daysSinceRelease}d ago`}
+              </p>
+            )}
+          </div>
+        )}
+        {tool.stars !== undefined && (
+          <div>
+            <p className="text-xs text-muted-foreground">Stars</p>
+            <p className="text-sm font-medium">
+              {tool.stars >= 1000 ? `${(tool.stars / 1000).toFixed(1)}k` : tool.stars}
+            </p>
+          </div>
+        )}
+        {tool.openIssues !== undefined && (
+          <div>
+            <p className="text-xs text-muted-foreground">Open Issues</p>
+            <p className="text-sm font-medium">{tool.openIssues}</p>
+          </div>
+        )}
+        {weeklyData.length > 0 && (
+          <div>
+            <p className="text-xs text-muted-foreground">Commits/Week</p>
+            <p className="text-sm font-medium">
+              {Math.round(weeklyData.slice(-4).reduce((a: number, b: number) => a + b, 0) / Math.min(4, weeklyData.length))}
+            </p>
+          </div>
         )}
       </div>
     </div>

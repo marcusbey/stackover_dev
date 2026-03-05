@@ -1,0 +1,3002 @@
+[
+  {
+    "name": "Vue.js",
+    "slug": "vuejs",
+    "description": "Progressive JavaScript framework for building user interfaces incrementally.",
+    "websiteUrl": "https://vuejs.org",
+    "tags": [
+      "frontend-framework",
+      "javascript",
+      "progressive",
+      "reactive"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Svelte",
+    "slug": "svelte",
+    "description": "Compiler-based framework that shifts work to build time for fast apps.",
+    "websiteUrl": "https://svelte.dev",
+    "tags": [
+      "frontend-framework",
+      "compiler",
+      "fast",
+      "lightweight"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Angular",
+    "slug": "angular",
+    "description": "Google's comprehensive framework for building enterprise web applications.",
+    "websiteUrl": "https://angular.dev",
+    "tags": [
+      "frontend-framework",
+      "typescript",
+      "google",
+      "enterprise"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "SolidJS",
+    "slug": "solidjs",
+    "description": "Reactive JavaScript framework with fine-grained reactivity and no virtual DOM.",
+    "websiteUrl": "https://www.solidjs.com",
+    "tags": [
+      "frontend-framework",
+      "reactive",
+      "fast",
+      "fine-grained"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Qwik",
+    "slug": "qwik",
+    "description": "Resumable framework that delivers instant-loading web applications.",
+    "websiteUrl": "https://qwik.dev",
+    "tags": [
+      "frontend-framework",
+      "resumable",
+      "instant-loading",
+      "builder"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Astro",
+    "slug": "astro",
+    "description": "Content-focused web framework with island architecture and zero JS default.",
+    "websiteUrl": "https://astro.build",
+    "tags": [
+      "frontend-framework",
+      "content",
+      "islands",
+      "zero-js"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Remix",
+    "slug": "remix",
+    "description": "Full-stack React framework focused on web standards and progressive enhancement.",
+    "websiteUrl": "https://remix.run",
+    "tags": [
+      "meta-framework",
+      "react",
+      "full-stack",
+      "web-standards"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Gatsby",
+    "slug": "gatsby",
+    "description": "React-based static site generator with rich data layer and plugins.",
+    "websiteUrl": "https://www.gatsbyjs.com",
+    "tags": [
+      "static-site",
+      "react",
+      "graphql",
+      "plugins"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "SvelteKit",
+    "slug": "sveltekit",
+    "description": "Full-stack framework for Svelte with routing, SSR, and deployment adapters.",
+    "websiteUrl": "https://kit.svelte.dev",
+    "tags": [
+      "meta-framework",
+      "svelte",
+      "full-stack",
+      "ssr"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Analog",
+    "slug": "analog",
+    "description": "Full-stack Angular meta-framework with file-based routing.",
+    "websiteUrl": "https://analogjs.org",
+    "tags": [
+      "meta-framework",
+      "angular",
+      "full-stack",
+      "file-routing"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "SolidStart",
+    "slug": "solidstart",
+    "description": "Full-stack framework for SolidJS applications with SSR support.",
+    "websiteUrl": "https://start.solidjs.com",
+    "tags": [
+      "meta-framework",
+      "solidjs",
+      "full-stack",
+      "ssr"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "QwikCity",
+    "slug": "qwikcity",
+    "description": "Meta-framework for Qwik with routing and server-side features.",
+    "websiteUrl": "https://qwik.dev/qwikcity/overview/",
+    "tags": [
+      "meta-framework",
+      "qwik",
+      "routing",
+      "server-side"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Preact",
+    "slug": "preact",
+    "description": "Fast 3kB alternative to React with the same modern API.",
+    "websiteUrl": "https://preactjs.com",
+    "tags": [
+      "frontend-framework",
+      "lightweight",
+      "react-alternative",
+      "fast"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Alpine.js",
+    "slug": "alpinejs",
+    "description": "Lightweight JavaScript framework for composing behavior in HTML markup.",
+    "websiteUrl": "https://alpinejs.dev",
+    "tags": [
+      "frontend-framework",
+      "lightweight",
+      "html",
+      "minimal"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "htmx",
+    "slug": "htmx",
+    "description": "Library giving HTML access to AJAX, WebSockets, and server-sent events.",
+    "websiteUrl": "https://htmx.org",
+    "tags": [
+      "frontend-framework",
+      "html",
+      "ajax",
+      "minimal"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Lit",
+    "slug": "lit",
+    "description": "Google's library for building fast web components with reactive properties.",
+    "websiteUrl": "https://lit.dev",
+    "tags": [
+      "web-components",
+      "google",
+      "reactive",
+      "lightweight"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Stencil",
+    "slug": "stencil",
+    "description": "Web component compiler for building reusable design system components.",
+    "websiteUrl": "https://stenciljs.com",
+    "tags": [
+      "web-components",
+      "compiler",
+      "design-system",
+      "ionic"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Ember.js",
+    "slug": "emberjs",
+    "description": "Opinionated framework for ambitious web applications with conventions.",
+    "websiteUrl": "https://emberjs.com",
+    "tags": [
+      "frontend-framework",
+      "opinionated",
+      "convention",
+      "mature"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Backbone.js",
+    "slug": "backbonejs",
+    "description": "Lightweight JavaScript library providing MVC structure for web apps.",
+    "websiteUrl": "https://backbonejs.org",
+    "tags": [
+      "frontend-framework",
+      "mvc",
+      "lightweight",
+      "classic"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 6.0
+  },
+  {
+    "name": "Marko",
+    "slug": "marko",
+    "description": "eBay's HTML-based templating framework with server-side streaming.",
+    "websiteUrl": "https://markojs.com",
+    "tags": [
+      "frontend-framework",
+      "streaming",
+      "html-based",
+      "ebay"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Million.js",
+    "slug": "millionjs",
+    "description": "Virtual DOM replacement that makes React components faster.",
+    "websiteUrl": "https://million.dev",
+    "tags": [
+      "frontend-framework",
+      "performance",
+      "react",
+      "virtual-dom"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Tailwind CSS",
+    "slug": "tailwindcss",
+    "description": "Utility-first CSS framework for rapidly building custom user interfaces.",
+    "websiteUrl": "https://tailwindcss.com",
+    "tags": [
+      "css-framework",
+      "utility-first",
+      "responsive",
+      "customizable"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 9.5
+  },
+  {
+    "name": "Bootstrap",
+    "slug": "bootstrap",
+    "description": "Popular CSS framework with responsive grid and pre-built components.",
+    "websiteUrl": "https://getbootstrap.com",
+    "tags": [
+      "css-framework",
+      "responsive",
+      "components",
+      "grid"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Bulma",
+    "slug": "bulma",
+    "description": "Modern CSS framework based on Flexbox with clean syntax.",
+    "websiteUrl": "https://bulma.io",
+    "tags": [
+      "css-framework",
+      "flexbox",
+      "modern",
+      "clean"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Chakra UI",
+    "slug": "chakra-ui",
+    "description": "Accessible React component library with composable style props.",
+    "websiteUrl": "https://chakra-ui.com",
+    "tags": [
+      "component-library",
+      "react",
+      "accessible",
+      "composable"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Material UI",
+    "slug": "material-ui",
+    "description": "React component library implementing Google's Material Design system.",
+    "websiteUrl": "https://mui.com",
+    "tags": [
+      "component-library",
+      "react",
+      "material-design",
+      "google"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Ant Design",
+    "slug": "ant-design",
+    "description": "Enterprise-grade React UI library with comprehensive component set.",
+    "websiteUrl": "https://ant.design",
+    "tags": [
+      "component-library",
+      "react",
+      "enterprise",
+      "comprehensive"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "shadcn/ui",
+    "slug": "shadcn-ui",
+    "description": "Copy-paste React component collection built on Radix and Tailwind.",
+    "websiteUrl": "https://ui.shadcn.com",
+    "tags": [
+      "component-library",
+      "react",
+      "radix",
+      "tailwind"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "Radix UI",
+    "slug": "radix-ui",
+    "description": "Unstyled accessible React component primitives for design systems.",
+    "websiteUrl": "https://www.radix-ui.com",
+    "tags": [
+      "component-library",
+      "react",
+      "accessible",
+      "unstyled"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Headless UI",
+    "slug": "headless-ui",
+    "description": "Unstyled accessible UI components by Tailwind Labs for React and Vue.",
+    "websiteUrl": "https://headlessui.com",
+    "tags": [
+      "component-library",
+      "unstyled",
+      "accessible",
+      "tailwind"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "daisyUI",
+    "slug": "daisyui",
+    "description": "Tailwind CSS component library with semantic class names.",
+    "websiteUrl": "https://daisyui.com",
+    "tags": [
+      "component-library",
+      "tailwind",
+      "semantic",
+      "themes"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Mantine",
+    "slug": "mantine",
+    "description": "Full-featured React component library with hooks and dark mode.",
+    "websiteUrl": "https://mantine.dev",
+    "tags": [
+      "component-library",
+      "react",
+      "full-featured",
+      "hooks"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Vuetify",
+    "slug": "vuetify",
+    "description": "Material Design component framework for Vue.js applications.",
+    "websiteUrl": "https://vuetifyjs.com",
+    "tags": [
+      "component-library",
+      "vue",
+      "material-design",
+      "comprehensive"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "PrimeReact",
+    "slug": "primereact",
+    "description": "Rich React UI component library with 90+ ready-to-use components.",
+    "websiteUrl": "https://primereact.org",
+    "tags": [
+      "component-library",
+      "react",
+      "rich",
+      "enterprise"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "PrimeVue",
+    "slug": "primevue",
+    "description": "Comprehensive Vue UI component suite with modern design.",
+    "websiteUrl": "https://primevue.org",
+    "tags": [
+      "component-library",
+      "vue",
+      "comprehensive",
+      "modern"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Flowbite",
+    "slug": "flowbite",
+    "description": "Open-source Tailwind CSS component library with interactive elements.",
+    "websiteUrl": "https://flowbite.com",
+    "tags": [
+      "component-library",
+      "tailwind",
+      "interactive",
+      "open-source"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "NextUI",
+    "slug": "nextui",
+    "description": "Beautiful React component library with Tailwind CSS integration.",
+    "websiteUrl": "https://nextui.org",
+    "tags": [
+      "component-library",
+      "react",
+      "tailwind",
+      "beautiful"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Park UI",
+    "slug": "park-ui",
+    "description": "Beautifully designed components built on Ark UI primitives.",
+    "websiteUrl": "https://park-ui.com",
+    "tags": [
+      "component-library",
+      "ark-ui",
+      "design",
+      "multi-framework"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Ark UI",
+    "slug": "ark-ui",
+    "description": "Headless UI components for React, Solid, and Vue frameworks.",
+    "websiteUrl": "https://ark-ui.com",
+    "tags": [
+      "component-library",
+      "headless",
+      "multi-framework",
+      "accessible"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Aceternity UI",
+    "slug": "aceternity-ui",
+    "description": "Modern animated UI components for React with Tailwind CSS.",
+    "websiteUrl": "https://ui.aceternity.com",
+    "tags": [
+      "component-library",
+      "animated",
+      "react",
+      "tailwind"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Magic UI",
+    "slug": "magic-ui",
+    "description": "Collection of animated React components for landing pages.",
+    "websiteUrl": "https://magicui.design",
+    "tags": [
+      "component-library",
+      "animated",
+      "landing-pages",
+      "react"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Tremor",
+    "slug": "tremor",
+    "description": "React component library for building dashboards and analytics UIs.",
+    "websiteUrl": "https://www.tremor.so",
+    "tags": [
+      "component-library",
+      "dashboards",
+      "analytics",
+      "react"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Recharts",
+    "slug": "recharts",
+    "description": "Composable charting library built on React components.",
+    "websiteUrl": "https://recharts.org",
+    "tags": [
+      "charting",
+      "react",
+      "composable",
+      "d3"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Chart.js",
+    "slug": "chartjs",
+    "description": "Simple yet flexible JavaScript charting library for web applications.",
+    "websiteUrl": "https://www.chartjs.org",
+    "tags": [
+      "charting",
+      "javascript",
+      "canvas",
+      "responsive"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "D3.js",
+    "slug": "d3js",
+    "description": "Powerful JavaScript library for creating data-driven visualizations.",
+    "websiteUrl": "https://d3js.org",
+    "tags": [
+      "charting",
+      "data-visualization",
+      "svg",
+      "powerful"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Apache ECharts",
+    "slug": "echarts",
+    "description": "Feature-rich interactive charting library with WebGL rendering.",
+    "websiteUrl": "https://echarts.apache.org",
+    "tags": [
+      "charting",
+      "interactive",
+      "webgl",
+      "apache"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Nivo",
+    "slug": "nivo",
+    "description": "Rich set of data visualization components built on D3 and React.",
+    "websiteUrl": "https://nivo.rocks",
+    "tags": [
+      "charting",
+      "react",
+      "d3",
+      "data-visualization"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Visx",
+    "slug": "visx",
+    "description": "Airbnb's low-level visualization components combining D3 and React.",
+    "websiteUrl": "https://airbnb.io/visx/",
+    "tags": [
+      "charting",
+      "react",
+      "d3",
+      "low-level"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Vite",
+    "slug": "vite",
+    "description": "Next-generation frontend build tool with instant dev server and HMR.",
+    "websiteUrl": "https://vitejs.dev",
+    "tags": [
+      "build-tools",
+      "fast",
+      "hmr",
+      "esm"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 9.5
+  },
+  {
+    "name": "Webpack",
+    "slug": "webpack",
+    "description": "Highly configurable module bundler for JavaScript applications.",
+    "websiteUrl": "https://webpack.js.org",
+    "tags": [
+      "build-tools",
+      "bundler",
+      "configurable",
+      "plugins"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "esbuild",
+    "slug": "esbuild",
+    "description": "Extremely fast JavaScript bundler and minifier written in Go.",
+    "websiteUrl": "https://esbuild.github.io",
+    "tags": [
+      "build-tools",
+      "bundler",
+      "fast",
+      "go"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Turbopack",
+    "slug": "turbopack",
+    "description": "Vercel's Rust-based successor to Webpack for Next.js and beyond.",
+    "websiteUrl": "https://turbo.build/pack",
+    "tags": [
+      "build-tools",
+      "bundler",
+      "rust",
+      "vercel"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Rollup",
+    "slug": "rollup",
+    "description": "JavaScript module bundler optimized for ES modules and libraries.",
+    "websiteUrl": "https://rollupjs.org",
+    "tags": [
+      "build-tools",
+      "bundler",
+      "esm",
+      "libraries"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Rolldown",
+    "slug": "rolldown",
+    "description": "Rust-based JavaScript bundler designed as a faster Rollup replacement.",
+    "websiteUrl": "https://rolldown.rs",
+    "tags": [
+      "build-tools",
+      "bundler",
+      "rust",
+      "rollup-compatible"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "SWC",
+    "slug": "swc",
+    "description": "Rust-based JavaScript/TypeScript compiler for fast transformations.",
+    "websiteUrl": "https://swc.rs",
+    "tags": [
+      "build-tools",
+      "compiler",
+      "rust",
+      "fast"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Babel",
+    "slug": "babel",
+    "description": "JavaScript compiler for using next-generation language features today.",
+    "websiteUrl": "https://babeljs.io",
+    "tags": [
+      "build-tools",
+      "compiler",
+      "javascript",
+      "transpiler"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "PostCSS",
+    "slug": "postcss",
+    "description": "Tool for transforming CSS with JavaScript plugins like autoprefixer.",
+    "websiteUrl": "https://postcss.org",
+    "tags": [
+      "build-tools",
+      "css",
+      "plugins",
+      "transformations"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Lightning CSS",
+    "slug": "lightningcss",
+    "description": "Extremely fast CSS parser and transformer written in Rust.",
+    "websiteUrl": "https://lightningcss.dev",
+    "tags": [
+      "build-tools",
+      "css",
+      "fast",
+      "rust"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Parcel",
+    "slug": "parcel",
+    "description": "Zero-configuration web application bundler with automatic transforms.",
+    "websiteUrl": "https://parceljs.org",
+    "tags": [
+      "build-tools",
+      "bundler",
+      "zero-config",
+      "automatic"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Hugo",
+    "slug": "hugo",
+    "description": "Fastest static site generator built in Go for content websites.",
+    "websiteUrl": "https://gohugo.io",
+    "tags": [
+      "static-site",
+      "go",
+      "fast",
+      "content"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Jekyll",
+    "slug": "jekyll",
+    "description": "Ruby-based static site generator with GitHub Pages integration.",
+    "websiteUrl": "https://jekyllrb.com",
+    "tags": [
+      "static-site",
+      "ruby",
+      "github-pages",
+      "blog"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Eleventy",
+    "slug": "eleventy",
+    "description": "Simple and flexible static site generator with multiple template languages.",
+    "websiteUrl": "https://www.11ty.dev",
+    "tags": [
+      "static-site",
+      "flexible",
+      "templates",
+      "simple"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Hexo",
+    "slug": "hexo",
+    "description": "Fast Node.js static site generator for blogs and documentation.",
+    "websiteUrl": "https://hexo.io",
+    "tags": [
+      "static-site",
+      "nodejs",
+      "blog",
+      "themes"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Pelican",
+    "slug": "pelican",
+    "description": "Python-based static site generator for blogs and articles.",
+    "websiteUrl": "https://getpelican.com",
+    "tags": [
+      "static-site",
+      "python",
+      "blog",
+      "markdown"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Zola",
+    "slug": "zola",
+    "description": "Fast static site generator in Rust with built-in Sass compilation.",
+    "websiteUrl": "https://www.getzola.org",
+    "tags": [
+      "static-site",
+      "rust",
+      "fast",
+      "sass"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Nginx",
+    "slug": "nginx-web",
+    "description": "High-performance web server and reverse proxy for serving web content.",
+    "websiteUrl": "https://nginx.org",
+    "tags": [
+      "web-server",
+      "reverse-proxy",
+      "high-performance",
+      "load-balancer"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Caddy Web Server",
+    "slug": "caddy-web",
+    "description": "Modern web server with automatic HTTPS for serving web applications.",
+    "websiteUrl": "https://caddyserver.com",
+    "tags": [
+      "web-server",
+      "automatic-https",
+      "modern",
+      "go"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "T3 Stack",
+    "slug": "t3-stack",
+    "description": "Full-stack TypeScript framework with Next.js, tRPC, Prisma, and Tailwind.",
+    "websiteUrl": "https://create.t3.gg",
+    "tags": [
+      "full-stack",
+      "typescript",
+      "nextjs",
+      "trpc"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Blitz.js",
+    "slug": "blitzjs",
+    "description": "Full-stack React framework with zero-API data layer built on Next.js.",
+    "websiteUrl": "https://blitzjs.com",
+    "tags": [
+      "full-stack",
+      "react",
+      "zero-api",
+      "nextjs"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "RedwoodJS",
+    "slug": "redwoodjs",
+    "description": "Full-stack JavaScript framework for startups with GraphQL API.",
+    "websiteUrl": "https://redwoodjs.com",
+    "tags": [
+      "full-stack",
+      "graphql",
+      "react",
+      "prisma"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Wasp",
+    "slug": "wasp",
+    "description": "Full-stack web framework for React, Node.js, and Prisma apps.",
+    "websiteUrl": "https://wasp-lang.dev",
+    "tags": [
+      "full-stack",
+      "react",
+      "nodejs",
+      "declarative"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Fresh",
+    "slug": "fresh",
+    "description": "Deno's full-stack web framework with islands architecture.",
+    "websiteUrl": "https://fresh.deno.dev",
+    "tags": [
+      "full-stack",
+      "deno",
+      "islands",
+      "preact"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Payload CMS",
+    "slug": "payload-cms",
+    "description": "Headless CMS and application framework built with TypeScript.",
+    "websiteUrl": "https://payloadcms.com",
+    "tags": [
+      "cms",
+      "headless",
+      "typescript",
+      "open-source"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Strapi",
+    "slug": "strapi",
+    "description": "Open-source headless CMS for building customizable APIs.",
+    "websiteUrl": "https://strapi.io",
+    "tags": [
+      "cms",
+      "headless",
+      "open-source",
+      "api"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Sanity",
+    "slug": "sanity",
+    "description": "Composable content platform with real-time structured content editing.",
+    "websiteUrl": "https://www.sanity.io",
+    "tags": [
+      "cms",
+      "headless",
+      "real-time",
+      "structured"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Contentful",
+    "slug": "contentful",
+    "description": "Enterprise headless CMS for managing content across digital channels.",
+    "websiteUrl": "https://www.contentful.com",
+    "tags": [
+      "cms",
+      "headless",
+      "enterprise",
+      "api-first"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "WordPress",
+    "slug": "wordpress",
+    "description": "World's most popular CMS powering over 40% of all websites.",
+    "websiteUrl": "https://wordpress.org",
+    "tags": [
+      "cms",
+      "open-source",
+      "php",
+      "plugins"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Ghost",
+    "slug": "ghost",
+    "description": "Open-source publishing platform for professional content creators.",
+    "websiteUrl": "https://ghost.org",
+    "tags": [
+      "cms",
+      "publishing",
+      "open-source",
+      "newsletter"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Directus",
+    "slug": "directus",
+    "description": "Open-source data platform wrapping any SQL database with an API.",
+    "websiteUrl": "https://directus.io",
+    "tags": [
+      "cms",
+      "headless",
+      "open-source",
+      "database"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Keystatic",
+    "slug": "keystatic",
+    "description": "Content management for GitHub-based and local content repositories.",
+    "websiteUrl": "https://keystatic.com",
+    "tags": [
+      "cms",
+      "github-based",
+      "local",
+      "markdown"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Tina CMS",
+    "slug": "tina-cms",
+    "description": "Git-backed headless CMS with visual editing for markdown content.",
+    "websiteUrl": "https://tina.io",
+    "tags": [
+      "cms",
+      "git-backed",
+      "visual-editing",
+      "markdown"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Builder.io",
+    "slug": "builder-io",
+    "description": "Visual headless CMS with drag-and-drop page building for developers.",
+    "websiteUrl": "https://www.builder.io",
+    "tags": [
+      "cms",
+      "visual-builder",
+      "headless",
+      "drag-and-drop"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Hygraph",
+    "slug": "hygraph",
+    "description": "API-first headless CMS with content federation capabilities.",
+    "websiteUrl": "https://hygraph.com",
+    "tags": [
+      "cms",
+      "headless",
+      "graphql",
+      "federation"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Redux",
+    "slug": "redux",
+    "description": "Predictable state container for JavaScript apps with time-travel debugging.",
+    "websiteUrl": "https://redux.js.org",
+    "tags": [
+      "state-management",
+      "javascript",
+      "predictable",
+      "react"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Redux Toolkit",
+    "slug": "redux-toolkit",
+    "description": "Official toolset for efficient Redux development with best practices.",
+    "websiteUrl": "https://redux-toolkit.js.org",
+    "tags": [
+      "state-management",
+      "redux",
+      "official",
+      "best-practices"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Zustand",
+    "slug": "zustand",
+    "description": "Lightweight state management for React with minimal boilerplate.",
+    "websiteUrl": "https://zustand-demo.pmnd.rs",
+    "tags": [
+      "state-management",
+      "react",
+      "lightweight",
+      "minimal"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Jotai",
+    "slug": "jotai",
+    "description": "Primitive and flexible state management for React with atomic model.",
+    "websiteUrl": "https://jotai.org",
+    "tags": [
+      "state-management",
+      "react",
+      "atomic",
+      "flexible"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Recoil",
+    "slug": "recoil",
+    "description": "Meta's experimental state management library for React applications.",
+    "websiteUrl": "https://recoiljs.org",
+    "tags": [
+      "state-management",
+      "react",
+      "meta",
+      "atomic"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "MobX",
+    "slug": "mobx",
+    "description": "Simple and scalable state management with transparent reactive programming.",
+    "websiteUrl": "https://mobx.js.org",
+    "tags": [
+      "state-management",
+      "reactive",
+      "observable",
+      "simple"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "XState",
+    "slug": "xstate",
+    "description": "State machines and statecharts library for robust application logic.",
+    "websiteUrl": "https://xstate.js.org",
+    "tags": [
+      "state-management",
+      "state-machines",
+      "statecharts",
+      "logic"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Valtio",
+    "slug": "valtio",
+    "description": "Proxy-based state management for React with mutable state style.",
+    "websiteUrl": "https://valtio.pmnd.rs",
+    "tags": [
+      "state-management",
+      "react",
+      "proxy",
+      "mutable"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "TanStack Query",
+    "slug": "tanstack-query",
+    "description": "Powerful data fetching and caching library for React and other frameworks.",
+    "websiteUrl": "https://tanstack.com/query",
+    "tags": [
+      "data-fetching",
+      "caching",
+      "react",
+      "multi-framework"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "TanStack Router",
+    "slug": "tanstack-router",
+    "description": "Type-safe routing library for React with built-in search params.",
+    "websiteUrl": "https://tanstack.com/router",
+    "tags": [
+      "routing",
+      "react",
+      "type-safe",
+      "search-params"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "TanStack Table",
+    "slug": "tanstack-table",
+    "description": "Headless UI table library for building powerful data grids.",
+    "websiteUrl": "https://tanstack.com/table",
+    "tags": [
+      "table",
+      "headless",
+      "data-grid",
+      "multi-framework"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "SWR",
+    "slug": "swr",
+    "description": "Vercel's React hooks library for data fetching with stale-while-revalidate.",
+    "websiteUrl": "https://swr.vercel.app",
+    "tags": [
+      "data-fetching",
+      "react",
+      "hooks",
+      "vercel"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "React Hook Form",
+    "slug": "react-hook-form",
+    "description": "Performant React forms library with easy validation integration.",
+    "websiteUrl": "https://react-hook-form.com",
+    "tags": [
+      "forms",
+      "react",
+      "performant",
+      "validation"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Formik",
+    "slug": "formik",
+    "description": "Popular form management library for React with validation support.",
+    "websiteUrl": "https://formik.org",
+    "tags": [
+      "forms",
+      "react",
+      "validation",
+      "popular"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "React Router",
+    "slug": "react-router",
+    "description": "Standard routing library for React single-page applications.",
+    "websiteUrl": "https://reactrouter.com",
+    "tags": [
+      "routing",
+      "react",
+      "spa",
+      "standard"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Vue Router",
+    "slug": "vue-router",
+    "description": "Official routing library for Vue.js with navigation guards.",
+    "websiteUrl": "https://router.vuejs.org",
+    "tags": [
+      "routing",
+      "vue",
+      "official",
+      "navigation"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Pinia",
+    "slug": "pinia",
+    "description": "Official state management store for Vue.js with composition API.",
+    "websiteUrl": "https://pinia.vuejs.org",
+    "tags": [
+      "state-management",
+      "vue",
+      "official",
+      "composition-api"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Nuxt UI",
+    "slug": "nuxt-ui",
+    "description": "UI component library for Nuxt applications with Tailwind integration.",
+    "websiteUrl": "https://ui.nuxt.com",
+    "tags": [
+      "component-library",
+      "nuxt",
+      "tailwind",
+      "vue"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "UnoCSS",
+    "slug": "unocss",
+    "description": "Instant on-demand atomic CSS engine with preset system.",
+    "websiteUrl": "https://unocss.dev",
+    "tags": [
+      "css-framework",
+      "atomic",
+      "on-demand",
+      "presets"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Open Props",
+    "slug": "open-props",
+    "description": "Supercharged CSS custom properties for consistent design tokens.",
+    "websiteUrl": "https://open-props.style",
+    "tags": [
+      "css-framework",
+      "custom-properties",
+      "design-tokens",
+      "vanilla"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Vanilla Extract",
+    "slug": "vanilla-extract",
+    "description": "Zero-runtime CSS-in-TypeScript with type-safe style sheets.",
+    "websiteUrl": "https://vanilla-extract.style",
+    "tags": [
+      "css-framework",
+      "css-in-ts",
+      "type-safe",
+      "zero-runtime"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Panda CSS",
+    "slug": "panda-css",
+    "description": "CSS-in-JS engine with type safety and build-time style generation.",
+    "websiteUrl": "https://panda-css.com",
+    "tags": [
+      "css-framework",
+      "css-in-js",
+      "type-safe",
+      "build-time"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Styled Components",
+    "slug": "styled-components",
+    "description": "CSS-in-JS library for styling React components with tagged templates.",
+    "websiteUrl": "https://styled-components.com",
+    "tags": [
+      "css-framework",
+      "css-in-js",
+      "react",
+      "tagged-templates"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Emotion",
+    "slug": "emotion",
+    "description": "Performant and flexible CSS-in-JS library for styling applications.",
+    "websiteUrl": "https://emotion.sh",
+    "tags": [
+      "css-framework",
+      "css-in-js",
+      "performant",
+      "flexible"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Sass",
+    "slug": "sass",
+    "description": "CSS preprocessor adding variables, nesting, and mixins to stylesheets.",
+    "websiteUrl": "https://sass-lang.com",
+    "tags": [
+      "css-framework",
+      "preprocessor",
+      "variables",
+      "nesting"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Less",
+    "slug": "less",
+    "description": "CSS preprocessor extending CSS with dynamic behavior and variables.",
+    "websiteUrl": "https://lesscss.org",
+    "tags": [
+      "css-framework",
+      "preprocessor",
+      "dynamic",
+      "variables"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Foundation",
+    "slug": "foundation",
+    "description": "Responsive front-end framework with advanced CSS grid system.",
+    "websiteUrl": "https://get.foundation",
+    "tags": [
+      "css-framework",
+      "responsive",
+      "grid",
+      "enterprise"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Framer Motion",
+    "slug": "framer-motion",
+    "description": "Production-ready animation library for React with gesture support.",
+    "websiteUrl": "https://www.framer.com/motion/",
+    "tags": [
+      "animation",
+      "react",
+      "gestures",
+      "production-ready"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "GSAP",
+    "slug": "gsap",
+    "description": "Professional-grade animation platform for high-performance web animations.",
+    "websiteUrl": "https://gsap.com",
+    "tags": [
+      "animation",
+      "javascript",
+      "professional",
+      "high-performance"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Lottie",
+    "slug": "lottie",
+    "description": "Library for rendering After Effects animations natively on web.",
+    "websiteUrl": "https://airbnb.io/lottie/",
+    "tags": [
+      "animation",
+      "after-effects",
+      "json",
+      "airbnb"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Three.js",
+    "slug": "threejs",
+    "description": "JavaScript 3D library for creating WebGL-powered 3D experiences.",
+    "websiteUrl": "https://threejs.org",
+    "tags": [
+      "3d",
+      "webgl",
+      "javascript",
+      "interactive"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "React Three Fiber",
+    "slug": "react-three-fiber",
+    "description": "React renderer for Three.js with declarative 3D scene composition.",
+    "websiteUrl": "https://docs.pmnd.rs/react-three-fiber",
+    "tags": [
+      "3d",
+      "react",
+      "threejs",
+      "declarative"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Spline",
+    "slug": "spline",
+    "description": "Web-based 3D design tool for creating interactive browser experiences.",
+    "websiteUrl": "https://spline.design",
+    "tags": [
+      "3d",
+      "design-tool",
+      "interactive",
+      "browser"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Babylon.js",
+    "slug": "babylonjs",
+    "description": "Microsoft's powerful 3D engine for web-based immersive experiences.",
+    "websiteUrl": "https://www.babylonjs.com",
+    "tags": [
+      "3d",
+      "webgl",
+      "microsoft",
+      "immersive"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Next Auth",
+    "slug": "nextauth",
+    "description": "Authentication library for Next.js with OAuth and credential providers.",
+    "websiteUrl": "https://next-auth.js.org",
+    "tags": [
+      "authentication",
+      "nextjs",
+      "oauth",
+      "providers"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Clerk",
+    "slug": "clerk",
+    "description": "Complete user management platform with pre-built UI components.",
+    "websiteUrl": "https://clerk.com",
+    "tags": [
+      "authentication",
+      "user-management",
+      "ui-components",
+      "saas"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Auth0",
+    "slug": "auth0",
+    "description": "Identity platform for authentication and authorization with SSO.",
+    "websiteUrl": "https://auth0.com",
+    "tags": [
+      "authentication",
+      "identity",
+      "sso",
+      "enterprise"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Firebase Auth",
+    "slug": "firebase-auth",
+    "description": "Google's authentication service with social login and phone auth.",
+    "websiteUrl": "https://firebase.google.com/products/auth",
+    "tags": [
+      "authentication",
+      "google",
+      "social-login",
+      "mobile"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Supabase Auth",
+    "slug": "supabase-auth",
+    "description": "Authentication and authorization service built into Supabase.",
+    "websiteUrl": "https://supabase.com/auth",
+    "tags": [
+      "authentication",
+      "supabase",
+      "row-level-security",
+      "social"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Lucia Auth",
+    "slug": "lucia-auth",
+    "description": "Lightweight authentication library for TypeScript web applications.",
+    "websiteUrl": "https://lucia-auth.com",
+    "tags": [
+      "authentication",
+      "typescript",
+      "lightweight",
+      "open-source"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Better Auth",
+    "slug": "better-auth",
+    "description": "TypeScript authentication framework with plugin system and adapters.",
+    "websiteUrl": "https://www.better-auth.com",
+    "tags": [
+      "authentication",
+      "typescript",
+      "plugins",
+      "adapters"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Kinde",
+    "slug": "kinde",
+    "description": "Authentication platform for startups with generous free tier.",
+    "websiteUrl": "https://kinde.com",
+    "tags": [
+      "authentication",
+      "startups",
+      "free-tier",
+      "saas"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "WorkOS",
+    "slug": "workos",
+    "description": "Enterprise-ready authentication with SSO, SCIM, and directory sync.",
+    "websiteUrl": "https://workos.com",
+    "tags": [
+      "authentication",
+      "enterprise",
+      "sso",
+      "scim"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Stytch",
+    "slug": "stytch",
+    "description": "Passwordless authentication API for modern web applications.",
+    "websiteUrl": "https://stytch.com",
+    "tags": [
+      "authentication",
+      "passwordless",
+      "api",
+      "modern"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Keycloak",
+    "slug": "keycloak",
+    "description": "Open-source identity and access management with SSO capabilities.",
+    "websiteUrl": "https://www.keycloak.org",
+    "tags": [
+      "authentication",
+      "open-source",
+      "sso",
+      "identity"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Stripe",
+    "slug": "stripe",
+    "description": "Payment processing platform for internet businesses with developer APIs.",
+    "websiteUrl": "https://stripe.com",
+    "tags": [
+      "payments",
+      "api",
+      "e-commerce",
+      "developer-friendly"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 9.5
+  },
+  {
+    "name": "Lemon Squeezy",
+    "slug": "lemon-squeezy",
+    "description": "Payment and subscription platform built for software and digital products.",
+    "websiteUrl": "https://www.lemonsqueezy.com",
+    "tags": [
+      "payments",
+      "subscriptions",
+      "digital-products",
+      "simple"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Paddle",
+    "slug": "paddle",
+    "description": "Payment infrastructure for SaaS companies handling tax and billing.",
+    "websiteUrl": "https://www.paddle.com",
+    "tags": [
+      "payments",
+      "saas",
+      "tax",
+      "billing"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Polar",
+    "slug": "polar",
+    "description": "Payment platform for open-source and developer-focused products.",
+    "websiteUrl": "https://polar.sh",
+    "tags": [
+      "payments",
+      "open-source",
+      "developer",
+      "subscriptions"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Vercel Analytics",
+    "slug": "vercel-analytics",
+    "description": "Privacy-friendly web analytics built into the Vercel platform.",
+    "websiteUrl": "https://vercel.com/analytics",
+    "tags": [
+      "analytics",
+      "privacy",
+      "vercel",
+      "web-vitals"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Plausible",
+    "slug": "plausible",
+    "description": "Lightweight privacy-friendly web analytics without cookies.",
+    "websiteUrl": "https://plausible.io",
+    "tags": [
+      "analytics",
+      "privacy",
+      "lightweight",
+      "cookie-free"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "PostHog",
+    "slug": "posthog",
+    "description": "Open-source product analytics platform with session replay and feature flags.",
+    "websiteUrl": "https://posthog.com",
+    "tags": [
+      "analytics",
+      "open-source",
+      "product",
+      "feature-flags"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Mixpanel",
+    "slug": "mixpanel",
+    "description": "Product analytics platform for tracking user behavior and engagement.",
+    "websiteUrl": "https://mixpanel.com",
+    "tags": [
+      "analytics",
+      "product",
+      "user-behavior",
+      "engagement"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Amplitude",
+    "slug": "amplitude",
+    "description": "Digital analytics platform for understanding user behavior patterns.",
+    "websiteUrl": "https://amplitude.com",
+    "tags": [
+      "analytics",
+      "product",
+      "behavior",
+      "enterprise"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Umami",
+    "slug": "umami",
+    "description": "Simple open-source web analytics alternative to Google Analytics.",
+    "websiteUrl": "https://umami.is",
+    "tags": [
+      "analytics",
+      "open-source",
+      "privacy",
+      "self-hosted"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Fathom Analytics",
+    "slug": "fathom-analytics",
+    "description": "Privacy-focused analytics without tracking or storing personal data.",
+    "websiteUrl": "https://usefathom.com",
+    "tags": [
+      "analytics",
+      "privacy",
+      "simple",
+      "gdpr"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Hotjar",
+    "slug": "hotjar",
+    "description": "User behavior analytics with heatmaps, recordings, and surveys.",
+    "websiteUrl": "https://www.hotjar.com",
+    "tags": [
+      "analytics",
+      "heatmaps",
+      "recordings",
+      "feedback"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "i18next",
+    "slug": "i18next",
+    "description": "Internationalization framework for JavaScript with React integration.",
+    "websiteUrl": "https://www.i18next.com",
+    "tags": [
+      "i18n",
+      "internationalization",
+      "react",
+      "javascript"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "next-intl",
+    "slug": "next-intl",
+    "description": "Internationalization library designed specifically for Next.js apps.",
+    "websiteUrl": "https://next-intl-docs.vercel.app",
+    "tags": [
+      "i18n",
+      "nextjs",
+      "localization",
+      "typescript"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Crowdin",
+    "slug": "crowdin",
+    "description": "Localization management platform for translating content at scale.",
+    "websiteUrl": "https://crowdin.com",
+    "tags": [
+      "i18n",
+      "localization",
+      "translation",
+      "management"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Uppy",
+    "slug": "uppy",
+    "description": "Sleek modular file uploader for JavaScript web applications.",
+    "websiteUrl": "https://uppy.io",
+    "tags": [
+      "file-upload",
+      "modular",
+      "javascript",
+      "transloadit"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Tiptap",
+    "slug": "tiptap",
+    "description": "Headless rich text editor framework for Vue, React, and more.",
+    "websiteUrl": "https://tiptap.dev",
+    "tags": [
+      "rich-text-editor",
+      "headless",
+      "prosemirror",
+      "collaborative"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Slate",
+    "slug": "slatejs",
+    "description": "Customizable rich text editor framework for building editors in React.",
+    "websiteUrl": "https://docs.slatejs.org",
+    "tags": [
+      "rich-text-editor",
+      "react",
+      "customizable",
+      "framework"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Lexical",
+    "slug": "lexical",
+    "description": "Meta's extensible text editor framework with excellent accessibility.",
+    "websiteUrl": "https://lexical.dev",
+    "tags": [
+      "rich-text-editor",
+      "meta",
+      "accessible",
+      "extensible"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Novel",
+    "slug": "novel",
+    "description": "Notion-style WYSIWYG editor with AI completion built on Tiptap.",
+    "websiteUrl": "https://novel.sh",
+    "tags": [
+      "rich-text-editor",
+      "notion-style",
+      "ai",
+      "tiptap"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Editor.js",
+    "slug": "editorjs",
+    "description": "Block-style editor with clean JSON output for structured content.",
+    "websiteUrl": "https://editorjs.io",
+    "tags": [
+      "rich-text-editor",
+      "block-style",
+      "json",
+      "plugins"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Socket.IO",
+    "slug": "socket-io",
+    "description": "Real-time bidirectional event-based communication library for web apps.",
+    "websiteUrl": "https://socket.io",
+    "tags": [
+      "real-time",
+      "websockets",
+      "event-based",
+      "nodejs"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Pusher",
+    "slug": "pusher",
+    "description": "Hosted APIs for adding real-time features to web applications.",
+    "websiteUrl": "https://pusher.com",
+    "tags": [
+      "real-time",
+      "hosted",
+      "websockets",
+      "channels"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Ably",
+    "slug": "ably",
+    "description": "Real-time messaging platform for serverless pub/sub communication.",
+    "websiteUrl": "https://ably.com",
+    "tags": [
+      "real-time",
+      "pub-sub",
+      "serverless",
+      "messaging"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "PartyKit",
+    "slug": "partykit",
+    "description": "Platform for building real-time collaborative multiplayer applications.",
+    "websiteUrl": "https://www.partykit.io",
+    "tags": [
+      "real-time",
+      "collaborative",
+      "multiplayer",
+      "edge"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Liveblocks",
+    "slug": "liveblocks",
+    "description": "Real-time collaboration SDK for building multiplayer experiences.",
+    "websiteUrl": "https://liveblocks.io",
+    "tags": [
+      "real-time",
+      "collaboration",
+      "multiplayer",
+      "sdk"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Laravel",
+    "slug": "laravel",
+    "description": "Elegant PHP web framework for building full-stack applications.",
+    "websiteUrl": "https://laravel.com",
+    "tags": [
+      "full-stack",
+      "php",
+      "elegant",
+      "mvc"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Django",
+    "slug": "django",
+    "description": "High-level Python web framework encouraging rapid development.",
+    "websiteUrl": "https://www.djangoproject.com",
+    "tags": [
+      "full-stack",
+      "python",
+      "rapid-development",
+      "batteries-included"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Flask",
+    "slug": "flask",
+    "description": "Lightweight Python web framework with minimal core and extensibility.",
+    "websiteUrl": "https://flask.palletsprojects.com",
+    "tags": [
+      "full-stack",
+      "python",
+      "lightweight",
+      "micro-framework"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "FastAPI",
+    "slug": "fastapi",
+    "description": "High-performance Python web framework for building APIs with type hints.",
+    "websiteUrl": "https://fastapi.tiangolo.com",
+    "tags": [
+      "full-stack",
+      "python",
+      "fast",
+      "type-hints"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Ruby on Rails",
+    "slug": "ruby-on-rails",
+    "description": "Full-stack Ruby framework emphasizing convention over configuration.",
+    "websiteUrl": "https://rubyonrails.org",
+    "tags": [
+      "full-stack",
+      "ruby",
+      "convention",
+      "mvc"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Spring Boot",
+    "slug": "spring-boot",
+    "description": "Java framework for creating production-grade enterprise applications.",
+    "websiteUrl": "https://spring.io/projects/spring-boot",
+    "tags": [
+      "full-stack",
+      "java",
+      "enterprise",
+      "microservices"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Gin",
+    "slug": "gin",
+    "description": "High-performance HTTP web framework for Go with martini-like API.",
+    "websiteUrl": "https://gin-gonic.com",
+    "tags": [
+      "full-stack",
+      "go",
+      "high-performance",
+      "http"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Echo",
+    "slug": "echo",
+    "description": "High-performance Go web framework with extensible middleware.",
+    "websiteUrl": "https://echo.labstack.com",
+    "tags": [
+      "full-stack",
+      "go",
+      "middleware",
+      "high-performance"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Actix Web",
+    "slug": "actix-web",
+    "description": "Powerful Rust web framework with actor system and performance.",
+    "websiteUrl": "https://actix.rs",
+    "tags": [
+      "full-stack",
+      "rust",
+      "actors",
+      "high-performance"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Axum",
+    "slug": "axum",
+    "description": "Ergonomic Rust web framework built on Tokio and Tower.",
+    "websiteUrl": "https://github.com/tokio-rs/axum",
+    "tags": [
+      "full-stack",
+      "rust",
+      "tokio",
+      "ergonomic"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Phoenix",
+    "slug": "phoenix",
+    "description": "Elixir web framework for building real-time, fault-tolerant applications.",
+    "websiteUrl": "https://www.phoenixframework.org",
+    "tags": [
+      "full-stack",
+      "elixir",
+      "real-time",
+      "fault-tolerant"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "NestJS",
+    "slug": "nestjs",
+    "description": "Progressive Node.js framework for building scalable server-side applications.",
+    "websiteUrl": "https://nestjs.com",
+    "tags": [
+      "full-stack",
+      "nodejs",
+      "typescript",
+      "enterprise"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "AdonisJS",
+    "slug": "adonisjs",
+    "description": "Full-stack TypeScript framework for Node.js with batteries included.",
+    "websiteUrl": "https://adonisjs.com",
+    "tags": [
+      "full-stack",
+      "typescript",
+      "nodejs",
+      "batteries-included"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Fiber",
+    "slug": "fiber",
+    "description": "Express-inspired Go web framework built on Fasthttp for speed.",
+    "websiteUrl": "https://gofiber.io",
+    "tags": [
+      "full-stack",
+      "go",
+      "express-like",
+      "fast"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "GraphQL",
+    "slug": "graphql",
+    "description": "Query language for APIs enabling clients to request exact data needed.",
+    "websiteUrl": "https://graphql.org",
+    "tags": [
+      "api",
+      "query-language",
+      "specification",
+      "flexible"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Apollo Client",
+    "slug": "apollo-client",
+    "description": "Comprehensive GraphQL client for React with caching and state management.",
+    "websiteUrl": "https://www.apollographql.com/docs/react/",
+    "tags": [
+      "graphql",
+      "react",
+      "caching",
+      "state-management"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "urql",
+    "slug": "urql",
+    "description": "Lightweight GraphQL client for React, Vue, and Svelte.",
+    "websiteUrl": "https://formidable.com/open-source/urql/",
+    "tags": [
+      "graphql",
+      "lightweight",
+      "multi-framework",
+      "client"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Relay",
+    "slug": "relay",
+    "description": "Meta's GraphQL client for building data-driven React applications.",
+    "websiteUrl": "https://relay.dev",
+    "tags": [
+      "graphql",
+      "react",
+      "meta",
+      "data-driven"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Swagger UI",
+    "slug": "swagger-ui",
+    "description": "Interactive API documentation from OpenAPI specification.",
+    "websiteUrl": "https://swagger.io/tools/swagger-ui/",
+    "tags": [
+      "api",
+      "documentation",
+      "openapi",
+      "interactive"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "PWA Builder",
+    "slug": "pwa-builder",
+    "description": "Microsoft's tool for creating progressive web apps from existing sites.",
+    "websiteUrl": "https://www.pwabuilder.com",
+    "tags": [
+      "pwa",
+      "progressive-web-app",
+      "microsoft",
+      "builder"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Workbox",
+    "slug": "workbox",
+    "description": "Google's libraries for adding offline support to web applications.",
+    "websiteUrl": "https://developer.chrome.com/docs/workbox",
+    "tags": [
+      "pwa",
+      "offline",
+      "service-worker",
+      "google"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Capacitor",
+    "slug": "capacitor",
+    "description": "Cross-platform native runtime for building iOS and Android web apps.",
+    "websiteUrl": "https://capacitorjs.com",
+    "tags": [
+      "mobile",
+      "cross-platform",
+      "native",
+      "ionic"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Ionic",
+    "slug": "ionic",
+    "description": "Cross-platform UI toolkit for building mobile and desktop web apps.",
+    "websiteUrl": "https://ionicframework.com",
+    "tags": [
+      "mobile",
+      "cross-platform",
+      "ui-toolkit",
+      "hybrid"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "React Native",
+    "slug": "react-native",
+    "description": "Meta's framework for building native mobile apps with React.",
+    "websiteUrl": "https://reactnative.dev",
+    "tags": [
+      "mobile",
+      "native",
+      "react",
+      "cross-platform"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Expo",
+    "slug": "expo",
+    "description": "Platform for building React Native apps with simplified development.",
+    "websiteUrl": "https://expo.dev",
+    "tags": [
+      "mobile",
+      "react-native",
+      "platform",
+      "simplified"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Flutter",
+    "slug": "flutter",
+    "description": "Google's UI toolkit for natively compiled multi-platform apps.",
+    "websiteUrl": "https://flutter.dev",
+    "tags": [
+      "mobile",
+      "cross-platform",
+      "dart",
+      "google"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Tauri",
+    "slug": "tauri",
+    "description": "Rust framework for building small, fast desktop apps with web frontends.",
+    "websiteUrl": "https://tauri.app",
+    "tags": [
+      "desktop",
+      "rust",
+      "web-frontend",
+      "lightweight"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Electron",
+    "slug": "electron",
+    "description": "Framework for building cross-platform desktop apps with web technology.",
+    "websiteUrl": "https://www.electronjs.org",
+    "tags": [
+      "desktop",
+      "cross-platform",
+      "chromium",
+      "nodejs"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Wails",
+    "slug": "wails",
+    "description": "Go framework for building desktop applications with web UIs.",
+    "websiteUrl": "https://wails.io",
+    "tags": [
+      "desktop",
+      "go",
+      "web-ui",
+      "lightweight"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Neutralino",
+    "slug": "neutralino",
+    "description": "Lightweight desktop app framework with native OS access.",
+    "websiteUrl": "https://neutralino.js.org",
+    "tags": [
+      "desktop",
+      "lightweight",
+      "native-access",
+      "portable"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "MDX",
+    "slug": "mdx",
+    "description": "Markdown format allowing JSX components inside documentation.",
+    "websiteUrl": "https://mdxjs.com",
+    "tags": [
+      "content",
+      "markdown",
+      "jsx",
+      "documentation"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Contentlayer",
+    "slug": "contentlayer",
+    "description": "Content SDK for transforming content into type-safe JSON data.",
+    "websiteUrl": "https://contentlayer.dev",
+    "tags": [
+      "content",
+      "type-safe",
+      "markdown",
+      "nextjs"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Storyblok",
+    "slug": "storyblok",
+    "description": "Visual headless CMS with real-time preview and component-based editing.",
+    "websiteUrl": "https://www.storyblok.com",
+    "tags": [
+      "cms",
+      "visual-editing",
+      "headless",
+      "real-time"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "DatoCMS",
+    "slug": "datocms",
+    "description": "Headless CMS with real-time previews and asset management.",
+    "websiteUrl": "https://www.datocms.com",
+    "tags": [
+      "cms",
+      "headless",
+      "real-time",
+      "assets"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Prismic",
+    "slug": "prismic",
+    "description": "Headless CMS with slice-based content modeling and previews.",
+    "websiteUrl": "https://prismic.io",
+    "tags": [
+      "cms",
+      "headless",
+      "slices",
+      "previews"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Webflow",
+    "slug": "webflow",
+    "description": "Visual web design and development platform with CMS capabilities.",
+    "websiteUrl": "https://webflow.com",
+    "tags": [
+      "website-builder",
+      "visual",
+      "cms",
+      "no-code"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Framer",
+    "slug": "framer",
+    "description": "Visual website builder with animations and CMS for modern websites.",
+    "websiteUrl": "https://www.framer.com",
+    "tags": [
+      "website-builder",
+      "visual",
+      "animations",
+      "cms"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Squarespace",
+    "slug": "squarespace",
+    "description": "All-in-one website builder with templates and e-commerce features.",
+    "websiteUrl": "https://www.squarespace.com",
+    "tags": [
+      "website-builder",
+      "templates",
+      "e-commerce",
+      "design"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Wix",
+    "slug": "wix",
+    "description": "Drag-and-drop website builder with hosting and marketing tools.",
+    "websiteUrl": "https://www.wix.com",
+    "tags": [
+      "website-builder",
+      "drag-and-drop",
+      "hosting",
+      "marketing"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Shopify",
+    "slug": "shopify",
+    "description": "Leading e-commerce platform for building and managing online stores.",
+    "websiteUrl": "https://www.shopify.com",
+    "tags": [
+      "e-commerce",
+      "platform",
+      "online-store",
+      "payments"
+    ],
+    "primaryCategory": "web",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "WooCommerce",
+    "slug": "woocommerce",
+    "description": "Open-source e-commerce plugin for WordPress websites.",
+    "websiteUrl": "https://woocommerce.com",
+    "tags": [
+      "e-commerce",
+      "wordpress",
+      "open-source",
+      "plugin"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Medusa",
+    "slug": "medusa",
+    "description": "Open-source headless commerce engine for building digital storefronts.",
+    "websiteUrl": "https://medusajs.com",
+    "tags": [
+      "e-commerce",
+      "headless",
+      "open-source",
+      "nodejs"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Saleor",
+    "slug": "saleor",
+    "description": "GraphQL-first open-source headless commerce platform.",
+    "websiteUrl": "https://saleor.io",
+    "tags": [
+      "e-commerce",
+      "graphql",
+      "headless",
+      "open-source"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Bun Shell",
+    "slug": "bun-shell",
+    "description": "Cross-platform shell scripting built into Bun runtime for JavaScript developers.",
+    "websiteUrl": "https://bun.sh/docs/runtime/shell",
+    "tags": [
+      "runtime",
+      "scripting",
+      "javascript",
+      "cross-platform"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Fontsource",
+    "slug": "fontsource",
+    "description": "Self-host open source fonts as npm packages for faster web performance.",
+    "websiteUrl": "https://fontsource.org",
+    "tags": [
+      "fonts",
+      "typography",
+      "performance",
+      "npm"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Floating UI",
+    "slug": "floating-ui",
+    "description": "Library for positioning floating elements like tooltips and popovers precisely.",
+    "websiteUrl": "https://floating-ui.com",
+    "tags": [
+      "positioning",
+      "tooltips",
+      "popovers",
+      "javascript"
+    ],
+    "primaryCategory": "web",
+    "type": "tool",
+    "baselineScore": 7.6
+  }
+]

@@ -1,0 +1,582 @@
+[
+  {
+    "name": "Datadog",
+    "slug": "datadog",
+    "description": "Cloud monitoring and analytics platform for infrastructure, APM, logs, and security observability.",
+    "websiteUrl": "https://www.datadoghq.com",
+    "tags": ["apm", "monitoring", "infrastructure", "logs", "observability"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "New Relic",
+    "slug": "new-relic",
+    "description": "Full-stack observability platform with APM, infrastructure monitoring, and distributed tracing.",
+    "websiteUrl": "https://newrelic.com",
+    "tags": ["apm", "observability", "full-stack", "distributed-tracing"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Dynatrace",
+    "slug": "dynatrace",
+    "description": "AI-powered software intelligence platform for full-stack monitoring and automated root cause analysis.",
+    "websiteUrl": "https://www.dynatrace.com",
+    "tags": ["apm", "ai", "full-stack", "enterprise"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "AppSignal",
+    "slug": "appsignal",
+    "description": "Application monitoring for Ruby, Elixir, Node.js, and Python with error tracking and metrics.",
+    "websiteUrl": "https://www.appsignal.com",
+    "tags": ["apm", "error-tracking", "ruby", "node-js"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Scout APM",
+    "slug": "scout-apm",
+    "description": "Application performance monitoring tool focused on developer-friendly insights for web apps.",
+    "websiteUrl": "https://scoutapm.com",
+    "tags": ["apm", "developer-friendly", "web-apps", "performance"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Elastic APM",
+    "slug": "elastic-apm",
+    "description": "Application performance monitoring built on the Elastic Stack for tracing and error correlation.",
+    "websiteUrl": "https://www.elastic.co/observability/application-performance-monitoring",
+    "tags": ["apm", "elastic", "tracing", "open-source"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Sentry",
+    "slug": "sentry",
+    "description": "Application monitoring platform for error tracking, performance monitoring, and session replay.",
+    "websiteUrl": "https://sentry.io",
+    "tags": ["error-tracking", "performance", "session-replay", "open-source"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Bugsnag",
+    "slug": "bugsnag",
+    "description": "Error monitoring and stability management platform for web, mobile, and server applications.",
+    "websiteUrl": "https://www.bugsnag.com",
+    "tags": ["error-tracking", "stability", "mobile", "web"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Rollbar",
+    "slug": "rollbar",
+    "description": "Real-time error tracking and debugging platform with automatic grouping and prioritization.",
+    "websiteUrl": "https://rollbar.com",
+    "tags": ["error-tracking", "real-time", "debugging", "grouping"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Airbrake",
+    "slug": "airbrake",
+    "description": "Error monitoring service that captures exceptions and provides performance insights for applications.",
+    "websiteUrl": "https://airbrake.io",
+    "tags": ["error-tracking", "exceptions", "performance", "notifications"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Honeybadger",
+    "slug": "honeybadger",
+    "description": "Exception monitoring, uptime checks, and cron job monitoring for web developers in one platform.",
+    "websiteUrl": "https://www.honeybadger.io",
+    "tags": ["error-tracking", "uptime", "cron", "developer"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "LogRocket",
+    "slug": "logrocket",
+    "description": "Frontend monitoring platform with session replay, error tracking, and product analytics.",
+    "websiteUrl": "https://logrocket.com",
+    "tags": ["session-replay", "frontend", "error-tracking", "analytics"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Papertrail",
+    "slug": "papertrail",
+    "description": "Cloud-hosted log management service for aggregating, searching, and alerting on application logs.",
+    "websiteUrl": "https://www.papertrail.com",
+    "tags": ["logging", "cloud", "search", "alerts"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Logtail (Better Stack)",
+    "slug": "logtail",
+    "description": "Structured log management platform with SQL-compatible querying and real-time tail features.",
+    "websiteUrl": "https://betterstack.com/logtail",
+    "tags": ["logging", "structured", "sql", "real-time"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Axiom",
+    "slug": "axiom",
+    "description": "Cloud-native log management and analytics platform with unlimited data retention and fast queries.",
+    "websiteUrl": "https://axiom.co",
+    "tags": ["logging", "analytics", "cloud-native", "unlimited"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Loki",
+    "slug": "grafana-loki",
+    "description": "Horizontally-scalable log aggregation system by Grafana Labs inspired by Prometheus design.",
+    "websiteUrl": "https://grafana.com/oss/loki/",
+    "tags": ["logging", "open-source", "grafana", "scalable"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Fluentd",
+    "slug": "fluentd",
+    "description": "Open-source data collector for unified logging layer across multiple sources and destinations.",
+    "websiteUrl": "https://www.fluentd.org",
+    "tags": ["logging", "data-collector", "open-source", "unified"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Splunk",
+    "slug": "splunk",
+    "description": "Enterprise platform for searching, monitoring, and analyzing machine-generated big data via logs.",
+    "websiteUrl": "https://www.splunk.com",
+    "tags": ["logging", "enterprise", "siem", "big-data"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Graylog",
+    "slug": "graylog",
+    "description": "Open-source log management platform for collecting, indexing, and analyzing log data centrally.",
+    "websiteUrl": "https://graylog.org",
+    "tags": ["logging", "open-source", "centralized", "analysis"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Better Uptime",
+    "slug": "better-uptime",
+    "description": "Uptime monitoring, status pages, and incident management in one modern platform.",
+    "websiteUrl": "https://betterstack.com/uptime",
+    "tags": ["uptime", "status-page", "incident-management", "modern"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "UptimeRobot",
+    "slug": "uptimerobot",
+    "description": "Free website monitoring service checking uptime every five minutes with alert notifications.",
+    "websiteUrl": "https://uptimerobot.com",
+    "tags": ["uptime", "free", "monitoring", "alerts"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Pingdom",
+    "slug": "pingdom",
+    "description": "Website performance and uptime monitoring service with real user monitoring and alerting.",
+    "websiteUrl": "https://www.pingdom.com",
+    "tags": ["uptime", "performance", "rum", "alerting"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "StatusCake",
+    "slug": "statuscake",
+    "description": "Website monitoring platform offering uptime, page speed, and SSL certificate checks.",
+    "websiteUrl": "https://www.statuscake.com",
+    "tags": ["uptime", "page-speed", "ssl", "monitoring"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Checkly",
+    "slug": "checkly",
+    "description": "Monitoring-as-code platform for API endpoints and browser-based E2E testing in CI/CD pipelines.",
+    "websiteUrl": "https://www.checklyhq.com",
+    "tags": ["monitoring-as-code", "api", "e2e", "ci-cd"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Uptime Kuma",
+    "slug": "uptime-kuma",
+    "description": "Self-hosted, open-source monitoring tool with a beautiful UI for tracking website uptime.",
+    "websiteUrl": "https://uptime.kuma.pet",
+    "tags": ["uptime", "self-hosted", "open-source", "beautiful-ui"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Prometheus",
+    "slug": "prometheus",
+    "description": "Open-source monitoring and alerting toolkit for recording real-time metrics in a time-series database.",
+    "websiteUrl": "https://prometheus.io",
+    "tags": ["metrics", "time-series", "open-source", "alerting"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Grafana",
+    "slug": "grafana",
+    "description": "Open-source visualization and analytics platform for monitoring metrics from multiple data sources.",
+    "websiteUrl": "https://grafana.com",
+    "tags": ["visualization", "dashboards", "open-source", "metrics"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 9.2
+  },
+  {
+    "name": "Zabbix",
+    "slug": "zabbix",
+    "description": "Open-source enterprise monitoring solution for networks, servers, cloud services, and applications.",
+    "websiteUrl": "https://www.zabbix.com",
+    "tags": ["infrastructure", "enterprise", "open-source", "networks"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Nagios",
+    "slug": "nagios",
+    "description": "Industry-standard open-source monitoring system for IT infrastructure and network services.",
+    "websiteUrl": "https://www.nagios.org",
+    "tags": ["infrastructure", "open-source", "legacy", "networks"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Icinga",
+    "slug": "icinga",
+    "description": "Open-source monitoring system for checking availability of network resources and notifying on issues.",
+    "websiteUrl": "https://icinga.com",
+    "tags": ["infrastructure", "open-source", "availability", "notifications"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Netdata",
+    "slug": "netdata",
+    "description": "Open-source real-time infrastructure monitoring with per-second granularity and zero configuration.",
+    "websiteUrl": "https://www.netdata.cloud",
+    "tags": ["infrastructure", "real-time", "open-source", "zero-config"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Telegraf",
+    "slug": "telegraf",
+    "description": "Plugin-driven server agent for collecting and reporting metrics from systems, databases, and IoT.",
+    "websiteUrl": "https://www.influxdata.com/time-series-platform/telegraf/",
+    "tags": ["metrics", "agent", "plugins", "influxdb"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "InfluxDB",
+    "slug": "influxdb",
+    "description": "Open-source time series database for high-performance storage and querying of metrics data.",
+    "websiteUrl": "https://www.influxdata.com",
+    "tags": ["time-series", "database", "metrics", "open-source"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Statuspage",
+    "slug": "statuspage",
+    "description": "Atlassian's hosted status page service for communicating real-time system status to users.",
+    "websiteUrl": "https://www.atlassian.com/software/statuspage",
+    "tags": ["status-page", "atlassian", "incident-communication", "hosted"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Instatus",
+    "slug": "instatus",
+    "description": "Fast, beautiful status page service with integrations for monitoring tools and incident management.",
+    "websiteUrl": "https://instatus.com",
+    "tags": ["status-page", "fast", "beautiful", "integrations"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Cachet",
+    "slug": "cachet",
+    "description": "Open-source status page system for communicating downtime and system status to stakeholders.",
+    "websiteUrl": "https://cachethq.io",
+    "tags": ["status-page", "open-source", "self-hosted", "php"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Upptime",
+    "slug": "upptime",
+    "description": "Open-source uptime monitor and status page powered entirely by GitHub Actions and Issues.",
+    "websiteUrl": "https://upptime.js.org",
+    "tags": ["status-page", "uptime", "github", "open-source"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "PagerDuty",
+    "slug": "pagerduty",
+    "description": "Incident management platform for real-time alerts, on-call scheduling, and response orchestration.",
+    "websiteUrl": "https://www.pagerduty.com",
+    "tags": ["on-call", "incident-management", "alerting", "enterprise"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Opsgenie",
+    "slug": "opsgenie",
+    "description": "Atlassian's alerting and on-call management tool for routing alerts to the right team members.",
+    "websiteUrl": "https://www.atlassian.com/software/opsgenie",
+    "tags": ["on-call", "alerting", "atlassian", "routing"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Incident.io",
+    "slug": "incident-io",
+    "description": "Incident management platform built on Slack for declaring, managing, and learning from incidents.",
+    "websiteUrl": "https://incident.io",
+    "tags": ["incident-management", "slack", "post-mortem", "modern"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "FireHydrant",
+    "slug": "firehydrant",
+    "description": "Incident management platform that automates workflows for faster response and resolution.",
+    "websiteUrl": "https://firehydrant.com",
+    "tags": ["incident-management", "automation", "response", "workflows"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Rootly",
+    "slug": "rootly",
+    "description": "Incident management tool built in Slack for automating on-call, response, and retrospectives.",
+    "websiteUrl": "https://rootly.com",
+    "tags": ["incident-management", "slack", "automation", "retrospectives"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "VictorOps (Splunk On-Call)",
+    "slug": "victorops",
+    "description": "Incident management and on-call scheduling tool for DevOps teams now part of Splunk.",
+    "websiteUrl": "https://www.splunk.com/en_us/products/on-call.html",
+    "tags": ["on-call", "incident-management", "devops", "splunk"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Jaeger",
+    "slug": "jaeger",
+    "description": "Open-source distributed tracing system for monitoring microservice-based architectures.",
+    "websiteUrl": "https://www.jaegertracing.io",
+    "tags": ["distributed-tracing", "open-source", "microservices", "cncf"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Zipkin",
+    "slug": "zipkin",
+    "description": "Open-source distributed tracing system for gathering timing data across microservice calls.",
+    "websiteUrl": "https://zipkin.io",
+    "tags": ["distributed-tracing", "open-source", "timing", "microservices"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "OpenTelemetry",
+    "slug": "opentelemetry",
+    "description": "Open-source observability framework for generating, collecting, and exporting telemetry data.",
+    "websiteUrl": "https://opentelemetry.io",
+    "tags": ["observability", "telemetry", "open-source", "cncf"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Lightstep (ServiceNow)",
+    "slug": "lightstep",
+    "description": "Observability platform for distributed systems with change intelligence and trace analytics.",
+    "websiteUrl": "https://www.servicenow.com/products/observability.html",
+    "tags": ["observability", "distributed-tracing", "change-intelligence"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Honeycomb",
+    "slug": "honeycomb",
+    "description": "Observability platform for debugging complex systems using high-cardinality event data.",
+    "websiteUrl": "https://www.honeycomb.io",
+    "tags": ["observability", "debugging", "high-cardinality", "events"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Speedcurve",
+    "slug": "speedcurve",
+    "description": "Web performance monitoring tool for tracking Core Web Vitals and front-end loading speed.",
+    "websiteUrl": "https://www.speedcurve.com",
+    "tags": ["performance", "web-vitals", "frontend", "speed"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "WebPageTest",
+    "slug": "webpagetest",
+    "description": "Open-source website performance testing tool with waterfall analysis and filmstrip comparison.",
+    "websiteUrl": "https://www.webpagetest.org",
+    "tags": ["performance", "testing", "waterfall", "open-source"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Calibre",
+    "slug": "calibre-web-perf",
+    "description": "Web performance monitoring platform for tracking Core Web Vitals and performance budgets.",
+    "websiteUrl": "https://calibreapp.com",
+    "tags": ["performance", "web-vitals", "budgets", "monitoring"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "DebugBear",
+    "slug": "debugbear",
+    "description": "Website speed monitoring tool tracking Lighthouse scores and Core Web Vitals over time.",
+    "websiteUrl": "https://www.debugbear.com",
+    "tags": ["performance", "lighthouse", "web-vitals", "monitoring"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Cronitor",
+    "slug": "cronitor",
+    "description": "Monitoring platform for cron jobs, background tasks, and scheduled pipelines with alerting.",
+    "websiteUrl": "https://cronitor.io",
+    "tags": ["cron", "background-jobs", "monitoring", "alerting"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Healthchecks.io",
+    "slug": "healthchecks-io",
+    "description": "Open-source cron job monitoring service that alerts when scheduled tasks fail to run.",
+    "websiteUrl": "https://healthchecks.io",
+    "tags": ["cron", "heartbeat", "open-source", "alerts"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "SigNoz",
+    "slug": "signoz",
+    "description": "Open-source APM and observability platform as an alternative to Datadog built on OpenTelemetry.",
+    "websiteUrl": "https://signoz.io",
+    "tags": ["apm", "observability", "open-source", "opentelemetry"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Highlight.io",
+    "slug": "highlight-io",
+    "description": "Open-source fullstack monitoring with session replay, error monitoring, and log search.",
+    "websiteUrl": "https://www.highlight.io",
+    "tags": ["session-replay", "error-tracking", "open-source", "fullstack"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Grafana Cloud",
+    "slug": "grafana-cloud",
+    "description": "Managed observability stack with Grafana, Prometheus, Loki, and Tempo for metrics and traces.",
+    "websiteUrl": "https://grafana.com/products/cloud/",
+    "tags": ["managed", "observability", "grafana", "metrics"],
+    "primaryCategory": "monitoring",
+    "type": "saas",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Thanos",
+    "slug": "thanos",
+    "description": "Open-source highly available Prometheus setup with long-term storage and global query view.",
+    "websiteUrl": "https://thanos.io",
+    "tags": ["prometheus", "long-term-storage", "open-source", "scalable"],
+    "primaryCategory": "monitoring",
+    "type": "tool",
+    "baselineScore": 7.8
+  }
+]

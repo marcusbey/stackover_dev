@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Hostinger",
+    "slug": "hostinger",
+    "description": "Affordable VPS and shared hosting with global data centers and beginner-friendly tools.",
+    "websiteUrl": "https://www.hostinger.com",
+    "tags": ["vps", "shared", "affordable", "beginner-friendly"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Linode (Akamai)",
+    "slug": "linode",
+    "description": "Developer-friendly VPS platform now part of Akamai with simple pricing and great docs.",
+    "websiteUrl": "https://www.linode.com",
+    "tags": ["vps", "developer", "linux", "akamai"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Vultr",
+    "slug": "vultr",
+    "description": "High-performance cloud compute and bare metal servers across 30+ global locations.",
+    "websiteUrl": "https://www.vultr.com",
+    "tags": ["vps", "dedicated", "bare-metal", "high-performance"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Hetzner",
+    "slug": "hetzner",
+    "description": "European leader in affordable VPS and dedicated servers with excellent price-to-performance.",
+    "websiteUrl": "https://www.hetzner.com",
+    "tags": ["vps", "dedicated", "european", "affordable"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Contabo",
+    "slug": "contabo",
+    "description": "Budget VPS provider offering generous resources at low prices.",
+    "websiteUrl": "https://contabo.com",
+    "tags": ["vps", "budget", "generous-resources"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Kamatera",
+    "slug": "kamatera",
+    "description": "Flexible cloud VPS with 13 global data centers and per-minute billing.",
+    "websiteUrl": "https://www.kamatera.com",
+    "tags": ["vps", "flexible", "global", "pay-per-use"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "ScalaHosting",
+    "slug": "scalahosting",
+    "description": "Managed VPS hosting with proprietary SPanel control panel alternative to cPanel.",
+    "websiteUrl": "https://www.scalahosting.com",
+    "tags": ["vps", "managed", "spanel", "cpanel-alternative"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Railway",
+    "slug": "railway",
+    "description": "Modern PaaS that lets you deploy from GitHub in seconds with auto-scaling and databases.",
+    "websiteUrl": "https://railway.app",
+    "tags": ["paas", "developer", "github-deploy", "auto-scaling"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Render",
+    "slug": "render",
+    "description": "Unified cloud platform for web services, static sites, cron jobs, and managed databases.",
+    "websiteUrl": "https://render.com",
+    "tags": ["paas", "developer", "unified-platform", "managed-databases"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Fly.io",
+    "slug": "fly-io",
+    "description": "Run full-stack apps and databases close to users at the edge with container-based deploys.",
+    "websiteUrl": "https://fly.io",
+    "tags": ["paas", "serverless", "edge", "containers"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Vercel",
+    "slug": "vercel-hosting",
+    "description": "Frontend cloud platform optimized for Next.js and React with edge functions and analytics.",
+    "websiteUrl": "https://vercel.com",
+    "tags": ["paas", "serverless", "nextjs", "frontend", "edge"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Netlify",
+    "slug": "netlify",
+    "description": "Git-based deploy platform with serverless functions, forms, and edge compute.",
+    "websiteUrl": "https://www.netlify.com",
+    "tags": ["paas", "serverless", "jamstack", "git-deploy"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Heroku",
+    "slug": "heroku",
+    "description": "Pioneer PaaS platform for quick app deploys with managed add-ons and buildpacks.",
+    "websiteUrl": "https://www.heroku.com",
+    "tags": ["paas", "developer", "buildpacks", "add-ons"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Coolify",
+    "slug": "coolify",
+    "description": "Open-source self-hosted alternative to Heroku and Netlify with one-click deploys.",
+    "websiteUrl": "https://coolify.io",
+    "tags": ["paas", "self-hosted", "open-source", "docker"],
+    "primaryCategory": "hosting",
+    "type": "open-source",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Dokku",
+    "slug": "dokku",
+    "description": "Minimal PaaS implementation you can run on your own server powered by Docker.",
+    "websiteUrl": "https://dokku.com",
+    "tags": ["paas", "self-hosted", "open-source", "minimal"],
+    "primaryCategory": "hosting",
+    "type": "open-source",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "WP Engine",
+    "slug": "wp-engine",
+    "description": "Premium managed WordPress hosting with enterprise-grade performance and security.",
+    "websiteUrl": "https://wpengine.com",
+    "tags": ["managed", "wordpress", "enterprise", "premium"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Kinsta",
+    "slug": "kinsta",
+    "description": "Google Cloud-powered managed WordPress hosting with staging, CDN, and expert support.",
+    "websiteUrl": "https://kinsta.com",
+    "tags": ["managed", "wordpress", "google-cloud", "performance"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Pressable",
+    "slug": "pressable",
+    "description": "Managed WordPress hosting by Automattic with JetPack integration and expert support.",
+    "websiteUrl": "https://pressable.com",
+    "tags": ["managed", "wordpress", "automattic", "jetpack"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "SiteGround",
+    "slug": "siteground",
+    "description": "Popular shared and managed WordPress hosting with excellent support and speed tools.",
+    "websiteUrl": "https://www.siteground.com",
+    "tags": ["shared", "managed", "wordpress", "beginner-friendly"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Cloudways",
+    "slug": "cloudways",
+    "description": "Managed cloud hosting platform with DigitalOcean, AWS, and GCP backends.",
+    "websiteUrl": "https://www.cloudways.com",
+    "tags": ["managed", "multi-cloud", "wordpress", "flexible"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Bluehost",
+    "slug": "bluehost",
+    "description": "Beginner-friendly shared hosting recommended by WordPress.org with easy setup.",
+    "websiteUrl": "https://www.bluehost.com",
+    "tags": ["shared", "wordpress", "beginner-friendly", "affordable"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "DreamHost",
+    "slug": "dreamhost",
+    "description": "Developer-oriented shared and VPS hosting with generous storage and bandwidth.",
+    "websiteUrl": "https://www.dreamhost.com",
+    "tags": ["shared", "vps", "developer", "generous-resources"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "A2 Hosting",
+    "slug": "a2-hosting",
+    "description": "Speed-optimized shared hosting with Turbo servers and developer-friendly features.",
+    "websiteUrl": "https://www.a2hosting.com",
+    "tags": ["shared", "speed-optimized", "turbo", "developer"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Namecheap Hosting",
+    "slug": "namecheap-hosting",
+    "description": "Affordable shared and VPS hosting from one of the largest domain registrars.",
+    "websiteUrl": "https://www.namecheap.com/hosting/",
+    "tags": ["shared", "vps", "affordable", "bundled"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "GreenGeeks",
+    "slug": "greengeeks",
+    "description": "Eco-friendly web hosting that matches 3x the energy it consumes with renewable credits.",
+    "websiteUrl": "https://www.greengeeks.com",
+    "tags": ["shared", "eco-friendly", "green", "wordpress"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Cloudflare Workers",
+    "slug": "cloudflare-workers",
+    "description": "Serverless edge compute platform running at 300+ locations worldwide with V8 isolates.",
+    "websiteUrl": "https://workers.cloudflare.com",
+    "tags": ["serverless", "edge", "v8-isolates", "global"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Deno Deploy",
+    "slug": "deno-deploy",
+    "description": "Serverless platform for JavaScript and TypeScript at the edge with zero config.",
+    "websiteUrl": "https://deno.com/deploy",
+    "tags": ["serverless", "edge", "typescript", "deno"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "AWS Lambda",
+    "slug": "aws-lambda",
+    "description": "Pioneering serverless compute service with massive ecosystem and event-driven architecture.",
+    "websiteUrl": "https://aws.amazon.com/lambda/",
+    "tags": ["serverless", "event-driven", "aws", "enterprise"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Fastly Compute",
+    "slug": "fastly-compute",
+    "description": "Edge compute platform on Fastly's global network with Wasm-based serverless.",
+    "websiteUrl": "https://www.fastly.com/products/edge-compute",
+    "tags": ["serverless", "edge", "wasm", "cdn"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "OVHcloud",
+    "slug": "ovhcloud",
+    "description": "European cloud and dedicated server provider with competitive pricing and owned infrastructure.",
+    "websiteUrl": "https://www.ovhcloud.com",
+    "tags": ["dedicated", "vps", "european", "bare-metal"],
+    "primaryCategory": "hosting",
+    "type": "saas",
+    "baselineScore": 8.0
+  }
+]

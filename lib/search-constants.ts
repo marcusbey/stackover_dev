@@ -38,6 +38,8 @@ export const SEARCH_CATEGORIES: SearchCategory[] = [
   { slug: "automation", label: "Automation", icon: "zap", color: "bg-amber-100 text-amber-700" },
   { slug: "search", label: "Search", icon: "search", color: "bg-gray-100 text-gray-700" },
   { slug: "monitoring", label: "Monitoring", icon: "activity", color: "bg-red-100 text-red-700" },
+  { slug: "hosting", label: "Hosting", icon: "server", color: "bg-orange-100 text-orange-700" },
+  { slug: "domains", label: "Domains & DNS", icon: "globe-2", color: "bg-teal-100 text-teal-700" },
 ];
 
 export const SEARCH_INTENTS: SearchIntent[] = [

@@ -1,0 +1,892 @@
+[
+  {
+    "name": "Google Analytics",
+    "slug": "google-analytics",
+    "description": "Google's free web analytics service for tracking website traffic and user behavior.",
+    "websiteUrl": "https://analytics.google.com",
+    "tags": ["web-analytics", "google", "free", "traffic"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Plausible Analytics",
+    "slug": "plausible",
+    "description": "Lightweight, privacy-friendly web analytics alternative to Google Analytics.",
+    "websiteUrl": "https://plausible.io",
+    "tags": ["web-analytics", "privacy", "lightweight", "open-source"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Fathom Analytics",
+    "slug": "fathom",
+    "description": "Privacy-focused web analytics with simple dashboard and no cookie banners needed.",
+    "websiteUrl": "https://usefathom.com",
+    "tags": ["web-analytics", "privacy", "simple", "cookieless"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "PostHog",
+    "slug": "posthog",
+    "description": "Open-source product analytics platform with session replay, feature flags, and experiments.",
+    "websiteUrl": "https://posthog.com",
+    "tags": ["product-analytics", "open-source", "session-replay", "feature-flags"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Matomo",
+    "slug": "matomo",
+    "description": "Open-source web analytics platform with full data ownership and GDPR compliance.",
+    "websiteUrl": "https://matomo.org",
+    "tags": ["web-analytics", "open-source", "self-hosted", "gdpr"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Simple Analytics",
+    "slug": "simple-analytics",
+    "description": "Privacy-first analytics that show what matters without tracking personal data.",
+    "websiteUrl": "https://www.simpleanalytics.com",
+    "tags": ["web-analytics", "privacy", "simple", "gdpr"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Umami",
+    "slug": "umami",
+    "description": "Open-source, privacy-focused web analytics alternative that is easy to self-host.",
+    "websiteUrl": "https://umami.is",
+    "tags": ["web-analytics", "open-source", "privacy", "self-hosted"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Pirsch",
+    "slug": "pirsch",
+    "description": "Privacy-friendly web analytics service with cookie-free tracking and simple dashboard.",
+    "websiteUrl": "https://pirsch.io",
+    "tags": ["web-analytics", "privacy", "cookieless", "simple"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Splitbee",
+    "slug": "splitbee",
+    "description": "Friendly analytics and A/B testing tool acquired by Vercel.",
+    "websiteUrl": "https://splitbee.io",
+    "tags": ["web-analytics", "ab-testing", "friendly", "vercel"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Amplitude",
+    "slug": "amplitude",
+    "description": "Digital analytics platform for understanding user behavior and driving product growth.",
+    "websiteUrl": "https://amplitude.com",
+    "tags": ["product-analytics", "user-behavior", "growth", "events"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Mixpanel",
+    "slug": "mixpanel",
+    "description": "Product analytics platform for tracking user interactions and measuring engagement.",
+    "websiteUrl": "https://mixpanel.com",
+    "tags": ["product-analytics", "events", "engagement", "funnels"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Heap",
+    "slug": "heap",
+    "description": "Digital insights platform that automatically captures all user interactions.",
+    "websiteUrl": "https://www.heap.io",
+    "tags": ["product-analytics", "auto-capture", "user-behavior", "insights"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "LogRocket",
+    "slug": "logrocket",
+    "description": "Frontend monitoring platform with session replay, error tracking, and analytics.",
+    "websiteUrl": "https://logrocket.com",
+    "tags": ["session-replay", "error-tracking", "frontend", "monitoring"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "FullStory",
+    "slug": "fullstory",
+    "description": "Digital experience intelligence platform with session replay and analytics.",
+    "websiteUrl": "https://www.fullstory.com",
+    "tags": ["session-replay", "analytics", "digital-experience", "insights"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Hotjar",
+    "slug": "hotjar-analytics",
+    "description": "Behavior analytics platform with heatmaps, session recordings, and user feedback.",
+    "websiteUrl": "https://www.hotjar.com",
+    "tags": ["heatmaps", "session-recordings", "user-feedback", "behavior"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Microsoft Clarity",
+    "slug": "microsoft-clarity",
+    "description": "Free behavior analytics tool with heatmaps and session recordings by Microsoft.",
+    "websiteUrl": "https://clarity.microsoft.com",
+    "tags": ["heatmaps", "session-recordings", "free", "microsoft"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Pendo",
+    "slug": "pendo",
+    "description": "Product experience platform combining analytics, in-app guides, and feedback.",
+    "websiteUrl": "https://www.pendo.io",
+    "tags": ["product-analytics", "in-app-guides", "feedback", "onboarding"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Metabase",
+    "slug": "metabase",
+    "description": "Open-source business intelligence tool for querying databases and building dashboards.",
+    "websiteUrl": "https://www.metabase.com",
+    "tags": ["bi", "open-source", "dashboards", "sql"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Looker",
+    "slug": "looker",
+    "description": "Google Cloud's business intelligence and data exploration platform.",
+    "websiteUrl": "https://cloud.google.com/looker",
+    "tags": ["bi", "google-cloud", "data-exploration", "enterprise"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Tableau",
+    "slug": "tableau",
+    "description": "Industry-leading data visualization and business intelligence platform by Salesforce.",
+    "websiteUrl": "https://www.tableau.com",
+    "tags": ["bi", "data-visualization", "salesforce", "enterprise"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Power BI",
+    "slug": "power-bi",
+    "description": "Microsoft's business analytics tool for interactive visualizations and dashboards.",
+    "websiteUrl": "https://powerbi.microsoft.com",
+    "tags": ["bi", "microsoft", "dashboards", "visualizations"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Grafana",
+    "slug": "grafana",
+    "description": "Open-source platform for monitoring and observability with customizable dashboards.",
+    "websiteUrl": "https://grafana.com",
+    "tags": ["monitoring", "dashboards", "open-source", "observability"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Redash",
+    "slug": "redash",
+    "description": "Open-source tool for connecting to data sources and building visualizations.",
+    "websiteUrl": "https://redash.io",
+    "tags": ["bi", "open-source", "sql", "visualizations"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Apache Superset",
+    "slug": "apache-superset",
+    "description": "Open-source data exploration and visualization platform for modern data lakes.",
+    "websiteUrl": "https://superset.apache.org",
+    "tags": ["bi", "open-source", "data-exploration", "apache"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Preset",
+    "slug": "preset",
+    "description": "Managed cloud service for Apache Superset with enterprise features.",
+    "websiteUrl": "https://preset.io",
+    "tags": ["bi", "superset", "managed", "cloud"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Mode Analytics",
+    "slug": "mode-analytics",
+    "description": "Collaborative analytics platform combining SQL, Python, and visual dashboards.",
+    "websiteUrl": "https://mode.com",
+    "tags": ["bi", "sql", "python", "collaborative"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Lightdash",
+    "slug": "lightdash",
+    "description": "Open-source BI tool that connects to dbt projects for self-serve analytics.",
+    "websiteUrl": "https://www.lightdash.com",
+    "tags": ["bi", "open-source", "dbt", "self-serve"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Cube",
+    "slug": "cube",
+    "description": "Headless BI and semantic layer for building data applications and APIs.",
+    "websiteUrl": "https://cube.dev",
+    "tags": ["semantic-layer", "headless-bi", "api", "data-modeling"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Segment",
+    "slug": "segment",
+    "description": "Customer data platform for collecting, cleaning, and routing analytics data.",
+    "websiteUrl": "https://segment.com",
+    "tags": ["cdp", "data-pipeline", "customer-data", "twilio"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "RudderStack",
+    "slug": "rudderstack",
+    "description": "Open-source customer data platform and Segment alternative for data pipelines.",
+    "websiteUrl": "https://rudderstack.com",
+    "tags": ["cdp", "open-source", "data-pipeline", "warehouse-first"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Jitsu",
+    "slug": "jitsu",
+    "description": "Open-source data ingestion engine for collecting event data from websites and apps.",
+    "websiteUrl": "https://jitsu.com",
+    "tags": ["data-ingestion", "open-source", "events", "warehouse"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Airbyte",
+    "slug": "airbyte",
+    "description": "Open-source data integration platform for syncing data from APIs and databases.",
+    "websiteUrl": "https://airbyte.com",
+    "tags": ["data-integration", "etl", "open-source", "connectors"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Fivetran",
+    "slug": "fivetran",
+    "description": "Automated data integration platform for moving data into cloud warehouses.",
+    "websiteUrl": "https://www.fivetran.com",
+    "tags": ["data-integration", "etl", "automated", "cloud-warehouse"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Stitch",
+    "slug": "stitch",
+    "description": "Simple ETL service for moving data from sources into data warehouses.",
+    "websiteUrl": "https://www.stitchdata.com",
+    "tags": ["etl", "data-pipeline", "simple", "warehouse"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "dbt",
+    "slug": "dbt",
+    "description": "Open-source data transformation tool for analytics engineers using SQL.",
+    "websiteUrl": "https://www.getdbt.com",
+    "tags": ["data-transformation", "sql", "analytics-engineering", "open-source"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "dbt Cloud",
+    "slug": "dbt-cloud",
+    "description": "Managed platform for developing, testing, and deploying dbt transformations.",
+    "websiteUrl": "https://www.getdbt.com/product/dbt-cloud",
+    "tags": ["data-transformation", "managed", "ci-cd", "analytics-engineering"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "LaunchDarkly",
+    "slug": "launchdarkly",
+    "description": "Feature management platform for controlling feature rollouts and A/B testing.",
+    "websiteUrl": "https://launchdarkly.com",
+    "tags": ["feature-flags", "ab-testing", "rollouts", "experimentation"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Optimizely",
+    "slug": "optimizely",
+    "description": "Digital experience platform for A/B testing, experimentation, and personalization.",
+    "websiteUrl": "https://www.optimizely.com",
+    "tags": ["ab-testing", "experimentation", "personalization", "enterprise"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "GrowthBook",
+    "slug": "growthbook",
+    "description": "Open-source feature flagging and A/B testing platform for product teams.",
+    "websiteUrl": "https://www.growthbook.io",
+    "tags": ["ab-testing", "feature-flags", "open-source", "experimentation"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "VWO",
+    "slug": "vwo",
+    "description": "Web testing and conversion optimization platform with A/B testing tools.",
+    "websiteUrl": "https://vwo.com",
+    "tags": ["ab-testing", "conversion-optimization", "testing", "personalization"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Statsig",
+    "slug": "statsig",
+    "description": "Feature management and experimentation platform with statistical analysis.",
+    "websiteUrl": "https://www.statsig.com",
+    "tags": ["feature-flags", "experimentation", "statistics", "product"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Flagsmith",
+    "slug": "flagsmith",
+    "description": "Open-source feature flag and remote config service for managing feature releases.",
+    "websiteUrl": "https://www.flagsmith.com",
+    "tags": ["feature-flags", "open-source", "remote-config", "rollouts"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Snowflake",
+    "slug": "snowflake",
+    "description": "Cloud-native data warehouse platform for analytics and data-driven applications.",
+    "websiteUrl": "https://www.snowflake.com",
+    "tags": ["data-warehouse", "cloud", "analytics", "enterprise"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "BigQuery",
+    "slug": "bigquery",
+    "description": "Google Cloud's serverless, highly scalable data warehouse for analytics.",
+    "websiteUrl": "https://cloud.google.com/bigquery",
+    "tags": ["data-warehouse", "google-cloud", "serverless", "sql"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Amazon Redshift",
+    "slug": "amazon-redshift",
+    "description": "AWS cloud data warehouse for running complex analytical queries on large datasets.",
+    "websiteUrl": "https://aws.amazon.com/redshift/",
+    "tags": ["data-warehouse", "aws", "cloud", "petabyte-scale"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "ClickHouse",
+    "slug": "clickhouse",
+    "description": "Open-source column-oriented database for real-time analytics on large datasets.",
+    "websiteUrl": "https://clickhouse.com",
+    "tags": ["database", "olap", "open-source", "real-time"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "DuckDB",
+    "slug": "duckdb",
+    "description": "In-process SQL analytical database management system for local analytics.",
+    "websiteUrl": "https://duckdb.org",
+    "tags": ["database", "analytical", "in-process", "sql"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Databricks",
+    "slug": "databricks",
+    "description": "Unified analytics platform for data engineering, science, and machine learning.",
+    "websiteUrl": "https://www.databricks.com",
+    "tags": ["data-platform", "lakehouse", "ml", "spark"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Datadog",
+    "slug": "datadog",
+    "description": "Cloud monitoring and analytics platform for infrastructure, applications, and logs.",
+    "websiteUrl": "https://www.datadoghq.com",
+    "tags": ["monitoring", "observability", "apm", "cloud"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "New Relic",
+    "slug": "new-relic",
+    "description": "Full-stack observability platform for monitoring applications and infrastructure.",
+    "websiteUrl": "https://newrelic.com",
+    "tags": ["monitoring", "apm", "observability", "full-stack"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Sentry",
+    "slug": "sentry",
+    "description": "Application monitoring platform for error tracking and performance monitoring.",
+    "websiteUrl": "https://sentry.io",
+    "tags": ["error-tracking", "monitoring", "performance", "debugging"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Prometheus",
+    "slug": "prometheus",
+    "description": "Open-source monitoring and alerting toolkit for metrics collection and querying.",
+    "websiteUrl": "https://prometheus.io",
+    "tags": ["monitoring", "metrics", "open-source", "alerting"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "OpenTelemetry",
+    "slug": "opentelemetry",
+    "description": "Open-source observability framework for generating and collecting telemetry data.",
+    "websiteUrl": "https://opentelemetry.io",
+    "tags": ["observability", "open-source", "tracing", "metrics"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Elastic Stack",
+    "slug": "elastic-stack",
+    "description": "Open-source search, logging, and analytics platform with Elasticsearch and Kibana.",
+    "websiteUrl": "https://www.elastic.co/elastic-stack",
+    "tags": ["search", "logging", "analytics", "open-source"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Splunk",
+    "slug": "splunk",
+    "description": "Enterprise platform for searching, monitoring, and analyzing machine-generated data.",
+    "websiteUrl": "https://www.splunk.com",
+    "tags": ["log-analytics", "enterprise", "security", "monitoring"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Google Tag Manager",
+    "slug": "google-tag-manager",
+    "description": "Free tag management system for deploying analytics and tracking tags.",
+    "websiteUrl": "https://tagmanager.google.com",
+    "tags": ["tag-management", "google", "free", "tracking"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Tinybird",
+    "slug": "tinybird",
+    "description": "Real-time analytics API platform for ingesting and querying data at scale.",
+    "websiteUrl": "https://www.tinybird.co",
+    "tags": ["real-time-analytics", "api", "data-pipeline", "sql"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Countly",
+    "slug": "countly",
+    "description": "Open-source product analytics platform with crash reporting and push notifications.",
+    "websiteUrl": "https://count.ly",
+    "tags": ["product-analytics", "open-source", "crash-reporting", "mobile"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Kissmetrics",
+    "slug": "kissmetrics",
+    "description": "Behavioral analytics platform for tracking individual user journeys and conversions.",
+    "websiteUrl": "https://www.kissmetrics.io",
+    "tags": ["behavioral-analytics", "conversions", "user-journey", "marketing"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Crazy Egg",
+    "slug": "crazy-egg",
+    "description": "Website optimization tool with heatmaps, scrollmaps, and A/B testing features.",
+    "websiteUrl": "https://www.crazyegg.com",
+    "tags": ["heatmaps", "ab-testing", "scrollmaps", "optimization"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Mouseflow",
+    "slug": "mouseflow",
+    "description": "Session replay and heatmap analytics tool for understanding user website behavior.",
+    "websiteUrl": "https://mouseflow.com",
+    "tags": ["session-replay", "heatmaps", "behavior", "ux-analytics"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Freshpaint",
+    "slug": "freshpaint",
+    "description": "Customer data platform for healthcare with HIPAA-compliant analytics tracking.",
+    "websiteUrl": "https://www.freshpaint.io",
+    "tags": ["cdp", "healthcare", "hipaa", "compliant"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "mParticle",
+    "slug": "mparticle",
+    "description": "Customer data infrastructure platform for managing data pipelines across channels.",
+    "websiteUrl": "https://www.mparticle.com",
+    "tags": ["cdp", "data-infrastructure", "multi-channel", "enterprise"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Census",
+    "slug": "census",
+    "description": "Reverse ETL platform for syncing data from warehouses to business tools.",
+    "websiteUrl": "https://www.getcensus.com",
+    "tags": ["reverse-etl", "data-activation", "warehouse", "sync"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Hightouch",
+    "slug": "hightouch",
+    "description": "Reverse ETL platform that syncs customer data from warehouses to marketing tools.",
+    "websiteUrl": "https://hightouch.com",
+    "tags": ["reverse-etl", "data-activation", "warehouse", "marketing"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Hex",
+    "slug": "hex",
+    "description": "Collaborative data workspace combining SQL, Python, and no-code visualizations.",
+    "websiteUrl": "https://hex.tech",
+    "tags": ["data-workspace", "sql", "python", "collaborative"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Observable",
+    "slug": "observable",
+    "description": "Collaborative data visualization platform with reactive JavaScript notebooks.",
+    "websiteUrl": "https://observablehq.com",
+    "tags": ["data-visualization", "notebooks", "javascript", "collaborative"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Streamlit",
+    "slug": "streamlit",
+    "description": "Open-source Python framework for building data apps and dashboards quickly.",
+    "websiteUrl": "https://streamlit.io",
+    "tags": ["data-apps", "python", "dashboards", "open-source"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Evidence",
+    "slug": "evidence",
+    "description": "Open-source BI tool for building data reports using SQL and Markdown.",
+    "websiteUrl": "https://evidence.dev",
+    "tags": ["bi", "open-source", "sql", "markdown"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Google Looker Studio",
+    "slug": "looker-studio",
+    "description": "Free interactive dashboard and reporting tool by Google for data visualization.",
+    "websiteUrl": "https://lookerstudio.google.com",
+    "tags": ["dashboards", "reporting", "google", "free"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Klipfolio",
+    "slug": "klipfolio",
+    "description": "Dashboard and reporting platform for building real-time business dashboards.",
+    "websiteUrl": "https://www.klipfolio.com",
+    "tags": ["dashboards", "reporting", "real-time", "kpis"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Geckoboard",
+    "slug": "geckoboard",
+    "description": "Live TV dashboard tool for displaying key business metrics on big screens.",
+    "websiteUrl": "https://www.geckoboard.com",
+    "tags": ["dashboards", "tv-display", "kpis", "real-time"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Chartio",
+    "slug": "chartio",
+    "description": "Cloud-based business analytics platform acquired by Atlassian for data exploration.",
+    "websiteUrl": "https://chartio.com",
+    "tags": ["bi", "cloud", "data-exploration", "atlassian"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Apache Kafka",
+    "slug": "apache-kafka",
+    "description": "Open-source distributed event streaming platform for real-time data pipelines.",
+    "websiteUrl": "https://kafka.apache.org",
+    "tags": ["event-streaming", "data-pipeline", "open-source", "distributed"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Confluent",
+    "slug": "confluent",
+    "description": "Managed Kafka platform for real-time data streaming and event-driven architectures.",
+    "websiteUrl": "https://www.confluent.io",
+    "tags": ["kafka", "event-streaming", "managed", "real-time"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Upstash",
+    "slug": "upstash",
+    "description": "Serverless data platform with Redis, Kafka, and QStash for edge applications.",
+    "websiteUrl": "https://upstash.com",
+    "tags": ["serverless", "redis", "kafka", "edge"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Monte Carlo",
+    "slug": "monte-carlo",
+    "description": "Data observability platform for monitoring data quality and reliability.",
+    "websiteUrl": "https://www.montecarlodata.com",
+    "tags": ["data-observability", "data-quality", "monitoring", "reliability"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Great Expectations",
+    "slug": "great-expectations",
+    "description": "Open-source data quality framework for validating and profiling data.",
+    "websiteUrl": "https://greatexpectations.io",
+    "tags": ["data-quality", "validation", "open-source", "testing"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Inngest",
+    "slug": "inngest",
+    "description": "Event-driven platform for building background jobs and scheduled functions.",
+    "websiteUrl": "https://www.inngest.com",
+    "tags": ["event-driven", "background-jobs", "serverless", "workflows"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Vercel Analytics",
+    "slug": "vercel-analytics",
+    "description": "Privacy-friendly web analytics built into the Vercel deployment platform.",
+    "websiteUrl": "https://vercel.com/analytics",
+    "tags": ["web-analytics", "vercel", "privacy", "web-vitals"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Netlify Analytics",
+    "slug": "netlify-analytics",
+    "description": "Server-side analytics built into Netlify that tracks visits without client-side scripts.",
+    "websiteUrl": "https://www.netlify.com/products/analytics/",
+    "tags": ["web-analytics", "server-side", "netlify", "privacy"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Panelbear",
+    "slug": "panelbear",
+    "description": "Website analytics and performance monitoring tool focused on speed insights.",
+    "websiteUrl": "https://panelbear.com",
+    "tags": ["web-analytics", "performance", "speed", "monitoring"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Quickwit",
+    "slug": "quickwit",
+    "description": "Open-source cloud-native search engine for logs and traces on object storage.",
+    "websiteUrl": "https://quickwit.io",
+    "tags": ["log-analytics", "search", "open-source", "cloud-native"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Apache Druid",
+    "slug": "apache-druid",
+    "description": "Open-source real-time analytics database for sub-second OLAP queries.",
+    "websiteUrl": "https://druid.apache.org",
+    "tags": ["olap", "real-time", "open-source", "analytical"],
+    "primaryCategory": "analytics",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Materialize",
+    "slug": "materialize",
+    "description": "Streaming SQL database for building real-time analytics with incremental views.",
+    "websiteUrl": "https://materialize.com",
+    "tags": ["streaming-sql", "real-time", "materialized-views", "analytics"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Rockset",
+    "slug": "rockset",
+    "description": "Real-time analytics database built for serving low-latency analytical queries.",
+    "websiteUrl": "https://rockset.com",
+    "tags": ["real-time-analytics", "database", "low-latency", "indexing"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Eppo",
+    "slug": "eppo",
+    "description": "Experimentation and feature management platform built on data warehouse data.",
+    "websiteUrl": "https://www.geteppo.com",
+    "tags": ["experimentation", "feature-flags", "warehouse-native", "ab-testing"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Avo",
+    "slug": "avo",
+    "description": "Analytics governance platform for planning, tracking, and validating analytics data.",
+    "websiteUrl": "https://www.avo.app",
+    "tags": ["analytics-governance", "tracking-plan", "data-quality", "validation"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "June",
+    "slug": "june",
+    "description": "Product analytics tool designed specifically for B2B SaaS with auto-generated reports.",
+    "websiteUrl": "https://www.june.so",
+    "tags": ["product-analytics", "b2b", "saas", "auto-reports"],
+    "primaryCategory": "analytics",
+    "type": "saas",
+    "baselineScore": 7.8
+  }
+]

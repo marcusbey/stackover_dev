@@ -1,0 +1,1802 @@
+[
+  {
+    "name": "Amazon Web Services",
+    "slug": "aws",
+    "description": "World's most comprehensive cloud computing platform with 200+ services.",
+    "websiteUrl": "https://aws.amazon.com",
+    "tags": [
+      "cloud-provider",
+      "infrastructure",
+      "enterprise",
+      "comprehensive"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 9.5
+  },
+  {
+    "name": "Google Cloud Platform",
+    "slug": "gcp",
+    "description": "Google's cloud platform with strong AI, data, and Kubernetes services.",
+    "websiteUrl": "https://cloud.google.com",
+    "tags": [
+      "cloud-provider",
+      "infrastructure",
+      "ai",
+      "data"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Microsoft Azure",
+    "slug": "azure",
+    "description": "Microsoft's cloud platform with deep enterprise and hybrid integration.",
+    "websiteUrl": "https://azure.microsoft.com",
+    "tags": [
+      "cloud-provider",
+      "infrastructure",
+      "enterprise",
+      "hybrid"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "DigitalOcean",
+    "slug": "digitalocean",
+    "description": "Developer-friendly cloud platform with simple pricing and great UX.",
+    "websiteUrl": "https://www.digitalocean.com",
+    "tags": [
+      "cloud-provider",
+      "developer-friendly",
+      "simple",
+      "droplets"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Linode",
+    "slug": "linode",
+    "description": "Akamai's cloud computing platform with affordable virtual machines.",
+    "websiteUrl": "https://www.linode.com",
+    "tags": [
+      "cloud-provider",
+      "affordable",
+      "vps",
+      "akamai"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Vultr",
+    "slug": "vultr",
+    "description": "Cloud infrastructure provider with global bare metal and cloud compute.",
+    "websiteUrl": "https://www.vultr.com",
+    "tags": [
+      "cloud-provider",
+      "bare-metal",
+      "global",
+      "affordable"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Hetzner",
+    "slug": "hetzner",
+    "description": "European cloud provider with excellent price-to-performance ratio.",
+    "websiteUrl": "https://www.hetzner.com",
+    "tags": [
+      "cloud-provider",
+      "european",
+      "affordable",
+      "dedicated"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Oracle Cloud",
+    "slug": "oracle-cloud",
+    "description": "Oracle's cloud infrastructure with generous free tier and OCI services.",
+    "websiteUrl": "https://www.oracle.com/cloud/",
+    "tags": [
+      "cloud-provider",
+      "enterprise",
+      "free-tier",
+      "oci"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "IBM Cloud",
+    "slug": "ibm-cloud",
+    "description": "IBM's cloud platform with enterprise AI and hybrid cloud capabilities.",
+    "websiteUrl": "https://www.ibm.com/cloud",
+    "tags": [
+      "cloud-provider",
+      "enterprise",
+      "hybrid",
+      "ai"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Scaleway",
+    "slug": "scaleway",
+    "description": "European cloud provider with sustainable infrastructure and competitive pricing.",
+    "websiteUrl": "https://www.scaleway.com",
+    "tags": [
+      "cloud-provider",
+      "european",
+      "sustainable",
+      "developer"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "OVHcloud",
+    "slug": "ovhcloud",
+    "description": "European cloud provider with global infrastructure and data sovereignty.",
+    "websiteUrl": "https://www.ovhcloud.com",
+    "tags": [
+      "cloud-provider",
+      "european",
+      "sovereignty",
+      "global"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "UpCloud",
+    "slug": "upcloud",
+    "description": "European cloud infrastructure provider with MaxIOPS storage technology.",
+    "websiteUrl": "https://upcloud.com",
+    "tags": [
+      "cloud-provider",
+      "european",
+      "high-performance",
+      "storage"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Vercel",
+    "slug": "vercel",
+    "description": "Frontend cloud platform for deploying web applications with edge network.",
+    "websiteUrl": "https://vercel.com",
+    "tags": [
+      "serverless",
+      "frontend",
+      "edge",
+      "next-js"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "Netlify",
+    "slug": "netlify",
+    "description": "Web development platform for deploying and scaling modern web projects.",
+    "websiteUrl": "https://www.netlify.com",
+    "tags": [
+      "serverless",
+      "jamstack",
+      "deployment",
+      "edge"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Cloudflare Workers",
+    "slug": "cloudflare-workers",
+    "description": "Serverless execution environment running at Cloudflare's edge network.",
+    "websiteUrl": "https://workers.cloudflare.com",
+    "tags": [
+      "serverless",
+      "edge",
+      "cloudflare",
+      "v8-isolates"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "AWS Lambda",
+    "slug": "aws-lambda",
+    "description": "AWS serverless compute service running code in response to events.",
+    "websiteUrl": "https://aws.amazon.com/lambda/",
+    "tags": [
+      "serverless",
+      "functions",
+      "aws",
+      "event-driven"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Google Cloud Functions",
+    "slug": "cloud-functions",
+    "description": "Google's serverless compute platform for event-driven functions.",
+    "websiteUrl": "https://cloud.google.com/functions",
+    "tags": [
+      "serverless",
+      "functions",
+      "google-cloud",
+      "event-driven"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Azure Functions",
+    "slug": "azure-functions",
+    "description": "Microsoft's serverless compute service with multiple language support.",
+    "websiteUrl": "https://azure.microsoft.com/en-us/products/functions/",
+    "tags": [
+      "serverless",
+      "functions",
+      "azure",
+      "multi-language"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Deno Deploy",
+    "slug": "deno-deploy",
+    "description": "Global serverless platform for Deno and TypeScript at the edge.",
+    "websiteUrl": "https://deno.com/deploy",
+    "tags": [
+      "serverless",
+      "edge",
+      "deno",
+      "typescript"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Fly.io",
+    "slug": "fly-io",
+    "description": "Platform for running full-stack apps globally close to users.",
+    "websiteUrl": "https://fly.io",
+    "tags": [
+      "serverless",
+      "global",
+      "full-stack",
+      "edge"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Render",
+    "slug": "render",
+    "description": "Unified cloud for building and running apps with automatic deployments.",
+    "websiteUrl": "https://render.com",
+    "tags": [
+      "serverless",
+      "deployment",
+      "automatic",
+      "developer-friendly"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Heroku",
+    "slug": "heroku",
+    "description": "Cloud platform as a service for deploying and managing applications.",
+    "websiteUrl": "https://www.heroku.com",
+    "tags": [
+      "paas",
+      "deployment",
+      "managed",
+      "salesforce"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Cloudflare Pages",
+    "slug": "cloudflare-pages",
+    "description": "Full-stack platform for deploying static and dynamic web applications.",
+    "websiteUrl": "https://pages.cloudflare.com",
+    "tags": [
+      "serverless",
+      "deployment",
+      "cloudflare",
+      "full-stack"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "AWS Amplify",
+    "slug": "aws-amplify",
+    "description": "AWS platform for building and deploying full-stack web and mobile apps.",
+    "websiteUrl": "https://aws.amazon.com/amplify/",
+    "tags": [
+      "serverless",
+      "full-stack",
+      "aws",
+      "mobile"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "SST",
+    "slug": "sst",
+    "description": "Framework for building full-stack serverless applications on AWS.",
+    "websiteUrl": "https://sst.dev",
+    "tags": [
+      "serverless",
+      "framework",
+      "aws",
+      "full-stack"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Serverless Framework",
+    "slug": "serverless-framework",
+    "description": "Open-source framework for building serverless applications on any cloud.",
+    "websiteUrl": "https://www.serverless.com",
+    "tags": [
+      "serverless",
+      "framework",
+      "multi-cloud",
+      "open-source"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Amazon EKS",
+    "slug": "amazon-eks",
+    "description": "AWS managed Kubernetes service for running containerized applications.",
+    "websiteUrl": "https://aws.amazon.com/eks/",
+    "tags": [
+      "kubernetes",
+      "managed",
+      "aws",
+      "containers"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Google GKE",
+    "slug": "google-gke",
+    "description": "Google's managed Kubernetes service with Autopilot and GKE Enterprise.",
+    "websiteUrl": "https://cloud.google.com/kubernetes-engine",
+    "tags": [
+      "kubernetes",
+      "managed",
+      "google-cloud",
+      "autopilot"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Azure AKS",
+    "slug": "azure-aks",
+    "description": "Microsoft's managed Kubernetes service integrated with Azure ecosystem.",
+    "websiteUrl": "https://azure.microsoft.com/en-us/products/kubernetes-service/",
+    "tags": [
+      "kubernetes",
+      "managed",
+      "azure",
+      "integrated"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Rancher",
+    "slug": "rancher",
+    "description": "Multi-cluster Kubernetes management platform by SUSE.",
+    "websiteUrl": "https://www.rancher.com",
+    "tags": [
+      "kubernetes",
+      "management",
+      "multi-cluster",
+      "suse"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "k3s",
+    "slug": "k3s",
+    "description": "Lightweight Kubernetes distribution for IoT and edge computing.",
+    "websiteUrl": "https://k3s.io",
+    "tags": [
+      "kubernetes",
+      "lightweight",
+      "edge",
+      "iot"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Kubernetes",
+    "slug": "kubernetes",
+    "description": "Open-source container orchestration platform for automated deployment.",
+    "websiteUrl": "https://kubernetes.io",
+    "tags": [
+      "kubernetes",
+      "orchestration",
+      "containers",
+      "open-source"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Helm",
+    "slug": "helm",
+    "description": "Package manager for Kubernetes with charts for app deployment.",
+    "websiteUrl": "https://helm.sh",
+    "tags": [
+      "kubernetes",
+      "package-manager",
+      "charts",
+      "deployment"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "ArgoCD",
+    "slug": "argocd",
+    "description": "Declarative GitOps continuous delivery tool for Kubernetes.",
+    "websiteUrl": "https://argo-cd.readthedocs.io",
+    "tags": [
+      "kubernetes",
+      "gitops",
+      "cd",
+      "declarative"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Istio",
+    "slug": "istio",
+    "description": "Open-source service mesh for Kubernetes with traffic management.",
+    "websiteUrl": "https://istio.io",
+    "tags": [
+      "kubernetes",
+      "service-mesh",
+      "traffic-management",
+      "security"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Linkerd",
+    "slug": "linkerd",
+    "description": "Ultralight service mesh for Kubernetes with simplicity focus.",
+    "websiteUrl": "https://linkerd.io",
+    "tags": [
+      "kubernetes",
+      "service-mesh",
+      "lightweight",
+      "cncf"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Kustomize",
+    "slug": "kustomize",
+    "description": "Kubernetes native configuration management with overlay customization.",
+    "websiteUrl": "https://kustomize.io",
+    "tags": [
+      "kubernetes",
+      "configuration",
+      "overlays",
+      "native"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Lens",
+    "slug": "lens",
+    "description": "Kubernetes IDE for managing and monitoring clusters visually.",
+    "websiteUrl": "https://k8slens.dev",
+    "tags": [
+      "kubernetes",
+      "ide",
+      "monitoring",
+      "visual"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Terraform",
+    "slug": "terraform",
+    "description": "HashiCorp's infrastructure as code tool for multi-cloud provisioning.",
+    "websiteUrl": "https://www.terraform.io",
+    "tags": [
+      "iac",
+      "infrastructure",
+      "hashicorp",
+      "multi-cloud"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "OpenTofu",
+    "slug": "opentofu",
+    "description": "Open-source fork of Terraform maintained by the Linux Foundation.",
+    "websiteUrl": "https://opentofu.org",
+    "tags": [
+      "iac",
+      "infrastructure",
+      "open-source",
+      "terraform-fork"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Pulumi",
+    "slug": "pulumi",
+    "description": "Infrastructure as code platform using general-purpose programming languages.",
+    "websiteUrl": "https://www.pulumi.com",
+    "tags": [
+      "iac",
+      "infrastructure",
+      "multi-language",
+      "modern"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "AWS CDK",
+    "slug": "aws-cdk",
+    "description": "AWS Cloud Development Kit for defining infrastructure with code.",
+    "websiteUrl": "https://aws.amazon.com/cdk/",
+    "tags": [
+      "iac",
+      "aws",
+      "code",
+      "typescript"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Ansible",
+    "slug": "ansible",
+    "description": "Red Hat's automation platform for configuration management and deployment.",
+    "websiteUrl": "https://www.ansible.com",
+    "tags": [
+      "iac",
+      "automation",
+      "configuration",
+      "red-hat"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Chef",
+    "slug": "chef",
+    "description": "Infrastructure automation platform for managing servers at scale.",
+    "websiteUrl": "https://www.chef.io",
+    "tags": [
+      "iac",
+      "automation",
+      "configuration",
+      "ruby"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Puppet",
+    "slug": "puppet",
+    "description": "Infrastructure automation for managing server configurations declaratively.",
+    "websiteUrl": "https://www.puppet.com",
+    "tags": [
+      "iac",
+      "automation",
+      "configuration",
+      "declarative"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Crossplane",
+    "slug": "crossplane",
+    "description": "Cloud-native control plane for building platforms with Kubernetes.",
+    "websiteUrl": "https://www.crossplane.io",
+    "tags": [
+      "iac",
+      "kubernetes",
+      "control-plane",
+      "cncf"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Packer",
+    "slug": "packer",
+    "description": "HashiCorp's tool for creating identical machine images across platforms.",
+    "websiteUrl": "https://www.packer.io",
+    "tags": [
+      "iac",
+      "machine-images",
+      "hashicorp",
+      "multi-platform"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Vagrant",
+    "slug": "vagrant",
+    "description": "HashiCorp's tool for building portable development environments.",
+    "websiteUrl": "https://www.vagrantup.com",
+    "tags": [
+      "iac",
+      "dev-environments",
+      "hashicorp",
+      "virtualization"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Cloudflare",
+    "slug": "cloudflare",
+    "description": "Global cloud platform for CDN, security, and edge computing services.",
+    "websiteUrl": "https://www.cloudflare.com",
+    "tags": [
+      "cdn",
+      "security",
+      "edge",
+      "dns"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 9.3
+  },
+  {
+    "name": "Fastly",
+    "slug": "fastly",
+    "description": "Edge cloud platform with real-time CDN and edge compute capabilities.",
+    "websiteUrl": "https://www.fastly.com",
+    "tags": [
+      "cdn",
+      "edge-compute",
+      "real-time",
+      "performance"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Akamai",
+    "slug": "akamai",
+    "description": "Enterprise CDN and cloud security platform with massive global network.",
+    "websiteUrl": "https://www.akamai.com",
+    "tags": [
+      "cdn",
+      "security",
+      "enterprise",
+      "global"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "KeyCDN",
+    "slug": "keycdn",
+    "description": "Affordable content delivery network with real-time analytics.",
+    "websiteUrl": "https://www.keycdn.com",
+    "tags": [
+      "cdn",
+      "affordable",
+      "analytics",
+      "performance"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "BunnyCDN",
+    "slug": "bunnycdn",
+    "description": "Fast and affordable CDN with edge storage and video streaming.",
+    "websiteUrl": "https://bunny.net",
+    "tags": [
+      "cdn",
+      "affordable",
+      "fast",
+      "video-streaming"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Amazon CloudFront",
+    "slug": "cloudfront",
+    "description": "AWS content delivery network for fast and secure content delivery.",
+    "websiteUrl": "https://aws.amazon.com/cloudfront/",
+    "tags": [
+      "cdn",
+      "aws",
+      "global",
+      "secure"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Amazon Route 53",
+    "slug": "route53",
+    "description": "AWS scalable DNS service with health checking and traffic routing.",
+    "websiteUrl": "https://aws.amazon.com/route53/",
+    "tags": [
+      "dns",
+      "aws",
+      "health-checking",
+      "routing"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Cloudflare DNS",
+    "slug": "cloudflare-dns",
+    "description": "Fast and free DNS hosting with DDoS protection and analytics.",
+    "websiteUrl": "https://www.cloudflare.com/dns/",
+    "tags": [
+      "dns",
+      "free",
+      "fast",
+      "ddos-protection"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Google Cloud DNS",
+    "slug": "google-cloud-dns",
+    "description": "Google's managed DNS hosting service with global anycast network.",
+    "websiteUrl": "https://cloud.google.com/dns",
+    "tags": [
+      "dns",
+      "google-cloud",
+      "managed",
+      "anycast"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Vercel Edge Functions",
+    "slug": "vercel-edge-functions",
+    "description": "Vercel's serverless functions running at the edge for low latency.",
+    "websiteUrl": "https://vercel.com/docs/functions/edge-functions",
+    "tags": [
+      "edge-computing",
+      "serverless",
+      "vercel",
+      "low-latency"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "AWS CloudWatch",
+    "slug": "aws-cloudwatch",
+    "description": "AWS monitoring service for cloud resources and applications.",
+    "websiteUrl": "https://aws.amazon.com/cloudwatch/",
+    "tags": [
+      "monitoring",
+      "aws",
+      "metrics",
+      "alerting"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "AWS S3",
+    "slug": "aws-s3",
+    "description": "AWS object storage service with industry-leading scalability and durability.",
+    "websiteUrl": "https://aws.amazon.com/s3/",
+    "tags": [
+      "storage",
+      "object-storage",
+      "aws",
+      "scalable"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 9.5
+  },
+  {
+    "name": "Google Cloud Storage",
+    "slug": "gcs",
+    "description": "Google's unified object storage for all data storage needs.",
+    "websiteUrl": "https://cloud.google.com/storage",
+    "tags": [
+      "storage",
+      "object-storage",
+      "google-cloud",
+      "unified"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Azure Blob Storage",
+    "slug": "azure-blob",
+    "description": "Microsoft's massively scalable object storage for unstructured data.",
+    "websiteUrl": "https://azure.microsoft.com/en-us/products/storage/blobs/",
+    "tags": [
+      "storage",
+      "object-storage",
+      "azure",
+      "scalable"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Cloudflare R2",
+    "slug": "cloudflare-r2",
+    "description": "S3-compatible object storage with zero egress fees.",
+    "websiteUrl": "https://www.cloudflare.com/products/r2/",
+    "tags": [
+      "storage",
+      "object-storage",
+      "zero-egress",
+      "s3-compatible"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Backblaze B2",
+    "slug": "backblaze-b2",
+    "description": "Affordable S3-compatible cloud object storage for backups and media.",
+    "websiteUrl": "https://www.backblaze.com/cloud-storage",
+    "tags": [
+      "storage",
+      "affordable",
+      "s3-compatible",
+      "backup"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Wasabi",
+    "slug": "wasabi",
+    "description": "Hot cloud storage with no egress fees and S3 compatibility.",
+    "websiteUrl": "https://wasabi.com",
+    "tags": [
+      "storage",
+      "no-egress",
+      "s3-compatible",
+      "affordable"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Tigris",
+    "slug": "tigris",
+    "description": "Globally distributed S3-compatible object storage for edge applications.",
+    "websiteUrl": "https://www.tigrisdata.com",
+    "tags": [
+      "storage",
+      "global",
+      "s3-compatible",
+      "edge"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "UploadThing",
+    "slug": "uploadthing",
+    "description": "File upload service built for TypeScript and Next.js applications.",
+    "websiteUrl": "https://uploadthing.com",
+    "tags": [
+      "storage",
+      "file-upload",
+      "typescript",
+      "nextjs"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Cloudinary",
+    "slug": "cloudinary",
+    "description": "Media management platform with image and video optimization APIs.",
+    "websiteUrl": "https://cloudinary.com",
+    "tags": [
+      "storage",
+      "media",
+      "image-optimization",
+      "cdn"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "imgix",
+    "slug": "imgix",
+    "description": "Real-time image processing and delivery CDN for web applications.",
+    "websiteUrl": "https://imgix.com",
+    "tags": [
+      "storage",
+      "image-processing",
+      "cdn",
+      "real-time"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "AWS ECS",
+    "slug": "aws-ecs",
+    "description": "AWS managed container orchestration service for Docker containers.",
+    "websiteUrl": "https://aws.amazon.com/ecs/",
+    "tags": [
+      "containers",
+      "managed",
+      "aws",
+      "docker"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "AWS Fargate",
+    "slug": "aws-fargate",
+    "description": "AWS serverless compute engine for containers without managing servers.",
+    "websiteUrl": "https://aws.amazon.com/fargate/",
+    "tags": [
+      "containers",
+      "serverless",
+      "aws",
+      "managed"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Google Cloud Run",
+    "slug": "cloud-run",
+    "description": "Google's fully managed serverless platform for containerized applications.",
+    "websiteUrl": "https://cloud.google.com/run",
+    "tags": [
+      "containers",
+      "serverless",
+      "google-cloud",
+      "managed"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Azure Container Apps",
+    "slug": "azure-container-apps",
+    "description": "Microsoft's serverless container platform for microservices and APIs.",
+    "websiteUrl": "https://azure.microsoft.com/en-us/products/container-apps/",
+    "tags": [
+      "containers",
+      "serverless",
+      "azure",
+      "microservices"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Kamal",
+    "slug": "kamal",
+    "description": "Deployment tool by Basecamp for deploying web apps to bare metal.",
+    "websiteUrl": "https://kamal-deploy.org",
+    "tags": [
+      "deployment",
+      "bare-metal",
+      "docker",
+      "basecamp"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Dokku",
+    "slug": "dokku",
+    "description": "Open-source mini-Heroku PaaS for self-hosted app deployment.",
+    "websiteUrl": "https://dokku.com",
+    "tags": [
+      "deployment",
+      "self-hosted",
+      "paas",
+      "open-source"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "CapRover",
+    "slug": "caprover",
+    "description": "Free self-hosted PaaS for deploying apps with Docker support.",
+    "websiteUrl": "https://caprover.com",
+    "tags": [
+      "deployment",
+      "self-hosted",
+      "paas",
+      "docker"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Portainer",
+    "slug": "portainer",
+    "description": "Container management platform with GUI for Docker and Kubernetes.",
+    "websiteUrl": "https://www.portainer.io",
+    "tags": [
+      "containers",
+      "management",
+      "gui",
+      "docker"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Traefik",
+    "slug": "traefik",
+    "description": "Cloud-native application proxy and load balancer with auto-discovery.",
+    "websiteUrl": "https://traefik.io",
+    "tags": [
+      "load-balancer",
+      "reverse-proxy",
+      "cloud-native",
+      "auto-discovery"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "HAProxy",
+    "slug": "haproxy",
+    "description": "High-performance TCP/HTTP load balancer and reverse proxy.",
+    "websiteUrl": "https://www.haproxy.org",
+    "tags": [
+      "load-balancer",
+      "reverse-proxy",
+      "high-performance",
+      "tcp"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "AWS ELB",
+    "slug": "aws-elb",
+    "description": "AWS elastic load balancing service distributing traffic across targets.",
+    "websiteUrl": "https://aws.amazon.com/elasticloadbalancing/",
+    "tags": [
+      "load-balancer",
+      "aws",
+      "elastic",
+      "managed"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Cloudflare Load Balancer",
+    "slug": "cloudflare-lb",
+    "description": "Cloudflare's global load balancing with health checks and failover.",
+    "websiteUrl": "https://www.cloudflare.com/load-balancing/",
+    "tags": [
+      "load-balancer",
+      "cloudflare",
+      "global",
+      "failover"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Terraform Cloud",
+    "slug": "terraform-cloud",
+    "description": "HashiCorp's managed service for Terraform with remote state and runs.",
+    "websiteUrl": "https://www.hashicorp.com/products/terraform",
+    "tags": [
+      "iac",
+      "managed",
+      "hashicorp",
+      "remote-state"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Spacelift",
+    "slug": "spacelift",
+    "description": "Infrastructure as code management platform for Terraform and OpenTofu.",
+    "websiteUrl": "https://spacelift.io",
+    "tags": [
+      "iac",
+      "management",
+      "terraform",
+      "automation"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Env0",
+    "slug": "env0",
+    "description": "Remote run environment management for Terraform and IaC workflows.",
+    "websiteUrl": "https://www.env0.com",
+    "tags": [
+      "iac",
+      "management",
+      "terraform",
+      "cost-management"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Cloudflare Tunnel",
+    "slug": "cloudflare-tunnel",
+    "description": "Secure tunnels exposing local services through Cloudflare's network.",
+    "websiteUrl": "https://www.cloudflare.com/products/tunnel/",
+    "tags": [
+      "networking",
+      "tunnel",
+      "cloudflare",
+      "secure"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "WireGuard",
+    "slug": "wireguard",
+    "description": "Modern, high-performance VPN protocol with simple configuration.",
+    "websiteUrl": "https://www.wireguard.com",
+    "tags": [
+      "networking",
+      "vpn",
+      "security",
+      "simple"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Cilium",
+    "slug": "cilium",
+    "description": "eBPF-based networking, security, and observability for Kubernetes.",
+    "websiteUrl": "https://cilium.io",
+    "tags": [
+      "networking",
+      "kubernetes",
+      "ebpf",
+      "security"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Teleport",
+    "slug": "teleport",
+    "description": "Identity-native infrastructure access platform for secure connectivity.",
+    "websiteUrl": "https://goteleport.com",
+    "tags": [
+      "security",
+      "access-management",
+      "ssh",
+      "identity"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Caddy",
+    "slug": "caddy",
+    "description": "Modern web server with automatic HTTPS and simple configuration.",
+    "websiteUrl": "https://caddyserver.com",
+    "tags": [
+      "web-server",
+      "https",
+      "automatic",
+      "simple"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Nginx",
+    "slug": "nginx",
+    "description": "High-performance web server, reverse proxy, and load balancer.",
+    "websiteUrl": "https://nginx.org",
+    "tags": [
+      "web-server",
+      "reverse-proxy",
+      "load-balancer",
+      "high-performance"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Apache HTTP Server",
+    "slug": "apache-httpd",
+    "description": "World's most used web server software with module-based architecture.",
+    "websiteUrl": "https://httpd.apache.org",
+    "tags": [
+      "web-server",
+      "open-source",
+      "modules",
+      "classic"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Nomad",
+    "slug": "nomad",
+    "description": "HashiCorp's flexible workload orchestrator for containers and non-containers.",
+    "websiteUrl": "https://www.nomadproject.io",
+    "tags": [
+      "orchestration",
+      "hashicorp",
+      "flexible",
+      "multi-workload"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Boundary",
+    "slug": "boundary",
+    "description": "HashiCorp's identity-based access management for dynamic infrastructure.",
+    "websiteUrl": "https://www.boundaryproject.io",
+    "tags": [
+      "security",
+      "access-management",
+      "hashicorp",
+      "identity"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Vault Secrets",
+    "slug": "vault-secrets",
+    "description": "HashiCorp Vault's cloud-managed secrets engine for applications.",
+    "websiteUrl": "https://www.vaultproject.io",
+    "tags": [
+      "security",
+      "secrets",
+      "hashicorp",
+      "managed"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Cert-Manager",
+    "slug": "cert-manager",
+    "description": "Kubernetes certificate management controller for TLS automation.",
+    "websiteUrl": "https://cert-manager.io",
+    "tags": [
+      "security",
+      "certificates",
+      "kubernetes",
+      "tls"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Let's Encrypt",
+    "slug": "lets-encrypt",
+    "description": "Free automated certificate authority for TLS/SSL certificates.",
+    "websiteUrl": "https://letsencrypt.org",
+    "tags": [
+      "security",
+      "certificates",
+      "free",
+      "automated"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Cloudflare Zero Trust",
+    "slug": "cloudflare-zero-trust",
+    "description": "Cloudflare's zero trust security platform for network access control.",
+    "websiteUrl": "https://www.cloudflare.com/zero-trust/",
+    "tags": [
+      "security",
+      "zero-trust",
+      "cloudflare",
+      "access-control"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Civo",
+    "slug": "civo",
+    "description": "Cloud-native service provider with fast Kubernetes cluster deployment.",
+    "websiteUrl": "https://www.civo.com",
+    "tags": [
+      "cloud-provider",
+      "kubernetes",
+      "fast",
+      "developer-friendly"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Equinix Metal",
+    "slug": "equinix-metal",
+    "description": "Bare metal cloud infrastructure for high-performance workloads.",
+    "websiteUrl": "https://deploy.equinix.com",
+    "tags": [
+      "cloud-provider",
+      "bare-metal",
+      "high-performance",
+      "global"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "FluxCD",
+    "slug": "fluxcd",
+    "description": "CNCF GitOps tool for keeping Kubernetes clusters in sync with Git.",
+    "websiteUrl": "https://fluxcd.io",
+    "tags": [
+      "kubernetes",
+      "gitops",
+      "cncf",
+      "sync"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Garden",
+    "slug": "garden",
+    "description": "Development and testing platform for Kubernetes applications.",
+    "websiteUrl": "https://garden.io",
+    "tags": [
+      "kubernetes",
+      "development",
+      "testing",
+      "automation"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Skaffold",
+    "slug": "skaffold",
+    "description": "Google's CLI tool for continuous development on Kubernetes.",
+    "websiteUrl": "https://skaffold.dev",
+    "tags": [
+      "kubernetes",
+      "development",
+      "google",
+      "cli"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Tilt",
+    "slug": "tilt",
+    "description": "Developer toolkit for microservice development on Kubernetes.",
+    "websiteUrl": "https://tilt.dev",
+    "tags": [
+      "kubernetes",
+      "development",
+      "microservices",
+      "live-update"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Minikube",
+    "slug": "minikube",
+    "description": "Local Kubernetes cluster for development and learning purposes.",
+    "websiteUrl": "https://minikube.sigs.k8s.io",
+    "tags": [
+      "kubernetes",
+      "local",
+      "development",
+      "learning"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Kind",
+    "slug": "kind",
+    "description": "Tool for running local Kubernetes clusters using Docker containers.",
+    "websiteUrl": "https://kind.sigs.k8s.io",
+    "tags": [
+      "kubernetes",
+      "local",
+      "docker",
+      "testing"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Proxmox VE",
+    "slug": "proxmox",
+    "description": "Open-source virtualization platform for VMs and containers.",
+    "websiteUrl": "https://www.proxmox.com",
+    "tags": [
+      "virtualization",
+      "open-source",
+      "hypervisor",
+      "self-hosted"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Uptime Robot",
+    "slug": "uptimerobot",
+    "description": "Free website monitoring service with status pages and alerts.",
+    "websiteUrl": "https://uptimerobot.com",
+    "tags": [
+      "monitoring",
+      "uptime",
+      "free",
+      "alerts"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "StatusPage",
+    "slug": "statuspage",
+    "description": "Atlassian's hosted status page for communicating service status.",
+    "websiteUrl": "https://www.atlassian.com/software/statuspage",
+    "tags": [
+      "monitoring",
+      "status-page",
+      "atlassian",
+      "communication"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Instatus",
+    "slug": "instatus",
+    "description": "Fast and customizable status page for service monitoring.",
+    "websiteUrl": "https://instatus.com",
+    "tags": [
+      "monitoring",
+      "status-page",
+      "fast",
+      "customizable"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Uptime Kuma",
+    "slug": "uptime-kuma",
+    "description": "Open-source self-hosted monitoring tool with beautiful dashboard.",
+    "websiteUrl": "https://uptime.kuma.pet",
+    "tags": [
+      "monitoring",
+      "self-hosted",
+      "open-source",
+      "dashboard"
+    ],
+    "primaryCategory": "cloud",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Koyeb",
+    "slug": "koyeb",
+    "description": "Serverless platform for deploying apps globally with instant scaling.",
+    "websiteUrl": "https://www.koyeb.com",
+    "tags": [
+      "serverless",
+      "deployment",
+      "global",
+      "scaling"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Zeabur",
+    "slug": "zeabur",
+    "description": "One-click deployment platform for full-stack web applications.",
+    "websiteUrl": "https://zeabur.com",
+    "tags": [
+      "deployment",
+      "one-click",
+      "full-stack",
+      "developer"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "AWS IAM",
+    "slug": "aws-iam",
+    "description": "AWS identity and access management for securing cloud resources.",
+    "websiteUrl": "https://aws.amazon.com/iam/",
+    "tags": [
+      "security",
+      "identity",
+      "aws",
+      "access-control"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "AWS VPC",
+    "slug": "aws-vpc",
+    "description": "AWS virtual private cloud for isolated network environments.",
+    "websiteUrl": "https://aws.amazon.com/vpc/",
+    "tags": [
+      "networking",
+      "virtual-network",
+      "aws",
+      "isolation"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "AWS EC2",
+    "slug": "aws-ec2",
+    "description": "AWS virtual server instances for scalable compute capacity.",
+    "websiteUrl": "https://aws.amazon.com/ec2/",
+    "tags": [
+      "compute",
+      "virtual-machines",
+      "aws",
+      "scalable"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Google Compute Engine",
+    "slug": "gce",
+    "description": "Google Cloud's virtual machine service for compute workloads.",
+    "websiteUrl": "https://cloud.google.com/compute",
+    "tags": [
+      "compute",
+      "virtual-machines",
+      "google-cloud",
+      "scalable"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Azure Virtual Machines",
+    "slug": "azure-vms",
+    "description": "Microsoft Azure's virtual machines for Windows and Linux workloads.",
+    "websiteUrl": "https://azure.microsoft.com/en-us/products/virtual-machines/",
+    "tags": [
+      "compute",
+      "virtual-machines",
+      "azure",
+      "windows"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Tailscale Funnel",
+    "slug": "tailscale-funnel",
+    "description": "Expose local services to the internet securely through Tailscale mesh network.",
+    "websiteUrl": "https://tailscale.com/kb/1223/funnel",
+    "tags": [
+      "networking",
+      "tunneling",
+      "security",
+      "mesh-network"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Zeet",
+    "slug": "zeet",
+    "description": "Cloud deployment platform that simplifies Kubernetes and infrastructure management.",
+    "websiteUrl": "https://zeet.co",
+    "tags": [
+      "deployment",
+      "kubernetes",
+      "infrastructure",
+      "devops"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Northflank",
+    "slug": "northflank",
+    "description": "Full-stack cloud platform for deploying databases, services, and jobs easily.",
+    "websiteUrl": "https://northflank.com",
+    "tags": [
+      "deployment",
+      "databases",
+      "containers",
+      "devops"
+    ],
+    "primaryCategory": "cloud",
+    "type": "saas",
+    "baselineScore": 7.3
+  }
+]

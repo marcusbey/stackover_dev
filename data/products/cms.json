@@ -1,0 +1,1380 @@
+[
+  {
+    "name": "Contentful",
+    "slug": "contentful",
+    "description": "API-first headless CMS for building digital experiences across any platform.",
+    "websiteUrl": "https://www.contentful.com",
+    "tags": [
+      "headless-cms",
+      "api",
+      "content-management",
+      "enterprise"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Sanity",
+    "slug": "sanity",
+    "description": "Composable content platform with real-time collaboration and a flexible structured content model.",
+    "websiteUrl": "https://www.sanity.io",
+    "tags": [
+      "headless-cms",
+      "real-time",
+      "structured-content",
+      "groq"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.9
+  },
+  {
+    "name": "Strapi",
+    "slug": "strapi",
+    "description": "Open-source headless CMS built with Node.js offering full backend customization.",
+    "websiteUrl": "https://strapi.io",
+    "tags": [
+      "headless-cms",
+      "open-source",
+      "node-js",
+      "self-hosted"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Directus",
+    "slug": "directus",
+    "description": "Open-source data platform wrapping any SQL database with a headless CMS.",
+    "websiteUrl": "https://directus.io",
+    "tags": [
+      "headless-cms",
+      "open-source",
+      "sql",
+      "api"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Payload",
+    "slug": "payload",
+    "description": "TypeScript-first headless CMS and application framework designed for Next.js developers.",
+    "websiteUrl": "https://payloadcms.com",
+    "tags": [
+      "headless-cms",
+      "typescript",
+      "open-source",
+      "next-js"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Hygraph",
+    "slug": "hygraph",
+    "description": "GraphQL-native headless CMS enabling federated content management at enterprise scale.",
+    "websiteUrl": "https://hygraph.com",
+    "tags": [
+      "headless-cms",
+      "graphql",
+      "content-federation"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "WordPress",
+    "slug": "wordpress",
+    "description": "World's most popular open-source CMS powering over 40% of the web.",
+    "websiteUrl": "https://wordpress.org",
+    "tags": [
+      "cms",
+      "open-source",
+      "plugins",
+      "themes",
+      "blogging"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Drupal",
+    "slug": "drupal",
+    "description": "Enterprise open-source CMS with powerful content modeling and access control.",
+    "websiteUrl": "https://www.drupal.org",
+    "tags": [
+      "cms",
+      "open-source",
+      "enterprise",
+      "content-modeling"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Joomla",
+    "slug": "joomla",
+    "description": "Open-source CMS for building websites and online applications with extensions.",
+    "websiteUrl": "https://www.joomla.org",
+    "tags": [
+      "cms",
+      "open-source",
+      "extensions",
+      "community"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Ghost",
+    "slug": "ghost",
+    "description": "Modern open-source publishing platform built for professional blogs and email newsletters.",
+    "websiteUrl": "https://ghost.org",
+    "tags": [
+      "blogging",
+      "publishing",
+      "open-source",
+      "newsletters"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Keystatic",
+    "slug": "keystatic",
+    "description": "Git-based CMS for managing content in markdown and JSON with a visual editor.",
+    "websiteUrl": "https://keystatic.com",
+    "tags": [
+      "headless-cms",
+      "git-based",
+      "markdown",
+      "open-source"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "TinaCMS",
+    "slug": "tinacms",
+    "description": "Git-backed headless CMS with visual editing powered by markdown and MDX.",
+    "websiteUrl": "https://tina.io",
+    "tags": [
+      "headless-cms",
+      "git-based",
+      "visual-editing",
+      "markdown"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Prismic",
+    "slug": "prismic",
+    "description": "Headless CMS with slice-based content modeling and visual page builder.",
+    "websiteUrl": "https://prismic.io",
+    "tags": [
+      "headless-cms",
+      "slices",
+      "page-builder",
+      "api"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "DatoCMS",
+    "slug": "datocms",
+    "description": "API-based headless CMS with real-time preview and structured text editing.",
+    "websiteUrl": "https://www.datocms.com",
+    "tags": [
+      "headless-cms",
+      "api",
+      "structured-text",
+      "preview"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Storyblok",
+    "slug": "storyblok",
+    "description": "Headless CMS with a visual editor for building component-based content experiences.",
+    "websiteUrl": "https://www.storyblok.com",
+    "tags": [
+      "headless-cms",
+      "visual-editor",
+      "components",
+      "api"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Butter CMS",
+    "slug": "buttercms",
+    "description": "Headless CMS with blog engine, pages, and content collections via simple API.",
+    "websiteUrl": "https://buttercms.com",
+    "tags": [
+      "headless-cms",
+      "blog",
+      "api",
+      "developer-tools"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Cosmic",
+    "slug": "cosmic",
+    "description": "API-first headless CMS for managing content across websites and applications.",
+    "websiteUrl": "https://www.cosmicjs.com",
+    "tags": [
+      "headless-cms",
+      "api",
+      "content-management"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Agility CMS",
+    "slug": "agility-cms",
+    "description": "Headless CMS with page management, content modeling, and built-in SEO tools.",
+    "websiteUrl": "https://agilitycms.com",
+    "tags": [
+      "headless-cms",
+      "page-management",
+      "seo"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Kontent.ai",
+    "slug": "kontent-ai",
+    "description": "Headless CMS with AI-powered content operations and modular content model.",
+    "websiteUrl": "https://kontent.ai",
+    "tags": [
+      "headless-cms",
+      "ai",
+      "content-operations",
+      "modular"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Magnolia",
+    "slug": "magnolia",
+    "description": "Enterprise headless CMS for composable digital experiences with visual editing.",
+    "websiteUrl": "https://www.magnolia-cms.com",
+    "tags": [
+      "headless-cms",
+      "enterprise",
+      "visual-editing",
+      "composable"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Sitecore",
+    "slug": "sitecore",
+    "description": "Enterprise digital experience platform combining content management with advanced personalization capabilities.",
+    "websiteUrl": "https://www.sitecore.com",
+    "tags": [
+      "enterprise",
+      "dxp",
+      "personalization",
+      "content-management"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Adobe Experience Manager",
+    "slug": "adobe-experience-manager",
+    "description": "Enterprise content management and digital asset management platform by Adobe.",
+    "websiteUrl": "https://business.adobe.com/products/experience-manager/sites/aem-sites.html",
+    "tags": [
+      "enterprise",
+      "dam",
+      "content-management",
+      "adobe"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "GitBook",
+    "slug": "gitbook",
+    "description": "Documentation platform for creating beautiful, collaborative technical docs from Git.",
+    "websiteUrl": "https://www.gitbook.com",
+    "tags": [
+      "documentation",
+      "git",
+      "collaboration",
+      "knowledge-base"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Docusaurus",
+    "slug": "docusaurus",
+    "description": "Open-source static site generator by Meta optimized for documentation websites.",
+    "websiteUrl": "https://docusaurus.io",
+    "tags": [
+      "documentation",
+      "static-site",
+      "open-source",
+      "react"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Mintlify",
+    "slug": "mintlify",
+    "description": "Beautiful documentation platform for APIs and developer products from MDX.",
+    "websiteUrl": "https://mintlify.com",
+    "tags": [
+      "documentation",
+      "api-docs",
+      "mdx",
+      "developer-tools"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "ReadMe",
+    "slug": "readme",
+    "description": "Interactive API documentation platform with developer hubs and usage analytics.",
+    "websiteUrl": "https://readme.com",
+    "tags": [
+      "documentation",
+      "api-docs",
+      "developer-hub",
+      "analytics"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Nextra",
+    "slug": "nextra",
+    "description": "Next.js-based static site generator designed specifically for documentation and blog websites.",
+    "websiteUrl": "https://nextra.site",
+    "tags": [
+      "documentation",
+      "next-js",
+      "static-site",
+      "open-source"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Fumadocs",
+    "slug": "fumadocs",
+    "description": "Documentation framework for Next.js with content collections and search built in.",
+    "websiteUrl": "https://fumadocs.vercel.app",
+    "tags": [
+      "documentation",
+      "next-js",
+      "open-source",
+      "framework"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "VitePress",
+    "slug": "vitepress",
+    "description": "Vite and Vue-powered static site generator designed for technical documentation.",
+    "websiteUrl": "https://vitepress.dev",
+    "tags": [
+      "documentation",
+      "vite",
+      "vue",
+      "static-site"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Starlight",
+    "slug": "starlight",
+    "description": "Astro-powered documentation framework with built-in accessibility, search, and i18n support.",
+    "websiteUrl": "https://starlight.astro.build",
+    "tags": [
+      "documentation",
+      "astro",
+      "open-source",
+      "i18n"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Redocly",
+    "slug": "redocly",
+    "description": "API documentation tooling for creating beautiful and interactive OpenAPI reference documentation.",
+    "websiteUrl": "https://redocly.com",
+    "tags": [
+      "documentation",
+      "api-docs",
+      "openapi",
+      "developer-tools"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Swagger UI",
+    "slug": "swagger-ui",
+    "description": "Open-source tool for visualizing and interacting with OpenAPI specification APIs.",
+    "websiteUrl": "https://swagger.io/tools/swagger-ui/",
+    "tags": [
+      "api-docs",
+      "openapi",
+      "open-source",
+      "interactive"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Medium",
+    "slug": "medium",
+    "description": "Popular online publishing platform for writers, bloggers, and thought leaders.",
+    "websiteUrl": "https://medium.com",
+    "tags": [
+      "blogging",
+      "publishing",
+      "writing",
+      "social"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Substack",
+    "slug": "substack",
+    "description": "Newsletter and publishing platform for independent writers and paid subscriptions.",
+    "websiteUrl": "https://substack.com",
+    "tags": [
+      "newsletters",
+      "publishing",
+      "subscriptions",
+      "writing"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Hashnode",
+    "slug": "hashnode",
+    "description": "Developer blogging platform with custom domains and a built-in community.",
+    "websiteUrl": "https://hashnode.com",
+    "tags": [
+      "blogging",
+      "developer",
+      "community",
+      "custom-domain"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Dev.to",
+    "slug": "dev-to",
+    "description": "Community platform for software developers to share articles and discussions.",
+    "websiteUrl": "https://dev.to",
+    "tags": [
+      "blogging",
+      "developer",
+      "community",
+      "open-source"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Beehiiv",
+    "slug": "beehiiv",
+    "description": "Newsletter platform built for growth with monetization and referral tools.",
+    "websiteUrl": "https://www.beehiiv.com",
+    "tags": [
+      "newsletters",
+      "monetization",
+      "growth",
+      "publishing"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "ConvertKit",
+    "slug": "convertkit",
+    "description": "Creator-focused email marketing and newsletter platform with customizable landing pages.",
+    "websiteUrl": "https://convertkit.com",
+    "tags": [
+      "newsletters",
+      "email-marketing",
+      "creators",
+      "landing-pages"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Buttondown",
+    "slug": "buttondown",
+    "description": "Minimalist newsletter tool for writers who prefer markdown and simplicity.",
+    "websiteUrl": "https://buttondown.email",
+    "tags": [
+      "newsletters",
+      "markdown",
+      "minimalist"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Cloudinary",
+    "slug": "cloudinary",
+    "description": "Cloud-based media management platform for image and video optimization and delivery.",
+    "websiteUrl": "https://cloudinary.com",
+    "tags": [
+      "dam",
+      "image-optimization",
+      "video",
+      "cdn"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Imgix",
+    "slug": "imgix",
+    "description": "Real-time image processing and CDN service for optimizing visual content.",
+    "websiteUrl": "https://imgix.com",
+    "tags": [
+      "image-optimization",
+      "cdn",
+      "real-time",
+      "processing"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Uploadcare",
+    "slug": "uploadcare",
+    "description": "File uploading and processing platform with CDN delivery and image transformations.",
+    "websiteUrl": "https://uploadcare.com",
+    "tags": [
+      "file-upload",
+      "image-processing",
+      "cdn",
+      "api"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Uploadthing",
+    "slug": "uploadthing",
+    "description": "Simple and developer-friendly file upload solution for TypeScript and Next.js applications.",
+    "websiteUrl": "https://uploadthing.com",
+    "tags": [
+      "file-upload",
+      "typescript",
+      "next-js",
+      "developer-tools"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "ImageKit",
+    "slug": "imagekit",
+    "description": "Real-time image and video optimization, transformation, and global delivery platform.",
+    "websiteUrl": "https://imagekit.io",
+    "tags": [
+      "image-optimization",
+      "video",
+      "cdn",
+      "transformation"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Filestack",
+    "slug": "filestack",
+    "description": "File upload API with content ingestion, transformation, and delivery pipeline.",
+    "websiteUrl": "https://www.filestack.com",
+    "tags": [
+      "file-upload",
+      "transformation",
+      "api",
+      "cdn"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Notion",
+    "slug": "notion",
+    "description": "All-in-one workspace combining notes, docs, wikis, and collaborative project management.",
+    "websiteUrl": "https://www.notion.so",
+    "tags": [
+      "workspace",
+      "notes",
+      "wiki",
+      "collaboration",
+      "docs"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Coda",
+    "slug": "coda",
+    "description": "Collaborative document platform that combines docs, spreadsheets, and app building tools.",
+    "websiteUrl": "https://coda.io",
+    "tags": [
+      "workspace",
+      "docs",
+      "spreadsheets",
+      "automation"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Obsidian",
+    "slug": "obsidian",
+    "description": "Markdown-based knowledge management tool featuring bidirectional linking and extensible plugins.",
+    "websiteUrl": "https://obsidian.md",
+    "tags": [
+      "knowledge-management",
+      "markdown",
+      "notes",
+      "plugins"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Logseq",
+    "slug": "logseq",
+    "description": "Open-source knowledge management tool with outlining, graph view, and journaling.",
+    "websiteUrl": "https://logseq.com",
+    "tags": [
+      "knowledge-management",
+      "open-source",
+      "graph",
+      "outliner"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Confluence",
+    "slug": "confluence",
+    "description": "Atlassian's team wiki and knowledge management platform for enterprise collaboration.",
+    "websiteUrl": "https://www.atlassian.com/software/confluence",
+    "tags": [
+      "wiki",
+      "knowledge-management",
+      "enterprise",
+      "collaboration"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Slite",
+    "slug": "slite",
+    "description": "Team knowledge base tool with AI-powered search and organized documentation.",
+    "websiteUrl": "https://slite.com",
+    "tags": [
+      "knowledge-base",
+      "team-docs",
+      "ai-search",
+      "collaboration"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Tettra",
+    "slug": "tettra",
+    "description": "Internal knowledge base for teams with Slack integration and AI answers.",
+    "websiteUrl": "https://tettra.com",
+    "tags": [
+      "knowledge-base",
+      "internal-docs",
+      "slack",
+      "ai"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Outline",
+    "slug": "outline",
+    "description": "Open-source wiki and knowledge base for teams with real-time collaboration.",
+    "websiteUrl": "https://www.getoutline.com",
+    "tags": [
+      "wiki",
+      "open-source",
+      "knowledge-base",
+      "collaboration"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Nuxt Content",
+    "slug": "nuxt-content",
+    "description": "File-based CMS module for Nuxt.js supporting Markdown, YAML, and JSON.",
+    "websiteUrl": "https://content.nuxt.com",
+    "tags": [
+      "headless-cms",
+      "nuxt",
+      "file-based",
+      "markdown"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Decap CMS (Netlify CMS)",
+    "slug": "decap-cms",
+    "description": "Open-source Git-based CMS providing a visual editing UI for static sites.",
+    "websiteUrl": "https://decapcms.org",
+    "tags": [
+      "headless-cms",
+      "git-based",
+      "open-source",
+      "static-sites"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Builder.io",
+    "slug": "builder-io",
+    "description": "Visual headless CMS and page builder with drag-and-drop editing for developers.",
+    "websiteUrl": "https://www.builder.io",
+    "tags": [
+      "headless-cms",
+      "visual-builder",
+      "drag-and-drop",
+      "components"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Uniform",
+    "slug": "uniform",
+    "description": "Digital experience composition platform connecting headless CMS and commerce tools.",
+    "websiteUrl": "https://uniform.dev",
+    "tags": [
+      "dxp",
+      "composition",
+      "headless",
+      "personalization"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Contentstack",
+    "slug": "contentstack",
+    "description": "Enterprise headless CMS with modular content blocks and marketplace integrations.",
+    "websiteUrl": "https://www.contentstack.com",
+    "tags": [
+      "headless-cms",
+      "enterprise",
+      "modular",
+      "marketplace"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Craft CMS",
+    "slug": "craft-cms",
+    "description": "Flexible CMS with powerful content modeling, live preview, and multi-site support.",
+    "websiteUrl": "https://craftcms.com",
+    "tags": [
+      "cms",
+      "content-modeling",
+      "multi-site",
+      "php"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Statamic",
+    "slug": "statamic",
+    "description": "Laravel-based flat-file CMS with a beautiful control panel and Antlers templating.",
+    "websiteUrl": "https://statamic.com",
+    "tags": [
+      "cms",
+      "laravel",
+      "flat-file",
+      "php"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "KeystoneJS",
+    "slug": "keystonejs",
+    "description": "Open-source headless CMS and GraphQL API framework built on Node.js.",
+    "websiteUrl": "https://keystonejs.com",
+    "tags": [
+      "headless-cms",
+      "graphql",
+      "open-source",
+      "node-js"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Wagtail",
+    "slug": "wagtail",
+    "description": "Open-source Django CMS featuring a streamlined and intuitive content editing interface.",
+    "websiteUrl": "https://wagtail.org",
+    "tags": [
+      "cms",
+      "django",
+      "python",
+      "open-source"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Hugo",
+    "slug": "hugo",
+    "description": "Ultra-fast open-source static site generator written in Go for content websites.",
+    "websiteUrl": "https://gohugo.io",
+    "tags": [
+      "static-site",
+      "go",
+      "open-source",
+      "performance"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Astro",
+    "slug": "astro",
+    "description": "Web framework for building fast content-driven websites using island architecture.",
+    "websiteUrl": "https://astro.build",
+    "tags": [
+      "static-site",
+      "framework",
+      "islands",
+      "content"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Eleventy",
+    "slug": "eleventy",
+    "description": "Simple and flexible open-source static site generator with zero client JavaScript.",
+    "websiteUrl": "https://www.11ty.dev",
+    "tags": [
+      "static-site",
+      "open-source",
+      "javascript",
+      "minimal"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Jekyll",
+    "slug": "jekyll",
+    "description": "Blog-aware static site generator written in Ruby that powers GitHub Pages.",
+    "websiteUrl": "https://jekyllrb.com",
+    "tags": [
+      "static-site",
+      "ruby",
+      "github-pages",
+      "blogging"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Gatsby",
+    "slug": "gatsby",
+    "description": "React-based framework for building fast static websites with GraphQL data layer.",
+    "websiteUrl": "https://www.gatsbyjs.com",
+    "tags": [
+      "static-site",
+      "react",
+      "graphql",
+      "jamstack"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Webflow",
+    "slug": "webflow",
+    "description": "Visual website builder and CMS for designing professional sites without code.",
+    "websiteUrl": "https://webflow.com",
+    "tags": [
+      "website-builder",
+      "no-code",
+      "visual-design",
+      "cms"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Framer",
+    "slug": "framer",
+    "description": "Design-to-production website builder with a powerful built-in CMS and animations.",
+    "websiteUrl": "https://www.framer.com",
+    "tags": [
+      "website-builder",
+      "design",
+      "cms",
+      "animations"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Contentlayer",
+    "slug": "contentlayer",
+    "description": "Content SDK transforming markdown and MDX into type-safe JSON data for Next.js.",
+    "websiteUrl": "https://contentlayer.dev",
+    "tags": [
+      "content-sdk",
+      "markdown",
+      "mdx",
+      "typescript"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "MDX",
+    "slug": "mdx",
+    "description": "Markdown format allowing JSX components to be embedded in documentation content.",
+    "websiteUrl": "https://mdxjs.com",
+    "tags": [
+      "markdown",
+      "jsx",
+      "react",
+      "content"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Markdoc",
+    "slug": "markdoc",
+    "description": "Stripe's markdown-based authoring framework for creating custom and extensible documentation sites.",
+    "websiteUrl": "https://markdoc.dev",
+    "tags": [
+      "markdown",
+      "documentation",
+      "authoring",
+      "open-source"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Tiptap",
+    "slug": "tiptap",
+    "description": "Headless rich text editor framework for building collaborative content editors.",
+    "websiteUrl": "https://tiptap.dev",
+    "tags": [
+      "rich-text-editor",
+      "headless",
+      "collaborative",
+      "prosemirror"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Lexical",
+    "slug": "lexical",
+    "description": "Meta's extensible text editor framework for building rich text editing experiences.",
+    "websiteUrl": "https://lexical.dev",
+    "tags": [
+      "rich-text-editor",
+      "framework",
+      "meta",
+      "open-source"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Plate",
+    "slug": "plate",
+    "description": "Plugin-rich framework for building rich text editors on top of Slate.js.",
+    "websiteUrl": "https://platejs.org",
+    "tags": [
+      "rich-text-editor",
+      "slate",
+      "plugins",
+      "react"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Editor.js",
+    "slug": "editor-js",
+    "description": "Block-style editor with clean JSON output for building structured content editors.",
+    "websiteUrl": "https://editorjs.io",
+    "tags": [
+      "rich-text-editor",
+      "block-editor",
+      "json",
+      "open-source"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Novel",
+    "slug": "novel",
+    "description": "Notion-style WYSIWYG rich text editor built with Tiptap for React applications.",
+    "websiteUrl": "https://novel.sh",
+    "tags": [
+      "rich-text-editor",
+      "notion-style",
+      "tiptap",
+      "react"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Miro",
+    "slug": "miro",
+    "description": "Collaborative online whiteboard platform for visual brainstorming, planning, and team workshops.",
+    "websiteUrl": "https://miro.com",
+    "tags": [
+      "whiteboard",
+      "collaboration",
+      "visual",
+      "planning"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Archbee",
+    "slug": "archbee",
+    "description": "Documentation tool for product teams with API docs, diagrams, and knowledge bases.",
+    "websiteUrl": "https://www.archbee.com",
+    "tags": [
+      "documentation",
+      "api-docs",
+      "knowledge-base",
+      "diagrams"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Bookstack",
+    "slug": "bookstack",
+    "description": "Open-source wiki platform organized with books, chapters, and pages structure.",
+    "websiteUrl": "https://www.bookstackapp.com",
+    "tags": [
+      "wiki",
+      "open-source",
+      "self-hosted",
+      "knowledge-base"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Wiki.js",
+    "slug": "wiki-js",
+    "description": "Modern open-source wiki engine with multiple editors and authentication providers.",
+    "websiteUrl": "https://js.wiki",
+    "tags": [
+      "wiki",
+      "open-source",
+      "node-js",
+      "self-hosted"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Docuseal",
+    "slug": "docuseal",
+    "description": "Open-source document signing platform for creating and managing digital signatures.",
+    "websiteUrl": "https://www.docuseal.co",
+    "tags": [
+      "document-signing",
+      "open-source",
+      "pdf",
+      "forms"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Caisy",
+    "slug": "caisy",
+    "description": "High-performance headless CMS with a GraphQL API and blueprint-based modeling.",
+    "websiteUrl": "https://caisy.io",
+    "tags": [
+      "headless-cms",
+      "graphql",
+      "performance",
+      "blueprints"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Plasmic",
+    "slug": "plasmic",
+    "description": "Visual page builder and headless CMS that integrates with any codebase.",
+    "websiteUrl": "https://www.plasmic.app",
+    "tags": [
+      "visual-builder",
+      "headless-cms",
+      "page-builder",
+      "codegen"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Rosey",
+    "slug": "rosey",
+    "description": "Open-source tool for adding i18n translations to any static site build.",
+    "websiteUrl": "https://rosey.app",
+    "tags": [
+      "i18n",
+      "static-sites",
+      "translation",
+      "open-source"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Outstatic",
+    "slug": "outstatic",
+    "description": "Static CMS for Next.js storing content as markdown in your GitHub repository.",
+    "websiteUrl": "https://outstatic.com",
+    "tags": [
+      "headless-cms",
+      "next-js",
+      "git-based",
+      "markdown"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Dato CMS",
+    "slug": "dato-cms-enterprise",
+    "description": "Headless CMS with image optimization, localization, and content approval workflows.",
+    "websiteUrl": "https://www.datocms.com",
+    "tags": [
+      "headless-cms",
+      "localization",
+      "workflows",
+      "image-api"
+    ],
+    "primaryCategory": "cms",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Squidex",
+    "slug": "squidex",
+    "description": "Open-source headless CMS with event sourcing and a flexible schema system.",
+    "websiteUrl": "https://squidex.io",
+    "tags": [
+      "headless-cms",
+      "open-source",
+      "event-sourcing",
+      "schema"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Cockpit CMS",
+    "slug": "cockpit-cms",
+    "description": "Simple open-source headless CMS with a flexible content model and API.",
+    "websiteUrl": "https://getcockpit.com",
+    "tags": [
+      "headless-cms",
+      "open-source",
+      "lightweight",
+      "api"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 6.7
+  },
+  {
+    "name": "Pocketbase",
+    "slug": "pocketbase",
+    "description": "Open-source backend with embedded database, auth, and file storage in one binary.",
+    "websiteUrl": "https://pocketbase.io",
+    "tags": [
+      "backend",
+      "database",
+      "auth",
+      "open-source"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Typesense",
+    "slug": "typesense",
+    "description": "Open-source typo-tolerant search engine optimized for building instant search experiences.",
+    "websiteUrl": "https://typesense.org",
+    "tags": [
+      "search",
+      "open-source",
+      "instant-search",
+      "typo-tolerant"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Meilisearch",
+    "slug": "meilisearch",
+    "description": "Open-source lightning-fast search engine with typo tolerance and easy setup.",
+    "websiteUrl": "https://www.meilisearch.com",
+    "tags": [
+      "search",
+      "open-source",
+      "fast",
+      "developer-tools"
+    ],
+    "primaryCategory": "cms",
+    "type": "tool",
+    "baselineScore": 8.3
+  }
+]

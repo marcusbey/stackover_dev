@@ -1,0 +1,3002 @@
+[
+  {
+    "name": "MySQL",
+    "slug": "mysql",
+    "description": "World's most popular open-source relational database management system.",
+    "websiteUrl": "https://www.mysql.com",
+    "tags": [
+      "relational",
+      "open-source",
+      "sql",
+      "oracle"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "MariaDB",
+    "slug": "mariadb",
+    "description": "Community-developed fork of MySQL with enhanced features and performance.",
+    "websiteUrl": "https://mariadb.org",
+    "tags": [
+      "relational",
+      "open-source",
+      "sql",
+      "mysql-fork"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "CockroachDB",
+    "slug": "cockroachdb",
+    "description": "Distributed SQL database built for cloud-native global applications.",
+    "websiteUrl": "https://www.cockroachlabs.com",
+    "tags": [
+      "relational",
+      "distributed",
+      "sql",
+      "cloud-native"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "PlanetScale",
+    "slug": "planetscale",
+    "description": "Serverless MySQL platform with branching and non-blocking schema changes.",
+    "websiteUrl": "https://planetscale.com",
+    "tags": [
+      "relational",
+      "serverless",
+      "mysql",
+      "branching"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Neon",
+    "slug": "neon",
+    "description": "Serverless Postgres with autoscaling, branching, and bottomless storage.",
+    "websiteUrl": "https://neon.tech",
+    "tags": [
+      "relational",
+      "serverless",
+      "postgres",
+      "branching"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "TiDB",
+    "slug": "tidb",
+    "description": "Distributed SQL database compatible with MySQL for hybrid workloads.",
+    "websiteUrl": "https://www.pingcap.com/tidb/",
+    "tags": [
+      "relational",
+      "distributed",
+      "mysql-compatible",
+      "htap"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "YugabyteDB",
+    "slug": "yugabytedb",
+    "description": "Distributed SQL database compatible with PostgreSQL for cloud apps.",
+    "websiteUrl": "https://www.yugabyte.com",
+    "tags": [
+      "relational",
+      "distributed",
+      "postgres-compatible",
+      "cloud"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Vitess",
+    "slug": "vitess",
+    "description": "Database clustering system for horizontal scaling of MySQL.",
+    "websiteUrl": "https://vitess.io",
+    "tags": [
+      "relational",
+      "clustering",
+      "mysql",
+      "scaling"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "CrateDB",
+    "slug": "cratedb",
+    "description": "Distributed SQL database for machine data and real-time analytics.",
+    "websiteUrl": "https://cratedb.com",
+    "tags": [
+      "relational",
+      "distributed",
+      "analytics",
+      "iot"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Oracle Database",
+    "slug": "oracle-database",
+    "description": "Enterprise-grade relational database with comprehensive feature set.",
+    "websiteUrl": "https://www.oracle.com/database/",
+    "tags": [
+      "relational",
+      "enterprise",
+      "sql",
+      "oracle"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Microsoft SQL Server",
+    "slug": "mssql",
+    "description": "Microsoft's enterprise relational database with BI integration.",
+    "websiteUrl": "https://www.microsoft.com/en-us/sql-server",
+    "tags": [
+      "relational",
+      "enterprise",
+      "microsoft",
+      "bi"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "SQLite",
+    "slug": "sqlite",
+    "description": "Self-contained serverless SQL database engine embedded in applications.",
+    "websiteUrl": "https://www.sqlite.org",
+    "tags": [
+      "relational",
+      "embedded",
+      "serverless",
+      "lightweight"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "libSQL",
+    "slug": "libsql",
+    "description": "Open-source fork of SQLite with server mode and replication.",
+    "websiteUrl": "https://turso.tech/libsql",
+    "tags": [
+      "relational",
+      "sqlite-fork",
+      "replication",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "AlloyDB",
+    "slug": "alloydb",
+    "description": "Google Cloud's PostgreSQL-compatible database for demanding workloads.",
+    "websiteUrl": "https://cloud.google.com/alloydb",
+    "tags": [
+      "relational",
+      "postgres-compatible",
+      "google-cloud",
+      "enterprise"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Amazon Aurora",
+    "slug": "amazon-aurora",
+    "description": "AWS managed relational database compatible with MySQL and PostgreSQL.",
+    "websiteUrl": "https://aws.amazon.com/rds/aurora/",
+    "tags": [
+      "relational",
+      "managed",
+      "aws",
+      "high-performance"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Amazon RDS",
+    "slug": "amazon-rds",
+    "description": "AWS managed service for running relational databases in the cloud.",
+    "websiteUrl": "https://aws.amazon.com/rds/",
+    "tags": [
+      "relational",
+      "managed",
+      "aws",
+      "multi-engine"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Azure SQL Database",
+    "slug": "azure-sql",
+    "description": "Microsoft's fully managed SQL database service in Azure cloud.",
+    "websiteUrl": "https://azure.microsoft.com/en-us/products/azure-sql/database/",
+    "tags": [
+      "relational",
+      "managed",
+      "azure",
+      "microsoft"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Google Cloud SQL",
+    "slug": "cloud-sql",
+    "description": "Google's managed service for MySQL, PostgreSQL, and SQL Server.",
+    "websiteUrl": "https://cloud.google.com/sql",
+    "tags": [
+      "relational",
+      "managed",
+      "google-cloud",
+      "multi-engine"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Redis",
+    "slug": "redis",
+    "description": "In-memory data store used as database, cache, and message broker.",
+    "websiteUrl": "https://redis.io",
+    "tags": [
+      "nosql",
+      "in-memory",
+      "cache",
+      "key-value"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Amazon DynamoDB",
+    "slug": "dynamodb",
+    "description": "AWS fully managed NoSQL database with single-digit millisecond performance.",
+    "websiteUrl": "https://aws.amazon.com/dynamodb/",
+    "tags": [
+      "nosql",
+      "managed",
+      "aws",
+      "key-value"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Apache Cassandra",
+    "slug": "cassandra",
+    "description": "Distributed NoSQL database for massive scalability and high availability.",
+    "websiteUrl": "https://cassandra.apache.org",
+    "tags": [
+      "nosql",
+      "distributed",
+      "wide-column",
+      "apache"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "ScyllaDB",
+    "slug": "scylladb",
+    "description": "High-performance NoSQL database compatible with Cassandra written in C++.",
+    "websiteUrl": "https://www.scylladb.com",
+    "tags": [
+      "nosql",
+      "high-performance",
+      "cassandra-compatible",
+      "c++"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Couchbase",
+    "slug": "couchbase",
+    "description": "Distributed NoSQL cloud database with SQL-like query support.",
+    "websiteUrl": "https://www.couchbase.com",
+    "tags": [
+      "nosql",
+      "distributed",
+      "document",
+      "sql-support"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "CouchDB",
+    "slug": "couchdb",
+    "description": "Apache NoSQL document database with multi-master replication.",
+    "websiteUrl": "https://couchdb.apache.org",
+    "tags": [
+      "nosql",
+      "document",
+      "replication",
+      "apache"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "RethinkDB",
+    "slug": "rethinkdb",
+    "description": "Open-source database for real-time web applications with changefeeds.",
+    "websiteUrl": "https://rethinkdb.com",
+    "tags": [
+      "nosql",
+      "real-time",
+      "changefeeds",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "FaunaDB",
+    "slug": "faunadb",
+    "description": "Distributed document-relational database with serverless operations.",
+    "websiteUrl": "https://fauna.com",
+    "tags": [
+      "nosql",
+      "serverless",
+      "distributed",
+      "document-relational"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Firebase Realtime Database",
+    "slug": "firebase-rtdb",
+    "description": "Google's cloud-hosted NoSQL database with real-time synchronization.",
+    "websiteUrl": "https://firebase.google.com/products/realtime-database",
+    "tags": [
+      "nosql",
+      "real-time",
+      "google",
+      "mobile"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Cloud Firestore",
+    "slug": "cloud-firestore",
+    "description": "Google's flexible, scalable NoSQL cloud database for web and mobile.",
+    "websiteUrl": "https://firebase.google.com/products/firestore",
+    "tags": [
+      "nosql",
+      "document",
+      "google",
+      "real-time"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Cosmos DB",
+    "slug": "cosmos-db",
+    "description": "Microsoft's globally distributed multi-model database service.",
+    "websiteUrl": "https://azure.microsoft.com/en-us/products/cosmos-db/",
+    "tags": [
+      "nosql",
+      "multi-model",
+      "distributed",
+      "azure"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "HBase",
+    "slug": "hbase",
+    "description": "Apache distributed wide-column store for large-scale data storage.",
+    "websiteUrl": "https://hbase.apache.org",
+    "tags": [
+      "nosql",
+      "wide-column",
+      "hadoop",
+      "big-data"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "FoundationDB",
+    "slug": "foundationdb",
+    "description": "Apple's distributed database with ACID transactions at scale.",
+    "websiteUrl": "https://www.foundationdb.org",
+    "tags": [
+      "nosql",
+      "distributed",
+      "acid",
+      "apple"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Aerospike",
+    "slug": "aerospike",
+    "description": "High-performance NoSQL database for real-time big data applications.",
+    "websiteUrl": "https://aerospike.com",
+    "tags": [
+      "nosql",
+      "high-performance",
+      "real-time",
+      "big-data"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Neo4j",
+    "slug": "neo4j",
+    "description": "Leading graph database platform for connected data applications.",
+    "websiteUrl": "https://neo4j.com",
+    "tags": [
+      "graph",
+      "graph-database",
+      "cypher",
+      "connected-data"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "ArangoDB",
+    "slug": "arangodb",
+    "description": "Multi-model database supporting graph, document, and key-value data.",
+    "websiteUrl": "https://arangodb.com",
+    "tags": [
+      "graph",
+      "multi-model",
+      "document",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Dgraph",
+    "slug": "dgraph",
+    "description": "Native GraphQL database with distributed architecture for graph data.",
+    "websiteUrl": "https://dgraph.io",
+    "tags": [
+      "graph",
+      "graphql-native",
+      "distributed",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Amazon Neptune",
+    "slug": "amazon-neptune",
+    "description": "AWS managed graph database supporting property graph and RDF.",
+    "websiteUrl": "https://aws.amazon.com/neptune/",
+    "tags": [
+      "graph",
+      "managed",
+      "aws",
+      "rdf"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "TigerGraph",
+    "slug": "tigergraph",
+    "description": "Enterprise graph analytics platform for real-time deep link analysis.",
+    "websiteUrl": "https://www.tigergraph.com",
+    "tags": [
+      "graph",
+      "analytics",
+      "enterprise",
+      "real-time"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Memgraph",
+    "slug": "memgraph",
+    "description": "In-memory graph database for real-time streaming graph analytics.",
+    "websiteUrl": "https://memgraph.com",
+    "tags": [
+      "graph",
+      "in-memory",
+      "streaming",
+      "real-time"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "InfluxDB",
+    "slug": "influxdb",
+    "description": "Purpose-built time-series database for metrics, events, and analytics.",
+    "websiteUrl": "https://www.influxdata.com",
+    "tags": [
+      "time-series",
+      "metrics",
+      "iot",
+      "analytics"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "TimescaleDB",
+    "slug": "timescaledb",
+    "description": "PostgreSQL extension for time-series data with full SQL support.",
+    "websiteUrl": "https://www.timescale.com",
+    "tags": [
+      "time-series",
+      "postgres-extension",
+      "sql",
+      "analytics"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "QuestDB",
+    "slug": "questdb",
+    "description": "High-performance time-series database with SQL and fast ingestion.",
+    "websiteUrl": "https://questdb.io",
+    "tags": [
+      "time-series",
+      "high-performance",
+      "sql",
+      "ingestion"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Prometheus TSDB",
+    "slug": "prometheus-tsdb",
+    "description": "Time-series database built into Prometheus for metrics storage.",
+    "websiteUrl": "https://prometheus.io",
+    "tags": [
+      "time-series",
+      "metrics",
+      "monitoring",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "VictoriaMetrics",
+    "slug": "victoriametrics",
+    "description": "Fast and scalable time-series database compatible with Prometheus.",
+    "websiteUrl": "https://victoriametrics.com",
+    "tags": [
+      "time-series",
+      "prometheus-compatible",
+      "scalable",
+      "monitoring"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "TDengine",
+    "slug": "tdengine",
+    "description": "High-performance time-series database for IoT and big data.",
+    "websiteUrl": "https://tdengine.com",
+    "tags": [
+      "time-series",
+      "iot",
+      "big-data",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Turso",
+    "slug": "turso",
+    "description": "Edge-hosted distributed database built on libSQL for global latency.",
+    "websiteUrl": "https://turso.tech",
+    "tags": [
+      "serverless",
+      "edge",
+      "sqlite",
+      "distributed"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Cloudflare D1",
+    "slug": "cloudflare-d1",
+    "description": "Cloudflare's serverless SQL database built on SQLite at the edge.",
+    "websiteUrl": "https://developers.cloudflare.com/d1/",
+    "tags": [
+      "serverless",
+      "edge",
+      "sqlite",
+      "cloudflare"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Xata",
+    "slug": "xata",
+    "description": "Serverless data platform combining database, search, and analytics.",
+    "websiteUrl": "https://xata.io",
+    "tags": [
+      "serverless",
+      "search",
+      "analytics",
+      "developer-friendly"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Durable Objects",
+    "slug": "durable-objects",
+    "description": "Cloudflare's distributed stateful objects for edge coordination.",
+    "websiteUrl": "https://developers.cloudflare.com/durable-objects/",
+    "tags": [
+      "serverless",
+      "edge",
+      "stateful",
+      "cloudflare"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "EdgeDB",
+    "slug": "edgedb",
+    "description": "Graph-relational database with built-in schema migrations and EdgeQL.",
+    "websiteUrl": "https://www.edgedb.com",
+    "tags": [
+      "relational",
+      "graph-relational",
+      "migrations",
+      "modern"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "SurrealDB",
+    "slug": "surrealdb",
+    "description": "Multi-model database for web, mobile, serverless, and backend apps.",
+    "websiteUrl": "https://surrealdb.com",
+    "tags": [
+      "multi-model",
+      "serverless",
+      "graph",
+      "document"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Prisma",
+    "slug": "prisma",
+    "description": "Next-generation TypeScript ORM with type-safe database access.",
+    "websiteUrl": "https://www.prisma.io",
+    "tags": [
+      "orm",
+      "typescript",
+      "type-safe",
+      "migrations"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Drizzle ORM",
+    "slug": "drizzle-orm",
+    "description": "Lightweight TypeScript ORM with SQL-like syntax and zero dependencies.",
+    "websiteUrl": "https://orm.drizzle.team",
+    "tags": [
+      "orm",
+      "typescript",
+      "lightweight",
+      "sql-like"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "TypeORM",
+    "slug": "typeorm",
+    "description": "TypeScript ORM supporting Active Record and Data Mapper patterns.",
+    "websiteUrl": "https://typeorm.io",
+    "tags": [
+      "orm",
+      "typescript",
+      "active-record",
+      "data-mapper"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Sequelize",
+    "slug": "sequelize",
+    "description": "Promise-based Node.js ORM for PostgreSQL, MySQL, and SQLite.",
+    "websiteUrl": "https://sequelize.org",
+    "tags": [
+      "orm",
+      "nodejs",
+      "promise-based",
+      "multi-database"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "SQLAlchemy",
+    "slug": "sqlalchemy",
+    "description": "Python SQL toolkit and ORM with flexible database abstraction.",
+    "websiteUrl": "https://www.sqlalchemy.org",
+    "tags": [
+      "orm",
+      "python",
+      "sql-toolkit",
+      "flexible"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Django ORM",
+    "slug": "django-orm",
+    "description": "Django's built-in ORM for database operations with Python.",
+    "websiteUrl": "https://docs.djangoproject.com/en/stable/topics/db/",
+    "tags": [
+      "orm",
+      "python",
+      "django",
+      "built-in"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Mongoose",
+    "slug": "mongoose",
+    "description": "MongoDB ODM for Node.js with schema validation and middleware.",
+    "websiteUrl": "https://mongoosejs.com",
+    "tags": [
+      "orm",
+      "mongodb",
+      "nodejs",
+      "schema-validation"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Knex.js",
+    "slug": "knexjs",
+    "description": "SQL query builder for Node.js supporting multiple databases.",
+    "websiteUrl": "https://knexjs.org",
+    "tags": [
+      "orm",
+      "query-builder",
+      "nodejs",
+      "sql"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Kysely",
+    "slug": "kysely",
+    "description": "Type-safe TypeScript SQL query builder with zero dependencies.",
+    "websiteUrl": "https://kysely.dev",
+    "tags": [
+      "orm",
+      "query-builder",
+      "typescript",
+      "type-safe"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "MikroORM",
+    "slug": "mikro-orm",
+    "description": "TypeScript ORM with unit-of-work pattern and identity map.",
+    "websiteUrl": "https://mikro-orm.io",
+    "tags": [
+      "orm",
+      "typescript",
+      "unit-of-work",
+      "identity-map"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Objection.js",
+    "slug": "objectionjs",
+    "description": "SQL-friendly ORM for Node.js built on Knex query builder.",
+    "websiteUrl": "https://vincit.github.io/objection.js/",
+    "tags": [
+      "orm",
+      "nodejs",
+      "knex",
+      "sql-friendly"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "GORM",
+    "slug": "gorm",
+    "description": "Feature-rich ORM library for Go with associations and hooks.",
+    "websiteUrl": "https://gorm.io",
+    "tags": [
+      "orm",
+      "go",
+      "associations",
+      "hooks"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Hibernate",
+    "slug": "hibernate",
+    "description": "Java ORM framework implementing the JPA specification standard.",
+    "websiteUrl": "https://hibernate.org",
+    "tags": [
+      "orm",
+      "java",
+      "jpa",
+      "enterprise"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Entity Framework",
+    "slug": "entity-framework",
+    "description": "Microsoft's ORM for .NET with LINQ queries and migrations.",
+    "websiteUrl": "https://learn.microsoft.com/en-us/ef/",
+    "tags": [
+      "orm",
+      "dotnet",
+      "microsoft",
+      "linq"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Tortoise ORM",
+    "slug": "tortoise-orm",
+    "description": "Async ORM for Python inspired by Django ORM for async frameworks.",
+    "websiteUrl": "https://tortoise.github.io",
+    "tags": [
+      "orm",
+      "python",
+      "async",
+      "django-inspired"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "DBeaver",
+    "slug": "dbeaver",
+    "description": "Universal database management tool with support for all popular databases.",
+    "websiteUrl": "https://dbeaver.io",
+    "tags": [
+      "db-tools",
+      "gui",
+      "universal",
+      "cross-platform"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "TablePlus",
+    "slug": "tableplus",
+    "description": "Native database management GUI for macOS, Windows, and Linux.",
+    "websiteUrl": "https://tableplus.com",
+    "tags": [
+      "db-tools",
+      "gui",
+      "native",
+      "modern"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "pgAdmin",
+    "slug": "pgadmin",
+    "description": "Open-source administration and development platform for PostgreSQL.",
+    "websiteUrl": "https://www.pgadmin.org",
+    "tags": [
+      "db-tools",
+      "postgres",
+      "administration",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Beekeeper Studio",
+    "slug": "beekeeper-studio",
+    "description": "Modern, lightweight SQL editor and database manager.",
+    "websiteUrl": "https://www.beekeeperstudio.io",
+    "tags": [
+      "db-tools",
+      "sql-editor",
+      "modern",
+      "lightweight"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "DataGrip",
+    "slug": "datagrip",
+    "description": "JetBrains IDE for databases with smart SQL editing and introspection.",
+    "websiteUrl": "https://www.jetbrains.com/datagrip/",
+    "tags": [
+      "db-tools",
+      "jetbrains",
+      "sql-ide",
+      "smart-editing"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Arctype",
+    "slug": "arctype",
+    "description": "Collaborative SQL editor with sharing and visualization features.",
+    "websiteUrl": "https://arctype.com",
+    "tags": [
+      "db-tools",
+      "sql-editor",
+      "collaborative",
+      "visualization"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "DbGate",
+    "slug": "dbgate",
+    "description": "Open-source cross-platform database manager for multiple engines.",
+    "websiteUrl": "https://dbgate.org",
+    "tags": [
+      "db-tools",
+      "open-source",
+      "cross-platform",
+      "multi-engine"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Adminer",
+    "slug": "adminer",
+    "description": "Single PHP file database management tool as phpMyAdmin alternative.",
+    "websiteUrl": "https://www.adminer.org",
+    "tags": [
+      "db-tools",
+      "php",
+      "lightweight",
+      "web-based"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "phpMyAdmin",
+    "slug": "phpmyadmin",
+    "description": "Web-based MySQL administration tool with intuitive interface.",
+    "websiteUrl": "https://www.phpmyadmin.net",
+    "tags": [
+      "db-tools",
+      "mysql",
+      "web-based",
+      "administration"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Redis Insight",
+    "slug": "redis-insight",
+    "description": "Redis GUI for managing and visualizing Redis data structures.",
+    "websiteUrl": "https://redis.com/redis-enterprise/redis-insight/",
+    "tags": [
+      "db-tools",
+      "redis",
+      "gui",
+      "visualization"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "MongoDB Compass",
+    "slug": "mongodb-compass",
+    "description": "Official GUI for MongoDB for querying and managing documents.",
+    "websiteUrl": "https://www.mongodb.com/products/compass",
+    "tags": [
+      "db-tools",
+      "mongodb",
+      "gui",
+      "official"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "MongoDB Atlas",
+    "slug": "mongodb-atlas",
+    "description": "Managed MongoDB cloud service with global distribution and search.",
+    "websiteUrl": "https://www.mongodb.com/atlas",
+    "tags": [
+      "managed",
+      "mongodb",
+      "cloud",
+      "global"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Prisma Studio",
+    "slug": "prisma-studio",
+    "description": "Visual database editor for Prisma with table-style data browsing.",
+    "websiteUrl": "https://www.prisma.io/studio",
+    "tags": [
+      "db-tools",
+      "prisma",
+      "visual-editor",
+      "typescript"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Drizzle Studio",
+    "slug": "drizzle-studio",
+    "description": "Database browser and editor for Drizzle ORM projects.",
+    "websiteUrl": "https://orm.drizzle.team/drizzle-studio/overview",
+    "tags": [
+      "db-tools",
+      "drizzle",
+      "browser",
+      "editor"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Snowflake",
+    "slug": "snowflake",
+    "description": "Cloud data warehouse platform for analytics and data sharing.",
+    "websiteUrl": "https://www.snowflake.com",
+    "tags": [
+      "data-warehouse",
+      "analytics",
+      "cloud",
+      "data-sharing"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "BigQuery",
+    "slug": "bigquery",
+    "description": "Google Cloud's serverless, scalable enterprise data warehouse.",
+    "websiteUrl": "https://cloud.google.com/bigquery",
+    "tags": [
+      "data-warehouse",
+      "serverless",
+      "google-cloud",
+      "analytics"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Databricks",
+    "slug": "databricks",
+    "description": "Unified analytics platform combining data warehouse and data lake.",
+    "websiteUrl": "https://www.databricks.com",
+    "tags": [
+      "data-warehouse",
+      "lakehouse",
+      "analytics",
+      "spark"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "ClickHouse",
+    "slug": "clickhouse",
+    "description": "Open-source column-oriented database for real-time analytical queries.",
+    "websiteUrl": "https://clickhouse.com",
+    "tags": [
+      "data-warehouse",
+      "column-oriented",
+      "analytics",
+      "real-time"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Amazon Redshift",
+    "slug": "amazon-redshift",
+    "description": "AWS fully managed data warehouse for large-scale data analytics.",
+    "websiteUrl": "https://aws.amazon.com/redshift/",
+    "tags": [
+      "data-warehouse",
+      "aws",
+      "analytics",
+      "petabyte-scale"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Apache Druid",
+    "slug": "apache-druid",
+    "description": "Real-time analytics database for fast slice-and-dice analytics.",
+    "websiteUrl": "https://druid.apache.org",
+    "tags": [
+      "data-warehouse",
+      "real-time",
+      "analytics",
+      "olap"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Apache Spark",
+    "slug": "apache-spark",
+    "description": "Unified analytics engine for large-scale data processing.",
+    "websiteUrl": "https://spark.apache.org",
+    "tags": [
+      "data-processing",
+      "analytics",
+      "big-data",
+      "distributed"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "DuckDB",
+    "slug": "duckdb",
+    "description": "In-process analytical database with fast analytical query processing.",
+    "websiteUrl": "https://duckdb.org",
+    "tags": [
+      "data-warehouse",
+      "analytical",
+      "in-process",
+      "olap"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Apache Kafka",
+    "slug": "apache-kafka",
+    "description": "Distributed event streaming platform for high-throughput data pipelines.",
+    "websiteUrl": "https://kafka.apache.org",
+    "tags": [
+      "streaming",
+      "event-driven",
+      "distributed",
+      "apache"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Confluent",
+    "slug": "confluent",
+    "description": "Fully managed Apache Kafka service with enterprise streaming features.",
+    "websiteUrl": "https://www.confluent.io",
+    "tags": [
+      "streaming",
+      "kafka",
+      "managed",
+      "enterprise"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "RabbitMQ",
+    "slug": "rabbitmq",
+    "description": "Open-source message broker supporting multiple messaging protocols.",
+    "websiteUrl": "https://www.rabbitmq.com",
+    "tags": [
+      "message-broker",
+      "amqp",
+      "open-source",
+      "queues"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "NATS",
+    "slug": "nats",
+    "description": "Cloud-native messaging system with high performance and simplicity.",
+    "websiteUrl": "https://nats.io",
+    "tags": [
+      "message-broker",
+      "cloud-native",
+      "high-performance",
+      "simple"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Memcached",
+    "slug": "memcached",
+    "description": "High-performance distributed memory caching system for web applications.",
+    "websiteUrl": "https://memcached.org",
+    "tags": [
+      "caching",
+      "in-memory",
+      "distributed",
+      "key-value"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Upstash Redis",
+    "slug": "upstash-redis",
+    "description": "Serverless Redis with per-request pricing and global replication.",
+    "websiteUrl": "https://upstash.com/redis",
+    "tags": [
+      "caching",
+      "serverless",
+      "redis",
+      "global"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Upstash Kafka",
+    "slug": "upstash-kafka",
+    "description": "Serverless Kafka with per-message pricing for event streaming.",
+    "websiteUrl": "https://upstash.com/kafka",
+    "tags": [
+      "streaming",
+      "serverless",
+      "kafka",
+      "pay-per-use"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "KeyDB",
+    "slug": "keydb",
+    "description": "Multi-threaded fork of Redis with improved performance and features.",
+    "websiteUrl": "https://docs.keydb.dev",
+    "tags": [
+      "caching",
+      "redis-fork",
+      "multi-threaded",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Dragonfly",
+    "slug": "dragonfly",
+    "description": "Modern in-memory datastore compatible with Redis and Memcached APIs.",
+    "websiteUrl": "https://www.dragonflydb.io",
+    "tags": [
+      "caching",
+      "redis-compatible",
+      "modern",
+      "high-performance"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Garnet",
+    "slug": "garnet",
+    "description": "Microsoft's high-performance cache store compatible with Redis protocol.",
+    "websiteUrl": "https://github.com/microsoft/garnet",
+    "tags": [
+      "caching",
+      "redis-compatible",
+      "microsoft",
+      "high-performance"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Valkey",
+    "slug": "valkey",
+    "description": "Open-source Redis fork maintained by the Linux Foundation.",
+    "websiteUrl": "https://valkey.io",
+    "tags": [
+      "caching",
+      "redis-fork",
+      "open-source",
+      "linux-foundation"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Railway",
+    "slug": "railway",
+    "description": "Cloud platform for deploying apps and databases with instant setup.",
+    "websiteUrl": "https://railway.app",
+    "tags": [
+      "db-hosting",
+      "deployment",
+      "instant-setup",
+      "developer-friendly"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Render Databases",
+    "slug": "render-databases",
+    "description": "Managed PostgreSQL and Redis databases on Render's cloud platform.",
+    "websiteUrl": "https://render.com/docs/databases",
+    "tags": [
+      "db-hosting",
+      "managed",
+      "postgres",
+      "redis"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Supabase Database",
+    "slug": "supabase-database",
+    "description": "Managed Postgres database with real-time subscriptions and row security.",
+    "websiteUrl": "https://supabase.com/database",
+    "tags": [
+      "db-hosting",
+      "postgres",
+      "real-time",
+      "row-level-security"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Fly Postgres",
+    "slug": "fly-postgres",
+    "description": "Managed Postgres on Fly.io with global read replicas.",
+    "websiteUrl": "https://fly.io/docs/postgres/",
+    "tags": [
+      "db-hosting",
+      "postgres",
+      "global",
+      "fly-io"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Aiven",
+    "slug": "aiven",
+    "description": "Managed open-source data infrastructure across multiple cloud providers.",
+    "websiteUrl": "https://aiven.io",
+    "tags": [
+      "db-hosting",
+      "managed",
+      "multi-cloud",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "ElasticSearch",
+    "slug": "elasticsearch",
+    "description": "Distributed search and analytics engine for all types of data.",
+    "websiteUrl": "https://www.elastic.co/elasticsearch/",
+    "tags": [
+      "search",
+      "analytics",
+      "distributed",
+      "full-text"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "OpenSearch",
+    "slug": "opensearch",
+    "description": "Community-driven fork of Elasticsearch for search and analytics.",
+    "websiteUrl": "https://opensearch.org",
+    "tags": [
+      "search",
+      "analytics",
+      "open-source",
+      "elasticsearch-fork"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Meilisearch",
+    "slug": "meilisearch",
+    "description": "Lightning-fast open-source search engine with typo tolerance.",
+    "websiteUrl": "https://www.meilisearch.com",
+    "tags": [
+      "search",
+      "fast",
+      "typo-tolerant",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Typesense",
+    "slug": "typesense",
+    "description": "Open-source search engine focused on developer experience and speed.",
+    "websiteUrl": "https://typesense.org",
+    "tags": [
+      "search",
+      "developer-friendly",
+      "fast",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Algolia",
+    "slug": "algolia",
+    "description": "AI-powered search and discovery platform with instant results.",
+    "websiteUrl": "https://www.algolia.com",
+    "tags": [
+      "search",
+      "ai-powered",
+      "instant",
+      "saas"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Apache Solr",
+    "slug": "apache-solr",
+    "description": "Enterprise search platform built on Apache Lucene for full-text search.",
+    "websiteUrl": "https://solr.apache.org",
+    "tags": [
+      "search",
+      "enterprise",
+      "lucene",
+      "full-text"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Zinc",
+    "slug": "zinc-search",
+    "description": "Lightweight Elasticsearch alternative requiring minimal resources.",
+    "websiteUrl": "https://zincsearch.com",
+    "tags": [
+      "search",
+      "lightweight",
+      "elasticsearch-alternative",
+      "go"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "ParadeDB",
+    "slug": "paradedb",
+    "description": "Postgres-based search engine alternative to Elasticsearch.",
+    "websiteUrl": "https://www.paradedb.com",
+    "tags": [
+      "search",
+      "postgres",
+      "full-text",
+      "analytics"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Flyway",
+    "slug": "flyway",
+    "description": "Database migration tool supporting SQL and Java-based migrations.",
+    "websiteUrl": "https://flywaydb.org",
+    "tags": [
+      "migration",
+      "sql",
+      "java",
+      "versioning"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Liquibase",
+    "slug": "liquibase",
+    "description": "Database schema change management and deployment automation tool.",
+    "websiteUrl": "https://www.liquibase.org",
+    "tags": [
+      "migration",
+      "schema-management",
+      "automation",
+      "enterprise"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Atlas",
+    "slug": "atlas-migration",
+    "description": "Modern database migration tool with declarative schema management.",
+    "websiteUrl": "https://atlasgo.io",
+    "tags": [
+      "migration",
+      "declarative",
+      "schema",
+      "modern"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Bytebase",
+    "slug": "bytebase",
+    "description": "Database DevOps and CI/CD platform for schema migration management.",
+    "websiteUrl": "https://www.bytebase.com",
+    "tags": [
+      "migration",
+      "devops",
+      "ci-cd",
+      "schema"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Pocketbase",
+    "slug": "pocketbase",
+    "description": "Open-source backend in a single file with SQLite and real-time events.",
+    "websiteUrl": "https://pocketbase.io",
+    "tags": [
+      "backend",
+      "sqlite",
+      "real-time",
+      "single-file"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "MinIO",
+    "slug": "minio",
+    "description": "High-performance S3-compatible object storage for unstructured data.",
+    "websiteUrl": "https://min.io",
+    "tags": [
+      "object-storage",
+      "s3-compatible",
+      "high-performance",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Apache Pulsar",
+    "slug": "apache-pulsar",
+    "description": "Distributed messaging and streaming platform with multi-tenancy.",
+    "websiteUrl": "https://pulsar.apache.org",
+    "tags": [
+      "streaming",
+      "messaging",
+      "multi-tenancy",
+      "apache"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "EventStoreDB",
+    "slug": "eventstoredb",
+    "description": "Purpose-built database for event sourcing with stream processing.",
+    "websiteUrl": "https://www.eventstore.com",
+    "tags": [
+      "event-sourcing",
+      "stream-processing",
+      "cqrs",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "etcd",
+    "slug": "etcd",
+    "description": "Distributed key-value store for shared configuration and service discovery.",
+    "websiteUrl": "https://etcd.io",
+    "tags": [
+      "key-value",
+      "distributed",
+      "configuration",
+      "kubernetes"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Consul",
+    "slug": "consul",
+    "description": "HashiCorp's service mesh with key-value store and service discovery.",
+    "websiteUrl": "https://www.consul.io",
+    "tags": [
+      "key-value",
+      "service-discovery",
+      "hashicorp",
+      "mesh"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Dolt",
+    "slug": "dolt",
+    "description": "Git-for-data database with version control for SQL tables.",
+    "websiteUrl": "https://www.dolthub.com",
+    "tags": [
+      "relational",
+      "version-control",
+      "git-for-data",
+      "sql"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "MotherDuck",
+    "slug": "motherduck",
+    "description": "Serverless analytics platform built on DuckDB for collaborative analysis.",
+    "websiteUrl": "https://motherduck.com",
+    "tags": [
+      "data-warehouse",
+      "duckdb",
+      "serverless",
+      "collaborative"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Apache Arrow",
+    "slug": "apache-arrow",
+    "description": "Columnar in-memory data format for efficient analytics processing.",
+    "websiteUrl": "https://arrow.apache.org",
+    "tags": [
+      "data-format",
+      "columnar",
+      "analytics",
+      "in-memory"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Apache Parquet",
+    "slug": "apache-parquet",
+    "description": "Columnar storage format for efficient data storage and retrieval.",
+    "websiteUrl": "https://parquet.apache.org",
+    "tags": [
+      "data-format",
+      "columnar",
+      "storage",
+      "hadoop"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "SingleStore",
+    "slug": "singlestore",
+    "description": "Distributed SQL database combining transactions and analytics workloads.",
+    "websiteUrl": "https://www.singlestore.com",
+    "tags": [
+      "relational",
+      "distributed",
+      "htap",
+      "analytics"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "StarRocks",
+    "slug": "starrocks",
+    "description": "High-performance analytical database for real-time OLAP queries.",
+    "websiteUrl": "https://www.starrocks.io",
+    "tags": [
+      "data-warehouse",
+      "olap",
+      "real-time",
+      "analytics"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Apache Doris",
+    "slug": "apache-doris",
+    "description": "Real-time analytical database with MPP architecture for BI queries.",
+    "websiteUrl": "https://doris.apache.org",
+    "tags": [
+      "data-warehouse",
+      "mpp",
+      "real-time",
+      "bi"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Firebolt",
+    "slug": "firebolt",
+    "description": "Cloud data warehouse with blazing-fast SQL query performance.",
+    "websiteUrl": "https://www.firebolt.io",
+    "tags": [
+      "data-warehouse",
+      "fast",
+      "cloud",
+      "sql"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "ElastiCache",
+    "slug": "elasticache",
+    "description": "AWS managed caching service supporting Redis and Memcached.",
+    "websiteUrl": "https://aws.amazon.com/elasticache/",
+    "tags": [
+      "caching",
+      "managed",
+      "aws",
+      "redis"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Azure Cache for Redis",
+    "slug": "azure-cache-redis",
+    "description": "Microsoft's fully managed Redis cache service in Azure.",
+    "websiteUrl": "https://azure.microsoft.com/en-us/products/cache/",
+    "tags": [
+      "caching",
+      "managed",
+      "azure",
+      "redis"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Redis Cloud",
+    "slug": "redis-cloud",
+    "description": "Fully managed Redis service by Redis Inc with enterprise features.",
+    "websiteUrl": "https://redis.com/cloud/",
+    "tags": [
+      "caching",
+      "managed",
+      "redis",
+      "enterprise"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Google Spanner",
+    "slug": "google-spanner",
+    "description": "Google's globally distributed relational database with strong consistency.",
+    "websiteUrl": "https://cloud.google.com/spanner",
+    "tags": [
+      "relational",
+      "distributed",
+      "google-cloud",
+      "global"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Hasura DDN",
+    "slug": "hasura-ddn",
+    "description": "Hasura's data delivery network for composable API-driven data access.",
+    "websiteUrl": "https://hasura.io/ddn",
+    "tags": [
+      "data-access",
+      "api",
+      "composable",
+      "graphql"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Debezium",
+    "slug": "debezium",
+    "description": "Open-source change data capture platform for streaming database changes.",
+    "websiteUrl": "https://debezium.io",
+    "tags": [
+      "cdc",
+      "streaming",
+      "open-source",
+      "database-changes"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Apache Flink",
+    "slug": "apache-flink",
+    "description": "Stream processing framework for real-time data analytics pipelines.",
+    "websiteUrl": "https://flink.apache.org",
+    "tags": [
+      "streaming",
+      "real-time",
+      "analytics",
+      "apache"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Materialize",
+    "slug": "materialize",
+    "description": "Streaming SQL database that maintains always-fresh materialized views.",
+    "websiteUrl": "https://materialize.com",
+    "tags": [
+      "streaming",
+      "materialized-views",
+      "sql",
+      "real-time"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "RisingWave",
+    "slug": "risingwave",
+    "description": "Distributed SQL streaming database for real-time event processing.",
+    "websiteUrl": "https://risingwave.com",
+    "tags": [
+      "streaming",
+      "sql",
+      "real-time",
+      "distributed"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Percona Server",
+    "slug": "percona-server",
+    "description": "Enhanced MySQL-compatible database server with performance improvements.",
+    "websiteUrl": "https://www.percona.com/mysql/software/percona-server-for-mysql",
+    "tags": [
+      "relational",
+      "mysql-compatible",
+      "performance",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Percona XtraDB Cluster",
+    "slug": "percona-xtradb-cluster",
+    "description": "High-availability MySQL clustering solution with synchronous replication.",
+    "websiteUrl": "https://www.percona.com/mysql/software/percona-xtradb-cluster",
+    "tags": [
+      "relational",
+      "clustering",
+      "mysql",
+      "high-availability"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "H2 Database",
+    "slug": "h2-database",
+    "description": "Fast Java SQL database that can run embedded or as a server.",
+    "websiteUrl": "https://h2database.com",
+    "tags": [
+      "relational",
+      "java",
+      "embedded",
+      "lightweight"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Vertica",
+    "slug": "vertica",
+    "description": "Columnar analytics database for big data workloads at scale.",
+    "websiteUrl": "https://www.vertica.com",
+    "tags": [
+      "data-warehouse",
+      "columnar",
+      "analytics",
+      "enterprise"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Teradata",
+    "slug": "teradata",
+    "description": "Enterprise data warehouse platform for complex analytics workloads.",
+    "websiteUrl": "https://www.teradata.com",
+    "tags": [
+      "data-warehouse",
+      "enterprise",
+      "analytics",
+      "complex"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Greenplum",
+    "slug": "greenplum",
+    "description": "Open-source MPP data warehouse based on PostgreSQL architecture.",
+    "websiteUrl": "https://greenplum.org",
+    "tags": [
+      "data-warehouse",
+      "mpp",
+      "postgres-based",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Apache Hive",
+    "slug": "apache-hive",
+    "description": "Data warehouse system for reading and querying large datasets in Hadoop.",
+    "websiteUrl": "https://hive.apache.org",
+    "tags": [
+      "data-warehouse",
+      "hadoop",
+      "sql",
+      "big-data"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Presto",
+    "slug": "presto",
+    "description": "Distributed SQL query engine for running interactive analytics queries.",
+    "websiteUrl": "https://prestodb.io",
+    "tags": [
+      "data-warehouse",
+      "distributed",
+      "sql",
+      "interactive"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Trino",
+    "slug": "trino",
+    "description": "Fast distributed SQL query engine for big data analytics.",
+    "websiteUrl": "https://trino.io",
+    "tags": [
+      "data-warehouse",
+      "distributed",
+      "sql",
+      "big-data"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Apache Iceberg",
+    "slug": "apache-iceberg",
+    "description": "Open table format for large analytic datasets with ACID transactions.",
+    "websiteUrl": "https://iceberg.apache.org",
+    "tags": [
+      "data-format",
+      "table-format",
+      "analytics",
+      "acid"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Delta Lake",
+    "slug": "delta-lake",
+    "description": "Open-source storage layer bringing ACID transactions to data lakes.",
+    "websiteUrl": "https://delta.io",
+    "tags": [
+      "data-format",
+      "storage-layer",
+      "acid",
+      "data-lake"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Apache Hudi",
+    "slug": "apache-hudi",
+    "description": "Data lake platform bringing stream processing to batch data.",
+    "websiteUrl": "https://hudi.apache.org",
+    "tags": [
+      "data-format",
+      "data-lake",
+      "streaming",
+      "incremental"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Polars",
+    "slug": "polars",
+    "description": "Lightning-fast DataFrame library for Rust and Python data processing.",
+    "websiteUrl": "https://pola.rs",
+    "tags": [
+      "data-processing",
+      "dataframe",
+      "fast",
+      "rust"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Pandas",
+    "slug": "pandas",
+    "description": "Python data analysis and manipulation library for structured data.",
+    "websiteUrl": "https://pandas.pydata.org",
+    "tags": [
+      "data-processing",
+      "dataframe",
+      "python",
+      "analysis"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "dbt",
+    "slug": "dbt",
+    "description": "SQL-first transformation tool for analytics engineering in data warehouses.",
+    "websiteUrl": "https://www.getdbt.com",
+    "tags": [
+      "data-processing",
+      "sql",
+      "transformation",
+      "analytics-engineering"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Airbyte",
+    "slug": "airbyte",
+    "description": "Open-source data integration platform for ELT data pipelines.",
+    "websiteUrl": "https://airbyte.com",
+    "tags": [
+      "data-processing",
+      "elt",
+      "integration",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Fivetran",
+    "slug": "fivetran",
+    "description": "Automated data integration service with pre-built connectors.",
+    "websiteUrl": "https://www.fivetran.com",
+    "tags": [
+      "data-processing",
+      "elt",
+      "connectors",
+      "automated"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Stitch",
+    "slug": "stitch",
+    "description": "Simple cloud-based ETL service for data teams.",
+    "websiteUrl": "https://www.stitchdata.com",
+    "tags": [
+      "data-processing",
+      "etl",
+      "cloud",
+      "simple"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Apache Airflow",
+    "slug": "apache-airflow",
+    "description": "Platform for programmatically authoring and scheduling data workflows.",
+    "websiteUrl": "https://airflow.apache.org",
+    "tags": [
+      "data-processing",
+      "workflow",
+      "scheduling",
+      "python"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Dagster",
+    "slug": "dagster",
+    "description": "Data orchestration platform with asset-based programming model.",
+    "websiteUrl": "https://dagster.io",
+    "tags": [
+      "data-processing",
+      "orchestration",
+      "assets",
+      "python"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Prefect",
+    "slug": "prefect",
+    "description": "Modern workflow orchestration platform for data engineering.",
+    "websiteUrl": "https://www.prefect.io",
+    "tags": [
+      "data-processing",
+      "orchestration",
+      "workflow",
+      "python"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Apache Nifi",
+    "slug": "apache-nifi",
+    "description": "Data integration platform for automating data flow between systems.",
+    "websiteUrl": "https://nifi.apache.org",
+    "tags": [
+      "data-processing",
+      "data-flow",
+      "integration",
+      "apache"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Cube",
+    "slug": "cube",
+    "description": "Headless BI and semantic layer for building data applications.",
+    "websiteUrl": "https://cube.dev",
+    "tags": [
+      "data-processing",
+      "semantic-layer",
+      "bi",
+      "api"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Metabase",
+    "slug": "metabase",
+    "description": "Open-source business intelligence tool for querying and dashboards.",
+    "websiteUrl": "https://www.metabase.com",
+    "tags": [
+      "bi",
+      "open-source",
+      "dashboards",
+      "querying"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Apache Superset",
+    "slug": "apache-superset",
+    "description": "Open-source data exploration and visualization platform.",
+    "websiteUrl": "https://superset.apache.org",
+    "tags": [
+      "bi",
+      "visualization",
+      "open-source",
+      "dashboards"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Redash",
+    "slug": "redash",
+    "description": "Open-source tool for querying databases and creating visualizations.",
+    "websiteUrl": "https://redash.io",
+    "tags": [
+      "bi",
+      "querying",
+      "visualization",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Looker",
+    "slug": "looker",
+    "description": "Google's enterprise BI and analytics platform with LookML modeling.",
+    "websiteUrl": "https://cloud.google.com/looker",
+    "tags": [
+      "bi",
+      "enterprise",
+      "analytics",
+      "google"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Mode Analytics",
+    "slug": "mode-analytics",
+    "description": "Collaborative analytics platform with SQL, Python, and R support.",
+    "websiteUrl": "https://mode.com",
+    "tags": [
+      "bi",
+      "analytics",
+      "collaborative",
+      "sql"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Grafana for Databases",
+    "slug": "grafana-db",
+    "description": "Grafana's database monitoring dashboards for all major databases.",
+    "websiteUrl": "https://grafana.com",
+    "tags": [
+      "db-tools",
+      "monitoring",
+      "dashboards",
+      "grafana"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Percona Monitoring",
+    "slug": "percona-monitoring",
+    "description": "Open-source database monitoring and management tool suite.",
+    "websiteUrl": "https://www.percona.com/software/database-tools/percona-monitoring-and-management",
+    "tags": [
+      "db-tools",
+      "monitoring",
+      "open-source",
+      "percona"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "pg_stat_statements",
+    "slug": "pg-stat-statements",
+    "description": "PostgreSQL extension tracking execution statistics of SQL statements.",
+    "websiteUrl": "https://www.postgresql.org/docs/current/pgstatstatements.html",
+    "tags": [
+      "db-tools",
+      "postgres",
+      "performance",
+      "statistics"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "pgBouncer",
+    "slug": "pgbouncer",
+    "description": "Lightweight connection pooler for PostgreSQL databases.",
+    "websiteUrl": "https://www.pgbouncer.org",
+    "tags": [
+      "db-tools",
+      "postgres",
+      "connection-pooling",
+      "lightweight"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "PgHero",
+    "slug": "pghero",
+    "description": "Performance dashboard for PostgreSQL with query insights.",
+    "websiteUrl": "https://github.com/ankane/pghero",
+    "tags": [
+      "db-tools",
+      "postgres",
+      "performance",
+      "dashboard"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "PostgREST",
+    "slug": "postgrest",
+    "description": "Standalone web server that turns PostgreSQL into a REST API.",
+    "websiteUrl": "https://postgrest.org",
+    "tags": [
+      "db-tools",
+      "postgres",
+      "rest-api",
+      "standalone"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "pgvector",
+    "slug": "pgvector",
+    "description": "PostgreSQL extension for vector similarity search operations.",
+    "websiteUrl": "https://github.com/pgvector/pgvector",
+    "tags": [
+      "db-tools",
+      "postgres",
+      "vector-search",
+      "extension"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Citus",
+    "slug": "citus",
+    "description": "PostgreSQL extension for horizontally scaling tables across nodes.",
+    "websiteUrl": "https://www.citusdata.com",
+    "tags": [
+      "relational",
+      "postgres-extension",
+      "distributed",
+      "scaling"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "pg_partman",
+    "slug": "pg-partman",
+    "description": "PostgreSQL extension for automated table partition management.",
+    "websiteUrl": "https://github.com/pgpartman/pg_partman",
+    "tags": [
+      "db-tools",
+      "postgres",
+      "partitioning",
+      "automated"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Patroni",
+    "slug": "patroni",
+    "description": "Template for PostgreSQL high availability with automatic failover.",
+    "websiteUrl": "https://github.com/patroni/patroni",
+    "tags": [
+      "db-tools",
+      "postgres",
+      "high-availability",
+      "failover"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Barman",
+    "slug": "barman",
+    "description": "Backup and recovery manager for PostgreSQL servers.",
+    "websiteUrl": "https://www.pgbarman.org",
+    "tags": [
+      "db-tools",
+      "postgres",
+      "backup",
+      "recovery"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "WAL-G",
+    "slug": "wal-g",
+    "description": "Archival and restoration tool for PostgreSQL and MySQL backups.",
+    "websiteUrl": "https://github.com/wal-g/wal-g",
+    "tags": [
+      "db-tools",
+      "backup",
+      "archival",
+      "cloud-storage"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "SQLPad",
+    "slug": "sqlpad",
+    "description": "Web-based SQL editor for running queries against multiple databases.",
+    "websiteUrl": "https://sqlpad.github.io/sqlpad/",
+    "tags": [
+      "db-tools",
+      "sql-editor",
+      "web-based",
+      "multi-database"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "SQLFluff",
+    "slug": "sqlfluff",
+    "description": "SQL linter and auto-formatter for consistent SQL style.",
+    "websiteUrl": "https://www.sqlfluff.com",
+    "tags": [
+      "db-tools",
+      "linter",
+      "formatter",
+      "sql"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Steampipe",
+    "slug": "steampipe",
+    "description": "Tool for querying cloud APIs using standard SQL queries.",
+    "websiteUrl": "https://steampipe.io",
+    "tags": [
+      "db-tools",
+      "cloud-apis",
+      "sql",
+      "querying"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "KeyValue.store",
+    "slug": "keyvalue-store",
+    "description": "Simple serverless key-value store for edge applications.",
+    "websiteUrl": "https://www.val.town",
+    "tags": [
+      "serverless",
+      "key-value",
+      "edge",
+      "simple"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "TiKV",
+    "slug": "tikv",
+    "description": "Distributed key-value database providing transactional storage.",
+    "websiteUrl": "https://tikv.org",
+    "tags": [
+      "key-value",
+      "distributed",
+      "transactional",
+      "cncf"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Badger",
+    "slug": "badger",
+    "description": "Fast embeddable key-value database written in pure Go.",
+    "websiteUrl": "https://dgraph.io/docs/badger/",
+    "tags": [
+      "key-value",
+      "embedded",
+      "go",
+      "fast"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "RocksDB",
+    "slug": "rocksdb",
+    "description": "Meta's embeddable persistent key-value store for fast storage.",
+    "websiteUrl": "https://rocksdb.org",
+    "tags": [
+      "key-value",
+      "embedded",
+      "persistent",
+      "meta"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "LevelDB",
+    "slug": "leveldb",
+    "description": "Google's fast key-value storage library with ordered mappings.",
+    "websiteUrl": "https://github.com/google/leveldb",
+    "tags": [
+      "key-value",
+      "embedded",
+      "ordered",
+      "google"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "BoltDB",
+    "slug": "boltdb",
+    "description": "Pure Go key-value store inspired by Howard Chu's LMDB.",
+    "websiteUrl": "https://github.com/etcd-io/bbolt",
+    "tags": [
+      "key-value",
+      "embedded",
+      "go",
+      "transactional"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Apache CouchDB Nano",
+    "slug": "couchdb-nano",
+    "description": "Official CouchDB client library for Node.js applications.",
+    "websiteUrl": "https://github.com/apache/couchdb-nano",
+    "tags": [
+      "nosql",
+      "couchdb",
+      "nodejs",
+      "client"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Gun.js",
+    "slug": "gunjs",
+    "description": "Decentralized database for real-time, offline-first applications.",
+    "websiteUrl": "https://gun.eco",
+    "tags": [
+      "nosql",
+      "decentralized",
+      "real-time",
+      "offline-first"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Realm",
+    "slug": "realm",
+    "description": "MongoDB's mobile database for cross-platform mobile applications.",
+    "websiteUrl": "https://realm.io",
+    "tags": [
+      "nosql",
+      "mobile",
+      "mongodb",
+      "sync"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "LMDB",
+    "slug": "lmdb",
+    "description": "Ultra-fast memory-mapped key-value database with ACID transactions.",
+    "websiteUrl": "https://www.symas.com/lmdb",
+    "tags": [
+      "key-value",
+      "memory-mapped",
+      "fast",
+      "acid"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Apache Ignite",
+    "slug": "apache-ignite",
+    "description": "Distributed in-memory computing platform for caching and processing.",
+    "websiteUrl": "https://ignite.apache.org",
+    "tags": [
+      "caching",
+      "in-memory",
+      "distributed",
+      "computing"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Hazelcast",
+    "slug": "hazelcast",
+    "description": "Distributed computing platform with in-memory data grid.",
+    "websiteUrl": "https://hazelcast.com",
+    "tags": [
+      "caching",
+      "in-memory",
+      "distributed",
+      "computing"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "GridDB",
+    "slug": "griddb",
+    "description": "Time-series IoT database optimized for industrial data management.",
+    "websiteUrl": "https://griddb.net",
+    "tags": [
+      "time-series",
+      "iot",
+      "industrial",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Kuzzle",
+    "slug": "kuzzle",
+    "description": "Open-source backend with real-time database and multi-protocol API.",
+    "websiteUrl": "https://kuzzle.io",
+    "tags": [
+      "backend",
+      "real-time",
+      "api",
+      "open-source"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Prisma Accelerate",
+    "slug": "prisma-accelerate",
+    "description": "Global database cache and connection pool for Prisma applications.",
+    "websiteUrl": "https://www.prisma.io/data-platform/accelerate",
+    "tags": [
+      "caching",
+      "connection-pool",
+      "prisma",
+      "global"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Prisma Pulse",
+    "slug": "prisma-pulse",
+    "description": "Real-time database event streaming for Prisma applications.",
+    "websiteUrl": "https://www.prisma.io/data-platform/pulse",
+    "tags": [
+      "streaming",
+      "real-time",
+      "prisma",
+      "events"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Electric SQL",
+    "slug": "electric-sql",
+    "description": "Local-first sync engine for building reactive offline-capable apps.",
+    "websiteUrl": "https://electric-sql.com",
+    "tags": [
+      "sync",
+      "local-first",
+      "offline",
+      "reactive"
+    ],
+    "primaryCategory": "databases",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "PowerSync",
+    "slug": "powersync",
+    "description": "Sync engine for building offline-first mobile and web apps.",
+    "websiteUrl": "https://www.powersync.com",
+    "tags": [
+      "sync",
+      "offline-first",
+      "mobile",
+      "real-time"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Convex Database",
+    "slug": "convex-db",
+    "description": "Reactive document database with real-time sync and ACID transactions.",
+    "websiteUrl": "https://www.convex.dev",
+    "tags": [
+      "nosql",
+      "reactive",
+      "real-time",
+      "serverless"
+    ],
+    "primaryCategory": "databases",
+    "type": "saas",
+    "baselineScore": 8.3
+  }
+]

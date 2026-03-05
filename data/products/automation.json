@@ -1,0 +1,702 @@
+[
+  {
+    "name": "Zapier",
+    "slug": "zapier",
+    "description": "No-code automation platform connecting thousands of apps with trigger-action workflows.",
+    "websiteUrl": "https://zapier.com",
+    "tags": ["ipaas", "no-code", "automation", "integrations"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Make (Integromat)",
+    "slug": "make",
+    "description": "Visual automation platform for building complex multi-step workflows between apps and services.",
+    "websiteUrl": "https://www.make.com",
+    "tags": ["ipaas", "visual", "automation", "workflows"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "n8n",
+    "slug": "n8n",
+    "description": "Open-source workflow automation tool with a visual editor and self-hosting option.",
+    "websiteUrl": "https://n8n.io",
+    "tags": ["ipaas", "open-source", "self-hosted", "workflow"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Pipedream",
+    "slug": "pipedream",
+    "description": "Developer-focused integration platform for building event-driven workflows with code and no-code.",
+    "websiteUrl": "https://pipedream.com",
+    "tags": ["ipaas", "developer", "event-driven", "code"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Tray.io",
+    "slug": "tray-io",
+    "description": "Enterprise automation platform for building and managing integrations with a visual workflow builder.",
+    "websiteUrl": "https://tray.io",
+    "tags": ["ipaas", "enterprise", "visual", "integrations"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Workato",
+    "slug": "workato",
+    "description": "Enterprise automation platform combining integration and workflow automation with AI capabilities.",
+    "websiteUrl": "https://www.workato.com",
+    "tags": ["ipaas", "enterprise", "ai", "automation"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "IFTTT",
+    "slug": "ifttt",
+    "description": "Simple automation service using if-this-then-that logic to connect apps and smart devices.",
+    "websiteUrl": "https://ifttt.com",
+    "tags": ["automation", "simple", "smart-home", "applets"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "UiPath",
+    "slug": "uipath",
+    "description": "Enterprise robotic process automation platform for automating repetitive desktop and web tasks.",
+    "websiteUrl": "https://www.uipath.com",
+    "tags": ["rpa", "enterprise", "desktop-automation", "bots"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Automation Anywhere",
+    "slug": "automation-anywhere",
+    "description": "Cloud-native RPA platform with intelligent automation for enterprise business processes.",
+    "websiteUrl": "https://www.automationanywhere.com",
+    "tags": ["rpa", "enterprise", "cloud", "intelligent-automation"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Microsoft Power Automate",
+    "slug": "power-automate",
+    "description": "Microsoft's automation service for creating flows between apps and services in the Microsoft ecosystem.",
+    "websiteUrl": "https://powerautomate.microsoft.com",
+    "tags": ["rpa", "microsoft", "automation", "low-code"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Blue Prism",
+    "slug": "blue-prism",
+    "description": "Enterprise RPA platform providing intelligent digital workers for automating business processes.",
+    "websiteUrl": "https://www.blueprism.com",
+    "tags": ["rpa", "enterprise", "digital-workers", "automation"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Temporal",
+    "slug": "temporal",
+    "description": "Open-source durable execution platform for building reliable distributed workflows and microservices.",
+    "websiteUrl": "https://temporal.io",
+    "tags": ["workflow-engine", "durable-execution", "open-source", "microservices"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.8
+  },
+  {
+    "name": "Apache Airflow",
+    "slug": "apache-airflow",
+    "description": "Open-source platform for authoring, scheduling, and monitoring data pipeline workflows programmatically.",
+    "websiteUrl": "https://airflow.apache.org",
+    "tags": ["workflow-engine", "data-pipelines", "open-source", "scheduling"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Prefect",
+    "slug": "prefect",
+    "description": "Modern workflow orchestration tool for building, running, and monitoring data pipelines in Python.",
+    "websiteUrl": "https://www.prefect.io",
+    "tags": ["workflow-engine", "data-pipelines", "python", "orchestration"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Dagster",
+    "slug": "dagster",
+    "description": "Data orchestrator for building, testing, and deploying data pipelines with software-defined assets.",
+    "websiteUrl": "https://dagster.io",
+    "tags": ["workflow-engine", "data-pipelines", "orchestration", "assets"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Luigi",
+    "slug": "luigi",
+    "description": "Python module for building complex pipelines of batch jobs with dependency resolution.",
+    "websiteUrl": "https://github.com/spotify/luigi",
+    "tags": ["workflow-engine", "batch-jobs", "python", "spotify"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 7.0
+  },
+  {
+    "name": "Argo Workflows",
+    "slug": "argo-workflows",
+    "description": "Kubernetes-native workflow engine for orchestrating parallel jobs and DAG-based pipelines.",
+    "websiteUrl": "https://argoproj.github.io/workflows/",
+    "tags": ["workflow-engine", "kubernetes", "dag", "open-source"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Apache NiFi",
+    "slug": "apache-nifi",
+    "description": "Data integration tool for automating data flow between systems with a visual drag-and-drop interface.",
+    "websiteUrl": "https://nifi.apache.org",
+    "tags": ["data-flow", "integration", "visual", "open-source"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Airbyte",
+    "slug": "airbyte",
+    "description": "Open-source data integration platform for syncing data from APIs and databases to warehouses.",
+    "websiteUrl": "https://airbyte.com",
+    "tags": ["data-sync", "etl", "open-source", "connectors"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Fivetran",
+    "slug": "fivetran",
+    "description": "Automated data pipeline service that replicates data from sources to cloud data warehouses.",
+    "websiteUrl": "https://www.fivetran.com",
+    "tags": ["data-sync", "etl", "automated", "data-warehouse"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Stitch",
+    "slug": "stitch-data",
+    "description": "Simple cloud ETL service for moving data from SaaS tools and databases to data warehouses.",
+    "websiteUrl": "https://www.stitchdata.com",
+    "tags": ["data-sync", "etl", "cloud", "simple"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Hevo Data",
+    "slug": "hevo-data",
+    "description": "No-code data pipeline platform for automated ELT from databases and SaaS to warehouses.",
+    "websiteUrl": "https://hevodata.com",
+    "tags": ["data-sync", "elt", "no-code", "pipelines"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Matillion",
+    "slug": "matillion",
+    "description": "Data integration and transformation platform built for cloud data warehouses and lakes.",
+    "websiteUrl": "https://www.matillion.com",
+    "tags": ["data-sync", "etl", "cloud", "transformation"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "dbt",
+    "slug": "dbt",
+    "description": "Open-source data transformation tool that enables analytics engineers to transform data using SQL.",
+    "websiteUrl": "https://www.getdbt.com",
+    "tags": ["data-transformation", "sql", "analytics-engineering", "open-source"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Kong",
+    "slug": "kong",
+    "description": "Cloud-native API gateway and platform for managing, securing, and orchestrating microservices.",
+    "websiteUrl": "https://konghq.com",
+    "tags": ["api-management", "gateway", "microservices", "open-source"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Apigee",
+    "slug": "apigee",
+    "description": "Google Cloud API management platform for designing, securing, and scaling enterprise APIs.",
+    "websiteUrl": "https://cloud.google.com/apigee",
+    "tags": ["api-management", "google-cloud", "enterprise", "gateway"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "MuleSoft",
+    "slug": "mulesoft",
+    "description": "Integration platform for connecting applications, data, and devices across on-premise and cloud.",
+    "websiteUrl": "https://www.mulesoft.com",
+    "tags": ["api-management", "integration", "enterprise", "salesforce"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Postman Flows",
+    "slug": "postman-flows",
+    "description": "Visual tool within Postman for building API workflows by chaining requests and transformations.",
+    "websiteUrl": "https://www.postman.com/product/flows/",
+    "tags": ["api-management", "workflows", "visual", "testing"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "AWS Step Functions",
+    "slug": "aws-step-functions",
+    "description": "Serverless orchestration service for building distributed applications using visual workflows on AWS.",
+    "websiteUrl": "https://aws.amazon.com/step-functions/",
+    "tags": ["workflow-engine", "serverless", "aws", "orchestration"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 8.3
+  },
+  {
+    "name": "Azure Logic Apps",
+    "slug": "azure-logic-apps",
+    "description": "Cloud integration service for automating workflows and connecting apps on Microsoft Azure.",
+    "websiteUrl": "https://azure.microsoft.com/en-us/products/logic-apps",
+    "tags": ["ipaas", "azure", "cloud", "integration"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Google Cloud Workflows",
+    "slug": "google-cloud-workflows",
+    "description": "Serverless workflow orchestration service for linking Google Cloud and API-based services.",
+    "websiteUrl": "https://cloud.google.com/workflows",
+    "tags": ["workflow-engine", "serverless", "google-cloud", "orchestration"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Svix",
+    "slug": "svix",
+    "description": "Webhooks-as-a-service platform for sending reliable webhook notifications from your application.",
+    "websiteUrl": "https://www.svix.com",
+    "tags": ["webhooks", "api", "reliability", "notifications"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Hookdeck",
+    "slug": "hookdeck",
+    "description": "Webhook infrastructure for receiving, transforming, routing, and delivering webhook events reliably.",
+    "websiteUrl": "https://hookdeck.com",
+    "tags": ["webhooks", "infrastructure", "routing", "reliability"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Inngest",
+    "slug": "inngest",
+    "description": "Event-driven serverless functions platform for reliable background jobs and workflow orchestration.",
+    "websiteUrl": "https://www.inngest.com",
+    "tags": ["event-driven", "serverless", "background-jobs", "orchestration"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "Trigger.dev",
+    "slug": "trigger-dev",
+    "description": "Open-source background jobs framework for TypeScript with event triggers and workflow orchestration.",
+    "websiteUrl": "https://trigger.dev",
+    "tags": ["background-jobs", "typescript", "open-source", "event-driven"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "BullMQ",
+    "slug": "bullmq",
+    "description": "Node.js message queue library built on Redis for handling distributed jobs and workflows.",
+    "websiteUrl": "https://bullmq.io",
+    "tags": ["queue", "jobs", "redis", "node-js"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.0
+  },
+  {
+    "name": "Celery",
+    "slug": "celery",
+    "description": "Distributed task queue for Python used to run asynchronous background jobs at scale.",
+    "websiteUrl": "https://docs.celeryq.dev",
+    "tags": ["task-queue", "python", "distributed", "async"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Sidekiq",
+    "slug": "sidekiq",
+    "description": "Efficient background job processing framework for Ruby applications using Redis-backed queues.",
+    "websiteUrl": "https://sidekiq.org",
+    "tags": ["background-jobs", "ruby", "redis", "queue"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "RabbitMQ",
+    "slug": "rabbitmq",
+    "description": "Open-source message broker supporting multiple messaging protocols for distributed system communication.",
+    "websiteUrl": "https://www.rabbitmq.com",
+    "tags": ["message-broker", "queue", "open-source", "amqp"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.4
+  },
+  {
+    "name": "Apache Kafka",
+    "slug": "apache-kafka",
+    "description": "Distributed event streaming platform for building real-time data pipelines and streaming applications.",
+    "websiteUrl": "https://kafka.apache.org",
+    "tags": ["event-streaming", "distributed", "real-time", "data-pipelines"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Confluent",
+    "slug": "confluent",
+    "description": "Fully managed Apache Kafka service with stream processing and enterprise data streaming features.",
+    "websiteUrl": "https://www.confluent.io",
+    "tags": ["event-streaming", "kafka", "managed", "enterprise"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 8.5
+  },
+  {
+    "name": "Amazon EventBridge",
+    "slug": "amazon-eventbridge",
+    "description": "Serverless event bus for connecting applications using events from AWS and SaaS partners.",
+    "websiteUrl": "https://aws.amazon.com/eventbridge/",
+    "tags": ["event-bus", "serverless", "aws", "integration"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 8.1
+  },
+  {
+    "name": "Retool Workflows",
+    "slug": "retool-workflows",
+    "description": "Visual workflow builder for automating business processes with internal tools and database actions.",
+    "websiteUrl": "https://retool.com/products/workflows",
+    "tags": ["workflow", "internal-tools", "automation", "visual"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Activepieces",
+    "slug": "activepieces",
+    "description": "Open-source no-code automation tool and Zapier alternative with a visual piece-based builder.",
+    "websiteUrl": "https://www.activepieces.com",
+    "tags": ["ipaas", "open-source", "no-code", "automation"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Automatisch",
+    "slug": "automatisch",
+    "description": "Open-source business automation tool as a self-hosted alternative to Zapier.",
+    "websiteUrl": "https://automatisch.io",
+    "tags": ["ipaas", "open-source", "self-hosted", "automation"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Huginn",
+    "slug": "huginn",
+    "description": "Open-source system for building agents that monitor the web and automate tasks on your behalf.",
+    "websiteUrl": "https://github.com/huginn/huginn",
+    "tags": ["automation", "agents", "open-source", "monitoring"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Node-RED",
+    "slug": "node-red",
+    "description": "Flow-based programming tool for wiring together hardware devices, APIs, and online services.",
+    "websiteUrl": "https://nodered.org",
+    "tags": ["flow-based", "iot", "open-source", "visual"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 7.8
+  },
+  {
+    "name": "Camunda",
+    "slug": "camunda",
+    "description": "Process orchestration platform for automating complex business workflows with BPMN modeling.",
+    "websiteUrl": "https://camunda.com",
+    "tags": ["workflow-engine", "bpmn", "process-automation", "enterprise"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 7.9
+  },
+  {
+    "name": "AWS Lambda",
+    "slug": "aws-lambda",
+    "description": "Serverless compute service that runs code in response to events without managing servers.",
+    "websiteUrl": "https://aws.amazon.com/lambda/",
+    "tags": ["serverless", "compute", "aws", "event-driven"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Cloudflare Workers",
+    "slug": "cloudflare-workers",
+    "description": "Edge serverless platform for running JavaScript and WebAssembly close to users worldwide.",
+    "websiteUrl": "https://workers.cloudflare.com",
+    "tags": ["serverless", "edge", "javascript", "cloudflare"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 8.6
+  },
+  {
+    "name": "Cron-job.org",
+    "slug": "cron-job-org",
+    "description": "Free online cron job service for scheduling HTTP requests to your endpoints at set intervals.",
+    "websiteUrl": "https://cron-job.org",
+    "tags": ["cron", "scheduling", "free", "http"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "EasyCron",
+    "slug": "easycron",
+    "description": "Cloud-based cron job service for scheduling URL calls with monitoring and failure notifications.",
+    "websiteUrl": "https://www.easycron.com",
+    "tags": ["cron", "scheduling", "cloud", "monitoring"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 6.5
+  },
+  {
+    "name": "Mergify",
+    "slug": "mergify",
+    "description": "GitHub automation tool that merges, rebases, and manages pull requests based on custom rules.",
+    "websiteUrl": "https://mergify.com",
+    "tags": ["github", "automation", "pull-requests", "ci-cd"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "GitHub Actions",
+    "slug": "github-actions",
+    "description": "CI/CD and automation platform built into GitHub for building, testing, and deploying code.",
+    "websiteUrl": "https://github.com/features/actions",
+    "tags": ["ci-cd", "automation", "github", "workflows"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 9.0
+  },
+  {
+    "name": "Windmill",
+    "slug": "windmill",
+    "description": "Open-source developer platform for building internal tools, workflows, and scripts from code.",
+    "websiteUrl": "https://www.windmill.dev",
+    "tags": ["workflow-engine", "scripts", "open-source", "internal-tools"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Kestra",
+    "slug": "kestra",
+    "description": "Open-source orchestration platform for scheduling and managing data pipelines with a declarative approach.",
+    "websiteUrl": "https://kestra.io",
+    "tags": ["orchestration", "data-pipelines", "open-source", "scheduling"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Benthos",
+    "slug": "benthos",
+    "description": "Stream processing tool for mundane data engineering tasks like mapping, filtering, and enriching.",
+    "websiteUrl": "https://www.benthos.dev",
+    "tags": ["stream-processing", "data-engineering", "open-source", "go"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Nango",
+    "slug": "nango",
+    "description": "Unified API for building product integrations with pre-built connectors and OAuth management.",
+    "websiteUrl": "https://www.nango.dev",
+    "tags": ["integrations", "unified-api", "oauth", "connectors"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.6
+  },
+  {
+    "name": "Paragon",
+    "slug": "paragon",
+    "description": "Embedded integration platform for SaaS companies to ship native integrations to customers.",
+    "websiteUrl": "https://www.useparagon.com",
+    "tags": ["embedded-integrations", "saas", "native", "connectors"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Merge",
+    "slug": "merge-api",
+    "description": "Unified API for building integrations across HR, ATS, accounting, and CRM categories.",
+    "websiteUrl": "https://merge.dev",
+    "tags": ["unified-api", "integrations", "hr", "ats"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "Apache Camel",
+    "slug": "apache-camel",
+    "description": "Open-source integration framework implementing enterprise integration patterns for routing and mediation.",
+    "websiteUrl": "https://camel.apache.org",
+    "tags": ["integration", "enterprise-patterns", "java", "open-source"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 7.5
+  },
+  {
+    "name": "Boomi",
+    "slug": "boomi",
+    "description": "Cloud-based integration platform for connecting applications, data, and people across organizations.",
+    "websiteUrl": "https://boomi.com",
+    "tags": ["ipaas", "enterprise", "cloud", "integration"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.7
+  },
+  {
+    "name": "SnapLogic",
+    "slug": "snaplogic",
+    "description": "Integration platform for connecting enterprise applications, data, and APIs with AI-powered automation.",
+    "websiteUrl": "https://www.snaplogic.com",
+    "tags": ["ipaas", "enterprise", "ai", "integration"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.3
+  },
+  {
+    "name": "Celigo",
+    "slug": "celigo",
+    "description": "Integration platform for automating business processes across e-commerce, ERP, and CRM systems.",
+    "websiteUrl": "https://www.celigo.com",
+    "tags": ["ipaas", "e-commerce", "erp", "automation"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.2
+  },
+  {
+    "name": "Albato",
+    "slug": "albato",
+    "description": "No-code automation platform with a focus on ease of use for connecting business applications.",
+    "websiteUrl": "https://albato.com",
+    "tags": ["ipaas", "no-code", "automation", "simple"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 6.8
+  },
+  {
+    "name": "Bardeen",
+    "slug": "bardeen",
+    "description": "Browser automation tool that automates repetitive tasks across web apps with no-code playbooks.",
+    "websiteUrl": "https://www.bardeen.ai",
+    "tags": ["browser-automation", "no-code", "productivity", "playbooks"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.4
+  },
+  {
+    "name": "Phantombuster",
+    "slug": "phantombuster",
+    "description": "Cloud-based automation tool for scraping data and automating actions on social media platforms.",
+    "websiteUrl": "https://phantombuster.com",
+    "tags": ["scraping", "social-media", "automation", "lead-generation"],
+    "primaryCategory": "automation",
+    "type": "saas",
+    "baselineScore": 7.1
+  },
+  {
+    "name": "Selenium",
+    "slug": "selenium",
+    "description": "Open-source browser automation framework for web application testing across multiple browsers.",
+    "websiteUrl": "https://www.selenium.dev",
+    "tags": ["browser-automation", "testing", "open-source", "web"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.2
+  },
+  {
+    "name": "Playwright",
+    "slug": "playwright",
+    "description": "Modern browser automation library by Microsoft for end-to-end testing of web applications.",
+    "websiteUrl": "https://playwright.dev",
+    "tags": ["browser-automation", "testing", "microsoft", "e2e"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.7
+  },
+  {
+    "name": "Puppeteer",
+    "slug": "puppeteer",
+    "description": "Node.js library for controlling headless Chrome for scraping, testing, and automation tasks.",
+    "websiteUrl": "https://pptr.dev",
+    "tags": ["browser-automation", "headless", "chrome", "node-js"],
+    "primaryCategory": "automation",
+    "type": "tool",
+    "baselineScore": 8.3
+  }
+]
