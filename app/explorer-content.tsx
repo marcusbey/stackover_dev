@@ -5,7 +5,7 @@ import { useQuery } from "convex/react";
 import { api } from "@/convex/_generated/api";
 import { Id } from "@/convex/_generated/dataModel";
 import { Header } from "@/components/header";
-
+import { CategoryBar } from "@/components/mega-nav/category-bar";
 import { FilterBreadcrumb } from "@/components/filter-breadcrumb";
 import { RankedList } from "@/components/ranked-list";
 import { Sidebar } from "@/components/sidebar";
@@ -112,6 +112,7 @@ export function ExplorerContent() {
   return (
     <div className="min-h-screen bg-background">
       <Header onSearchOpen={() => setSearchOpen(true)} />
+      <CategoryBar />
       <SearchDialog
         open={searchOpen}
         onOpenChange={setSearchOpen}
