@@ -19,7 +19,7 @@ interface ToolCardProps {
     description: string;
     logoUrl: string;
     websiteUrl: string;
-    type: "tool" | "saas";
+    type: "tool" | "saas" | "course" | "resource";
     baselineScore: number;
     finalScore?: number;
     voteCount?: number;
@@ -36,8 +36,8 @@ export function ToolCard({ tool, filterNodeId }: ToolCardProps) {
 
   return (
     <Link href={`/tools/${tool.slug}`}>
-      <Card className="hover:shadow-md transition-shadow cursor-pointer h-full">
-        <CardContent className="p-4">
+      <Card className="hover:shadow-md transition-shadow cursor-pointer h-full border-border/60">
+        <CardContent className="p-5">
           <div className="flex items-start justify-between gap-3">
             <div className="flex items-start gap-3 flex-1 min-w-0">
               <div className="h-10 w-10 rounded-lg bg-muted flex items-center justify-center flex-shrink-0 overflow-hidden">

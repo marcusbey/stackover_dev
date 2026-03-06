@@ -7,20 +7,7 @@ import {
   type SearchCategory,
 } from "@/lib/search-constants";
 import { X, Search, ArrowRight } from "lucide-react";
-
-const INTENT_EMOJI: Record<string, string> = {
-  rocket: "\u{1F680}", sparkles: "\u2728", database: "\u{1F4BE}",
-  smartphone: "\u{1F4F1}", cloud: "\u2601\uFE0F", "credit-card": "\u{1F4B3}",
-  lock: "\u{1F512}", layout: "\u{1F4C4}", "bar-chart-3": "\u{1F4CA}",
-  server: "\u{1F5A5}\uFE0F", mail: "\u{1F4E7}", zap: "\u26A1",
-  "message-square": "\u{1F4AC}", image: "\u{1F5BC}\uFE0F",
-  "git-branch": "\u{1F500}", "shopping-cart": "\u{1F6D2}",
-  "file-text": "\u{1F4DD}", activity: "\u{1F4C8}",
-  "layout-dashboard": "\u{1F4CA}", search: "\u{1F50D}", users: "\u{1F465}",
-  palette: "\u{1F3A8}", video: "\u{1F3AC}", headphones: "\u{1F3A7}",
-  handshake: "\u{1F91D}", megaphone: "\u{1F4E3}", blocks: "\u{1F9E9}",
-  shield: "\u{1F6E1}\uFE0F", "share-2": "\u{1F310}", briefcase: "\u{1F4BC}",
-};
+import { IntentIcon } from "@/components/intent-icon";
 
 interface SearchDialogProps {
   open: boolean;
@@ -137,9 +124,7 @@ export function SearchDialog({
                     onClick={() => intentClick(intent.query)}
                     className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md border border-border/50 text-xs text-muted-foreground hover:text-foreground hover:border-border hover:bg-accent/50 transition-all"
                   >
-                    <span className="leading-none">
-                      {INTENT_EMOJI[intent.icon] ?? "\u{1F50D}"}
-                    </span>
+                    <IntentIcon name={intent.icon} className="h-3.5 w-3.5 shrink-0" />
                     {intent.label}
                   </button>
                 ))}

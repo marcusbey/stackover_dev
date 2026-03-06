@@ -11,8 +11,10 @@ import { RankedList } from "@/components/ranked-list";
 import { Sidebar } from "@/components/sidebar";
 import { ToolCard } from "@/components/tool-card";
 import { SearchDialog } from "@/components/search-dialog";
-import { CATEGORY_MAP, type SearchCategory } from "@/lib/search-constants";
+import { CATEGORY_MAP, SEARCH_INTENTS, type SearchCategory } from "@/lib/search-constants";
 import { X, Search } from "lucide-react";
+import { IntentIcon } from "@/components/intent-icon";
+import Link from "next/link";
 
 interface FilterNode {
   _id: Id<"filterNodes">;
@@ -227,21 +229,31 @@ export function ExplorerContent() {
                     onClick={() => setSearchOpen(true)}
                     className="inline-flex items-center gap-3 px-6 py-3 rounded-xl border bg-muted/50 hover:bg-muted transition-colors text-muted-foreground text-sm w-full max-w-md mx-auto"
                   >
-                    <svg
-                      className="h-4 w-4"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth={2}
-                    >
-                      <circle cx="11" cy="11" r="8" />
-                      <path d="m21 21-4.3-4.3" />
-                    </svg>
+                    <Search className="h-4 w-4" />
                     <span>What are you building?</span>
                     <kbd className="ml-auto hidden sm:inline-flex h-5 items-center gap-1 rounded border bg-background px-1.5 font-mono text-[10px] font-medium">
                       <span className="text-xs">&#x2318;</span>K
                     </kbd>
                   </button>
+
+                  {/* Popular searches */}
+                  <div className="mt-5">
+                    <p className="mb-2 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground/60">
+                      Popular Searches
+                    </p>
+                    <div className="flex flex-wrap justify-center gap-2">
+                      {SEARCH_INTENTS.slice(0, 12).map((intent) => (
+                        <Link
+                          key={intent.label}
+                          href={`/categories/${intent.category}`}
+                          className="inline-flex items-center gap-1.5 rounded-full border border-border/50 bg-muted/50 px-3 py-1 text-xs text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground hover:border-border"
+                        >
+                          <IntentIcon name={intent.icon} className="h-3.5 w-3.5" />
+                          {intent.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
                 </div>
 
                 {/* Hot + Trending row */}
@@ -253,7 +265,7 @@ export function ExplorerContent() {
                         <h2 className="text-lg font-semibold mb-4">
                           Hot Right Now
                         </h2>
-                        <div className="space-y-4">
+                        <div className="space-y-5">
                           {hotTools.map((tool) => (
                             <ToolCard key={tool._id} tool={tool} />
                           ))}
@@ -265,7 +277,7 @@ export function ExplorerContent() {
                         <h2 className="text-lg font-semibold mb-4">
                           Trending
                         </h2>
-                        <div className="space-y-4">
+                        <div className="space-y-5">
                           {trendingTools.map((tool) => (
                             <ToolCard key={tool._id} tool={tool} />
                           ))}

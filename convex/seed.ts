@@ -141,6 +141,118 @@ export const seed = internalMutation({
       baselineScore: 8.3, pros: ["Instant UI", "shadcn integration", "Iterative refinement"], cons: ["Limited customization", "React-only"], isHot: true, isTrending: true,
     });
 
+    // --- Courses ---
+    await ctx.db.insert("tools", {
+      name: "Full Stack Open", slug: "full-stack-open",
+      description: "Deep dive into modern web development with React, Node.js, GraphQL, and TypeScript.",
+      logoUrl: "/logos/fullstackopen.svg", websiteUrl: "https://fullstackopen.com",
+      type: "course", baselineScore: 9.0,
+      pros: ["Free", "Comprehensive", "Project-based"], cons: ["Self-paced only"],
+      isHot: false, isTrending: true, primaryCategory: "web",
+      courseUrl: "https://fullstackopen.com/en/", provider: "University of Helsinki", isFree: true,
+    });
+    await ctx.db.insert("tools", {
+      name: "CS50", slug: "cs50",
+      description: "Harvard's intro to computer science and the art of programming.",
+      logoUrl: "/logos/harvard.svg", websiteUrl: "https://cs50.harvard.edu",
+      type: "course", baselineScore: 9.5,
+      pros: ["World-class instruction", "Free", "Community"], cons: ["Time-intensive"],
+      isHot: true, isTrending: false, primaryCategory: "web",
+      courseUrl: "https://cs50.harvard.edu/x/", provider: "Harvard", isFree: true,
+    });
+    await ctx.db.insert("tools", {
+      name: "fast.ai", slug: "fast-ai-course",
+      description: "Practical deep learning for coders — making neural nets uncool again.",
+      logoUrl: "/logos/fastai.svg", websiteUrl: "https://fast.ai",
+      type: "course", baselineScore: 9.2,
+      pros: ["Top-down approach", "Free", "PyTorch-based"], cons: ["Opinionated library"],
+      isHot: true, isTrending: true, primaryCategory: "ai",
+      courseUrl: "https://course.fast.ai/", provider: "fast.ai", isFree: true,
+    });
+    await ctx.db.insert("tools", {
+      name: "The Odin Project", slug: "the-odin-project",
+      description: "Full stack curriculum with Ruby on Rails and JavaScript paths.",
+      logoUrl: "/logos/odinproject.svg", websiteUrl: "https://theodinproject.com",
+      type: "course", baselineScore: 8.8,
+      pros: ["100% free", "Open source", "Active community"], cons: ["Self-paced only"],
+      isHot: false, isTrending: false, primaryCategory: "web",
+      courseUrl: "https://theodinproject.com/", provider: "The Odin Project", isFree: true,
+    });
+    await ctx.db.insert("tools", {
+      name: "Prompt Engineering Guide", slug: "prompt-engineering-guide",
+      description: "Comprehensive guide to prompt engineering techniques for LLMs.",
+      logoUrl: "/logos/dair.svg", websiteUrl: "https://promptingguide.ai",
+      type: "course", baselineScore: 8.5,
+      pros: ["Up-to-date", "Free", "Practical examples"], cons: ["Text-only"],
+      isHot: false, isTrending: true, primaryCategory: "ai",
+      courseUrl: "https://www.promptingguide.ai/", provider: "DAIR.AI", isFree: true,
+    });
+    await ctx.db.insert("tools", {
+      name: "AWS Cloud Practitioner", slug: "aws-cloud-practitioner",
+      description: "Foundational cloud concepts and AWS services overview.",
+      logoUrl: "/logos/aws.svg", websiteUrl: "https://aws.amazon.com/training/",
+      type: "course", baselineScore: 8.3,
+      pros: ["Official certification", "Well-structured", "Industry recognized"], cons: ["AWS-specific", "Exam cost"],
+      isHot: false, isTrending: false, primaryCategory: "cloud",
+      courseUrl: "https://aws.amazon.com/training/learn-about/cloud-practitioner/", provider: "AWS", isFree: false,
+    });
+
+    // --- Resources ---
+    await ctx.db.insert("tools", {
+      name: "Awesome React", slug: "awesome-react",
+      description: "Curated list of React libraries, tools, and resources.",
+      logoUrl: "/logos/react.svg", websiteUrl: "https://github.com/enaqx/awesome-react",
+      type: "resource", baselineScore: 8.7,
+      pros: ["Comprehensive", "Community curated", "Always updated"], cons: ["Can be overwhelming"],
+      isHot: false, isTrending: false, primaryCategory: "web",
+      provider: "GitHub", isFree: true,
+    });
+    await ctx.db.insert("tools", {
+      name: "AI Papers With Code", slug: "ai-papers-with-code",
+      description: "Machine learning papers with linked code implementations.",
+      logoUrl: "/logos/paperswithcode.svg", websiteUrl: "https://paperswithcode.com",
+      type: "resource", baselineScore: 9.0,
+      pros: ["Academic rigor", "Code included", "Benchmarks"], cons: ["Advanced level"],
+      isHot: true, isTrending: true, primaryCategory: "ai",
+      provider: "Papers With Code", isFree: true,
+    });
+    await ctx.db.insert("tools", {
+      name: "DevOps Roadmap", slug: "devops-roadmap",
+      description: "Step-by-step guide to becoming a modern DevOps engineer.",
+      logoUrl: "/logos/roadmap.svg", websiteUrl: "https://roadmap.sh/devops",
+      type: "resource", baselineScore: 8.6,
+      pros: ["Visual learning path", "Community driven", "Free"], cons: ["Opinionated"],
+      isHot: false, isTrending: true, primaryCategory: "cloud",
+      provider: "roadmap.sh", isFree: true,
+    });
+    await ctx.db.insert("tools", {
+      name: "System Design Primer", slug: "system-design-primer",
+      description: "Learn how to design large-scale systems — prep for system design interviews.",
+      logoUrl: "/logos/github.svg", websiteUrl: "https://github.com/donnemartin/system-design-primer",
+      type: "resource", baselineScore: 9.3,
+      pros: ["Extremely thorough", "Real-world examples", "Free"], cons: ["Very long"],
+      isHot: true, isTrending: false, primaryCategory: "cloud",
+      provider: "GitHub", isFree: true,
+    });
+    await ctx.db.insert("tools", {
+      name: "Web.dev", slug: "web-dev",
+      description: "Google's guidance for building modern, high-quality web experiences.",
+      logoUrl: "/logos/google.svg", websiteUrl: "https://web.dev",
+      type: "resource", baselineScore: 8.8,
+      pros: ["Official Google guidance", "Performance focused", "Free"], cons: ["Chrome-centric"],
+      isHot: false, isTrending: false, primaryCategory: "web",
+      provider: "Google", isFree: true,
+    });
+    await ctx.db.insert("tools", {
+      name: "Hugging Face Hub", slug: "hugging-face-hub",
+      description: "The platform for sharing and discovering ML models, datasets, and demos.",
+      logoUrl: "/logos/huggingface.svg", websiteUrl: "https://huggingface.co",
+      type: "resource", baselineScore: 9.1,
+      pros: ["Massive model library", "Community", "Free tier"], cons: ["Can be complex"],
+      isHot: true, isTrending: true, primaryCategory: "ai",
+      provider: "Hugging Face", isFree: true,
+    });
+
     // --- Tool-Filter Mappings ---
     const mappings: [string, string][] = [
       // AI Models → Coding → Frontend

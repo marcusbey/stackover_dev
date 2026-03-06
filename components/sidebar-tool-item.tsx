@@ -9,7 +9,7 @@ interface SidebarToolItemProps {
   name: string;
   slug: string;
   description: string;
-  type: "tool" | "saas";
+  type: "tool" | "saas" | "course" | "resource";
   websiteUrl: string;
 }
 

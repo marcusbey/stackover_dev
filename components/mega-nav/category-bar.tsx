@@ -6,37 +6,20 @@ import { ChevronDown } from "lucide-react";
 import { useQuery } from "convex/react";
 import { api } from "@/convex/_generated/api";
 import { buildCategoryColumns } from "./nav-data";
-import { SEARCH_INTENTS } from "@/lib/search-constants";
-
-const columns = buildCategoryColumns();
-const STORAGE_KEY = "categories-active-group";
-
-/** Map lucide icon names → emoji for popular search pills */
-const ICON_EMOJI: Record<string, string> = {
-  rocket: "🚀",
-  sparkles: "✨",
-  database: "🗄️",
-  smartphone: "📱",
-  cloud: "☁️",
-  "credit-card": "💳",
-  lock: "🔒",
-  layout: "📄",
-  "bar-chart-3": "📊",
-  server: "💻",
-  mail: "📨",
-  zap: "⚡",
-};
 
 /** Map group title → first category slug for the "hot tools" query */
 const GROUP_PRIMARY_SLUG: Record<string, string> = {
   Build: "web",
-  "Data & AI": "ai",
+  Data: "databases",
+  AI: "ai",
   Infra: "cloud",
   Growth: "marketing",
   Connect: "communication",
+  Design: "design",
 };
 
-const popularSearches = SEARCH_INTENTS.slice(0, 12);
+const columns = buildCategoryColumns();
+const STORAGE_KEY = "categories-active-group";
 
 export function CategoryBar() {
   const [activeGroup, setActiveGroup] = useState<string | null>(null);
@@ -73,12 +56,12 @@ export function CategoryBar() {
     <div className="hidden border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 md:block">
       <div className="container mx-auto px-4 py-3">
         {/* Group buttons row — Vercel-card style */}
-        <div className="flex items-stretch gap-3">
+        <div className="flex items-stretch gap-3 overflow-x-auto">
           {columns.map((col) => (
             <button
               key={col.title}
               onClick={() => col.title && toggle(col.title)}
-              className={`group flex flex-1 items-center justify-between gap-2 rounded-lg border px-4 py-3 text-sm font-medium transition-all ${
+              className={`group flex flex-1 items-center justify-between gap-2 rounded-lg border px-3 py-3 text-sm font-medium transition-all ${
                 currentGroup === col.title
                   ? "border-foreground/15 bg-foreground text-background shadow-sm"
                   : "border-border/60 bg-white text-foreground shadow-[0_1px_2px_rgba(0,0,0,0.04)] hover:border-border hover:shadow-[0_2px_4px_rgba(0,0,0,0.06)]"
@@ -94,26 +77,6 @@ export function CategoryBar() {
           ))}
         </div>
 
-        {/* Popular searches row */}
-        <div className="mt-2">
-          <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground/60">
-            Popular Searches
-          </p>
-          <div className="flex flex-wrap gap-1.5">
-            {popularSearches.map((intent) => (
-              <Link
-                key={intent.label}
-                href={`/categories/${intent.category}`}
-                className="inline-flex items-center gap-1 rounded-full border border-border/50 bg-muted/50 px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground hover:border-border"
-              >
-                <span className="text-[11px]">
-                  {ICON_EMOJI[intent.icon] ?? "•"}
-                </span>
-                {intent.label}
-              </Link>
-            ))}
-          </div>
-        </div>
       </div>
 
       {/* Group-focused expanded panel */}

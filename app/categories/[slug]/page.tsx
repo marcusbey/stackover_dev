@@ -43,6 +43,15 @@ const CATEGORY_EMOJI: Record<string, string> = {
   monitoring: "\u{1F4C8}",
   hosting: "\u{1F5A5}\uFE0F",
   domains: "\u{1F310}",
+  "ai-agents": "\u{1F916}",
+  "ai-image": "\u{1F5BC}\uFE0F",
+  "ai-coding": "\u{1F4BB}",
+  "ui-kits": "\u{1F9E9}",
+  prototyping: "\u{270F}\uFE0F",
+  "design-systems": "\u{1F4D0}",
+  "frontend-libs": "\u{1F9E9}",
+  "backend-libs": "\u{1F5A5}\uFE0F",
+  "icons-fonts": "\u{1F3A8}",
 };
 
 // ---------------------------------------------------------------------------
@@ -103,9 +112,13 @@ interface RankedTool {
   description: string;
   logoUrl: string;
   websiteUrl: string;
+  type?: "tool" | "saas" | "course" | "resource";
   baselineScore: number;
   tags?: string[];
   primaryCategory?: string;
+  courseUrl?: string;
+  provider?: string;
+  isFree?: boolean;
   upvotes: number;
   downvotes: number;
   netVotes: number;
@@ -202,10 +215,17 @@ export default function CategoryPage() {
     );
   }
 
+  // ---- Tab state -----------------------------------------------------------
+  const [activeTab, setActiveTab] = useState<"tools" | "courses" | "resources">("tools");
+
   // ---- Derived data -------------------------------------------------------
-  const podiumTools = tools.slice(0, 3);
-  const remainingTools = tools.slice(3);
-  const emoji = CATEGORY_EMOJI[slug] ?? "📦";
+  const toolItems = tools.filter((t) => !t.type || t.type === "tool" || t.type === "saas");
+  const courseItems = tools.filter((t) => t.type === "course");
+  const resourceItems = tools.filter((t) => t.type === "resource");
+
+  const podiumTools = toolItems.slice(0, 3);
+  const remainingTools = toolItems.slice(3);
+  const emoji = CATEGORY_EMOJI[slug] ?? "\u{1F4E6}";
 
   // ---- Render -------------------------------------------------------------
   return (
@@ -222,14 +242,154 @@ export default function CategoryPage() {
             </h1>
           </div>
           <p className="text-muted-foreground text-sm ml-[52px]">
-            {tools.length} tool{tools.length !== 1 ? "s" : ""}
+            {tools.length} item{tools.length !== 1 ? "s" : ""}
           </p>
         </div>
 
         {/* ================================================================ */}
-        {/* Podium — Top 3 */}
+        {/* Tabs: Tools | Courses | Resources */}
         {/* ================================================================ */}
-        {podiumTools.length > 0 && (
+        <div className="flex gap-1 mb-8 border-b">
+          {(["tools", "courses", "resources"] as const).map((tab) => {
+            const count =
+              tab === "tools" ? toolItems.length
+              : tab === "courses" ? courseItems.length
+              : resourceItems.length;
+            return (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab)}
+                className={cn(
+                  "px-4 py-2 text-sm font-medium capitalize transition-colors border-b-2 -mb-px",
+                  activeTab === tab
+                    ? "border-primary text-primary"
+                    : "border-transparent text-muted-foreground hover:text-foreground"
+                )}
+              >
+                {tab} ({count})
+              </button>
+            );
+          })}
+        </div>
+
+        {/* ================================================================ */}
+        {/* Courses tab */}
+        {/* ================================================================ */}
+        {activeTab === "courses" && (
+          courseItems.length === 0 ? (
+            <div className="flex flex-col items-center justify-center py-20 text-center text-muted-foreground">
+              <span className="text-5xl mb-4">{emoji}</span>
+              <p className="font-medium">No courses in this category yet</p>
+              <p className="text-sm mt-1">Suggest one and help the community learn!</p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {courseItems.map((item) => (
+                <div key={item._id} className="rounded-xl border bg-card p-5 flex items-start gap-4">
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="font-semibold text-sm">{item.name}</span>
+                      {item.provider && (
+                        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-muted text-muted-foreground">
+                          {item.provider}
+                        </span>
+                      )}
+                      {item.isFree !== undefined && (
+                        <span className={cn(
+                          "text-[10px] px-1.5 py-0.5 rounded-full font-medium",
+                          item.isFree ? "bg-green-100 text-green-700" : "bg-amber-100 text-amber-700"
+                        )}>
+                          {item.isFree ? "Free" : "Paid"}
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-xs text-muted-foreground line-clamp-2 mb-3">
+                      {item.description}
+                    </p>
+                    {item.courseUrl && (
+                      <a
+                        href={item.courseUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs text-primary hover:underline"
+                      >
+                        View course
+                      </a>
+                    )}
+                  </div>
+                  <CategoryVoteButton
+                    toolId={item._id}
+                    category={slug}
+                    netVotes={item.netVotes}
+                    userVote={userVotesMap?.[item._id]}
+                  />
+                </div>
+              ))}
+            </div>
+          )
+        )}
+
+        {/* ================================================================ */}
+        {/* Resources tab */}
+        {/* ================================================================ */}
+        {activeTab === "resources" && (
+          resourceItems.length === 0 ? (
+            <div className="flex flex-col items-center justify-center py-20 text-center text-muted-foreground">
+              <span className="text-5xl mb-4">{emoji}</span>
+              <p className="font-medium">No resources in this category yet</p>
+              <p className="text-sm mt-1">Know a great resource? Suggest one!</p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {resourceItems.map((item) => (
+                <div key={item._id} className="rounded-xl border bg-card p-5 flex items-start gap-4">
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="font-semibold text-sm">{item.name}</span>
+                      {item.provider && (
+                        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-muted text-muted-foreground">
+                          {item.provider}
+                        </span>
+                      )}
+                      {item.isFree !== undefined && (
+                        <span className={cn(
+                          "text-[10px] px-1.5 py-0.5 rounded-full font-medium",
+                          item.isFree ? "bg-green-100 text-green-700" : "bg-amber-100 text-amber-700"
+                        )}>
+                          {item.isFree ? "Free" : "Paid"}
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-xs text-muted-foreground line-clamp-2 mb-3">
+                      {item.description}
+                    </p>
+                    {item.websiteUrl && (
+                      <a
+                        href={item.websiteUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs text-primary hover:underline"
+                      >
+                        Visit resource
+                      </a>
+                    )}
+                  </div>
+                  <CategoryVoteButton
+                    toolId={item._id}
+                    category={slug}
+                    netVotes={item.netVotes}
+                    userVote={userVotesMap?.[item._id]}
+                  />
+                </div>
+              ))}
+            </div>
+          )
+        )}
+
+        {/* ================================================================ */}
+        {/* Podium — Top 3 (Tools tab only) */}
+        {/* ================================================================ */}
+        {activeTab === "tools" && podiumTools.length > 0 && (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14 items-end">
             {podiumTools.map((tool, idx) => {
               const rank = idx + 1;
@@ -294,7 +454,7 @@ export default function CategoryPage() {
         {/* ================================================================ */}
         {/* Ranking table — #4 onward */}
         {/* ================================================================ */}
-        {remainingTools.length > 0 && (
+        {activeTab === "tools" && remainingTools.length > 0 && (
           <div className="rounded-xl border bg-card overflow-hidden">
             {/* Table header */}
             <div className="grid grid-cols-[3rem_1fr_2fr_auto_3.5rem] md:grid-cols-[3rem_1fr_2fr_10rem_3.5rem] gap-4 px-4 py-3 border-b bg-muted/40 text-xs font-medium text-muted-foreground uppercase tracking-wider">
@@ -366,9 +526,9 @@ export default function CategoryPage() {
         )}
 
         {/* ================================================================ */}
-        {/* Empty state */}
+        {/* Empty state (Tools tab) */}
         {/* ================================================================ */}
-        {tools.length === 0 && (
+        {activeTab === "tools" && toolItems.length === 0 && (
           <div className="flex flex-col items-center justify-center py-20 text-center text-muted-foreground">
             <span className="text-5xl mb-4">{emoji}</span>
             <p className="font-medium">No tools in this category yet</p>

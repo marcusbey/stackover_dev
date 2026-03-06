@@ -40,6 +40,15 @@ export const SEARCH_CATEGORIES: SearchCategory[] = [
   { slug: "monitoring", label: "Monitoring", icon: "activity", color: "bg-red-100 text-red-700" },
   { slug: "hosting", label: "Hosting", icon: "server", color: "bg-orange-100 text-orange-700" },
   { slug: "domains", label: "Domains & DNS", icon: "globe-2", color: "bg-teal-100 text-teal-700" },
+  { slug: "ai-agents", label: "AI Agents", icon: "bot", color: "bg-purple-100 text-purple-700" },
+  { slug: "ai-image", label: "AI Image Gen", icon: "image", color: "bg-violet-100 text-violet-700" },
+  { slug: "ai-coding", label: "AI Coding", icon: "code", color: "bg-indigo-100 text-indigo-700" },
+  { slug: "ui-kits", label: "UI Kits", icon: "component", color: "bg-rose-100 text-rose-700" },
+  { slug: "prototyping", label: "Prototyping", icon: "pen-tool", color: "bg-pink-100 text-pink-700" },
+  { slug: "design-systems", label: "Design Systems", icon: "layers", color: "bg-fuchsia-100 text-fuchsia-700" },
+  { slug: "frontend-libs", label: "Frontend Libraries", icon: "component", color: "bg-blue-100 text-blue-700" },
+  { slug: "backend-libs", label: "Backend Libraries", icon: "server", color: "bg-emerald-100 text-emerald-700" },
+  { slug: "icons-fonts", label: "Icons & Fonts", icon: "palette", color: "bg-rose-100 text-rose-700" },
 ];
 
 export const SEARCH_INTENTS: SearchIntent[] = [
@@ -73,6 +82,15 @@ export const SEARCH_INTENTS: SearchIntent[] = [
   { label: "Secure my app", query: "security vulnerability scanning", category: "auth", icon: "shield" },
   { label: "Create social features", query: "social feed activity stream", category: "social", icon: "share-2" },
   { label: "Hire & manage talent", query: "hr recruiting hiring", category: "hr", icon: "briefcase" },
+  { label: "Build an AI agent", query: "ai agent autonomous", category: "ai-agents", icon: "bot" },
+  { label: "Generate images with AI", query: "ai image generation diffusion", category: "ai-image", icon: "image" },
+  { label: "AI code assistant", query: "ai coding copilot", category: "ai-coding", icon: "code" },
+  { label: "Find a UI kit", query: "ui kit component library", category: "ui-kits", icon: "component" },
+  { label: "Prototype a design", query: "prototyping wireframe mockup", category: "prototyping", icon: "pen-tool" },
+  { label: "Build a design system", query: "design system tokens components", category: "design-systems", icon: "layers" },
+  { label: "Find a UI library", query: "ui library shadcn radix components", category: "frontend-libs", icon: "component" },
+  { label: "Find a backend framework", query: "backend framework express hono fastify", category: "backend-libs", icon: "server" },
+  { label: "Find icons & fonts", query: "icons fonts lucide heroicons", category: "icons-fonts", icon: "palette" },
 ];
 
 export const CATEGORY_MAP = Object.fromEntries(

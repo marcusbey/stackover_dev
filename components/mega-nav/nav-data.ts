@@ -47,9 +47,74 @@ const CATEGORY_DESCRIPTIONS: Record<string, string> = {
   automation: "Workflows, bots & integrations",
   education: "Courses, LMS & learning platforms",
   video: "Streaming, editing & media APIs",
+  "ai-agents": "Autonomous AI agents & assistants",
+  "ai-image": "AI-powered image generation tools",
+  "ai-coding": "AI coding assistants & pair programmers",
+  "ui-kits": "Pre-built UI component libraries",
+  prototyping: "Wireframing & interactive prototyping",
+  "design-systems": "Tokens, guidelines & component systems",
+  "frontend-libs": "UI components, state management & utilities",
+  "backend-libs": "Server frameworks, ORMs & API tools",
+  "icons-fonts": "Icon sets, typefaces & visual assets",
 };
 
 export const NAV_ITEMS: NavItem[] = [
+  {
+    key: "roadmap",
+    label: "Roadmap",
+    columns: [
+      {
+        title: "Idea to Market",
+        links: [
+          {
+            label: "1. Validate Your Idea",
+            href: "/categories/analytics",
+            description: "Research tools, surveys & landing pages",
+          },
+          {
+            label: "2. Design & Prototype",
+            href: "/categories/design",
+            description: "UI kits, prototyping & design systems",
+          },
+          {
+            label: "3. Build Your Frontend",
+            href: "/categories/frontend-libs",
+            description: "Component libraries, frameworks & icons",
+          },
+          {
+            label: "4. Build Your Backend",
+            href: "/categories/backend-libs",
+            description: "APIs, databases & server frameworks",
+          },
+        ],
+      },
+      {
+        title: "Ship & Scale",
+        links: [
+          {
+            label: "5. Add Auth & Payments",
+            href: "/categories/auth",
+            description: "Login, billing & subscriptions",
+          },
+          {
+            label: "6. Deploy & Monitor",
+            href: "/categories/cloud",
+            description: "Hosting, CI/CD & observability",
+          },
+          {
+            label: "7. Market & Grow",
+            href: "/categories/marketing",
+            description: "SEO, email campaigns & analytics",
+          },
+          {
+            label: "8. Support & Iterate",
+            href: "/categories/support",
+            description: "Help desk, feedback & automation",
+          },
+        ],
+      },
+    ],
+  },
   {
     key: "explore",
     label: "Explore",
@@ -181,11 +246,13 @@ export const NAV_ITEMS: NavItem[] = [
 
 export function buildCategoryColumns(): NavColumn[] {
   const groups: { title: string; slugs: string[] }[] = [
-    { title: "Build", slugs: ["web", "mobile", "nocode", "design", "cms"] },
-    { title: "Data & AI", slugs: ["ai", "databases", "analytics", "search"] },
+    { title: "Build", slugs: ["web", "mobile", "nocode", "cms", "frontend-libs", "backend-libs", "icons-fonts"] },
+    { title: "Data", slugs: ["databases", "analytics", "search"] },
+    { title: "AI", slugs: ["ai", "ai-agents", "ai-image", "ai-coding"] },
     { title: "Infra", slugs: ["cloud", "dev-tools", "auth", "monitoring", "hosting", "domains"] },
     { title: "Growth", slugs: ["marketing", "sales", "ecommerce", "payments", "hr"] },
     { title: "Connect", slugs: ["communication", "collaboration", "support", "social", "automation", "education", "video"] },
+    { title: "Design", slugs: ["design", "ui-kits", "prototyping", "design-systems"] },
   ];
 
   return groups.map((group) => ({
