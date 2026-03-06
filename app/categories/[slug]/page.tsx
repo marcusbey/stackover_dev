@@ -160,6 +160,11 @@ export default function CategoryPage() {
     visitorId && category ? { visitorId, category: slug } : "skip"
   ) as Record<string, number> | undefined;
 
+  const companies = useQuery(
+    api.stacks.companiesUsingCategory,
+    category ? { category: slug } : "skip"
+  );
+
   // ---- 404-style fallback -------------------------------------------------
   if (!category) {
     return (
@@ -245,6 +250,37 @@ export default function CategoryPage() {
             {tools.length} item{tools.length !== 1 ? "s" : ""}
           </p>
         </div>
+
+        {/* ================================================================ */}
+        {/* Used by companies */}
+        {/* ================================================================ */}
+        {companies && companies.length > 0 && (
+          <div className="mb-6 flex items-center gap-3">
+            <span className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
+              Used by
+            </span>
+            <div className="flex items-center gap-2">
+              {companies.map((company) => (
+                <Link
+                  key={company.slug}
+                  href={`/stacks/${company.slug}`}
+                  className="inline-flex items-center gap-1.5 rounded-full border bg-muted/50 px-2.5 py-1 text-xs font-medium text-muted-foreground hover:bg-accent hover:text-accent-foreground transition-colors"
+                >
+                  {company.companyLogoUrl && (
+                    <Image
+                      src={company.companyLogoUrl}
+                      alt={company.name}
+                      width={14}
+                      height={14}
+                      className="rounded-sm"
+                    />
+                  )}
+                  {company.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* ================================================================ */}
         {/* Tabs: Tools | Courses | Resources */}

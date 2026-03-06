@@ -124,17 +124,17 @@ export const NAV_ITEMS: NavItem[] = [
         links: [
           {
             label: "Hot Right Now",
-            href: "/",
+            href: "/?filter=hot",
             description: "Trending tools this week",
           },
           {
             label: "New Arrivals",
-            href: "/",
+            href: "/?filter=new",
             description: "Recently added tools",
           },
           {
             label: "Top Rated",
-            href: "/",
+            href: "/?filter=top",
             description: "Highest-scored by community",
           },
         ],
@@ -144,22 +144,22 @@ export const NAV_ITEMS: NavItem[] = [
         links: [
           {
             label: "Build a SaaS",
-            href: "/",
+            href: "/categories/web",
             description: "Frameworks & full-stack tools",
           },
           {
             label: "Add AI to My App",
-            href: "/",
+            href: "/categories/ai",
             description: "LLMs, APIs & integrations",
           },
           {
             label: "Deploy & Host",
-            href: "/",
+            href: "/categories/cloud",
             description: "Cloud, CDN & containers",
           },
           {
             label: "Accept Payments",
-            href: "/",
+            href: "/categories/payments",
             description: "Billing & payment processing",
           },
         ],
@@ -169,12 +169,12 @@ export const NAV_ITEMS: NavItem[] = [
         links: [
           {
             label: "Alternatives",
-            href: "/",
+            href: "/guides",
             description: "Find replacements for any tool",
           },
           {
             label: "Head-to-Head",
-            href: "/",
+            href: "/guides",
             description: "Side-by-side comparisons",
           },
         ],
@@ -236,11 +236,6 @@ export const NAV_ITEMS: NavItem[] = [
         ],
       },
     ],
-  },
-  {
-    key: "pricing",
-    label: "Pricing",
-    href: "/pricing",
   },
 ];
 

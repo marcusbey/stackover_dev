@@ -57,6 +57,39 @@ export const curated = query({
   },
 });
 
+export const companiesUsingCategory = query({
+  args: { category: v.string() },
+  handler: async (ctx, args) => {
+    // Find tools in this category
+    const tools = await ctx.db
+      .query("tools")
+      .withIndex("by_primary_category", (q) =>
+        q.eq("primaryCategory", args.category)
+      )
+      .collect();
+    const toolIds = new Set(tools.map((t) => t._id));
+
+    // Find curated stacks that contain any of these tools
+    const stacks = await ctx.db
+      .query("stacks")
+      .withIndex("by_curated", (q) => q.eq("isCurated", true))
+      .collect();
+
+    const matching = stacks.filter((stack) =>
+      stack.layers.some((layer) =>
+        layer.toolIds.some((id) => toolIds.has(id))
+      )
+    );
+
+    return matching.map((s) => ({
+      slug: s.slug,
+      name: s.name,
+      companyLogoUrl: s.companyLogoUrl,
+      companyUrl: s.companyUrl,
+    }));
+  },
+});
+
 export const byVisitor = query({
   args: { visitorId: v.string() },
   handler: async (ctx, args) => {
