@@ -43,6 +43,7 @@ interface StackLayerRowProps {
     description: string;
     websiteUrl: string;
     alivenessScore?: number;
+    tier?: "vanilla" | "product";
   }[];
   isLast: boolean;
 }
@@ -85,14 +86,14 @@ export function StackLayerRow({ layerKey, tools, isLast }: StackLayerRowProps) {
 function ToolChip({
   tool,
 }: {
-  tool: { name: string; slug: string; description: string; websiteUrl: string; alivenessScore?: number };
+  tool: { name: string; slug: string; description: string; websiteUrl: string; alivenessScore?: number; tier?: "vanilla" | "product" };
 }) {
   const [imgError, setImgError] = useState(false);
 
   return (
     <Link
       href={`/tools/${tool.slug}`}
-      className="flex items-center gap-3 bg-card border rounded-lg px-4 py-3 hover:shadow-sm transition-shadow max-w-sm"
+      className={`flex items-center gap-3 bg-card border rounded-lg px-4 py-3 hover:shadow-sm transition-shadow max-w-sm ${tool.tier === "product" ? "border-purple-200/50" : ""}`}
     >
       <div className="h-8 w-8 rounded-md bg-muted flex items-center justify-center flex-shrink-0 overflow-hidden">
         {imgError ? (

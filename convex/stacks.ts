@@ -1,5 +1,5 @@
-import { query, mutation } from "./_generated/server";
 import { v } from "convex/values";
+import { mutation, query } from "./_generated/server";
 
 export const bySlug = query({
   args: { slug: v.string() },
@@ -176,7 +176,7 @@ export const save = mutation({
           layers: args.layers,
           updatedAt: now,
         });
-        return { slug: existing.slug };
+        return { slug: existing.slug, stackId: existing._id };
       }
     }
 
@@ -188,7 +188,7 @@ export const save = mutation({
     const suffix = Math.random().toString(36).substring(2, 6);
     const slug = `${baseSlug}-${suffix}`;
 
-    await ctx.db.insert("stacks", {
+    const stackId = await ctx.db.insert("stacks", {
       slug,
       name: args.name,
       description: args.description,
@@ -197,8 +197,62 @@ export const save = mutation({
       layers: args.layers,
       createdAt: now,
       updatedAt: now,
+      upvotes: 0,
     });
 
-    return { slug };
+    return { slug, stackId };
+  },
+});
+
+export const toggleVote = mutation({
+  args: {
+    stackId: v.id("stacks"),
+    visitorId: v.string(),
+  },
+  handler: async (ctx, args) => {
+    const stack = await ctx.db.get(args.stackId);
+    if (!stack) throw new Error("Stack not found");
+
+    const existingVote = await ctx.db
+      .query("stackVotes")
+      .withIndex("by_stack_visitor", (q) =>
+        q.eq("stackId", args.stackId).eq("visitorId", args.visitorId)
+      )
+      .first();
+
+    const currentUpvotes = stack.upvotes ?? 0;
+
+    if (existingVote) {
+      await ctx.db.delete(existingVote._id);
+      await ctx.db.patch(args.stackId, { upvotes: currentUpvotes - 1 });
+      return { voted: false, upvotes: currentUpvotes - 1 };
+    } else {
+      await ctx.db.insert("stackVotes", {
+        stackId: args.stackId,
+        visitorId: args.visitorId,
+        createdAt: Date.now(),
+      });
+      await ctx.db.patch(args.stackId, { upvotes: currentUpvotes + 1 });
+      return { voted: true, upvotes: currentUpvotes + 1 };
+    }
+  },
+});
+
+export const getVoteStatus = query({
+  args: {
+    stackId: v.id("stacks"),
+    visitorId: v.string(),
+  },
+  handler: async (ctx, args) => {
+    if (!args.visitorId) return false;
+
+    const existingVote = await ctx.db
+      .query("stackVotes")
+      .withIndex("by_stack_visitor", (q) =>
+        q.eq("stackId", args.stackId).eq("visitorId", args.visitorId)
+      )
+      .first();
+
+    return !!existingVote;
   },
 });

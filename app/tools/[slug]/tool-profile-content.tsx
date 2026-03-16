@@ -72,6 +72,11 @@ export function ToolProfileContent({ preloadedTool }: ToolProfileContentProps) {
             <Badge variant="outline" className="text-sm">
               {tool.type}
             </Badge>
+            {tool.tier === "product" && (
+              <Badge className="text-sm bg-purple-100 text-purple-700 border-purple-200">
+                Product
+              </Badge>
+            )}
           </div>
           <p className="text-muted-foreground">{tool.description}</p>
           {tool.tags && tool.tags.length > 0 && (
@@ -97,6 +102,30 @@ export function ToolProfileContent({ preloadedTool }: ToolProfileContentProps) {
           Visit Website
         </Button>
       </a>
+
+      {tool.tier === "product" && tool.builtWith && tool.builtWith.length > 0 && (
+        <div className="mb-8">
+          <h2 className="text-sm font-semibold text-muted-foreground mb-3">Built with</h2>
+          <div className="flex flex-wrap gap-2">
+            {tool.builtWith.map((dep: { _id: string; name: string; slug: string; logoUrl: string; websiteUrl: string }) => (
+              <Link
+                key={dep._id}
+                href={`/tools/${dep.slug}`}
+                className="flex items-center gap-2 rounded-lg border px-3 py-2 hover:bg-muted transition-colors"
+              >
+                <Image
+                  src={getLogoUrl(dep.websiteUrl)}
+                  alt={dep.name}
+                  width={20}
+                  height={20}
+                  className="rounded-sm"
+                />
+                <span className="text-sm font-medium">{dep.name}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
 
       <Separator className="mb-8" />
 

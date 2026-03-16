@@ -26,6 +26,8 @@ interface ToolCardProps {
     tags?: string[];
     alivenessScore?: number;
     activityData?: number[];
+    tier?: "vanilla" | "product";
+    builtWith?: { _id: string; name: string; slug: string; logoUrl: string; websiteUrl: string }[];
   };
   filterNodeId?: Id<"filterNodes">;
 }
@@ -36,7 +38,7 @@ export function ToolCard({ tool, filterNodeId }: ToolCardProps) {
 
   return (
     <Link href={`/tools/${tool.slug}`}>
-      <Card className="hover:shadow-md transition-shadow cursor-pointer h-full border-border/60">
+      <Card className={`hover:shadow-md transition-shadow cursor-pointer h-full ${tool.tier === "product" ? "border-purple-300/50 shadow-purple-100/20" : "border-border/60"}`}>
         <CardContent className="p-5">
           <div className="flex items-start justify-between gap-3">
             <div className="flex items-start gap-3 flex-1 min-w-0">
@@ -66,6 +68,11 @@ export function ToolCard({ tool, filterNodeId }: ToolCardProps) {
                   <Badge variant="outline" className="text-[10px] px-1.5 py-0">
                     {tool.type}
                   </Badge>
+                  {tool.tier === "product" && (
+                    <Badge className="text-[10px] px-1.5 py-0 bg-purple-100 text-purple-700 border-purple-200">
+                      Product
+                    </Badge>
+                  )}
                   <AlivenessBadge score={tool.alivenessScore} showLabel={false} />
                 </div>
                 <p className="text-xs text-muted-foreground line-clamp-2">
@@ -81,6 +88,24 @@ export function ToolCard({ tool, filterNodeId }: ToolCardProps) {
                         {tag}
                       </span>
                     ))}
+                  </div>
+                )}
+                {tool.tier === "product" && tool.builtWith && tool.builtWith.length > 0 && (
+                  <div className="flex items-center gap-1.5 mt-2">
+                    <span className="text-[10px] text-muted-foreground">Built with</span>
+                    <div className="flex -space-x-1">
+                      {tool.builtWith.slice(0, 5).map((dep) => (
+                        <Image
+                          key={dep._id}
+                          src={getLogoUrl(dep.websiteUrl)}
+                          alt={dep.name}
+                          width={16}
+                          height={16}
+                          className="rounded-sm border border-background"
+                          title={dep.name}
+                        />
+                      ))}
+                    </div>
                   </div>
                 )}
                 {tool.activityData && tool.activityData.length > 0 && (

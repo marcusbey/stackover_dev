@@ -1,16 +1,16 @@
 "use client";
 
-import { useMutation, useQuery } from "convex/react";
-import { api } from "@/convex/_generated/api";
-import { Id } from "@/convex/_generated/dataModel";
-import { STACK_LAYERS } from "@/lib/stack-layers";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { useState } from "react";
-import { useRouter } from "next/navigation";
-import Image from "next/image";
+import { api } from "@/convex/_generated/api";
+import { Id } from "@/convex/_generated/dataModel";
 import { getLogoUrl } from "@/lib/logos";
+import { STACK_LAYERS } from "@/lib/stack-layers";
+import { useMutation, useQuery } from "convex/react";
 import { ChevronLeft, Loader2, Rocket } from "lucide-react";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 interface WizardSummaryProps {
   selections: Record<string, Id<"tools">[]>;
@@ -24,20 +24,24 @@ export function WizardSummary({
   onBack,
 }: WizardSummaryProps) {
   const [stackName, setStackName] = useState("");
+  const [projectName, setProjectName] = useState("");
+  const [projectTagline, setProjectTagline] = useState("");
+  const [projectUrl, setProjectUrl] = useState("");
+  const [showProject, setShowProject] = useState(false);
   const [saving, setSaving] = useState(false);
   const router = useRouter();
   const saveStack = useMutation(api.stacks.save);
+  const createProject = useMutation((api as any).projects.create);
 
   // Collect all unique tool IDs to hydrate
-  const allToolIds = Array.from(
-    new Set(Object.values(selections).flat())
-  );
+  const allToolIds = Array.from(new Set(Object.values(selections).flat()));
 
   // We fetch each tool individually — simple approach for summary view
   const toolsMap = useToolsMap(allToolIds);
 
   const handleSave = async () => {
     if (!stackName.trim()) return;
+    if (showProject && (!projectName.trim() || !projectUrl.trim())) return;
     setSaving(true);
 
     const layers = STACK_LAYERS.map((layer) => ({
@@ -51,6 +55,21 @@ export function WizardSummary({
         visitorId,
         layers,
       });
+
+      if (showProject && projectName.trim() && projectUrl.trim()) {
+        try {
+          await createProject({
+            name: projectName.trim(),
+            tagline: projectTagline.trim() || undefined,
+            url: projectUrl.trim(),
+            visitorId,
+            stackId: result.stackId,
+          });
+        } catch (e) {
+          console.error("Failed to create project", e);
+        }
+      }
+
       router.push(`/stacks/${result.slug}`);
     } catch {
       setSaving(false);
@@ -82,6 +101,67 @@ export function WizardSummary({
         />
       </div>
 
+      <div className="pt-4 border-t border-b pb-4">
+        <label className="flex items-center gap-2 mb-4 cursor-pointer">
+          <input
+            type="checkbox"
+            checked={showProject}
+            onChange={(e) => setShowProject(e.target.checked)}
+            className="rounded border-gray-300 text-primary focus:ring-primary w-4 h-4 cursor-pointer"
+          />
+          <span className="text-sm font-medium">
+            Link a project built with this stack
+          </span>
+        </label>
+
+        {showProject && (
+          <div className="space-y-4 max-w-md p-4 bg-muted/30 rounded-lg border">
+            <div>
+              <label
+                htmlFor="project-name"
+                className="block text-sm font-medium mb-1.5"
+              >
+                Project Name *
+              </label>
+              <Input
+                id="project-name"
+                placeholder="Product Name"
+                value={projectName}
+                onChange={(e) => setProjectName(e.target.value)}
+              />
+            </div>
+            <div>
+              <label
+                htmlFor="project-url"
+                className="block text-sm font-medium mb-1.5"
+              >
+                Project URL *
+              </label>
+              <Input
+                id="project-url"
+                placeholder="https://example.com"
+                value={projectUrl}
+                onChange={(e) => setProjectUrl(e.target.value)}
+              />
+            </div>
+            <div>
+              <label
+                htmlFor="project-tagline"
+                className="block text-sm font-medium mb-1.5"
+              >
+                Tagline
+              </label>
+              <Input
+                id="project-tagline"
+                placeholder="A short description of what it does"
+                value={projectTagline}
+                onChange={(e) => setProjectTagline(e.target.value)}
+              />
+            </div>
+          </div>
+        )}
+      </div>
+
       <div className="space-y-3">
         {STACK_LAYERS.map((layer) => {
           const toolIds = selections[layer.key] ?? [];
@@ -105,9 +185,7 @@ export function WizardSummary({
                     {toolIds.map((id) => {
                       const tool = toolsMap[id as string];
                       if (!tool) return null;
-                      return (
-                        <SummaryToolChip key={id} tool={tool} />
-                      );
+                      return <SummaryToolChip key={id} tool={tool} />;
                     })}
                   </div>
                 )}
@@ -124,7 +202,11 @@ export function WizardSummary({
         </Button>
         <Button
           onClick={handleSave}
-          disabled={!stackName.trim() || saving}
+          disabled={
+            !stackName.trim() ||
+            saving ||
+            (showProject && (!projectName.trim() || !projectUrl.trim()))
+          }
         >
           {saving ? (
             <Loader2 className="h-4 w-4 mr-1 animate-spin" />

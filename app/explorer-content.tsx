@@ -1,20 +1,25 @@
 "use client";
 
-import { useState, useCallback } from "react";
-import { useQuery } from "convex/react";
-import { api } from "@/convex/_generated/api";
-import { Id } from "@/convex/_generated/dataModel";
-import { Header } from "@/components/header";
-import { CategoryBar } from "@/components/mega-nav/category-bar";
 import { FilterBreadcrumb } from "@/components/filter-breadcrumb";
+import { Header } from "@/components/header";
+import { IntentIcon } from "@/components/intent-icon";
+import { CategoryBar } from "@/components/mega-nav/category-bar";
 import { RankedList } from "@/components/ranked-list";
+import { SearchDialog } from "@/components/search-dialog";
 import { Sidebar } from "@/components/sidebar";
 import { ToolCard } from "@/components/tool-card";
-import { SearchDialog } from "@/components/search-dialog";
-import { CATEGORY_MAP, SEARCH_INTENTS, type SearchCategory } from "@/lib/search-constants";
-import { X, Search } from "lucide-react";
-import { IntentIcon } from "@/components/intent-icon";
+import { UpvoteButton } from "@/components/upvote-button";
+import { api } from "@/convex/_generated/api";
+import { Id } from "@/convex/_generated/dataModel";
+import {
+  CATEGORY_MAP,
+  SEARCH_INTENTS,
+  type SearchCategory,
+} from "@/lib/search-constants";
+import { useQuery } from "convex/react";
+import { Search, X } from "lucide-react";
 import Link from "next/link";
+import { useCallback, useState } from "react";
 
 interface FilterNode {
   _id: Id<"filterNodes">;
@@ -41,7 +46,7 @@ const CATEGORY_LABELS: Record<string, string> = {
 
 export function ExplorerContent() {
   const [activeDomainId, setActiveDomainId] = useState<Id<"domains"> | null>(
-    null
+    null,
   );
   const [filterPath, setFilterPath] = useState<FilterNode[]>([]);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -51,19 +56,23 @@ export function ExplorerContent() {
   const hotTools = useQuery(api.tools.hot);
   const trendingTools = useQuery(api.tools.trending);
   const featuredSections = useQuery(api.tools.featured);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const launchProjects = useQuery((api as any).projects.getTodayLaunch, {
+    limit: 5,
+  });
 
   // Search results queries — only active when there's an active search
   const searchResults = useQuery(
     api.tools.search,
     activeSearch?.type === "query"
       ? { query: activeSearch.query, limit: 50 }
-      : "skip"
+      : "skip",
   );
   const categoryResults = useQuery(
     api.tools.byCategory,
     activeSearch?.type === "category"
       ? { category: activeSearch.category.slug, limit: 50 }
-      : "skip"
+      : "skip",
   );
 
   const activeDomain = domains?.find((d) => d._id === activeDomainId);
@@ -97,9 +106,7 @@ export function ExplorerContent() {
   }, []);
 
   const currentFilterNodeId =
-    filterPath.length > 0
-      ? filterPath[filterPath.length - 1]._id
-      : undefined;
+    filterPath.length > 0 ? filterPath[filterPath.length - 1]._id : undefined;
 
   // Determine what results to show
   const activeResults =
@@ -248,13 +255,83 @@ export function ExplorerContent() {
                           href={`/categories/${intent.category}`}
                           className="inline-flex items-center gap-1.5 rounded-full border border-border/50 bg-muted/50 px-3 py-1 text-xs text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground hover:border-border"
                         >
-                          <IntentIcon name={intent.icon} className="h-3.5 w-3.5" />
+                          <IntentIcon
+                            name={intent.icon}
+                            className="h-3.5 w-3.5"
+                          />
                           {intent.label}
                         </Link>
                       ))}
                     </div>
                   </div>
                 </div>
+
+                {/* Trending Projects and Stacks */}
+                {launchProjects && launchProjects.length > 0 && (
+                  <div className="mb-8">
+                    <h2 className="text-xl font-bold mb-4">
+                      Trending Projects & Their Stacks
+                    </h2>
+                    <div className="space-y-3">
+                      {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                      {launchProjects.map((project: any, index: number) => (
+                        <div
+                          key={project._id}
+                          className="flex gap-4 p-4 items-center bg-card border rounded-xl hover:bg-muted/50 transition-colors"
+                        >
+                          <div className="shrink-0 w-12 h-12 flex items-center justify-center bg-primary/10 text-primary font-bold rounded-xl text-xl">
+                            {index + 1}
+                          </div>
+                          {project.stack?.companyLogoUrl ? (
+                            // eslint-disable-next-line @next/next/no-img-element
+                            <img
+                              src={project.stack.companyLogoUrl}
+                              alt={project.name}
+                              className="w-12 h-12 rounded-xl object-cover shrink-0"
+                            />
+                          ) : (
+                            <div className="w-12 h-12 rounded-xl bg-muted flex items-center justify-center font-bold text-muted-foreground shrink-0">
+                              {project.name.charAt(0)}
+                            </div>
+                          )}
+                          <div className="flex-1 min-w-0 px-2">
+                            <a
+                              href={project.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="font-semibold text-lg hover:underline truncate block"
+                            >
+                              {project.name}
+                            </a>
+                            <p className="text-sm text-muted-foreground truncate">
+                              {project.tagline}
+                            </p>
+                            {project.stack && (
+                              <div className="flex items-center gap-2 mt-1">
+                                <span className="text-xs text-muted-foreground">
+                                  Built with:
+                                </span>
+                                <Link
+                                  href={`/stacks/${project.stack.slug}`}
+                                  className="text-xs font-medium text-primary hover:underline"
+                                >
+                                  {project.stack.name}
+                                </Link>
+                              </div>
+                            )}
+                          </div>
+                          <div className="flex items-center gap-2 shrink-0">
+                            <UpvoteButton
+                              itemId={project._id}
+                              type="project"
+                              initialUpvotes={project.upvotes ?? 0}
+                            />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
 
                 {/* Hot + Trending row */}
                 {(hotTools && hotTools.length > 0) ||
@@ -274,9 +351,7 @@ export function ExplorerContent() {
                     )}
                     {trendingTools && trendingTools.length > 0 && (
                       <div>
-                        <h2 className="text-lg font-semibold mb-4">
-                          Trending
-                        </h2>
+                        <h2 className="text-lg font-semibold mb-4">Trending</h2>
                         <div className="space-y-5">
                           {trendingTools.map((tool) => (
                             <ToolCard key={tool._id} tool={tool} />

@@ -33,6 +33,7 @@ export function Sidebar() {
                   description={tool.description}
                   type={tool.type}
                   websiteUrl={tool.websiteUrl}
+                  tier={tool.tier}
                 />
               ))
             )}
@@ -61,6 +62,7 @@ export function Sidebar() {
                   description={tool.description}
                   type={tool.type}
                   websiteUrl={tool.websiteUrl}
+                  tier={tool.tier}
                 />
               ))
             )}
@@ -89,6 +91,7 @@ export function Sidebar() {
                   description={tool.description}
                   type={tool.type}
                   websiteUrl={tool.websiteUrl}
+                  tier={tool.tier}
                 />
               ))
             )}

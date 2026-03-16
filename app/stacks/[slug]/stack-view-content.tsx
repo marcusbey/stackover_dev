@@ -1,9 +1,10 @@
 "use client";
 
-import { useQuery } from "convex/react";
-import { api } from "@/convex/_generated/api";
-import { StackLayerRow } from "@/components/stacks/stack-layer-row";
 import { ShareButtons } from "@/components/stacks/share-buttons";
+import { StackLayerRow } from "@/components/stacks/stack-layer-row";
+import { UpvoteButton } from "@/components/upvote-button";
+import { api } from "@/convex/_generated/api";
+import { useQuery } from "convex/react";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -39,26 +40,31 @@ export function StackViewContent({ slug }: StackViewContentProps) {
     );
   }
 
-  const filledLayers = stack.hydratedLayers.filter(
-    (l) => l.tools.length > 0
-  );
+  const filledLayers = stack.hydratedLayers.filter((l) => l.tools.length > 0);
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8 space-y-6">
       {/* Header */}
       <div className="space-y-2">
-        <div className="flex items-center gap-3">
-          {stack.isCurated && stack.companyLogoUrl && (
-            <CompanyLogo url={stack.companyLogoUrl} name={stack.name} />
-          )}
-          <div>
-            <h1 className="text-3xl font-bold tracking-tight">
-              {stack.name}
-            </h1>
-            {stack.description && (
-              <p className="text-muted-foreground">{stack.description}</p>
+        <div className="flex items-start justify-between gap-4">
+          <div className="flex items-center gap-3">
+            {stack.isCurated && stack.companyLogoUrl && (
+              <CompanyLogo url={stack.companyLogoUrl} name={stack.name} />
             )}
+            <div>
+              <h1 className="text-3xl font-bold tracking-tight">
+                {stack.name}
+              </h1>
+              {stack.description && (
+                <p className="text-muted-foreground">{stack.description}</p>
+              )}
+            </div>
           </div>
+          <UpvoteButton
+            itemId={stack._id}
+            type="stack"
+            initialUpvotes={stack.upvotes ?? 0}
+          />
         </div>
         {stack.isCurated && (
           <span className="inline-block text-xs font-medium bg-primary/10 text-primary rounded-full px-2.5 py-0.5">
@@ -93,8 +99,10 @@ export function StackViewContent({ slug }: StackViewContentProps) {
         const staleTools = filledLayers.flatMap((l) =>
           l.tools.filter(
             (t): t is NonNullable<typeof t> =>
-              t !== null && t.alivenessScore !== undefined && t.alivenessScore < 20
-          )
+              t !== null &&
+              t.alivenessScore !== undefined &&
+              t.alivenessScore < 20,
+          ),
         );
         if (staleTools.length === 0) return null;
         return (
@@ -109,6 +117,51 @@ export function StackViewContent({ slug }: StackViewContentProps) {
       {/* Share */}
       <div className="pt-4 border-t">
         <ShareButtons stackName={stack.name} slug={slug} />
+      </div>
+
+      <ProjectsSection stackId={stack._id} />
+    </div>
+  );
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function ProjectsSection({ stackId }: { stackId: any }) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const projects = useQuery((api as any).projects.getByStackId, { stackId });
+  if (!projects || projects.length === 0) return null;
+
+  return (
+    <div className="pt-8 border-t space-y-4">
+      <h2 className="text-xl font-bold">Built with this stack</h2>
+      <div className="grid gap-4">
+        {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+        {projects.map((p: any) => (
+          <div
+            key={p._id}
+            className="flex items-center justify-between p-4 rounded-xl border bg-card hover:bg-muted/50 transition-colors"
+          >
+            <div>
+              <a
+                href={p.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-lg hover:underline"
+              >
+                {p.name}
+              </a>
+              {p.tagline && (
+                <p className="text-sm text-muted-foreground mt-0.5">
+                  {p.tagline}
+                </p>
+              )}
+            </div>
+            <UpvoteButton
+              itemId={p._id}
+              type="project"
+              initialUpvotes={p.upvotes ?? 0}
+            />
+          </div>
+        ))}
       </div>
     </div>
   );

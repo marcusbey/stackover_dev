@@ -11,9 +11,10 @@ interface SidebarToolItemProps {
   description: string;
   type: "tool" | "saas" | "course" | "resource";
   websiteUrl: string;
+  tier?: "vanilla" | "product";
 }
 
-export function SidebarToolItem({ name, slug, description, websiteUrl }: SidebarToolItemProps) {
+export function SidebarToolItem({ name, slug, description, websiteUrl, tier }: SidebarToolItemProps) {
   const [imgError, setImgError] = useState(false);
 
   return (
@@ -38,7 +39,12 @@ export function SidebarToolItem({ name, slug, description, websiteUrl }: Sidebar
         )}
       </div>
       <div className="flex-1 min-w-0">
-        <p className="text-sm font-medium truncate">{name}</p>
+        <div className="flex items-center gap-1">
+          <p className="text-sm font-medium truncate">{name}</p>
+          {tier === "product" && (
+            <span className="h-1.5 w-1.5 rounded-full bg-purple-400 flex-shrink-0" title="Product" />
+          )}
+        </div>
         <p className="text-xs text-muted-foreground truncate">{description}</p>
       </div>
     </Link>

@@ -45,6 +45,8 @@ export default defineSchema({
     openIssues: v.optional(v.number()),
     stars: v.optional(v.number()),
     alivenessScore: v.optional(v.number()),
+    tier: v.optional(v.union(v.literal("vanilla"), v.literal("product"))),
+    builtWithToolIds: v.optional(v.array(v.id("tools"))),
   })
     .index("by_slug", ["slug"])
     .index("by_hot", ["isHot"])
@@ -99,10 +101,12 @@ export default defineSchema({
     ),
     createdAt: v.number(),
     updatedAt: v.number(),
+    upvotes: v.optional(v.number()),
   })
     .index("by_slug", ["slug"])
     .index("by_visitor", ["visitorId"])
-    .index("by_curated", ["isCurated", "createdAt"]),
+    .index("by_curated", ["isCurated", "createdAt"])
+    .index("by_upvotes", ["upvotes"]),
 
   toolActivity: defineTable({
     toolId: v.id("tools"),
@@ -112,4 +116,33 @@ export default defineSchema({
     issuesClosed: v.number(),
   })
     .index("by_tool_week", ["toolId", "weekStart"]),
+
+  projects: defineTable({
+    name: v.string(),
+    slug: v.string(),
+    tagline: v.optional(v.string()),
+    url: v.string(),
+    visitorId: v.string(),
+    stackId: v.id("stacks"),
+    upvotes: v.number(),
+    createdAt: v.number(),
+  })
+    .index("by_slug", ["slug"])
+    .index("by_upvotes", ["upvotes"])
+    .index("by_created", ["createdAt"])
+    .index("by_stack", ["stackId"]),
+
+  projectVotes: defineTable({
+    projectId: v.id("projects"),
+    visitorId: v.string(),
+    createdAt: v.number(),
+  })
+    .index("by_project_visitor", ["projectId", "visitorId"]),
+
+  stackVotes: defineTable({
+    stackId: v.id("stacks"),
+    visitorId: v.string(),
+    createdAt: v.number(),
+  })
+    .index("by_stack_visitor", ["stackId", "visitorId"]),
 });

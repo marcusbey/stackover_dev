@@ -27,7 +27,15 @@ export const byFilter = query({
         const finalScore =
           tool.baselineScore * 0.8 + normalizedUserScore * 0.2;
 
-        return { ...tool, finalScore, voteCount: votes.length, userScore };
+        let builtWith: { _id: string; name: string; slug: string; logoUrl: string; websiteUrl: string }[] | undefined;
+        if (tool.builtWithToolIds && tool.builtWithToolIds.length > 0) {
+          const deps = await Promise.all(tool.builtWithToolIds.map((id) => ctx.db.get(id)));
+          builtWith = deps
+            .filter(Boolean)
+            .map((d) => ({ _id: d!._id, name: d!.name, slug: d!.slug, logoUrl: d!.logoUrl, websiteUrl: d!.websiteUrl }));
+        }
+
+        return { ...tool, finalScore, voteCount: votes.length, userScore, builtWith };
       })
     );
 
@@ -40,10 +48,28 @@ export const byFilter = query({
 export const bySlug = query({
   args: { slug: v.string() },
   handler: async (ctx, args) => {
-    return await ctx.db
+    const tool = await ctx.db
       .query("tools")
       .withIndex("by_slug", (q) => q.eq("slug", args.slug))
       .first();
+    if (!tool) return null;
+
+    let builtWith: { _id: string; name: string; slug: string; logoUrl: string; websiteUrl: string }[] | undefined;
+    if (tool.builtWithToolIds && tool.builtWithToolIds.length > 0) {
+      const deps = await Promise.all(tool.builtWithToolIds.map((id) => ctx.db.get(id)));
+      builtWith = deps
+        .filter(Boolean)
+        .map((d) => ({ _id: d!._id, name: d!.name, slug: d!.slug, logoUrl: d!.logoUrl, websiteUrl: d!.websiteUrl }));
+    }
+
+    return { ...tool, builtWith };
+  },
+});
+
+export const byIds = query({
+  args: { ids: v.array(v.id("tools")) },
+  handler: async (ctx, args) => {
+    return (await Promise.all(args.ids.map((id) => ctx.db.get(id)))).filter(Boolean);
   },
 });
 
